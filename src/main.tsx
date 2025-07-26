@@ -1,6 +1,11 @@
+import React from 'react';
+
+// Debug React import
+console.log('React version:', React.version);
+console.log('React object:', Object.keys(React));
+
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { AuthProvider } from '@/hooks/use-auth';
-import React from 'react';
 import App from './App';
 import i18n from './i18n';
 import './index.css';
@@ -46,24 +51,26 @@ const root = createRoot(rootElement);
 try {
   console.log('Rendering App component...');
   root.render(
-    <ErrorBoundary>
-      <Router>
-        <QueryClientProvider client={queryClient}>
-          <I18nextProvider i18n={i18n}>
-            <LanguageProvider>
-              <AuthProvider>
-                <FavoritesProvider>
-                  <TooltipProvider>
-                    <App />
-                  </TooltipProvider>
-                </FavoritesProvider>
-              </AuthProvider>
-            </LanguageProvider>
-          </I18nextProvider>
-        </QueryClientProvider>
-      </Router>
-      <Toaster />
-    </ErrorBoundary>
+    <React.StrictMode>
+      <ErrorBoundary>
+        <Router>
+          <QueryClientProvider client={queryClient}>
+            <I18nextProvider i18n={i18n}>
+              <LanguageProvider>
+                <AuthProvider>
+                  <FavoritesProvider>
+                    <TooltipProvider>
+                      <App />
+                    </TooltipProvider>
+                  </FavoritesProvider>
+                </AuthProvider>
+              </LanguageProvider>
+            </I18nextProvider>
+          </QueryClientProvider>
+        </Router>
+        <Toaster />
+      </ErrorBoundary>
+    </React.StrictMode>
   );
   console.log('Application rendered successfully');
 } catch (error) {
