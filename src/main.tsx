@@ -1,9 +1,5 @@
 import React from 'react';
 
-// Debug React import
-console.log('React version:', React.version);
-console.log('React object:', Object.keys(React));
-
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { AuthProvider } from '@/hooks/use-auth';
 import App from './App';
