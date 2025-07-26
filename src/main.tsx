@@ -1,20 +1,9 @@
 import React from 'react';
 
 import { ErrorBoundary } from '@/components/ErrorBoundary';
-import { AuthProvider } from '@/hooks/use-auth';
-import App from './App';
-import i18n from './i18n';
+import App from './App-minimal';
 import './index.css';
-// Remove custom I18nProvider import
-import { Toaster } from "@/components/ui/toaster";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { FavoritesProvider } from "@/hooks/use-favorites";
-import { LanguageProvider } from "@/hooks/use-language";
-import { QueryClientProvider } from "@tanstack/react-query";
 import { createRoot } from "react-dom/client";
-import { I18nextProvider } from 'react-i18next';
-import { Router } from "wouter";
-import { queryClient } from "./lib/queryClient";
 
 // Import server logger
 // import { logInfo } from './utils/server-logger';
@@ -49,22 +38,7 @@ try {
   root.render(
     <React.StrictMode>
       <ErrorBoundary>
-        <Router>
-          <QueryClientProvider client={queryClient}>
-            <I18nextProvider i18n={i18n}>
-              <LanguageProvider>
-                <AuthProvider>
-                  <FavoritesProvider>
-                    <TooltipProvider>
-                      <App />
-                    </TooltipProvider>
-                  </FavoritesProvider>
-                </AuthProvider>
-              </LanguageProvider>
-            </I18nextProvider>
-          </QueryClientProvider>
-        </Router>
-        <Toaster />
+        <App />
       </ErrorBoundary>
     </React.StrictMode>
   );
