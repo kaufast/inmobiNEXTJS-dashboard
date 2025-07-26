@@ -1,7 +1,5 @@
 import React from 'react';
-
-import { ErrorBoundary } from '@/components/ErrorBoundary';
-import App from './App-step3';
+import App from './App-pure';
 import './index.css';
 import { createRoot } from "react-dom/client";
 
@@ -37,9 +35,7 @@ try {
   console.log('Rendering App component...');
   root.render(
     <React.StrictMode>
-      <ErrorBoundary>
-        <App />
-      </ErrorBoundary>
+      <App />
     </React.StrictMode>
   );
   console.log('Application rendered successfully');
