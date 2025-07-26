@@ -1,0 +1,664 @@
+import { pgTable, text, serial, integer, boolean, jsonb, doublePrecision, timestamp, foreignKey, primaryKey, pgEnum } from "drizzle-orm/pg-core";
+import { sql, relations } from "drizzle-orm";
+import { createInsertSchema } from "drizzle-zod";
+import { z } from "zod";
+
+// ENUMS
+export const propertyTypeEnum = pgEnum('property_type', [
+  'apartment', 'villa', 'penthouse', 'townhouse', 'office', 'retail', 'land'
+]);
+
+export const listingTypeEnum = pgEnum('listing_type', ['buy', 'rent', 'sell']);
+
+export const userRoleEnum = pgEnum('user_role', ['user', 'agent', 'admin']);
+
+export const subscriptionTierEnum = pgEnum('subscription_tier', ['free', 'premium', 'enterprise']);
+export const tourStatusEnum = pgEnum('tour_status', ['pending', 'confirmed', 'completed', 'canceled']);
+
+export const messageStatusEnum = pgEnum('message_status', ['unread', 'read', 'archived']);
+export const messageTypeEnum = pgEnum('message_type', ['direct', 'support', 'system']);
+export const messageFolderEnum = pgEnum('message_folder', ['inbox', 'sent', 'drafts', 'trash', 'favorites']);
+
+export const targetTypeEnum = pgEnum('target_type', ['user', 'agent']);
+export const documentStatusEnum = pgEnum('document_status', ['pending', 'verified', 'rejected']);
+export const documentTypeEnum = pgEnum('document_type', ['contract', 'deed', 'identification', 'utility', 'other']);
+export const wishlistRoleEnum = pgEnum('wishlist_role', ['owner', 'member', 'viewer']);
+export const verificationTypeEnum = pgEnum('verification_type', ['user', 'agency']);
+
+export const chatRoleEnum = pgEnum('chat_role', ['user', 'assistant', 'system']);
+
+// USERS
+export const users = pgTable("users", {
+  id: serial("id").primaryKey(),
+  username: text("username").notNull().unique(),
+  password: text("password").notNull(),
+  email: text("email").notNull().unique(),
+  fullName: text("full_name").notNull(),
+  role: userRoleEnum("role").default('user').notNull(),
+  subscriptionTier: subscriptionTierEnum("subscription_tier").default('free').notNull(),
+  preferredLanguage: text("preferred_language").default('en'),
+  avatar: text("avatar"),
+  phone: text("phone"),
+  stripeCustomerId: text("stripe_customer_id"),
+  stripeSubscriptionId: text("stripe_subscription_id"),
+  googleId: text("google_id"),
+  passkeyCredentials: text("passkey_credentials"), // JSON string of credential objects
+  hasUsedFreeUpload: boolean("has_used_free_upload").default(false),
+  isVerified: boolean("is_verified").default(false),
+  verificationType: verificationTypeEnum("verification_type"),
+  verificationMethod: text("verification_method"), // 'didit' or 'manual'
+  verifiedAt: timestamp("verified_at"),
+  verifiedById: integer("verified_by_id").references(() => users.id), // Admin who manually approved
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+// PROPERTIES
+export const properties = pgTable("properties", {
+  id: serial("id").primaryKey(),
+  title: text("title").notNull(),
+  description: text("description").notNull(),
+  price: doublePrecision("price").notNull(),
+  address: text("address").notNull(),
+  city: text("city").notNull(),
+  state: text("state"),
+  zipCode: text("zip_code"),
+  country: text("country").notNull(),
+  latitude: doublePrecision("latitude"),
+  longitude: doublePrecision("longitude"),
+  bedrooms: integer("bedrooms"),
+  bathrooms: doublePrecision("bathrooms"),
+  squareFeet: doublePrecision("square_feet"),
+  lotSize: doublePrecision("lot_size"),
+  propertyType: propertyTypeEnum("property_type").notNull(),
+  features: jsonb("features").$type<string[]>(),
+  images: jsonb("images").$type<string[]>().notNull(),
+  isPremium: boolean("is_premium").default(false),
+  listingType: listingTypeEnum("listing_type").notNull(),
+  ownerId: integer("owner_id").references(() => users.id),
+  neighborhoodId: integer("neighborhood_id").references(() => neighborhoods.id),
+  isVerified: boolean("is_verified").default(false),
+  installmentPlan: jsonb("installment_plan").$type<{ years: number; downPayment?: number }>(),
+  badge: text("badge"),
+  agentNumber: text("agent_number"),
+  agencyNumber: text("agency_number"),
+  agencyName: text("agency_name"),
+  contactEmail: text("contact_email"),
+  phoneNumber: text("phone_number"),
+  phoneCountryCode: text("phone_country_code"),
+  isPhoneNumberPublic: boolean("is_phone_number_public").default(true),
+  approximateLocation: text("approximate_location"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+  // We don't define the PostGIS geometry column here
+  // It's added directly to the database with SQL ALTER TABLE
+});
+
+// NEIGHBORHOODS
+export const neighborhoods = pgTable("neighborhoods", {
+  id: serial("id").primaryKey(),
+  name: text("name").notNull(),
+  city: text("city").notNull(),
+  state: text("state"),
+  zipCode: text("zip_code"),
+  latitude: doublePrecision("latitude"),
+  longitude: doublePrecision("longitude"),
+  scores: jsonb("scores").$type<{
+    overall: number;
+    safety: number;
+    schools: number;
+    transit: number;
+  }>(),
+  medianHomePrice: doublePrecision("median_home_price"),
+});
+
+// FAVORITES
+export const favorites = pgTable("favorites", {
+  userId: integer("user_id").notNull().references(() => users.id),
+  propertyId: integer("property_id").notNull().references(() => properties.id),
+}, (table) => {
+  return {
+    pk: primaryKey({ columns: [table.userId, table.propertyId] }),
+  };
+});
+
+// MESSAGE THREADS
+export const messageThreads = pgTable("message_threads", {
+  id: serial("id").primaryKey(),
+  subject: text("subject").notNull(),
+  messageType: messageTypeEnum("message_type").default('direct').notNull(),
+  status: messageStatusEnum("status").default('unread').notNull(),
+  preview: text("preview"),
+  createdById: integer("created_by_id").notNull().references(() => users.id),
+  assignedToId: integer("assigned_to_id").references(() => users.id),
+  propertyId: integer("property_id").references(() => properties.id),
+  isArchived: boolean("is_archived").default(false),
+  lastActivityAt: timestamp("last_activity_at").defaultNow().notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+// MESSAGES
+export const messages = pgTable("messages", {
+  id: serial("id").primaryKey(),
+  threadId: integer("thread_id").notNull().references(() => messageThreads.id),
+  senderId: integer("sender_id").notNull().references(() => users.id),
+  messageType: messageTypeEnum("message_type").default('direct').notNull(),
+  content: text("content").notNull(),
+  attachments: jsonb("attachments").$type<string[]>(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+// MESSAGE FOLDER ENTRIES (for tracking message status per user)
+export const messageFolderEntries = pgTable("message_folder_entries", {
+  id: serial("id").primaryKey(),
+  userId: integer("user_id").notNull().references(() => users.id),
+  threadId: integer("thread_id").notNull().references(() => messageThreads.id),
+  folder: messageFolderEnum("folder").default('inbox').notNull(),
+  status: messageStatusEnum("status").default('unread').notNull(),
+  isDeleted: boolean("is_deleted").default(false),
+  deletedAt: timestamp("deleted_at"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+// MESSAGE DRAFTS
+export const messageDrafts = pgTable("message_drafts", {
+  id: serial("id").primaryKey(),
+  userId: integer("user_id").notNull().references(() => users.id),
+  threadId: integer("thread_id").references(() => messageThreads.id),
+  subject: text("subject"),
+  content: text("content").notNull(),
+  attachments: jsonb("attachments").$type<string[]>(),
+  recipients: jsonb("recipients").$type<number[]>(), // User IDs
+  lastSavedAt: timestamp("last_saved_at").defaultNow().notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+// SUBSCRIPTIONS
+export const subscriptions = pgTable("subscriptions", {
+  id: serial("id").primaryKey(),
+  userId: integer("user_id").notNull().references(() => users.id),
+  tier: subscriptionTierEnum("tier").default('free').notNull(),
+  stripeSubscriptionId: text("stripe_subscription_id"),
+  stripeCustomerId: text("stripe_customer_id"),
+  status: text("status").notNull().default('inactive'),
+  currentPeriodStart: timestamp("current_period_start").notNull(),
+  currentPeriodEnd: timestamp("current_period_end").notNull(),
+  cancelAtPeriodEnd: boolean("cancel_at_period_end").default(false),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+// PROPERTY TOURS
+export const propertyTours = pgTable("property_tours", {
+  id: serial("id").primaryKey(),
+  propertyId: integer("property_id").notNull().references(() => properties.id),
+  userId: integer("user_id").notNull().references(() => users.id),
+  agentId: integer("agent_id").notNull().references(() => users.id),
+  scheduledDate: timestamp("scheduled_date").notNull(),
+  endTime: timestamp("end_time").notNull(),
+  status: tourStatusEnum("status").default('pending').notNull(),
+  notes: text("notes"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+// MESSAGE FAVORITES
+export const messageFavorites = pgTable("message_favorites", {
+  id: serial("id").primaryKey(),
+  ownerId: integer("owner_id").notNull().references(() => users.id), // The user who marks the favorite
+  targetId: integer("target_id").notNull().references(() => users.id), // The user being favorited
+  targetType: targetTypeEnum("target_type").default('user').notNull(), // Type of the target (user or agent)
+  lastMessageAt: timestamp("last_message_at"), // Timestamp of the last message received from this favorite
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+}, (table) => {
+  return {
+    uniqueTarget: primaryKey({ columns: [table.ownerId, table.targetId] }), // Ensure each user-target pair is unique
+  };
+});
+
+// COLLABORATIVE WISHLISTS
+export const wishlists = pgTable("wishlists", {
+  id: serial("id").primaryKey(),
+  name: text("name").notNull(),
+  description: text("description"),
+  ownerId: integer("owner_id").notNull().references(() => users.id), // Creator/primary owner
+  coverImage: text("cover_image"), // URL to an image representing this wishlist
+  isPublic: boolean("is_public").default(false), // Whether this wishlist can be viewed by non-members
+  inviteCode: text("invite_code"), // Unique code that can be used to join this wishlist
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+// WISHLIST MEMBERS
+export const wishlistMembers = pgTable("wishlist_members", {
+  id: serial("id").primaryKey(),
+  wishlistId: integer("wishlist_id").notNull().references(() => wishlists.id),
+  userId: integer("user_id").notNull().references(() => users.id),
+  role: wishlistRoleEnum("role").default('member').notNull(), // owner, member, viewer
+  addedById: integer("added_by_id").references(() => users.id), // Who added this user
+  addedAt: timestamp("added_at").defaultNow().notNull(),
+  lastViewedAt: timestamp("last_viewed_at"),
+}, (table) => {
+  return {
+    uniqueMember: primaryKey({ columns: [table.wishlistId, table.userId] }), // Ensure each user is in a wishlist only once
+  };
+});
+
+// WISHLIST ITEMS (properties in the wishlist)
+export const wishlistItems = pgTable("wishlist_items", {
+  id: serial("id").primaryKey(),
+  wishlistId: integer("wishlist_id").notNull().references(() => wishlists.id),
+  propertyId: integer("property_id").notNull().references(() => properties.id),
+  addedById: integer("added_by_id").notNull().references(() => users.id), // Who added this property
+  notes: text("notes"), // Shared notes about this property
+  priority: integer("priority").default(0), // Higher number = higher priority
+  status: text("status").default('considering'), // considering, interested, contacted, viewed, rejected
+  addedAt: timestamp("added_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+}, (table) => {
+  return {
+    uniqueItem: primaryKey({ columns: [table.wishlistId, table.propertyId] }), // Ensure each property is in a wishlist only once
+  };
+});
+
+// WISHLIST CHECKLISTS
+export const wishlistChecklists = pgTable("wishlist_checklists", {
+  id: serial("id").primaryKey(),
+  wishlistId: integer("wishlist_id").notNull().references(() => wishlists.id),
+  title: text("title").notNull(),
+  completed: boolean("completed").default(false),
+  createdBy: integer("created_by").notNull().references(() => users.id),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+// WISHLIST ITEM COMMENTS
+export const wishlistItemComments = pgTable("wishlist_item_comments", {
+  id: serial("id").primaryKey(),
+  wishlistItemId: integer("wishlist_item_id").notNull().references(() => wishlistItems.id),
+  userId: integer("user_id").notNull().references(() => users.id),
+  content: text("content").notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+// WISHLIST ITEM RATINGS
+export const wishlistItemRatings = pgTable("wishlist_item_ratings", {
+  id: serial("id").primaryKey(),
+  wishlistItemId: integer("wishlist_item_id").notNull().references(() => wishlistItems.id),
+  userId: integer("user_id").notNull().references(() => users.id),
+  rating: integer("rating").notNull(), // 1-5 star rating
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+}, (table) => {
+  return {
+    uniqueRating: primaryKey({ columns: [table.wishlistItemId, table.userId] }), // Ensure each user rates a property only once
+  };
+});
+
+// SCHEMAS
+export const insertUserSchema = createInsertSchema(users).omit({
+  id: true,
+  createdAt: true,
+});
+
+export const insertPropertySchema = createInsertSchema(properties).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertNeighborhoodSchema = createInsertSchema(neighborhoods).omit({
+  id: true,
+});
+
+export const insertFavoriteSchema = createInsertSchema(favorites);
+
+export const insertMessageThreadSchema = createInsertSchema(messageThreads).omit({
+  id: true,
+  createdAt: true,
+  lastActivityAt: true,
+});
+
+export const insertMessageSchema = createInsertSchema(messages).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertMessageFolderEntrySchema = createInsertSchema(messageFolderEntries).omit({
+  id: true,
+  createdAt: true,
+});
+
+export const insertMessageDraftSchema = createInsertSchema(messageDrafts).omit({
+  id: true,
+  createdAt: true,
+  lastSavedAt: true,
+});
+
+export const insertSubscriptionSchema = createInsertSchema(subscriptions).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertPropertyTourSchema = createInsertSchema(propertyTours).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertMessageFavoriteSchema = createInsertSchema(messageFavorites).omit({
+  id: true,
+  createdAt: true,
+});
+
+export const insertWishlistSchema = createInsertSchema(wishlists, {
+  id: z.number(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+}).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertWishlistMemberSchema = createInsertSchema(wishlistMembers, {
+  id: z.number(),
+  addedAt: z.date(),
+}).omit({
+  id: true,
+  addedAt: true,
+});
+
+export const insertWishlistItemSchema = createInsertSchema(wishlistItems, {
+  id: z.number(),
+  addedAt: z.date(),
+  updatedAt: z.date(),
+}).omit({
+  id: true,
+  addedAt: true,
+  updatedAt: true,
+});
+
+export const insertWishlistItemCommentSchema = createInsertSchema(wishlistItemComments, {
+  id: z.number(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+}).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+export const insertWishlistItemRatingSchema = createInsertSchema(wishlistItemRatings, {
+  id: z.number(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
+}).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+});
+
+// TYPES
+export type User = typeof users.$inferSelect;
+export type InsertUser = z.infer<typeof insertUserSchema>;
+
+export type Property = typeof properties.$inferSelect;
+export type InsertProperty = z.infer<typeof insertPropertySchema>;
+
+export type Neighborhood = typeof neighborhoods.$inferSelect;
+export type InsertNeighborhood = z.infer<typeof insertNeighborhoodSchema>;
+
+export type Favorite = typeof favorites.$inferSelect;
+export type InsertFavorite = z.infer<typeof insertFavoriteSchema>;
+
+export type MessageThread = typeof messageThreads.$inferSelect;
+export type InsertMessageThread = z.infer<typeof insertMessageThreadSchema>;
+
+export type Message = typeof messages.$inferSelect;
+export type InsertMessage = z.infer<typeof insertMessageSchema>;
+
+export type MessageFolderEntry = typeof messageFolderEntries.$inferSelect;
+export type InsertMessageFolderEntry = z.infer<typeof insertMessageFolderEntrySchema>;
+
+export type MessageDraft = typeof messageDrafts.$inferSelect;
+export type InsertMessageDraft = z.infer<typeof insertMessageDraftSchema>;
+
+export type Subscription = typeof subscriptions.$inferSelect;
+export type InsertSubscription = z.infer<typeof insertSubscriptionSchema>;
+
+export type PropertyTour = typeof propertyTours.$inferSelect;
+export type InsertPropertyTour = z.infer<typeof insertPropertyTourSchema>;
+
+export type MessageFavorite = typeof messageFavorites.$inferSelect;
+export type InsertMessageFavorite = z.infer<typeof insertMessageFavoriteSchema>;
+
+export type Wishlist = typeof wishlists.$inferSelect;
+export type InsertWishlist = z.infer<typeof insertWishlistSchema>;
+
+export type WishlistMember = typeof wishlistMembers.$inferSelect;
+export type InsertWishlistMember = z.infer<typeof insertWishlistMemberSchema>;
+
+export type WishlistItem = typeof wishlistItems.$inferSelect;
+export type InsertWishlistItem = z.infer<typeof insertWishlistItemSchema>;
+
+export type WishlistItemComment = typeof wishlistItemComments.$inferSelect;
+export type InsertWishlistItemComment = z.infer<typeof insertWishlistItemCommentSchema>;
+
+export type WishlistItemRating = typeof wishlistItemRatings.$inferSelect;
+export type InsertWishlistItemRating = z.infer<typeof insertWishlistItemRatingSchema>;
+
+// DOCUMENTS
+export const documents = pgTable("documents", {
+  id: serial("id").primaryKey(),
+  name: text("name").notNull(),
+  description: text("description"),
+  documentType: documentTypeEnum("document_type").notNull(),
+  filePath: text("file_path").notNull(),
+  fileSize: integer("file_size").notNull(),
+  mimeType: text("mime_type").notNull(),
+  status: documentStatusEnum("status").default('pending').notNull(),
+  uploadedById: integer("uploaded_by_id").notNull().references(() => users.id),
+  propertyId: integer("property_id").references(() => properties.id),
+  metadata: jsonb("metadata"),
+  verified: boolean("verified").default(false),
+  verifiedAt: timestamp("verified_at"),
+  verifiedById: integer("verified_by_id").references(() => users.id),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+// DOCUMENT SIGNATURES
+export const documentSignatures = pgTable("document_signatures", {
+  id: serial("id").primaryKey(),
+  documentId: integer("document_id").notNull().references(() => documents.id),
+  userId: integer("user_id").notNull().references(() => users.id),
+  signatureData: text("signature_data").notNull(), // Base64 encoded signature or digital signature data
+  signedAt: timestamp("signed_at").defaultNow().notNull(),
+  ipAddress: text("ip_address"),
+  metadata: jsonb("metadata"),
+});
+
+// VERIFICATION DOCUMENTS
+export const verificationDocuments = pgTable("verification_documents", {
+  id: serial("id").primaryKey(),
+  userId: integer("user_id").notNull().references(() => users.id),
+  documentType: text("document_type").notNull(), // ID, passport, business license, etc.
+  fileUrl: text("file_url").notNull(),
+  fileSize: integer("file_size").notNull(),
+  mimetype: text("mimetype").notNull(),
+  diditSessionId: text("didit_session_id"), // For tracking DIDiT verification sessions
+  diditVerificationData: jsonb("didit_verification_data"), // Store DIDiT verification response
+  status: documentStatusEnum("status").default('pending').notNull(),
+  notes: text("notes"), // For admin to add notes during manual verification
+  verifiedAt: timestamp("verified_at"),
+  verifiedById: integer("verified_by_id").references(() => users.id), // Admin who approved
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+// Define the relations
+export const verificationDocumentsRelations = relations(verificationDocuments, ({ one }) => ({
+  user: one(users, {
+    fields: [verificationDocuments.userId],
+    references: [users.id],
+  }),
+  verifiedBy: one(users, {
+    fields: [verificationDocuments.verifiedById],
+    references: [users.id],
+  }),
+}));
+
+// DOCUMENT SCHEMAS
+export const insertDocumentSchema = createInsertSchema(documents).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+  verifiedAt: true,
+});
+
+export const insertDocumentSignatureSchema = createInsertSchema(documentSignatures).omit({
+  id: true,
+  signedAt: true,
+});
+
+// VERIFICATION DOCUMENT SCHEMA
+export const insertVerificationDocumentSchema = createInsertSchema(verificationDocuments).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true,
+  verifiedAt: true,
+  diditVerificationData: true,
+});
+
+// CHATBOT CONVERSATIONS
+export const chatConversations = pgTable("chat_conversations", {
+  id: serial("id").primaryKey(),
+  userId: integer("user_id").notNull().references(() => users.id),
+  title: text("title").notNull().default('New conversation'),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
+export const chatMessages = pgTable("chat_messages", {
+  id: serial("id").primaryKey(),
+  conversationId: integer("conversation_id").notNull().references(() => chatConversations.id),
+  role: chatRoleEnum("role").notNull(),
+  content: text("content").notNull(),
+  searchParams: jsonb("search_params").$type<PropertySearchParams>(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+// Define relationships for chat
+export const chatConversationsRelations = relations(chatConversations, ({ one, many }) => ({
+  user: one(users, {
+    fields: [chatConversations.userId],
+    references: [users.id]
+  }),
+  messages: many(chatMessages)
+}));
+
+export const chatMessagesRelations = relations(chatMessages, ({ one }) => ({
+  conversation: one(chatConversations, {
+    fields: [chatMessages.conversationId],
+    references: [chatConversations.id]
+  })
+}));
+
+// Chat schemas
+export const insertChatConversationSchema = createInsertSchema(chatConversations).omit({
+  id: true,
+  createdAt: true,
+  updatedAt: true
+});
+
+export const insertChatMessageSchema = createInsertSchema(chatMessages).omit({
+  id: true,
+  createdAt: true
+});
+
+// DOCUMENT TYPES
+export type Document = typeof documents.$inferSelect;
+export type InsertDocument = z.infer<typeof insertDocumentSchema>;
+
+export type DocumentSignature = typeof documentSignatures.$inferSelect;
+export type InsertDocumentSignature = z.infer<typeof insertDocumentSignatureSchema>;
+
+// VERIFICATION DOCUMENT TYPES
+export type VerificationDocument = typeof verificationDocuments.$inferSelect;
+export type InsertVerificationDocument = z.infer<typeof insertVerificationDocumentSchema>;
+
+// CHAT TYPES
+export type ChatConversation = typeof chatConversations.$inferSelect;
+export type InsertChatConversation = z.infer<typeof insertChatConversationSchema>;
+
+export type ChatMessage = typeof chatMessages.$inferSelect;
+export type InsertChatMessage = z.infer<typeof insertChatMessageSchema>;
+
+// SEARCH SCHEMA
+export const searchPropertySchema = z.object({
+  query: z.string().optional(),
+  city: z.string().optional(),
+  country: z.string().optional(), // Added country parameter
+  minPrice: z.number().optional(),
+  maxPrice: z.number().optional(),
+  bedrooms: z.number().optional(),
+  bathrooms: z.number().optional(),
+  propertyType: z.enum(propertyTypeEnum.enumValues).optional(),
+  listingType: z.enum(listingTypeEnum.enumValues).optional(),
+  minSquareFeet: z.number().optional(),
+  maxSquareFeet: z.number().optional(),
+  features: z.array(z.string()).optional(),
+  lat: z.number().optional(),
+  lng: z.number().optional(),
+  radius: z.number().optional(), // in km
+  limit: z.number().default(9),
+  offset: z.number().default(0),
+});
+
+export type PropertySearchParams = z.infer<typeof searchPropertySchema>;
+
+/**
+ * Shared schema definitions for the application
+ */
+
+export interface User {
+  id: number | string;
+  username: string;
+  fullName: string;
+  email: string;
+  role: string;
+  status: 'active' | 'inactive' | 'deleted';
+  createdAt: string;
+  subscriptionTier?: string;
+}
+
+export interface Property {
+  id: number | string;
+  title: string;
+  description?: string;
+  price: number;
+  location: string;
+  bedrooms?: number;
+  bathrooms?: number;
+  squareFeet?: number;
+  images?: string[];
+  isVerified?: boolean;
+  status?: string;
+  createdAt?: string;
+  updatedAt?: string;
+  createdBy?: User | string | number;
+  type?: string;
+  features?: string[];
+  badge?: string;
+  agentNumber?: string;
+  agencyNumber?: string;
+  agencyName?: string;
+  contactEmail?: string;
+  phoneNumber?: string;
+  phoneCountryCode?: string;
+  isPhoneNumberPublic?: boolean;
+}
