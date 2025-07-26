@@ -1,0 +1,1446 @@
+{
+  "navigation": {
+    "dashboard": "Tablero",
+    "favorites": "Favoritos",
+    "messages": "Mensajes",
+    "tours": "Recorridos",
+    "documents": "Documentos",
+    "verification": "Verificación",
+    "profile": "Perfil",
+    "aiPropertyMatching": "Búsqueda de Propiedades con IA",
+    "myProperties": "Mis Propiedades",
+    "analytics": "Analíticas",
+    "premiumFeatures": "Funciones Premium",
+    "subscription": "Suscripción",
+    "users": "Usuarios",
+    "properties": "Propiedades",
+    "approvals": "Aprobaciones",
+    "verificationManagement": "Gestión de Verificación",
+    "settings": "Configuración",
+    "translationDebug": "Depuración de Traducción",
+    "loadingNavigation": "Cargando navegación...",
+    "backToHome": "Volver al Inicio"
+  },
+  "general": {
+    "name": "Nombre",
+    "nameglobal": {
+      "pending": "Pendiente"
+    },
+    "actions": {
+      "cancel": "Cancelar"
+    },
+    "confirm": "Confirmar",
+    "complete": "Completar",
+    "cancel": "Cancelar",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "help": "Ayuda",
+    "pause": "Pausar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "submit": "Enviar",
+    "edit": "Editar",
+    "view": "Ver",
+    "add": "Agregar",
+    "remove": "Quitar",
+    "role": "Rol",
+    "status": "Estado",
+    "joined": "Se unió",
+    "fullName": "Nombre Completo",
+    "user": "Usuario",
+    "timeframes": {
+      "fromPrevious": "del anterior",
+      "day": "día",
+      "week": "semana",
+      "month": "mes",
+      "year": "año"
+    },
+    "item": "Elemento",
+    "type": "Tipo",
+    "date": "Fecha",
+    "viewAll": "Ver Todo"
+  },
+  "dashboard": {
+    "title": "Título del Tablero Principal",
+    "app": "Nombre de la Aplicación del Tablero (Contexto Común)",
+    "welcome": "Bienvenido, {{name}}",
+    "overview": "Aquí tienes un resumen de tu cuenta",
+    "properties": "Propiedades",
+    "users": "Usuarios",
+    "settings": "Configuración",
+    "browseProperties": "Explorar Propiedades",
+    "signOut": "Cerrar Sesión (Contexto Común)",
+    "statistics": {
+      "title": "Estadísticas",
+      "views": "Vistas",
+      "inquiries": "Consultas",
+      "favourites": "Favoritos",
+      "listings": "Anuncios",
+      "totalUsers": "Total de Usuarios",
+      "fromPrevious": "del {{timeframe}} anterior",
+      "properties": "Total de Propiedades",
+      "pageViews": "Total de Vistas de Página",
+      "revenue": "Ingresos Totales"
+    },
+    "admin": {
+      "title": "Tablero de Administrador",
+      "subtitle": "Gestiona tu plataforma",
+      "systemSettings": "Configuración del Sistema",
+      "generateReports": "Generar Reportes",
+      "stats": {
+        "totalUsers": "Total de Usuarios",
+        "fromPrevious": "del {{timeframe}} anterior",
+        "properties": "Total de Propiedades",
+        "pageViews": "Total de Vistas de Página",
+        "revenue": "Ingresos Totales"
+      },
+      "pendingApprovals": "Aprobaciones Pendientes",
+      "reviewManageSubmissions": "Revisa y gestiona los envíos de propiedades y agentes",
+      "allSubmissions": "Todos los Envíos",
+      "properties": "Propiedades",
+      "agents": "Agentes",
+      "itemsPendingApproval": "Elementos Pendientes de Aprobación",
+      "item": "Elemento",
+      "type": "Tipo",
+      "submittedBy": "Enviado Por",
+      "date": "Fecha",
+      "actions": "Acciones",
+      "noPendingApprovals": "No Hay Aprobaciones Pendientes",
+      "allSubmissionsReviewed": "Todos los envíos han sido revisados",
+      "propertySubmissions": "Envíos de Propiedades",
+      "reviewPropertySubmissions": "Revisa y gestiona los envíos de propiedades",
+      "agentSubmissions": "Envíos de Agentes",
+      "reviewAgentSubmissions": "Revisa y gestiona los envíos de agentes",
+      "general": "General",
+      "security": "Seguridad",
+      "notifications": "Notificaciones",
+      "integrations": "Integraciones",
+      "generalSettings": "Configuración General",
+      "manageGeneralSettings": "Gestiona la configuración general del sistema",
+      "siteName": "Nombre del Sitio",
+      "defaultLanguage": "Idioma Predeterminado",
+      "selectLanguage": "Seleccionar idioma",
+      "maintenanceMode": "Modo de Mantenimiento",
+      "securitySettings": "Configuración de Seguridad",
+      "manageSecuritySettings": "Gestiona la configuración de seguridad",
+      "requireTwoFactor": "Requerir Autenticación de Dos Factores",
+      "requireEmailVerification": "Requerir Verificación de Correo Electrónico",
+      "sessionTimeout": "Tiempo de Espera de la Sesión",
+      "selectTimeout": "Seleccionar tiempo de espera",
+      "notificationSettings": "Configuración de Notificaciones",
+      "manageNotificationSettings": "Gestiona la configuración de notificaciones",
+      "emailNotifications": "Notificaciones por Correo Electrónico",
+      "pushNotifications": "Notificaciones Push",
+      "notificationEmail": "Correo Electrónico de Notificación",
+      "integrationSettings": "Configuración de Integración",
+      "manageIntegrationSettings": "Gestiona las integraciones de terceros",
+      "googleMapsApiKey": "Clave API de Google Maps",
+      "stripeApiKey": "Clave API de Stripe",
+      "smtpServer": "Servidor SMTP",
+      "saveChanges": "Guardar Cambios",
+      "usersManagement": "Gestión de Usuarios",
+      "userManagement": "Gestión de Usuario",
+      "viewManageAccounts": "Ver y Gestionar Cuentas",
+      "recentProperties": "Propiedades Recientes",
+      "noPropertiesFound": "No se encontraron Propiedades",
+      "noPropertiesInSystem": "Actualmente no hay propiedades listadas en el sistema.",
+      "editUser": "Editar Usuario",
+      "edit": "Editar",
+      "manageSystemSettings": "Gestiona la configuración, preferencias y configuraciones de tu sistema.",
+      "fullUserManagement": "Gestión Completa de Usuarios",
+      "addUser": "Agregar Usuario",
+      "addProperty": "Agregar Propiedad",
+      "noApprovals": "Sin Aprobaciones",
+      "allCaughtUp": "¡Todo al día! No hay elementos pendientes por revisar.",
+      "confirmDeleteUser": "¿Estás seguro de que quieres eliminar al usuario \"{{name}}\"?",
+      "suspendUser": "Suspender Usuario",
+      "reactivateUser": "Reactivar Usuario",
+      "viewAllUsers": "Ver los {{count}} Usuarios",
+      "recentPropertiesDescription": "Anuncios de propiedades recientes en el sistema",
+      "updateUserDescription": "Actualiza la información y permisos del usuario",
+      "createNewUser": "Crear Nuevo Usuario",
+      "createUserDescription": "Completa los detalles para agregar un nuevo usuario al sistema",
+      "createUser": "Crear Usuario",
+      "tableHeaders": {
+        "property": "Propiedad",
+        "location": "Ubicación",
+        "price": "Precio",
+        "type": "Tipo",
+        "status": "Estado"
+      },
+      "roles": {
+        "user": "Usuario",
+        "agent": "Agente",
+        "admin": "Administrador"
+      },
+      "users_verification_inactive": "Verificación Inactiva"
+    },
+    "agent": {
+      "title": "Tablero de Agente",
+      "subtitle": "Gestiona tus propiedades y ve métricas importantes",
+      "propertyViews": "Vistas de Propiedad",
+      "inquiries": "Consultas",
+      "conversions": "Conversiones",
+      "revenue": "Ingresos",
+      "noInquiries": {
+        "title": "Aún no hay consultas",
+        "description": "Las consultas de clientes sobre tus propiedades aparecerán aquí"
+      },
+      "performance": {
+        "overview": "Resumen de Rendimiento",
+        "metrics": "Tus métricas de rendimiento de propiedades para el {{timeframe}} actual",
+        "topProperties": "Propiedades con Mejor Rendimiento",
+        "luxuryApartment": "Departamento de Lujo {{number}}",
+        "views": "{{count}} vistas",
+        "inquiries": "{{count}} consultas",
+        "conversionRate": "Tasa de Conversión",
+        "inquiryToSale": "Consulta a Venta"
+      },
+      "tabs": {
+        "properties": "Mis Propiedades",
+        "inquiries": "Consultas de Clientes",
+        "performance": "Rendimiento",
+        "bulkUpload": "Carga Masiva"
+      },
+      "noProperties": {
+        "title": "Aún no hay propiedades listadas",
+        "description": "Comienza a agregar propiedades a tu portafolio"
+      },
+      "reply": "Responder",
+      "fromPrevious": "del {{timeframe}} anterior"
+    },
+    "tabs": {
+      "savedProperties": "Propiedades Guardadas",
+      "messages": "Mensajes",
+      "recommendations": "Recomendaciones"
+    },
+    "stats": {
+      "properties": "Propiedades",
+      "favorited": "Propiedades en Favoritos",
+      "tours": "Recorridos de Propiedad",
+      "messages": "Mensajes",
+      "savedProperties": {
+        "title": "Propiedades Guardadas",
+        "description": "Propiedades que has guardado"
+      },
+      "recentViews": {
+        "title": "Vistas Recientes",
+        "description": "Propiedades vistas en los últimos 30 días"
+      },
+      "propertyAlerts": {
+        "title": "Alertas de Propiedad",
+        "description": "Alertas de búsqueda activas"
+      }
+    },
+    "messages": {
+      "title": "Mensajes",
+      "compose": "Redactar",
+      "inbox": "Bandeja de Entrada",
+      "sent": "Enviados",
+      "drafts": "Borradores",
+      "trash": "Papelera",
+      "favoriteContacts": "Contactos Favoritos",
+      "emptyFolder": "No hay mensajes en esta carpeta",
+      "selectConversation": "Selecciona una conversación para ver los mensajes",
+      "sendHint": "Presiona Enter para enviar",
+      "newMessages": "Mensajes Nuevos",
+      "recent": "Mensajes Recientes",
+      "viewAll": "Ver Todos los Mensajes",
+      "viewAllCount": "Ver los {{count}} Mensajes",
+      "goToMessages": "Ir a Mensajes",
+      "empty": {
+        "title": "Aún no hay mensajes",
+        "description": "Los mensajes de agentes y propietarios aparecerán aquí"
+      },
+      "pleaseLogin": "Por favor, inicia sesión para acceder a tus mensajes",
+      "loading": "Cargando mensajes...",
+      "retrying": "Reintentando...",
+      "errorLoading": "Error al cargar los mensajes",
+      "errorLoadingDescription": "Hubo un problema al cargar tus mensajes. Por favor, inténtalo de nuevo.",
+      "retry": "Reintentar",
+      "noMessages": "Aún no hay mensajes en esta conversación",
+      "newMessage": "Mensaje Nuevo",
+      "newMessageDescription": "Redacta un nuevo mensaje a un usuario o agente",
+      "recipient": "Destinatario",
+      "selectRecipient": "Seleccionar destinatario",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Ingresa el asunto del mensaje",
+      "messageType": "Tipo de Mensaje",
+      "selectMessageType": "Seleccionar tipo de mensaje",
+      "types": {
+        "direct": "Mensaje Directo",
+        "support": "Solicitud de Soporte",
+        "system": "Mensaje del Sistema"
+      },
+      "content": "Mensaje",
+      "contentPlaceholder": "Escribe tu mensaje aquí...",
+      "send": "Enviar Mensaje",
+      "cancel": "Cancelar",
+      "sendSuccess": "Mensaje Enviado",
+      "messageHasBeenSent": "Tu mensaje ha sido enviado exitosamente",
+      "sendError": "Error de Envío",
+      "typeMessage": "Escribe tu mensaje...",
+      "selectConversationToSend": "Selecciona una conversación para enviar un mensaje",
+      "attachments": "Archivos Adjuntos",
+      "errorLoadingThreads": "Error al cargar las conversaciones",
+      "errorLoadingThreadsDescription": "Hubo un problema al cargar tus conversaciones. Por favor, inténtalo de nuevo.",
+      "retryingThreads": "Reintentando cargar conversaciones...",
+      "noPreview": "Sin vista previa del mensaje",
+      "agent": "Agente",
+      "user": "Usuario",
+      "noFavorites": "Aún no hay contactos favoritos",
+      "noFavoritesDescription": "Tus contactos favoritos aparecerán aquí",
+      "searchFavorites": "Busca en tus contactos favoritos",
+      "noMatchingFavorites": "Ningún contacto coincide con tu búsqueda",
+      "sendMessage": "Enviar Mensaje",
+      "removeFromFavorites": "Eliminar de Favoritos",
+      "messageContent": "Contenido del Mensaje",
+      "messageContentPlaceholder": "Escribe tu mensaje aquí...",
+      "sending": "Enviando mensaje...",
+      "attachFile": "Adjuntar Archivo"
+    },
+    "recommendations": {
+      "title": "Propiedades que Podrían Gustarte",
+      "description": "Basado en tus favoritos y tu historial de búsqueda",
+      "empty": {
+        "title": "No hay recomendaciones disponibles",
+        "description": "Basado en tus favoritos y tu historial de búsqueda"
+      }
+    },
+    "nav": {
+      "home": "Inicio",
+      "dashboard": "Tablero",
+      "properties": "Propiedades",
+      "messages": "Mensajes",
+      "favourites": "Favoritos",
+      "tours": "Recorridos",
+      "verification": "Verificación",
+      "profile": "Perfil",
+      "users": "Usuarios",
+      "security": "Seguridad"
+    }
+  },
+  "report": {
+    "buttonText": "Reportar Problema"
+  },
+  "document": {
+    "title": "Gestión de Documentos",
+    "subtitle": "Gestiona, firma y verifica documentos de propiedades",
+    "upload": "Subir Documento",
+    "dragDropFile": "Arrastra y suelta tu archivo aquí",
+    "supportedFormats": "Formatos soportados: PDF, DOCX, JPG, PNG.",
+    "uploading": "Subiendo...",
+    "statusLabels": {
+      "verified": "Verificado",
+      "rejected": "Rechazado",
+      "pending": "Pendiente"
+    },
+    "types": {
+      "contract": "Contrato",
+      "deed": "Escritura",
+      "identification": "Identificación",
+      "utility": "Servicio Público",
+      "other": "Otro"
+    },
+    "tabs": {
+      "all": "Todos los Documentos",
+      "pending": "Pendientes",
+      "verified": "Verificados",
+      "rejected": "Rechazados"
+    },
+    "table": {
+      "name": "Nombre",
+      "type": "Tipo",
+      "status": "Estado",
+      "created": "Creado",
+      "actions": "Acciones",
+      "caption": "Lista de documentos"
+    },
+    "empty": {
+      "title": "No se encontraron documentos",
+      "uploadToStart": "Sube un documento para comenzar",
+      "noStatusDocuments": "No se encontraron documentos {{status}}"
+    },
+    "uploadDialog": {
+      "title": "Subir Documento",
+      "description": "Descripción (Opcional)",
+      "documentName": "Nombre del Documento",
+      "documentNamePlaceholder": "Ingresa el nombre del documento",
+      "documentType": "Tipo de Documento",
+      "documentTypePlaceholder": "Seleccionar tipo de documento",
+      "descriptionPlaceholder": "Ingresa la descripción del documento",
+      "file": "Archivo",
+      "changeFile": "Cambiar Archivo"
+    },
+    "viewDialog": {
+      "uploadedAgo": "Subido hace {{time}}",
+      "documentType": "Tipo de Documento",
+      "fileSize": "Tamaño del Archivo",
+      "verifiedBy": "Verificado Por",
+      "descriptionLabel": "Descripción",
+      "filePreview": "Vista Previa del Archivo",
+      "pdfDocument": "Documento PDF",
+      "openPdfInNewTab": "Abrir PDF en una nueva pestaña",
+      "previewNotAvailable": "Vista previa no disponible",
+      "downloadToView": "Descargar para ver",
+      "imageNotFound": "Imagen no encontrada",
+      "imageLoadError": "No se pudo cargar el archivo de imagen"
+    },
+    "actions": {
+      "verify": "Verificar",
+      "reject": "Rechazar",
+      "download": "Descargar"
+    },
+    "downloadIssue": "Problema de Descarga",
+    "downloadIssueDescription": "Puede que haya habido un problema con la descarga. Por favor, inténtalo de nuevo.",
+    "confirmReject": "¿Estás seguro de que quieres rechazar este documento?",
+    "rejectionSuccess": "Documento Rechazado",
+    "rejectionSuccessDescription": "El documento ha sido rechazado con éxito.",
+    "rejectionError": "Error de Rechazo",
+    "rejectionErrorDescription": "Error al rechazar el documento. Por favor, inténtalo de nuevo.",
+    "error": {
+      "title": "Error al Cargar Documentos",
+      "description": "No se pudieron obtener los documentos. Por favor, verifica tu conexión e inténtalo de nuevo.",
+      "retry": "Reintentar"
+    }
+  },
+  "profile": {
+    "title": "Configuración de Perfil",
+    "subtitle": "Gestiona la configuración y preferencias de tu cuenta",
+    "avatar": {
+      "defaultUser": "Usuario",
+      "defaultEmail": "usuario@example.com"
+    },
+    "subscription": {
+      "title": "Suscripción",
+      "freePlan": "Gratis",
+      "plan": "Plan",
+      "fullAccess": "Acceso completo a todas las funciones",
+      "limitedAccess": "Acceso limitado a funciones",
+      "upgrade": "Actualizar"
+    },
+    "tabs": {
+      "account": "Cuenta",
+      "security": "Seguridad",
+      "preferences": "Preferencias",
+      "billing": "Facturación"
+    },
+    "account": {
+      "title": "Información de la Cuenta",
+      "description": "Actualiza los detalles de tu cuenta",
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Juan Pérez",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "juanperez@example.com",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "+52 55 1234 5678",
+      "saveChanges": "Guardar Cambios"
+    },
+    "security": {
+      "title": "Configuración de Seguridad",
+      "description": "Gestiona tu contraseña y preferencias de seguridad",
+      "currentPassword": "Contraseña Actual",
+      "newPassword": "Contraseña Nueva",
+      "confirmPassword": "Confirmar Contraseña",
+      "passwordPlaceholder": "••••••••••",
+      "updatePassword": "Actualizar Contraseña",
+      "twoFactor": {
+        "title": "Autenticación de Dos Factores",
+        "description": "Añade una capa extra de seguridad a tu cuenta",
+        "disabled": "La autenticación de dos factores está desactivada",
+        "protectAccount": "Protege tu cuenta con un paso de autenticación adicional",
+        "enable": "Habilitar 2FA"
+      }
+    },
+    "preferences": {
+      "language": {
+        "title": "Preferencias de Idioma",
+        "description": "Selecciona tu idioma preferido",
+        "label": "Idioma",
+        "placeholder": "Seleccionar idioma"
+      },
+      "notifications": {
+        "title": "Preferencias de Notificación",
+        "description": "Controla cómo recibes notificaciones",
+        "settings": "Configuración de notificaciones",
+        "comingSoon": "Esta función estará disponible pronto",
+        "configure": "Configurar Notificaciones"
+      }
+    },
+    "billing": {
+      "title": "Información de Facturación",
+      "description": "Gestiona tus detalles de facturación y métodos de pago",
+      "paymentMethods": {
+        "title": "Métodos de pago",
+        "none": "Aún no se han agregado métodos de pago",
+        "add": "Agregar Método de Pago"
+      },
+      "subscriptionPlan": {
+        "title": "Plan de Suscripción",
+        "description": "Gestiona tu suscripción y ciclo de facturación",
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "viewInvoices": "Ver Facturas",
+        "upgradePlan": "Actualizar Plan"
+      }
+    },
+    "notifications": {
+      "profileUpdated": {
+        "title": "Perfil actualizado",
+        "description": "La información de tu perfil se ha actualizado correctamente."
+      },
+      "languageUpdated": {
+        "title": "Idioma actualizado",
+        "description": "Tu preferencia de idioma se ha establecido en {{language}}."
+      }
+    }
+  },
+  "premium": {
+    "title": "Funciones Premium",
+    "subtitle": {
+      "premium": "Desbloquea el Poder de Premium",
+      "upgrade": "Actualiza para Acceder a las Funciones Premium"
+    },
+    "badges": {
+      "premium": "Premium",
+      "enterprise": "Empresarial"
+    },
+    "features": {
+      "bulkUpload": {
+        "title": "Carga Masiva de Propiedades",
+        "description": "Ahorra tiempo subiendo múltiples propiedades a la vez",
+        "dragAndDrop": "Arrastra y suelta tu archivo CSV/JSON aquí, o haz clic para buscar.",
+        "maxFileSize": "Tamaño máximo de archivo: 5MB.",
+        "formatRequirements": {
+          "title": "Requisitos de Formato de Archivo",
+          "csvHeaders": "Los archivos CSV deben incluir encabezados como: title, description, price, type, status, bedrooms, bathrooms, area, address, city, country.",
+          "jsonArray": "El archivo JSON debe ser un arreglo de objetos de propiedad.",
+          "requiredFields": "Campos requeridos para cada propiedad: title, description, price, type (ej., departamento, casa), status (ej., en_venta, en_renta)."
+        },
+        "buttonLabels": {
+          "upload": "Subir Propiedades",
+          "uploading": "Subiendo..."
+        },
+        "validation": {
+          "statusError": "Error",
+          "statusValid": "Válido",
+          "rowErrorDetails": "Fila {{rowNumber}}:",
+          "fixErrorsBeforeUploading": "Por favor, corrige los errores listados a continuación antes de subir.",
+          "validationErrors": "Errores de Validación"
+        },
+        "messages": {
+          "success": {
+            "title": "Carga Exitosa",
+            "description": "{{count}} propiedades han sido subidas exitosamente."
+          },
+          "error": {
+            "title": "Error de Carga",
+            "default": "Ocurrió un error desconocido durante la carga."
+          },
+          "parseError": {
+            "title": "Error al Analizar el Archivo",
+            "default": "No se pudo analizar el archivo subido."
+          },
+          "noData": {
+            "title": "No Hay Datos para Subir",
+            "description": "El archivo parece estar vacío o no se pudieron analizar los datos."
+          },
+          "validationError": {
+            "title": "Se Encontraron Errores de Validación",
+            "description": "Por favor, revisa los errores en la vista previa a continuación y corrige tu archivo."
+          }
+        },
+        "selectedFile": "Archivo seleccionado",
+        "processingFile": "Procesando archivo...",
+        "uploadSuccessful": "¡Carga Exitosa!",
+        "propertiesSuccessfullyUploaded": "Las propiedades se han subido exitosamente y están siendo procesadas.",
+        "previewData": "Vista Previa de Datos",
+        "premiumFeatureNotice": "La carga masiva es una función premium. Actualiza para habilitarla.",
+        "downloadTemplate": "Descargar Plantilla",
+        "useTemplateInstructions": "Usa nuestra plantilla CSV para asegurar que tus datos estén formateados correctamente.",
+        "downloadTemplateButton": "Descargar Plantilla",
+        "uploadFile": "Subir Archivo",
+        "selectFileInstructions": "Selecciona tu archivo CSV que contiene los datos de las propiedades.",
+        "selectFileButton": "Seleccionar Archivo",
+        "parseFileButton": "Analizar Archivo",
+        "errors": {
+          "emptyFile": "El archivo está vacío o no contiene suficientes filas.",
+          "invalidNumber": "Número inválido para {{field}}: {{value}}",
+          "invalidPropertyType": "Tipo de propiedad inválido \"{{value}}\". Debe ser uno de: {{types}}",
+          "invalidListingType": "Tipo de anuncio inválido \"{{value}}\". Debe ser uno de: {{types}}",
+          "missingField": "Falta el campo requerido: {{field}}"
+        }
+      },
+      "analytics": {
+        "title": "Analíticas Avanzadas",
+        "description": "Obtén información sobre el rendimiento de las propiedades y el comportamiento de los visitantes"
+      },
+      "featuredProperties": {
+        "title": "Propiedades Destacadas",
+        "description": "Destaca tus mejores anuncios para una mayor visibilidad"
+      },
+      "prioritySupport": {
+        "title": "Soporte Prioritario",
+        "description": "Obtén respuestas más rápidas de nuestro equipo de soporte al cliente"
+      },
+      "marketingTools": {
+        "title": "Herramientas de Marketing",
+        "description": "Materiales de marketing profesionales y herramientas de promoción"
+      },
+      "teamManagement": {
+        "title": "Gestión de Equipo",
+        "description": "Colabora con miembros del equipo y asigna propiedades"
+      },
+      "tourManagement": {
+        "title": "Gestión de Recorridos Virtuales",
+        "description": "Crea y gestiona recorridos virtuales de propiedades"
+      }
+    },
+    "actions": {
+      "accessFeature": "Acceder a la Función",
+      "upgradeRequired": "Se Requiere Actualización",
+      "upgrade": "Actualizar Ahora"
+    }
+  },
+  "securityPage": {
+    "subtitle": "Gestiona la configuración de seguridad y los controles de acceso",
+    "adminPassword": "Contraseña de Administrador",
+    "updatePassword": "Actualizar Contraseña",
+    "currentPassword": "Contraseña Actual",
+    "newPassword": "Contraseña Nueva",
+    "confirmPassword": "Confirmar Contraseña",
+    "twoFactor": "Autenticación de Dos Factores",
+    "twoFactorDesc": "Añade una capa extra de seguridad a tu cuenta",
+    "twoFactorDisabled": "La autenticación de dos factores está desactivada",
+    "twoFactorProtect": "Protege tu cuenta con un paso de autenticación adicional",
+    "enable2FA": "Habilitar 2FA"
+  },
+  "users": {
+    "createDescription": "Completa los detalles para agregar un nuevo usuario.",
+    "edit": "Editar Usuario (sección Usuarios del Tablero)",
+    "editDescription": "Descripción para editar usuario (Usuarios del Tablero)",
+    "actions": "Acciones (Encabezado de Tabla de Usuarios del Tablero)",
+    "noUsersFound": "No se encontraron usuarios (Usuarios del Tablero).",
+    "adjustFilters": "Ajusta los filtros para encontrar usuarios (Usuarios del Tablero).",
+    "agencies": {
+      "title": "Gestión de Agencias",
+      "description": "Gestiona las agencias registradas.",
+      "name": "Nombre de la Agencia",
+      "location": "Ubicación",
+      "contact": "Contacto",
+      "agents": "Agentes",
+      "agentCount": "agentes",
+      "license": "ID de Licencia",
+      "status": "Estado de la Agencia",
+      "verified": "Verificada",
+      "unverified": "No Verificada",
+      "edit": "Editar Agencia",
+      "viewAgents": "Ver Agentes",
+      "verify": "Verificar Agencia",
+      "unverify": "Desverificar Agencia",
+      "delete": "Eliminar Agencia",
+      "noAgenciesFound": "No se encontraron agencias.",
+      "create": "Crear Agencia",
+      "createSuccess": "Agencia Creada",
+      "createSuccessMessage": "La agencia ha sido creada exitosamente",
+      "createError": "Error al Crear",
+      "updateSuccess": "Agencia Actualizada",
+      "updateSuccessMessage": "La agencia ha sido actualizada exitosamente",
+      "updateError": "Error al Actualizar",
+      "createDescription": "Fill in the details to add a new agency to the system."
+    },
+    "title": "Gestión de Usuarios",
+    "subtitle": "Gestiona los usuarios de tu plataforma, sus roles y agencias",
+    "description": "Supervisa y gestiona todas las cuentas de usuario, roles y agencias asociadas dentro de la plataforma.",
+    "create": "Crear Usuario",
+    "username": "Nombre de Usuario",
+    "fullName": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "role": "Rol",
+    "selectRole": "Seleccionar Rol",
+    "roles": {
+      "user": "Usuario",
+      "agent": "Agente",
+      "admin": "Administrador"
+    },
+    "tabs": {
+      "users": "Usuarios",
+      "agencies": "Agencias"
+    },
+    "list": "Lista de Usuarios",
+    "listDescription": "Mostrando todos los usuarios registrados.",
+    "search": "Buscar Usuarios...",
+    "searchPlaceholder": "Buscar usuarios...",
+    "filterByRole": "Filtrar por Rol",
+    "allRoles": "Todos los Roles",
+    "filterByStatus": "Filtrar por Estado",
+    "allStatuses": "Todos los Estados",
+    "statuses": {
+      "active": "Activo",
+      "suspended": "Suspendido",
+      "inactive": "Inactivo",
+      "pending": "Pendiente"
+    },
+    "agency": "Agencia",
+    "status": "Estado",
+    "joined": "Fecha de Ingreso",
+    "actions_header": "Acciones",
+    "table": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "role": "Rol",
+      "status": "Estado",
+      "joined": "Se unió",
+      "actions": "Acciones"
+    },
+    "editUser": {
+      "title": "Editar Usuario",
+      "save": "Guardar Cambios",
+      "cancel": "Cancelar",
+      "noPropertiesFound": "No se encontraron Propiedades",
+      "noPropertiesInSystem": "Actualmente no hay propiedades listadas en el sistema.",
+      "edit": "Editar"
+    },
+    "delete": "Eliminar Usuario",
+    "deleteConfirmTitle": "Confirmar Eliminación de Usuario",
+    "deleteConfirmDescription": "¿Estás seguro de que quieres eliminar este usuario? Esta acción no se puede deshacer.",
+    "confirmDelete": {
+      "title": "Eliminar Usuario",
+      "message": "¿Estás seguro de que quieres eliminar este usuario? Esta acción no se puede deshacer.",
+      "confirm": "Eliminar",
+      "cancel": "Cancelar"
+    },
+    "reactivate": "Reactivar Usuario",
+    "resetPassword": "Restablecer Contraseña",
+    "noUsers": "No se encontraron usuarios",
+    "verification": {
+      "title": "Estado de Verificación",
+      "inactive": "No Verificado",
+      "user": "Usuario Verificado",
+      "active": "Verificado",
+      "agency": "Agencia Verificada"
+    },
+    "selectAgency": "Seleccionar Agencia",
+    "noAgency": "Sin Agencia",
+    "updateSuccess": "Usuario Actualizado",
+    "updateSuccessMessage": "El usuario ha sido actualizado exitosamente",
+    "updateError": "Error al Actualizar",
+    "adminOnly": "Solo Administrador",
+    "noPermission": "Sin Permiso",
+    "bulkDeleteAction": "Delete Selected Users"
+  },
+  "global": {
+    "pending": "Pendiente",
+    "verified": "Verificado"
+  },
+  "admin": {
+    "title": "Tablero de Administrador",
+    "subtitle": "Gestiona tu plataforma",
+    "systemSettings": "Configuración del Sistema",
+    "generateReports": "Generar Reportes",
+    "stats": {
+      "totalUsers": "Total de Usuarios",
+      "fromPrevious": "del {{timeframe}} anterior",
+      "properties": "Total de Propiedades",
+      "pageViews": "Total de Vistas de Página",
+      "revenue": "Ingresos Totales"
+    },
+    "pendingApprovals": "Aprobaciones Pendientes",
+    "reviewManageSubmissions": "Revisa y gestiona los envíos de propiedades y agentes",
+    "allSubmissions": "Todos los Envíos",
+    "properties": "Propiedades",
+    "agents": "Agentes",
+    "itemsPendingApproval": "Elementos Pendientes de Aprobación",
+    "item": "Elemento",
+    "type": "Tipo",
+    "submittedBy": "Enviado Por",
+    "date": "Fecha",
+    "actions": "Acciones",
+    "noPendingApprovals": "No Hay Aprobaciones Pendientes",
+    "allSubmissionsReviewed": "Todos los envíos han sido revisados",
+    "propertySubmissions": "Envíos de Propiedades",
+    "reviewPropertySubmissions": "Revisa y gestiona los envíos de propiedades",
+    "agentSubmissions": "Envíos de Agentes",
+    "reviewAgentSubmissions": "Revisa y gestiona los envíos de agentes",
+    "general": "General",
+    "security": "Seguridad",
+    "notifications": "Notificaciones",
+    "integrations": "Integraciones",
+    "generalSettings": "Configuración General",
+    "manageGeneralSettings": "Gestiona la configuración general del sistema",
+    "siteName": "Nombre del Sitio",
+    "defaultLanguage": "Idioma Predeterminado",
+    "selectLanguage": "Seleccionar idioma",
+    "maintenanceMode": "Modo de Mantenimiento",
+    "securitySettings": "Configuración de Seguridad",
+    "manageSecuritySettings": "Gestiona la configuración de seguridad",
+    "requireTwoFactor": "Requerir Autenticación de Dos Factores",
+    "requireEmailVerification": "Requerir Verificación de Correo Electrónico",
+    "sessionTimeout": "Tiempo de Espera de la Sesión",
+    "selectTimeout": "Seleccionar tiempo de espera",
+    "notificationSettings": "Configuración de Notificaciones",
+    "manageNotificationSettings": "Gestiona la configuración de notificaciones",
+    "emailNotifications": "Notificaciones por Correo Electrónico",
+    "pushNotifications": "Notificaciones Push",
+    "notificationEmail": "Correo Electrónico de Notificación",
+    "integrationSettings": "Configuración de Integración",
+    "manageIntegrationSettings": "Gestiona las integraciones de terceros",
+    "googleMapsApiKey": "Clave API de Google Maps",
+    "stripeApiKey": "Clave API de Stripe",
+    "smtpServer": "Servidor SMTP",
+    "saveChanges": "Guardar Cambios",
+    "usersManagement": "Gestión de Usuarios",
+    "userManagement": "Gestión de Usuario",
+    "viewManageAccounts": "Ver y Gestionar Cuentas",
+    "recentProperties": "Propiedades Recientes",
+    "noPropertiesFound": "No se encontraron Propiedades",
+    "noPropertiesInSystem": "Actualmente no hay propiedades listadas en el sistema.",
+    "editUser": "Editar Usuario",
+    "edit": "Editar",
+    "manageSystemSettings": "Gestiona la configuración, preferencias y configuraciones de tu sistema.",
+    "fullUserManagement": "Gestión Completa de Usuarios",
+    "addUser": "Agregar Usuario",
+    "addProperty": "Agregar Propiedad",
+    "noApprovals": "Sin Aprobaciones",
+    "allCaughtUp": "¡Todo al día! No hay elementos pendientes por revisar.",
+    "confirmDeleteUser": "¿Estás seguro de que quieres eliminar al usuario \"{{name}}\"?",
+    "suspendUser": "Suspender Usuario",
+    "reactivateUser": "Reactivar Usuario",
+    "viewAllUsers": "Ver los {{count}} Usuarios",
+    "recentPropertiesDescription": "Anuncios de propiedades recientes en el sistema",
+    "updateUserDescription": "Actualiza la información y permisos del usuario",
+    "createNewUser": "Crear Nuevo Usuario",
+    "createUserDescription": "Completa los detalles para agregar un nuevo usuario al sistema",
+    "createUser": "Crear Usuario",
+    "tableHeaders": {
+      "property": "Propiedad",
+      "location": "Ubicación",
+      "price": "Precio",
+      "type": "Tipo",
+      "status": "Estado"
+    },
+    "roles": {
+      "user": "Usuario",
+      "agent": "Agente",
+      "admin": "Administrador"
+    }
+  },
+  "actions": {
+    "search": "Buscar",
+    "confirm": "Confirmar",
+    "complete": "Completar",
+    "cancel": "Cancelar",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "help": "Ayuda",
+    "pause": "Pausar",
+    "confirmTitle": "Confirmar Recorrido de Propiedad",
+    "completeTitle": "Completar Recorrido de Propiedad",
+    "cancelTitle": "Cancelar Recorrido de Propiedad",
+    "confirmMessage": "¿Estás seguro de que quieres confirmar este recorrido de propiedad? Esto notificará al cliente que su solicitud de recorrido ha sido aprobada.",
+    "completeMessage": "¿Estás seguro de que quieres marcar este recorrido como completado? Esto indica que el recorrido ha tenido lugar.",
+    "cancelMessage": "¿Estás seguro de que quieres cancelar este recorrido de propiedad? Esta acción no se puede deshacer.",
+    "confirmButton": "Confirmar Recorrido",
+    "completeButton": "Completar Recorrido",
+    "cancelButton": "Cancelar Recorrido",
+    "processing": "Procesando...",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "submit": "Enviar",
+    "edit": "Editar",
+    "view": "Ver",
+    "add": "Agregar",
+    "remove": "Quitar",
+    "reset": "Restablecer"
+  },
+  "agentProperties": {
+    "title": "Mis Propiedades",
+    "description": "Gestiona tus anuncios de propiedades",
+    "addNew": "Agregar Propiedad",
+    "loading": "Cargando propiedades...",
+    "error": "Error al cargar las propiedades",
+    "selectProperties": "Seleccionar Propiedades",
+    "cancelSelection": "Cancelar",
+    "selectAll": "Seleccionar Todo",
+    "deselectAll": "Deseleccionar Todo",
+    "moveToTrash": "Mover a la Papelera",
+    "quickAdd": "Agregar Rápido",
+    "standardForm": "Formulario Estándar",
+    "wizardMode": "Modo Asistente",
+    "tabs": {
+      "all": "Todas las Propiedades",
+      "forSale": "En Venta",
+      "forRent": "En Renta",
+      "premium": "Premium"
+    },
+    "propertyListings": "Anuncios de Propiedades",
+    "propertiesFound_one": "{{count}} propiedad encontrada",
+    "propertiesFound_other": "{{count}} propiedades encontradas",
+    "propertiesFound": "{{count}} propiedades encontradas",
+    "table": {
+      "property": "Propiedad",
+      "id": "ID",
+      "type": "Tipo",
+      "status": "Estado",
+      "price": "Precio",
+      "views": "Vistas",
+      "actions": "Acciones"
+    },
+    "statusLabels": {
+      "pending": "Pendiente",
+      "active": "Activo",
+      "sold": "Vendido",
+      "rented": "Rentado",
+      "verified": "Verificado"
+    },
+    "actions": {
+      "edit": "Editar",
+      "delete": "Eliminar"
+    },
+    "empty": {
+      "title": "Aún no hay propiedades listadas",
+      "description": "Comienza a agregar propiedades a tu portafolio"
+    },
+    "delete": {
+      "confirm": "¿Estás seguro de que quieres eliminar esta propiedad?",
+      "success": {
+        "title": "Propiedad Eliminada",
+        "description": "La propiedad ha sido eliminada exitosamente"
+      },
+      "error": {
+        "title": "Error al Eliminar",
+        "description": "Error al eliminar la propiedad. Por favor, inténtalo de nuevo."
+      }
+    },
+    "pricePerMonth": "/mes",
+    "noProperties": "No se encontraron propiedades. Haz clic en \"Agregar Propiedad\" para crear un nuevo anuncio.",
+    "trash": {
+      "properties_one": "propiedad",
+      "properties_other": "propiedades",
+      "properties": "Propiedades",
+      "confirmTitle": "¿Mover Propiedades a la Papelera?",
+      "confirmDescription": "Las propiedades se moverán a la papelera y se eliminarán automáticamente después de 14 días. Puedes restaurarlas desde la papelera antes de esa fecha.",
+      "countMessage_one": "Estás a punto de mover {{count}} {{properties}} a la papelera.",
+      "countMessage_other": "Estás a punto de mover {{count}} {{properties}} a la papelera.",
+      "countMessage": "Estás a punto de mover {{count}} {{properties}} a la papelera.",
+      "confirm": "Mover a la Papelera",
+      "success": "Propiedades movidas a la papelera",
+      "successDescription": "Las propiedades se eliminarán permanentemente después de 14 días",
+      "error": "Error al mover propiedades a la papelera",
+      "errorDescription": "Ocurrió un error. Por favor, inténtalo de nuevo.",
+      "title": "Papelera de Propiedades",
+      "trashExpiryWarning": "Las propiedades en la papelera se eliminarán permanentemente después de 14 días",
+      "restoreSelected": "Restaurar Seleccionados",
+      "deleteForever": "Eliminar Permanentemente",
+      "emptyTrash": "Vaciar Papelera",
+      "trashedProperties": "Propiedades en la Papelera",
+      "trashedPropertiesCount_one": "{{count}} propiedad en la papelera",
+      "trashedPropertiesCount_other": "{{count}} propiedades en la papelera",
+      "trashedPropertiesCount": "{{count}} propiedades en la papelera",
+      "deletionDate": "Será eliminado",
+      "deleteInDays": "Será eliminado en {{days}} días",
+      "deleteToday": "Será eliminado hoy",
+      "deleteTomorrow": "Será eliminado mañana",
+      "noItemsInTrash": "No hay propiedades en la papelera",
+      "emptyTrashDescription": "Los elementos movidos a la papelera aparecerán aquí durante 14 días antes de ser eliminados permanentemente",
+      "backToProperties": "Volver a Propiedades",
+      "restoreTitle": "Restaurar Propiedades",
+      "restoreDescription": "Restaura propiedades de la papelera a tus anuncios activos.",
+      "restoreCountMessage_one": "Estás a punto de restaurar {{count}} propiedad.",
+      "restoreCountMessage_other": "Estás a punto de restaurar {{count}} propiedades.",
+      "restoreCountMessage": "Estás a punto de restaurar {{count}} {{properties}}.",
+      "restoreConfirm": "Restaurar",
+      "deleteForeverTitle": "¿Eliminar Propiedades Permanentemente?",
+      "deleteForeverDescription": "Esta acción no se puede deshacer. Las propiedades se eliminarán permanentemente.",
+      "deleteForeverCountMessage_one": "Estás a punto de eliminar permanentemente {{count}} propiedad.",
+      "deleteForeverCountMessage_other": "Estás a punto de eliminar permanentemente {{count}} propiedades.",
+      "deleteForeverCountMessage": "Estás a punto de eliminar permanentemente {{count}} {{properties}}.",
+      "deleteForeverConfirm": "Eliminar Permanentemente",
+      "emptyTrashTitle": "¿Vaciar Papelera?",
+      "emptyTrashCountMessage_one": "Estás a punto de eliminar permanentemente {{count}} propiedad de la papelera.",
+      "emptyTrashCountMessage_other": "Estás a punto de eliminar permanentemente {{count}} propiedades de la papelera.",
+      "emptyTrashCountMessage": "Estás a punto de eliminar permanentemente {{count}} propiedades de la papelera.",
+      "emptyTrashConfirm": "Vaciar Papelera",
+      "restoreSuccess": "Propiedades restauradas exitosamente",
+      "restoreSuccessDescription": "Las propiedades seleccionadas han sido restauradas a tus anuncios",
+      "restoreError": "Error al restaurar propiedades",
+      "deleteSuccess": "Propiedades eliminadas permanentemente",
+      "deleteSuccessDescription": "Las propiedades seleccionadas han sido eliminadas permanentemente",
+      "deleteError": "Error al eliminar propiedades",
+      "emptySuccess": "Papelera vaciada exitosamente",
+      "emptySuccessDescription": "Todas las propiedades en la papelera han sido eliminadas permanentemente",
+      "emptyError": "Error al vaciar la papelera"
+    },
+    "selectMultiple": "Seleccionar Múltiples Propiedades",
+    "status": {
+      "pending": "Pendiente",
+      "verified": "Verificado"
+    }
+  },
+  "subscription": {
+    "plans": {
+      "popular": "POPULAR",
+      "free": "Gratis",
+      "perMonth": "mes",
+      "perYear": "año",
+      "saveWithYearly": "¡Estás ahorrando un 40% con la facturación anual!",
+      "currentPlan": "Plan Actual",
+      "contactSales": "Contactar a Ventas",
+      "title": "Elige Tu Plan",
+      "chooseRightPlan": "Elige el plan adecuado para ti",
+      "description": "Selecciona el plan que mejor se adapte a tus necesidades y desbloquea funciones premium.",
+      "allPlansInclude": "Todos los planes incluyen",
+      "tiers": {
+        "basic": {
+          "name": "Básico",
+          "description": "Para personas que buscan explorar propiedades",
+          "buttonText": "Plan Actual"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Para agentes inmobiliarios y administradores de propiedades",
+          "buttonText": "Suscríbete Ahora"
+        },
+        "enterprise": {
+          "name": "Empresarial",
+          "description": "Para agencias inmobiliarias y grandes empresas",
+          "buttonText": "Suscríbete Ahora"
+        }
+      },
+      "features": {
+        "basicListing": "Listado básico de propiedades",
+        "saveFavorites": "Guardar propiedades favoritas",
+        "contactOwners": "Contactar a los propietarios",
+        "premiumListings": "Listados de propiedades premium",
+        "bulkUploads": "Cargas masivas de propiedades",
+        "unlimitedBulkUploads": "Cargas masivas ilimitadas de propiedades",
+        "analytics": "Analíticas avanzadas",
+        "advancedAnalytics": "Analíticas e informes avanzados",
+        "prioritySupport": "Soporte prioritario",
+        "priorityAllHoursSupport": "Soporte prioritario 24/7",
+        "featuredPlacement": "Posicionamiento destacado de propiedades",
+        "customBranding": "Marca personalizada",
+        "apiAccess": "Acceso a la API",
+        "whiteLabel": "Solución de marca blanca",
+        "allListings": "Todos los listados",
+        "mobileAccess": "Acceso móvil",
+        "secureMessaging": "Mensajería segura",
+        "saveProperties": "Guardar propiedades",
+        "regularUpdates": "Actualizaciones regulares",
+        "support": "Soporte"
+      }
+    },
+    "billing": {
+      "monthly": "Facturación mensual",
+      "yearly": "Facturación anual",
+      "savePercent": "Ahorra un {{percent}}% con la facturación anual"
+    },
+    "status": {
+      "title": "Suscribirse",
+      "details": "Los detalles de tu suscripción actual",
+      "basicTitle": "Cuenta Básica",
+      "basicDescription": "Actualiza para desbloquear funciones premium",
+      "basicMessage": "Actualmente estás en el plan Básico. Actualiza para acceder a funciones premium como cargas masivas, analíticas y más.",
+      "viewPlans": "Volver a los Planes",
+      "loading": "Configurando tu suscripción...",
+      "error": "No se pudo configurar el pago",
+      "errorMessage": "Hubo un problema al configurar el proceso de pago. Por favor, inténtalo de nuevo más tarde.",
+      "tryAgain": "Intentar de Nuevo",
+      "planLabel": "Plan",
+      "statusLabel": "Estado",
+      "renewalDate": "Fecha de Renovación",
+      "notAvailable": "N/D",
+      "activeSubscription": "Suscripción Activa",
+      "activeMessage": "Tu suscripción está activa y se renovará automáticamente el {{date}}.",
+      "canceledTitle": "Suscripción Cancelada",
+      "canceledMessage": "La función de suscripción no está disponible actualmente. Por favor, vuelve más tarde.",
+      "paymentIssueTitle": "Problema de Pago",
+      "paymentIssueMessage": "Hubo un problema con tu último pago. Por favor, actualiza tu método de pago.",
+      "manageSubscription": "Administrar Suscripción",
+      "viewPremiumFeatures": "Ver Funciones Premium"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "cancel": {
+        "question": "¿Puedo cancelar mi suscripción?",
+        "answer": "Sí, puedes cancelar tu suscripción en cualquier momento desde la configuración de tu cuenta."
+      },
+      "payment": {
+        "question": "¿Qué métodos de pago se aceptan?",
+        "answer": "Aceptamos las principales tarjetas de crédito y proveedores de pago."
+      },
+      "refund": {
+        "question": "¿Puedo obtener un reembolso?",
+        "answer": "Los reembolsos están disponibles de acuerdo con nuestra política de reembolsos. Por favor, contacta a soporte para más detalles."
+      },
+      "teamDiscount": {
+        "question": "¿Hay descuento para equipos?",
+        "answer": "Sí, ofrecemos descuentos para equipos y agencias. Contacta a ventas para más información."
+      }
+    }
+  },
+  "tours": {
+    "title": "Recorridos de Propiedades",
+    "description": "Administra y ve los recorridos de propiedades programados."
+  },
+  "footer": {
+    "premiumFeatures": "Funciones Premium",
+    "features": {
+      "support": "Soporte",
+      "premiumFeatures": "Funciones Premium",
+      "bulkUpload": "Carga Masiva",
+      "analytics": "Analíticas",
+      "featured": "Destacado",
+      "aiRecommendations": "Recomendaciones con IA"
+    }
+  },
+  "propertyDocuments": {
+    "title": "Documentos de la Propiedad",
+    "types": {
+      "floorPlan": "Plano de planta",
+      "energyCertificate": "Certificado Energético",
+      "deed": "Escritura de la Propiedad",
+      "survey": "Levantamiento Topográfico",
+      "inspection": "Informe de Inspección",
+      "permit": "Permiso de Construcción",
+      "tax": "Documentos Fiscales",
+      "insurance": "Documentos de Seguro",
+      "contract": "Contrato de Renta/Venta",
+      "other": "Otros Documentos"
+    },
+    "status": {
+      "available": "Disponible",
+      "pending": "Pendiente",
+      "unavailable": "No disponible"
+    },
+    "actions": {
+      "view": "Ver Documento",
+      "download": "Descargar",
+      "request": "Solicitar Documento",
+      "upload": "Subir Documento"
+    }
+  },
+  "propertyMetrics": {
+    "title": "Métricas de la Propiedad",
+    "views": {
+      "total": "Vistas Totales",
+      "lastWeek": "Vistas la Última Semana",
+      "lastMonth": "Vistas el Último Mes",
+      "trend": "Tendencia de Vistas"
+    },
+    "inquiries": {
+      "total": "Consultas Totales",
+      "lastWeek": "Consultas la Última Semana",
+      "lastMonth": "Consultas el Último Mes",
+      "conversionRate": "Tasa de Conversión de Consulta a Vista"
+    },
+    "performance": {
+      "title": "Métricas de Rendimiento",
+      "averageViewTime": "Tiempo Promedio de Vista",
+      "favoriteCount": "Veces en Favoritos",
+      "shareCount": "Veces Compartido",
+      "responseRate": "Tasa de Respuesta",
+      "responseTime": "Tiempo Promedio de Respuesta"
+    }
+  },
+  "propertyHistory": {
+    "title": "Historial de la Propiedad",
+    "priceHistory": "Historial de Precios",
+    "listingHistory": "Historial de Listados",
+    "viewHistory": "Historial de Vistas",
+    "inquiryHistory": "Historial de Consultas",
+    "eventTypes": {
+      "listed": "Publicado",
+      "priceChanged": "Precio Cambiado",
+      "statusChanged": "Estado Cambiado",
+      "viewed": "Visto",
+      "inquiry": "Consulta Recibida",
+      "tour": "Recorrido Programado",
+      "sold": "Vendido",
+      "rented": "Rentado"
+    }
+  },
+  "propertyAnalytics": {
+    "title": "Analíticas de la Propiedad",
+    "overview": "Resumen",
+    "performance": "Rendimiento",
+    "engagement": "Interacción",
+    "conversions": "Conversiones",
+    "timeframes": {
+      "today": "Hoy",
+      "week": "Esta Semana",
+      "month": "Este Mes",
+      "year": "Este Año",
+      "custom": "Rango Personalizado"
+    },
+    "metrics": {
+      "views": "Vistas",
+      "inquiries": "Consultas",
+      "favourites": "Favoritos",
+      "shares": "Compartidos",
+      "tours": "Recorridos",
+      "conversionRate": "Tasa de Conversión"
+    }
+  },
+  "onboarding": {
+    "title": "Descubre la Casa de Tus Sueños Más Rápido",
+    "welcome": {
+      "title": "Encuentra la Casa de Tus Sueños",
+      "description": "Responde algunas preguntas para ayudarnos a encontrar la propiedad perfecta para ti",
+      "imageAlt": "Hermosa casa moderna",
+      "feature1Title": "Búsqueda Personalizada",
+      "feature1Desc": "Obtén recomendaciones adaptadas a tus necesidades específicas",
+      "feature2Title": "Proceso Simplificado",
+      "feature2Desc": "Ahorra tiempo y encuentra propiedades que realmente te encantarán"
+    },
+    "features": {
+      "personalized": "Recomendaciones de propiedades personalizadas",
+      "saveTime": "Ahorra tiempo con la búsqueda impulsada por IA",
+      "lifestyle": "Encuentra propiedades que coincidan con tu estilo de vida"
+    },
+    "later": "Quizás Después",
+    "start": "Iniciar Búsqueda Guiada",
+    "location": {
+      "title": "¿Dónde Quieres Vivir?",
+      "description": "Selecciona tu ubicación preferida para encontrar propiedades cercanas",
+      "label": "Ubicación",
+      "placeholder": "Ingresa una ciudad o área",
+      "popularLocations": "Ubicaciones Populares",
+      "popularCity1": "Nueva York",
+      "popularCity2": "Los Ángeles",
+      "popularCity3": "Chicago",
+      "popularCity4": "Miami",
+      "popularCity5": "San Francisco"
+    },
+    "propertyType": {
+      "title": "Tipo de Propiedad",
+      "description": "¿Qué tipo de propiedad estás buscando?",
+      "apartment": "Departamento",
+      "house": "Casa",
+      "townhouse": "Casa en Condominio",
+      "condo": "Condominio"
+    },
+    "budget": {
+      "title": "Tu Presupuesto",
+      "description": "Establece tu rango de precios para la propiedad",
+      "minLabel": "Precio mínimo",
+      "maxLabel": "Precio máximo",
+      "buyOrRent": "¿Quieres comprar o rentar?",
+      "buy": "Comprar",
+      "rent": "Rentar",
+      "minBedrooms": "Recámaras mínimas"
+    },
+    "desiredFeatures": {
+      "title": "Características Deseadas",
+      "description": "Selecciona las características que te gustaría tener en tu propiedad"
+    },
+    "propertyFeatures": {
+      "pool": "Alberca",
+      "garage": "Cochera",
+      "garden": "Jardín",
+      "balcony": "Balcón",
+      "gym": "Gimnasio",
+      "security": "Seguridad",
+      "airConditioning": "Aire Acondicionado",
+      "furnished": "Amueblado",
+      "petFriendly": "Acepta Mascotas",
+      "smartHome": "Casa Inteligente",
+      "oceanView": "Vista al Mar",
+      "fireplace": "Chimenea"
+    },
+    "errors": {
+      "locationRequired": "Ubicación Requerida",
+      "locationRequiredDesc": "Por favor, ingresa una ubicación para continuar"
+    },
+    "aiMatching": {
+      "title": "Buscando Propiedades Ideales",
+      "description": "Nuestro algoritmo de IA está analizando miles de propiedades para encontrar las mejores coincidencias para ti",
+      "analyzing": "Analizando tus preferencias...",
+      "matchesFound": "¡Propiedades encontradas!",
+      "matchesDescription": "Hemos encontrado {{count}} propiedades que coinciden con tus criterios. Ve tus coincidencias personalizadas para encontrar tu hogar ideal."
+    },
+    "actions": {
+      "continue": "Continuar",
+      "back": "Atrás"
+    }
+  },
+  "verification": {
+    "form": {
+      "type": "Tipo de Verificación",
+      "user": "Usuario Individual",
+      "user_description": "Verifica tu identidad personal",
+      "agency": "Empresa/Agencia",
+      "agency_description": "Verifica tu empresa o agencia",
+      "method": "Método de Verificación",
+      "digital": "Verificación Digital",
+      "manual": "Verificación Manual",
+      "documents": "Documentos Requeridos",
+      "government_id": "Identificación Gubernamental",
+      "proof_of_address": "Comprobante de Domicilio",
+      "business_registration": "Registro Empresarial",
+      "real_estate_license": "Licencia Inmobiliaria",
+      "business_address_proof": "Comprobante de Dirección Empresarial",
+      "agent_id": "ID de Agente",
+      "submitting": "Enviando...",
+      "submit": "Enviar Verificación"
+    },
+    "error": {
+      "title": "Error de Verificación",
+      "description": "Hubo un error con el envío de tu verificación"
+    },
+    "validation": {
+      "fileRequired": "{{documentType}} es obligatorio",
+      "fileSizeError": "El tamaño del archivo debe ser inferior a 10MB",
+      "fileTypeError": "Tipo de archivo no compatible. Por favor, sube solo archivos JPG, PNG, GIF o PDF",
+      "uploadError": "Error de subida: {{error}}",
+      "fixErrors": "Por favor, soluciona los errores de validación antes de enviar",
+      "documentTypes": {
+        "government_id": "Identificación oficial",
+        "proof_of_address": "Comprobante de domicilio",
+        "business_registration": "Registro empresarial",
+        "real_estate_license": "Licencia inmobiliaria",
+        "business_address_proof": "Comprobante de domicilio empresarial",
+        "agent_id": "ID de agente"
+      }
+    }
+  },
+  "verified": "Verificado",
+  "user_verified": "Usuario Verificado",
+  "verified_on": "Verificado el {{date}}",
+  "verification_benefits": "Beneficios de la Verificación",
+  "benefit_badge": "Insignia de verificado en tu perfil",
+  "benefit_priority_responses": "Respuestas prioritarias de los agentes",
+  "benefit_trustworthiness": "Mayor confiabilidad",
+  "agent": {
+    "title": "Panel de Agente",
+    "subtitle": "Gestiona tus propiedades y sigue el rendimiento",
+    "propertyViews": "Vistas de Propiedad",
+    "inquiries": "Consultas",
+    "conversions": "Conversiones",
+    "revenue": "Ingresos",
+    "tabs": {
+      "properties": "Propiedades",
+      "inquiries": "Consultas",
+      "performance": "Rendimiento",
+      "bulkUpload": "Carga Masiva"
+    },
+    "noInquiries": {
+      "title": "Aún no hay consultas",
+      "description": "Las consultas de compradores potenciales aparecerán aquí"
+    },
+    "performance": {
+      "overview": "Resumen de Rendimiento",
+      "metrics": "Métricas Clave",
+      "topProperties": "Propiedades con Mejor Rendimiento",
+      "luxuryApartment": "Piso de Lujo",
+      "views": "Vistas",
+      "inquiries": "Consultas",
+      "conversionRate": "Tasa de Conversión",
+      "inquiryToSale": "De Consulta a Venta"
+    },
+    "fromPrevious": "del {{timeframe}} anterior",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar esta propiedad? Esta acción no se puede deshacer.",
+    "deleteSuccess": "Propiedad eliminada exitosamente",
+    "deleteError": "Error al eliminar la propiedad",
+    "refreshed": "Datos del panel actualizados",
+    "exportSuccess": "Propiedades exportadas exitosamente",
+    "exportError": "Error al exportar las propiedades",
+    "reply": "Responder"
+  },
+  "propertyManagement": {
+    "title": "Gestión de Propiedades",
+    "description": "Gestiona los listados y detalles de las propiedades",
+    "addProperty": "Añadir Propiedad",
+    "propertiesList": "Lista de Propiedades",
+    "noProperties": "No se encontraron propiedades",
+    "searchPlaceholder": "Buscar propiedades...",
+    "table": {
+      "title": "Título",
+      "type": "Tipo",
+      "status": "Estado",
+      "price": "Precio",
+      "location": "Ubicación",
+      "actions": "Acciones"
+    },
+    "statusLabels": {
+      "active": "Activo",
+      "pending": "Pendiente",
+      "sold": "Vendido",
+      "rented": "Rentado",
+      "inactive": "Inactivo"
+    }
+  },
+  "errors": {
+    "failedToFetch": "Error al obtener las propiedades",
+    "notFound": {
+      "title": "No Encontrado",
+      "message": "No se pudo encontrar el recurso solicitado."
+    },
+    "premiumRequired": {
+      "title": "Premium Requerido",
+      "message": "Esta función requiere una suscripción premium para acceder.",
+      "hint": "Actualiza a premium para desbloquear funciones avanzadas y eliminar limitaciones.",
+      "buttonText": "Actualizar a Premium"
+    }
+  },
+  "ui": {
+    "processing": "Procesando..."
+  },
+  "forgotPassword": {
+    "title": "Olvidé mi Contraseña",
+    "subtitle": "Ingresa tu correo electrónico para restablecer tu contraseña",
+    "email": "Correo Electrónico",
+    "fullName": "Nombre Completo",
+    "submit": "Restablecer Contraseña",
+    "back": "Volver al Inicio de Sesión",
+    "resetPassword": "Restablecer Contraseña",
+    "success": "Correo de Restablecimiento de Contraseña Enviado",
+    "successMessage": "Revisa tu correo electrónico para encontrar un enlace para restablecer tu contraseña",
+    "error": "Error",
+    "emailNotFound": "No se encontró ninguna cuenta con ese correo electrónico",
+    "invalidName": "El nombre no coincide con nuestros registros",
+    "generateTempPassword": "Generar Contraseña Temporal"
+  },
+  "aiRecommendations": {
+    "title": "Recomendaciones de Propiedades con IA",
+    "howItWorks": "Cómo funciona",
+    "description": "Estas propiedades están personalizadas según tus preferencias y comportamiento.",
+    "personalizeTitle": "Personaliza tus recomendaciones",
+    "updateButton": "Actualizar preferencias",
+    "tabs": {
+      "forYou": "Para Ti",
+      "similar": "Similares",
+      "trending": "Tendencias"
+    },
+    "personalizedForYou": "Personalizado Para Ti",
+    "personalizedForYouDesc": "Basado en tus intereses y actividad seleccionados.",
+    "similarTitle": "Propiedades Similares",
+    "similarDesc": "Propiedades similares a las que has visto",
+    "trendingTitle": "Propiedades en Tendencia",
+    "trendingDesc": "Propiedades populares en tu área",
+    "interest": {
+      "familyFriendly": "Ideal para familias",
+      "investment": "Potencial de inversión",
+      "workFromHome": "Trabajo desde casa",
+      "urbanLifestyle": "Estilo de vida urbano",
+      "natureLover": "Amante de la naturaleza",
+      "luxury": "Lujo",
+      "firstTimeBuyer": "Primer comprador",
+      "vacationHome": "Casa de vacaciones"
+    },
+    "toast": {
+      "selectInterestTitle": "Selecciona intereses",
+      "selectInterestDesc": "Selecciona al menos un interés para personalizar tus recomendaciones",
+      "updatedTitle": "Preferencias actualizadas",
+      "updatedDesc": "Tus recomendaciones han sido actualizadas",
+      "addedPrefTitle": "Preferencia añadida",
+      "notedTitle": "Preferencia anotada",
+      "moreLikeThis": "Te mostraremos más como esto",
+      "lessLikeThis": "Te mostraremos menos como esto"
+    },
+    "noProperties": "No se encontraron propiedades",
+    "moreLikeThis": "Más como esto",
+    "lessLikeThis": "Menos como esto"
+  }
+}

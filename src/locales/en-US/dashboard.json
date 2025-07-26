@@ -1,0 +1,1446 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "favorites": "Favorites",
+    "messages": "Messages",
+    "tours": "Tours",
+    "documents": "Documents",
+    "verification": "Verification",
+    "profile": "Profile",
+    "aiPropertyMatching": "AI Property Matching",
+    "myProperties": "My Properties",
+    "analytics": "Analytics",
+    "premiumFeatures": "Premium Features",
+    "subscription": "Subscription",
+    "users": "Users",
+    "properties": "Properties",
+    "approvals": "Approvals",
+    "verificationManagement": "Verification Management",
+    "settings": "Settings",
+    "translationDebug": "Translation Debug",
+    "loadingNavigation": "Loading navigation...",
+    "backToHome": "Back to Home"
+  },
+  "general": {
+    "name": "Name",
+    "nameglobal": {
+      "pending": "Pending"
+    },
+    "actions": {
+      "cancel": "Cancel"
+    },
+    "confirm": "Confirm",
+    "complete": "Complete",
+    "cancel": "Cancel",
+    "approve": "Approve",
+    "reject": "Reject",
+    "help": "Help",
+    "pause": "Pause",
+    "save": "Save",
+    "delete": "Delete",
+    "submit": "Submit",
+    "edit": "Edit",
+    "view": "View",
+    "add": "Add",
+    "remove": "Remove",
+    "role": "Role",
+    "status": "Status",
+    "joined": "Joined",
+    "fullName": "Full Name",
+    "user": "User",
+    "timeframes": {
+      "fromPrevious": "from previous",
+      "day": "day",
+      "week": "week",
+      "month": "month",
+      "year": "year"
+    },
+    "item": "Item",
+    "type": "Type",
+    "date": "Date",
+    "viewAll": "View All"
+  },
+  "dashboard": {
+    "title": "Main Dashboard Title",
+    "app": "Dashboard Application Name (Common Context)",
+    "welcome": "Welcome, {{name}}",
+    "overview": "Here's an overview of your account",
+    "properties": "Properties",
+    "users": "Users",
+    "settings": "Settings",
+    "browseProperties": "Browse Properties",
+    "signOut": "Sign Out (Common Context)",
+    "statistics": {
+      "title": "Statistics",
+      "views": "Views",
+      "inquiries": "Inquiries",
+      "favourites": "Favorites",
+      "listings": "Listings",
+      "totalUsers": "Total Users",
+      "fromPrevious": "from previous {{timeframe}}",
+      "properties": "Total Properties",
+      "pageViews": "Total Page Views",
+      "revenue": "Total Revenue"
+    },
+    "admin": {
+      "title": "Admin Dashboard",
+      "subtitle": "Manage your platform",
+      "systemSettings": "System Settings",
+      "generateReports": "Generate Reports",
+      "stats": {
+        "totalUsers": "Total Users",
+        "fromPrevious": "from previous {{timeframe}}",
+        "properties": "Total Properties",
+        "pageViews": "Total Page Views",
+        "revenue": "Total Revenue"
+      },
+      "pendingApprovals": "Pending Approvals",
+      "reviewManageSubmissions": "Review and manage property and agent submissions",
+      "allSubmissions": "All Submissions",
+      "properties": "Properties",
+      "agents": "Agents",
+      "itemsPendingApproval": "Items Pending Approval",
+      "item": "Item",
+      "type": "Type",
+      "submittedBy": "Submitted By",
+      "date": "Date",
+      "actions": "Actions",
+      "noPendingApprovals": "No Pending Approvals",
+      "allSubmissionsReviewed": "All submissions have been reviewed",
+      "propertySubmissions": "Property Submissions",
+      "reviewPropertySubmissions": "Review and manage property submissions",
+      "agentSubmissions": "Agent Submissions",
+      "reviewAgentSubmissions": "Review and manage agent submissions",
+      "general": "General",
+      "security": "Security",
+      "notifications": "Notifications",
+      "integrations": "Integrations",
+      "generalSettings": "General Settings",
+      "manageGeneralSettings": "Manage general system settings",
+      "siteName": "Site Name",
+      "defaultLanguage": "Default Language",
+      "selectLanguage": "Select language",
+      "maintenanceMode": "Maintenance Mode",
+      "securitySettings": "Security Settings",
+      "manageSecuritySettings": "Manage security settings",
+      "requireTwoFactor": "Require Two-Factor Authentication",
+      "requireEmailVerification": "Require Email Verification",
+      "sessionTimeout": "Session Timeout",
+      "selectTimeout": "Select timeout",
+      "notificationSettings": "Notification Settings",
+      "manageNotificationSettings": "Manage notification settings",
+      "emailNotifications": "Email Notifications",
+      "pushNotifications": "Push Notifications",
+      "notificationEmail": "Notification Email",
+      "integrationSettings": "Integration Settings",
+      "manageIntegrationSettings": "Manage third-party integrations",
+      "googleMapsApiKey": "Google Maps API Key",
+      "stripeApiKey": "Stripe API Key",
+      "smtpServer": "SMTP Server",
+      "saveChanges": "Save Changes",
+      "usersManagement": "Users Management",
+      "userManagement": "User Management",
+      "viewManageAccounts": "View and Manage Accounts",
+      "recentProperties": "Recent Properties",
+      "noPropertiesFound": "No Properties Found",
+      "noPropertiesInSystem": "There are currently no properties listed in the system.",
+      "editUser": "Edit User",
+      "edit": "Edit",
+      "manageSystemSettings": "Manage your system settings, preferences, and configurations.",
+      "fullUserManagement": "Full User Management",
+      "addUser": "Add User",
+      "addProperty": "Add Property",
+      "noApprovals": "No Approvals",
+      "allCaughtUp": "All caught up! No pending items to review.",
+      "confirmDeleteUser": "Are you sure you want to delete user \"{{name}}\"?",
+      "suspendUser": "Suspend User",
+      "reactivateUser": "Reactivate User",
+      "viewAllUsers": "View All {{count}} Users",
+      "recentPropertiesDescription": "Recent property listings in the system",
+      "updateUserDescription": "Update user information and permissions",
+      "createNewUser": "Create New User",
+      "createUserDescription": "Fill in the details to add a new user to the system",
+      "createUser": "Create User",
+      "tableHeaders": {
+        "property": "Property",
+        "location": "Location",
+        "price": "Price",
+        "type": "Type",
+        "status": "Status"
+      },
+      "roles": {
+        "user": "User",
+        "agent": "Agent",
+        "admin": "Admin"
+      },
+      "users_verification_inactive": "Verification Inactive"
+    },
+    "agent": {
+      "title": "Agent Dashboard",
+      "subtitle": "Manage your properties and view important metrics",
+      "propertyViews": "Property Views",
+      "inquiries": "Inquiries",
+      "conversions": "Conversions",
+      "revenue": "Revenue",
+      "noInquiries": {
+        "title": "No inquiries yet",
+        "description": "Customer inquiries about your properties will appear here"
+      },
+      "performance": {
+        "overview": "Performance Overview",
+        "metrics": "Your property performance metrics for the current {{timeframe}}",
+        "topProperties": "Top Performing Properties",
+        "luxuryApartment": "Luxury Apartment {{number}}",
+        "views": "{{count}} views",
+        "inquiries": "{{count}} inquiries",
+        "conversionRate": "Conversion Rate",
+        "inquiryToSale": "Inquiry to Sale"
+      },
+      "tabs": {
+        "properties": "My Properties",
+        "inquiries": "Customer Inquiries",
+        "performance": "Performance",
+        "bulkUpload": "Bulk Upload"
+      },
+      "noProperties": {
+        "title": "No properties listed yet",
+        "description": "Start adding properties to your portfolio"
+      },
+      "reply": "Reply",
+      "fromPrevious": "from previous {{timeframe}}"
+    },
+    "tabs": {
+      "savedProperties": "Saved Properties",
+      "messages": "Messages",
+      "recommendations": "Recommendations"
+    },
+    "stats": {
+      "properties": "Properties",
+      "favorited": "Favorited Properties",
+      "tours": "Property Tours",
+      "messages": "Messages",
+      "savedProperties": {
+        "title": "Saved Properties",
+        "description": "Properties you have saved"
+      },
+      "recentViews": {
+        "title": "Recent Views",
+        "description": "Properties viewed in the last 30 days"
+      },
+      "propertyAlerts": {
+        "title": "Property Alerts",
+        "description": "Active search alerts"
+      }
+    },
+    "messages": {
+      "title": "Messages",
+      "compose": "Compose",
+      "inbox": "Inbox",
+      "sent": "Sent",
+      "drafts": "Drafts",
+      "trash": "Trash",
+      "favoriteContacts": "Favorite Contacts",
+      "emptyFolder": "No messages in this folder",
+      "selectConversation": "Select a conversation to view messages",
+      "sendHint": "Press Enter to send",
+      "newMessages": "New Messages",
+      "recent": "Recent Messages",
+      "viewAll": "View All Messages",
+      "viewAllCount": "View All {{count}} Messages",
+      "goToMessages": "Go to Messages",
+      "empty": {
+        "title": "No messages yet",
+        "description": "Messages from agents and property owners will appear here"
+      },
+      "pleaseLogin": "Please log in to access your messages",
+      "loading": "Loading messages...",
+      "retrying": "Retrying...",
+      "errorLoading": "Error loading messages",
+      "errorLoadingDescription": "There was a problem loading your messages. Please try again.",
+      "retry": "Retry",
+      "noMessages": "No messages in this conversation yet",
+      "newMessage": "New Message",
+      "newMessageDescription": "Compose a new message to a user or agent",
+      "recipient": "Recipient",
+      "selectRecipient": "Select recipient",
+      "subject": "Subject",
+      "subjectPlaceholder": "Enter message subject",
+      "messageType": "Message Type",
+      "selectMessageType": "Select message type",
+      "types": {
+        "direct": "Direct Message",
+        "support": "Support Request",
+        "system": "System Message"
+      },
+      "content": "Message",
+      "contentPlaceholder": "Write your message here...",
+      "send": "Send Message",
+      "cancel": "Cancel",
+      "sendSuccess": "Message Sent",
+      "messageHasBeenSent": "Your message has been sent successfully",
+      "sendError": "Send Error",
+      "typeMessage": "Type your message...",
+      "selectConversationToSend": "Select a conversation to send a message",
+      "attachments": "Attachments",
+      "errorLoadingThreads": "Error loading conversations",
+      "errorLoadingThreadsDescription": "There was a problem loading your conversations. Please try again.",
+      "retryingThreads": "Retrying to load conversations...",
+      "noPreview": "No message preview",
+      "agent": "Agent",
+      "user": "User",
+      "noFavorites": "No favorite contacts yet",
+      "noFavoritesDescription": "Your favorite contacts will appear here",
+      "searchFavorites": "Search your favorite contacts",
+      "noMatchingFavorites": "No contacts match your search",
+      "sendMessage": "Send Message",
+      "removeFromFavorites": "Remove from Favorites",
+      "messageContent": "Message Content",
+      "messageContentPlaceholder": "Write your message here...",
+      "sending": "Sending message...",
+      "attachFile": "Attach File"
+    },
+    "recommendations": {
+      "title": "Properties You Might Like",
+      "description": "Based on your favorites and browse history",
+      "empty": {
+        "title": "No recommendations available",
+        "description": "Based on your favorites and browse history"
+      }
+    },
+    "nav": {
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "properties": "Properties",
+      "messages": "Messages",
+      "favourites": "Favorites",
+      "tours": "Tours",
+      "verification": "Verification",
+      "profile": "Profile",
+      "users": "Users",
+      "security": "Security"
+    }
+  },
+  "report": {
+    "buttonText": "Report Issue"
+  },
+  "document": {
+    "title": "Document Management",
+    "subtitle": "Manage, sign and verify property documents",
+    "upload": "Upload Document",
+    "dragDropFile": "Drag and drop your file here",
+    "supportedFormats": "Supported formats: PDF, DOCX, JPG, PNG.",
+    "uploading": "Uploading...",
+    "statusLabels": {
+      "verified": "Verified",
+      "rejected": "Rejected",
+      "pending": "Pending"
+    },
+    "types": {
+      "contract": "Contract",
+      "deed": "Deed",
+      "identification": "ID",
+      "utility": "Utility",
+      "other": "Other"
+    },
+    "tabs": {
+      "all": "All Documents",
+      "pending": "Pending",
+      "verified": "Verified",
+      "rejected": "Rejected"
+    },
+    "table": {
+      "name": "Name",
+      "type": "Type",
+      "status": "Status",
+      "created": "Created",
+      "actions": "Actions",
+      "caption": "List of documents"
+    },
+    "empty": {
+      "title": "No documents found",
+      "uploadToStart": "Upload a document to get started",
+      "noStatusDocuments": "No {{status}} documents found"
+    },
+    "uploadDialog": {
+      "title": "Upload Document",
+      "description": "Description (Optional)",
+      "documentName": "Document Name",
+      "documentNamePlaceholder": "Enter document name",
+      "documentType": "Document Type",
+      "documentTypePlaceholder": "Select document type",
+      "descriptionPlaceholder": "Enter document description",
+      "file": "File",
+      "changeFile": "Change File"
+    },
+    "viewDialog": {
+      "uploadedAgo": "Uploaded {{time}}",
+      "documentType": "Document Type",
+      "fileSize": "File Size",
+      "verifiedBy": "Verified By",
+      "descriptionLabel": "Description",
+      "filePreview": "File Preview",
+      "pdfDocument": "PDF Document",
+      "openPdfInNewTab": "Open PDF in new tab",
+      "previewNotAvailable": "Preview not available",
+      "downloadToView": "Download to view",
+      "imageNotFound": "Image not found",
+      "imageLoadError": "The image file could not be loaded"
+    },
+    "actions": {
+      "verify": "Verify",
+      "reject": "Reject",
+      "download": "Download"
+    },
+    "downloadIssue": "Download Issue",
+    "downloadIssueDescription": "There may have been an issue with the download. Please try again.",
+    "confirmReject": "Are you sure you want to reject this document?",
+    "rejectionSuccess": "Document Rejected",
+    "rejectionSuccessDescription": "The document has been rejected successfully.",
+    "rejectionError": "Rejection Failed",
+    "rejectionErrorDescription": "Failed to reject the document. Please try again.",
+    "error": {
+      "title": "Failed to Load Documents",
+      "description": "Unable to fetch documents. Please check your connection and try again.",
+      "retry": "Retry"
+    }
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "subtitle": "Manage your account settings and preferences",
+    "avatar": {
+      "defaultUser": "User",
+      "defaultEmail": "user@example.com"
+    },
+    "subscription": {
+      "title": "Subscription",
+      "freePlan": "Free",
+      "plan": "Plan",
+      "fullAccess": "Full access to all features",
+      "limitedAccess": "Limited access to features",
+      "upgrade": "Upgrade"
+    },
+    "tabs": {
+      "account": "Account",
+      "security": "Security",
+      "preferences": "Preferences",
+      "billing": "Billing"
+    },
+    "account": {
+      "title": "Account Information",
+      "description": "Update your account details",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "johndoe@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+44 20 7946 0958",
+      "saveChanges": "Save Changes"
+    },
+    "security": {
+      "title": "Security Settings",
+      "description": "Manage your password and security preferences",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "passwordPlaceholder": "••••••••••",
+      "updatePassword": "Update Password",
+      "twoFactor": {
+        "title": "Two-Factor Authentication",
+        "description": "Add an extra layer of security to your account",
+        "disabled": "Two-factor authentication is disabled",
+        "protectAccount": "Protect your account with an additional authentication step",
+        "enable": "Enable 2FA"
+      }
+    },
+    "preferences": {
+      "language": {
+        "title": "Language Preferences",
+        "description": "Select your preferred language",
+        "label": "Language",
+        "placeholder": "Select language"
+      },
+      "notifications": {
+        "title": "Notification Preferences",
+        "description": "Control how you receive notifications",
+        "settings": "Notification settings",
+        "comingSoon": "This feature will be available soon",
+        "configure": "Configure Notifications"
+      }
+    },
+    "billing": {
+      "title": "Billing Information",
+      "description": "Manage your billing details and payment methods",
+      "paymentMethods": {
+        "title": "Payment methods",
+        "none": "No payment methods added yet",
+        "add": "Add Payment Method"
+      },
+      "subscriptionPlan": {
+        "title": "Subscription Plan",
+        "description": "Manage your subscription and billing cycle",
+        "active": "Active",
+        "inactive": "Inactive",
+        "viewInvoices": "View Invoices",
+        "upgradePlan": "Upgrade Plan"
+      }
+    },
+    "notifications": {
+      "profileUpdated": {
+        "title": "Profile updated",
+        "description": "Your profile information has been updated successfully."
+      },
+      "languageUpdated": {
+        "title": "Language updated",
+        "description": "Your language preference has been set to {{language}}."
+      }
+    }
+  },
+  "premium": {
+    "title": "Premium Features",
+    "subtitle": {
+      "premium": "Unlock the Power of Premium",
+      "upgrade": "Upgrade to Access Premium Features"
+    },
+    "badges": {
+      "premium": "Premium",
+      "enterprise": "Enterprise"
+    },
+    "features": {
+      "bulkUpload": {
+        "title": "Bulk Property Upload",
+        "description": "Save time by uploading multiple properties at once",
+        "dragAndDrop": "Drag and drop your CSV/JSON file here, or click to browse.",
+        "maxFileSize": "Maximum file size: 5MB.",
+        "formatRequirements": {
+          "title": "File Format Requirements",
+          "csvHeaders": "CSV files must include headers like: title, description, price, type, status, bedrooms, bathrooms, area, address, city, country.",
+          "jsonArray": "JSON file must be an array of property objects.",
+          "requiredFields": "Required fields for each property: title, description, price, type (e.g., apartment, house), status (e.g., for_sale, for_rent)."
+        },
+        "buttonLabels": {
+          "upload": "Upload Properties",
+          "uploading": "Uploading..."
+        },
+        "validation": {
+          "statusError": "Error",
+          "statusValid": "Valid",
+          "rowErrorDetails": "Row {{rowNumber}}:",
+          "fixErrorsBeforeUploading": "Please fix the errors listed below before uploading.",
+          "validationErrors": "Validation Errors"
+        },
+        "messages": {
+          "success": {
+            "title": "Upload Successful",
+            "description": "{{count}} properties have been successfully uploaded."
+          },
+          "error": {
+            "title": "Upload Error",
+            "default": "An unknown error occurred during upload."
+          },
+          "parseError": {
+            "title": "File Parsing Error",
+            "default": "Could not parse the uploaded file."
+          },
+          "noData": {
+            "title": "No Data To Upload",
+            "description": "The file seems to be empty or data could not be parsed."
+          },
+          "validationError": {
+            "title": "Validation Errors Found",
+            "description": "Please review the errors in the preview below and correct your file."
+          }
+        },
+        "selectedFile": "Selected file",
+        "processingFile": "Processing file...",
+        "uploadSuccessful": "Upload Successful!",
+        "propertiesSuccessfullyUploaded": "The properties have been successfully uploaded and are being processed.",
+        "previewData": "Preview Data",
+        "premiumFeatureNotice": "Bulk upload is a premium feature. Upgrade to enable.",
+        "downloadTemplate": "Download Template",
+        "useTemplateInstructions": "Use our CSV template to ensure your data is formatted correctly.",
+        "downloadTemplateButton": "Download Template",
+        "uploadFile": "Upload File",
+        "selectFileInstructions": "Select your CSV file containing property data.",
+        "selectFileButton": "Select File",
+        "parseFileButton": "Parse File",
+        "errors": {
+          "emptyFile": "The file is empty or does not contain enough rows.",
+          "invalidNumber": "Invalid number for {{field}}: {{value}}",
+          "invalidPropertyType": "Invalid property type \"{{value}}\". Must be one of: {{types}}",
+          "invalidListingType": "Invalid listing type \"{{value}}\". Must be one of: {{types}}",
+          "missingField": "Missing required field: {{field}}"
+        }
+      },
+      "analytics": {
+        "title": "Advanced Analytics",
+        "description": "Gain insights into property performance and visitor behavior"
+      },
+      "featuredProperties": {
+        "title": "Featured Properties",
+        "description": "Highlight your best listings for increased visibility"
+      },
+      "prioritySupport": {
+        "title": "Priority Support",
+        "description": "Get faster responses from our customer support team"
+      },
+      "marketingTools": {
+        "title": "Marketing Tools",
+        "description": "Professional marketing materials and promotion tools"
+      },
+      "teamManagement": {
+        "title": "Team Management",
+        "description": "Collaborate with team members and assign properties"
+      },
+      "tourManagement": {
+        "title": "Virtual Tour Management",
+        "description": "Create and manage virtual property tours"
+      }
+    },
+    "actions": {
+      "accessFeature": "Access Feature",
+      "upgradeRequired": "Upgrade Required",
+      "upgrade": "Upgrade Now"
+    }
+  },
+  "securityPage": {
+    "subtitle": "Manage security settings and access controls",
+    "adminPassword": "Admin Password",
+    "updatePassword": "Update Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "twoFactor": "Two-Factor Authentication",
+    "twoFactorDesc": "Add an extra layer of security to your account",
+    "twoFactorDisabled": "Two-factor authentication is disabled",
+    "twoFactorProtect": "Protect your account with an additional authentication step",
+    "enable2FA": "Enable 2FA"
+  },
+  "users": {
+    "createDescription": "Fill in the details to add a new user.",
+    "edit": "Edit User (Dashboard Users section)",
+    "editDescription": "Description for editing user (Dashboard Users)",
+    "actions": "Actions (Dashboard Users Table Header)",
+    "noUsersFound": "No users found (Dashboard Users).",
+    "adjustFilters": "Adjust filters to find users (Dashboard Users).",
+    "agencies": {
+      "title": "Agencies Management",
+      "description": "Manage registered agencies.",
+      "name": "Agency Name",
+      "location": "Location",
+      "contact": "Contact",
+      "agents": "Agents",
+      "agentCount": "agents",
+      "license": "License ID",
+      "status": "Agency Status",
+      "verified": "Verified",
+      "unverified": "Unverified",
+      "edit": "Edit Agency",
+      "viewAgents": "View Agents",
+      "verify": "Verify Agency",
+      "unverify": "Unverify Agency",
+      "delete": "Delete Agency",
+      "noAgenciesFound": "No agencies found.",
+      "create": "Create Agency",
+      "createSuccess": "Agency Created",
+      "createSuccessMessage": "Agency has been created successfully",
+      "createError": "Create Error",
+      "updateSuccess": "Agency Updated",
+      "updateSuccessMessage": "Agency has been updated successfully",
+      "updateError": "Update Error",
+      "createDescription": "Fill in the details to add a new agency to the system."
+    },
+    "title": "Users Management",
+    "subtitle": "Manage your platform users, their roles, and agencies",
+    "description": "Oversee and manage all user accounts, roles, and associated agencies within the platform.",
+    "create": "Create User",
+    "username": "Username",
+    "fullName": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "role": "Role",
+    "selectRole": "Select Role",
+    "roles": {
+      "user": "User",
+      "agent": "Agent",
+      "admin": "Admin"
+    },
+    "tabs": {
+      "users": "Users",
+      "agencies": "Agencies"
+    },
+    "list": "User List",
+    "listDescription": "Displaying all registered users.",
+    "search": "Search Users...",
+    "searchPlaceholder": "Search users...",
+    "filterByRole": "Filter by Role",
+    "allRoles": "All Roles",
+    "filterByStatus": "Filter by Status",
+    "allStatuses": "All Statuses",
+    "statuses": {
+      "active": "Active",
+      "suspended": "Suspended",
+      "inactive": "Inactive",
+      "pending": "Pending"
+    },
+    "agency": "Agency",
+    "status": "Status",
+    "joined": "Joined Date",
+    "actions_header": "Actions",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "joined": "Joined",
+      "actions": "Actions"
+    },
+    "editUser": {
+      "title": "Edit User",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "noPropertiesFound": "No Properties Found",
+      "noPropertiesInSystem": "There are currently no properties listed in the system.",
+      "edit": "Edit"
+    },
+    "delete": "Delete User",
+    "deleteConfirmTitle": "Confirm User Deletion",
+    "deleteConfirmDescription": "Are you sure you want to delete this user? This action cannot be undone.",
+    "confirmDelete": {
+      "title": "Delete User",
+      "message": "Are you sure you want to delete this user? This action cannot be undone.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "reactivate": "Reactivate User",
+    "resetPassword": "Reset Password",
+    "noUsers": "No users found",
+    "verification": {
+      "title": "Verification Status",
+      "inactive": "Not Verified",
+      "user": "User Verified",
+      "active": "Verified",
+      "agency": "Agency Verified"
+    },
+    "selectAgency": "Select Agency",
+    "noAgency": "No Agency",
+    "updateSuccess": "User Updated",
+    "updateSuccessMessage": "User has been updated successfully",
+    "updateError": "Update Error",
+    "adminOnly": "Admin Only",
+    "noPermission": "No Permission",
+    "bulkDeleteAction": "Delete Selected Users"
+  },
+  "global": {
+    "pending": "Pending",
+    "verified": "Verified"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "subtitle": "Manage your platform",
+    "systemSettings": "System Settings",
+    "generateReports": "Generate Reports",
+    "stats": {
+      "totalUsers": "Total Users",
+      "fromPrevious": "from previous {{timeframe}}",
+      "properties": "Total Properties",
+      "pageViews": "Total Page Views",
+      "revenue": "Total Revenue"
+    },
+    "pendingApprovals": "Pending Approvals",
+    "reviewManageSubmissions": "Review and manage property and agent submissions",
+    "allSubmissions": "All Submissions",
+    "properties": "Properties",
+    "agents": "Agents",
+    "itemsPendingApproval": "Items Pending Approval",
+    "item": "Item",
+    "type": "Type",
+    "submittedBy": "Submitted By",
+    "date": "Date",
+    "actions": "Actions",
+    "noPendingApprovals": "No Pending Approvals",
+    "allSubmissionsReviewed": "All submissions have been reviewed",
+    "propertySubmissions": "Property Submissions",
+    "reviewPropertySubmissions": "Review and manage property submissions",
+    "agentSubmissions": "Agent Submissions",
+    "reviewAgentSubmissions": "Review and manage agent submissions",
+    "general": "General",
+    "security": "Security",
+    "notifications": "Notifications",
+    "integrations": "Integrations",
+    "generalSettings": "General Settings",
+    "manageGeneralSettings": "Manage general system settings",
+    "siteName": "Site Name",
+    "defaultLanguage": "Default Language",
+    "selectLanguage": "Select language",
+    "maintenanceMode": "Maintenance Mode",
+    "securitySettings": "Security Settings",
+    "manageSecuritySettings": "Manage security settings",
+    "requireTwoFactor": "Require Two-Factor Authentication",
+    "requireEmailVerification": "Require Email Verification",
+    "sessionTimeout": "Session Timeout",
+    "selectTimeout": "Select timeout",
+    "notificationSettings": "Notification Settings",
+    "manageNotificationSettings": "Manage notification settings",
+    "emailNotifications": "Email Notifications",
+    "pushNotifications": "Push Notifications",
+    "notificationEmail": "Notification Email",
+    "integrationSettings": "Integration Settings",
+    "manageIntegrationSettings": "Manage third-party integrations",
+    "googleMapsApiKey": "Google Maps API Key",
+    "stripeApiKey": "Stripe API Key",
+    "smtpServer": "SMTP Server",
+    "saveChanges": "Save Changes",
+    "usersManagement": "Users Management",
+    "userManagement": "User Management",
+    "viewManageAccounts": "View and Manage Accounts",
+    "recentProperties": "Recent Properties",
+    "noPropertiesFound": "No Properties Found",
+    "noPropertiesInSystem": "There are currently no properties listed in the system.",
+    "editUser": "Edit User",
+    "edit": "Edit",
+    "manageSystemSettings": "Manage your system settings, preferences, and configurations.",
+    "fullUserManagement": "Full User Management",
+    "addUser": "Add User",
+    "addProperty": "Add Property",
+    "noApprovals": "No Approvals",
+    "allCaughtUp": "All caught up! No pending items to review.",
+    "confirmDeleteUser": "Are you sure you want to delete user \"{{name}}\"?",
+    "suspendUser": "Suspend User",
+    "reactivateUser": "Reactivate User",
+    "viewAllUsers": "View All {{count}} Users",
+    "recentPropertiesDescription": "Recent property listings in the system",
+    "updateUserDescription": "Update user information and permissions",
+    "createNewUser": "Create New User",
+    "createUserDescription": "Fill in the details to add a new user to the system",
+    "createUser": "Create User",
+    "tableHeaders": {
+      "property": "Property",
+      "location": "Location",
+      "price": "Price",
+      "type": "Type",
+      "status": "Status"
+    },
+    "roles": {
+      "user": "User",
+      "agent": "Agent",
+      "admin": "Admin"
+    }
+  },
+  "actions": {
+    "search": "Search",
+    "confirm": "Confirm",
+    "complete": "Complete",
+    "cancel": "Cancel",
+    "approve": "Approve",
+    "reject": "Reject",
+    "help": "Help",
+    "pause": "Pause",
+    "confirmTitle": "Confirm Property Tour",
+    "completeTitle": "Complete Property Tour",
+    "cancelTitle": "Cancel Property Tour",
+    "confirmMessage": "Are you sure you want to confirm this property tour? This will notify the client that their tour request has been approved.",
+    "completeMessage": "Are you sure you want to mark this tour as completed? This indicates that the tour has taken place.",
+    "cancelMessage": "Are you sure you want to cancel this property tour? This action cannot be undone.",
+    "confirmButton": "Confirm Tour",
+    "completeButton": "Complete Tour",
+    "cancelButton": "Cancel Tour",
+    "processing": "Processing...",
+    "save": "Save",
+    "delete": "Delete",
+    "submit": "Submit",
+    "edit": "Edit",
+    "view": "View",
+    "add": "Add",
+    "remove": "Remove",
+    "reset": "Reset"
+  },
+  "agentProperties": {
+    "title": "My Properties",
+    "description": "Manage your property listings",
+    "addNew": "Add Property",
+    "loading": "Loading properties...",
+    "error": "Failed to load properties",
+    "selectProperties": "Select Properties",
+    "cancelSelection": "Cancel",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "moveToTrash": "Move to Trash",
+    "quickAdd": "Quick Add",
+    "standardForm": "Standard Form",
+    "wizardMode": "Wizard Mode",
+    "tabs": {
+      "all": "All Properties",
+      "forSale": "For Sale",
+      "forRent": "For Rent",
+      "premium": "Premium"
+    },
+    "propertyListings": "Property Listings",
+    "propertiesFound_one": "{{count}} property found",
+    "propertiesFound_other": "{{count}} properties found",
+    "propertiesFound": "{{count}} properties found",
+    "table": {
+      "property": "Property",
+      "id": "ID",
+      "type": "Type",
+      "status": "Status",
+      "price": "Price",
+      "views": "Views",
+      "actions": "Actions"
+    },
+    "statusLabels": {
+      "pending": "Pending",
+      "active": "Active",
+      "sold": "Sold",
+      "rented": "Rented",
+      "verified": "Verified"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "empty": {
+      "title": "No properties listed yet",
+      "description": "Start adding properties to your portfolio"
+    },
+    "delete": {
+      "confirm": "Are you sure you want to delete this property?",
+      "success": {
+        "title": "Property Deleted",
+        "description": "Property has been successfully deleted"
+      },
+      "error": {
+        "title": "Delete Failed",
+        "description": "Failed to delete property. Please try again."
+      }
+    },
+    "pricePerMonth": "/mo",
+    "noProperties": "No properties found. Click \"Add Property\" to create a new listing.",
+    "trash": {
+      "properties_one": "property",
+      "properties_other": "properties",
+      "properties": "Properties",
+      "confirmTitle": "Move Properties to Trash?",
+      "confirmDescription": "Properties will be moved to the trash and automatically deleted after 14 days. You can restore them from the trash before then.",
+      "countMessage_one": "You are about to move {{count}} {{properties}} to the trash.",
+      "countMessage_other": "You are about to move {{count}} {{properties}} to the trash.",
+      "countMessage": "You are about to move {{count}} {{properties}} to the trash.",
+      "confirm": "Move to Trash",
+      "success": "Properties moved to trash",
+      "successDescription": "Properties will be permanently deleted after 14 days",
+      "error": "Error moving properties to trash",
+      "errorDescription": "An error occurred. Please try again.",
+      "title": "Property Trash",
+      "trashExpiryWarning": "Properties in the trash will be permanently deleted after 14 days",
+      "restoreSelected": "Restore Selected",
+      "deleteForever": "Delete Forever",
+      "emptyTrash": "Empty Trash",
+      "trashedProperties": "Properties in Trash",
+      "trashedPropertiesCount_one": "{{count}} property in trash",
+      "trashedPropertiesCount_other": "{{count}} properties in trash",
+      "trashedPropertiesCount": "{{count}} properties in trash",
+      "deletionDate": "Will be deleted",
+      "deleteInDays": "Will be deleted in {{days}} days",
+      "deleteToday": "Will be deleted today",
+      "deleteTomorrow": "Will be deleted tomorrow",
+      "noItemsInTrash": "No properties in the trash",
+      "emptyTrashDescription": "Items moved to the trash will appear here for 14 days before being permanently deleted",
+      "backToProperties": "Back to Properties",
+      "restoreTitle": "Restore Properties",
+      "restoreDescription": "Restore properties from the trash to your active listings.",
+      "restoreCountMessage_one": "You are about to restore {{count}} property.",
+      "restoreCountMessage_other": "You are about to restore {{count}} properties.",
+      "restoreCountMessage": "You are about to restore {{count}} {{properties}}.",
+      "restoreConfirm": "Restore",
+      "deleteForeverTitle": "Delete Properties Permanently?",
+      "deleteForeverDescription": "This action cannot be undone. The properties will be permanently deleted.",
+      "deleteForeverCountMessage_one": "You are about to permanently delete {{count}} property.",
+      "deleteForeverCountMessage_other": "You are about to permanently delete {{count}} properties.",
+      "deleteForeverCountMessage": "You are about to permanently delete {{count}} {{properties}}.",
+      "deleteForeverConfirm": "Delete Forever",
+      "emptyTrashTitle": "Empty Trash?",
+      "emptyTrashCountMessage_one": "You are about to permanently delete {{count}} property from the trash.",
+      "emptyTrashCountMessage_other": "You are about to permanently delete {{count}} properties from the trash.",
+      "emptyTrashCountMessage": "You are about to permanently delete {{count}} properties from the trash.",
+      "emptyTrashConfirm": "Empty Trash",
+      "restoreSuccess": "Properties restored successfully",
+      "restoreSuccessDescription": "The selected properties have been restored to your listings",
+      "restoreError": "Error restoring properties",
+      "deleteSuccess": "Properties permanently deleted",
+      "deleteSuccessDescription": "The selected properties have been permanently removed",
+      "deleteError": "Error deleting properties",
+      "emptySuccess": "Trash emptied successfully",
+      "emptySuccessDescription": "All properties in the trash have been permanently deleted",
+      "emptyError": "Error emptying trash"
+    },
+    "selectMultiple": "Select Multiple Properties",
+    "status": {
+      "pending": "Pending",
+      "verified": "Verified"
+    }
+  },
+  "subscription": {
+    "plans": {
+      "popular": "POPULAR",
+      "free": "Free",
+      "perMonth": "month",
+      "perYear": "year",
+      "saveWithYearly": "You're saving 40% with yearly billing!",
+      "currentPlan": "Current Plan",
+      "contactSales": "Contact Sales",
+      "title": "Choose Your Plan",
+      "chooseRightPlan": "Choose the right plan for you",
+      "description": "Select the plan that best fits your needs and unlock premium features.",
+      "allPlansInclude": "All plans include",
+      "tiers": {
+        "basic": {
+          "name": "Basic",
+          "description": "For individuals looking to browse properties",
+          "buttonText": "Current Plan"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "For real estate agents and property managers",
+          "buttonText": "Subscribe Now"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "description": "For real estate agencies and large businesses",
+          "buttonText": "Subscribe Now"
+        }
+      },
+      "features": {
+        "basicListing": "Basic property listing",
+        "saveFavorites": "Save favorite properties",
+        "contactOwners": "Contact property owners",
+        "premiumListings": "Premium property listings",
+        "bulkUploads": "Bulk property uploads",
+        "unlimitedBulkUploads": "Unlimited bulk property uploads",
+        "analytics": "Advanced analytics",
+        "advancedAnalytics": "Advanced analytics & reporting",
+        "prioritySupport": "Priority support",
+        "priorityAllHoursSupport": "Priority 24/7 support",
+        "featuredPlacement": "Featured property placement",
+        "customBranding": "Custom branding",
+        "apiAccess": "API access",
+        "whiteLabel": "White-label solution",
+        "allListings": "All listings",
+        "mobileAccess": "Mobile access",
+        "secureMessaging": "Secure messaging",
+        "saveProperties": "Save properties",
+        "regularUpdates": "Regular updates",
+        "support": "Support"
+      }
+    },
+    "billing": {
+      "monthly": "Monthly billing",
+      "yearly": "Yearly billing",
+      "savePercent": "Save {{percent}}% with yearly billing"
+    },
+    "status": {
+      "title": "Subscribe",
+      "details": "Your current subscription details",
+      "basicTitle": "Basic Account",
+      "basicDescription": "Upgrade to unlock premium features",
+      "basicMessage": "You're currently on the Basic plan. Upgrade to access premium features like bulk uploads, analytics, and more.",
+      "viewPlans": "Back to Plans",
+      "loading": "Setting up your subscription...",
+      "error": "Unable to Set Up Payment",
+      "errorMessage": "There was a problem setting up the payment process. Please try again later.",
+      "tryAgain": "Try Again",
+      "planLabel": "Plan",
+      "statusLabel": "Status",
+      "renewalDate": "Renewal Date",
+      "notAvailable": "N/A",
+      "activeSubscription": "Active Subscription",
+      "activeMessage": "Your subscription is active and will automatically renew on {{date}}.",
+      "canceledTitle": "Subscription Canceled",
+      "canceledMessage": "The subscription feature is currently unavailable. Please check back later.",
+      "paymentIssueTitle": "Payment Issue",
+      "paymentIssueMessage": "There was a problem with your last payment. Please update your payment method.",
+      "manageSubscription": "Manage Subscription",
+      "viewPremiumFeatures": "View Premium Features"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "cancel": {
+        "question": "Can I cancel my subscription?",
+        "answer": "Yes, you can cancel your subscription at any time from your account settings."
+      },
+      "payment": {
+        "question": "What payment methods are accepted?",
+        "answer": "We accept all major credit cards and payment providers."
+      },
+      "refund": {
+        "question": "Can I get a refund?",
+        "answer": "Refunds are available according to our refund policy. Please contact support for details."
+      },
+      "teamDiscount": {
+        "question": "Is there a discount for teams?",
+        "answer": "Yes, we offer discounts for teams and agencies. Contact sales for more information."
+      }
+    }
+  },
+  "tours": {
+    "title": "Property Tours",
+    "description": "Manage and view scheduled property tours."
+  },
+  "footer": {
+    "premiumFeatures": "Premium Features",
+    "features": {
+      "support": "Support",
+      "premiumFeatures": "Premium Features",
+      "bulkUpload": "Bulk Upload",
+      "analytics": "Analytics",
+      "featured": "Featured",
+      "aiRecommendations": "AI Recommendations"
+    }
+  },
+  "propertyDocuments": {
+    "title": "Property Documents",
+    "types": {
+      "floorPlan": "Floor Plan",
+      "energyCertificate": "Energy Certificate",
+      "deed": "Property Deed",
+      "survey": "Property Survey",
+      "inspection": "Inspection Report",
+      "permit": "Building Permit",
+      "tax": "Tax Documents",
+      "insurance": "Insurance Documents",
+      "contract": "Rental/Sale Contract",
+      "other": "Other Documents"
+    },
+    "status": {
+      "available": "Available",
+      "pending": "Pending",
+      "unavailable": "Unavailable"
+    },
+    "actions": {
+      "view": "View Document",
+      "download": "Download",
+      "request": "Request Document",
+      "upload": "Upload Document"
+    }
+  },
+  "propertyMetrics": {
+    "title": "Property Metrics",
+    "views": {
+      "total": "Total Views",
+      "lastWeek": "Views Last Week",
+      "lastMonth": "Views Last Month",
+      "trend": "View Trend"
+    },
+    "inquiries": {
+      "total": "Total Inquiries",
+      "lastWeek": "Inquiries Last Week",
+      "lastMonth": "Inquiries Last Month",
+      "conversionRate": "Inquiry to View Conversion Rate"
+    },
+    "performance": {
+      "title": "Performance Metrics",
+      "averageViewTime": "Average View Time",
+      "favoriteCount": "Times Favorited",
+      "shareCount": "Times Shared",
+      "responseRate": "Response Rate",
+      "responseTime": "Average Response Time"
+    }
+  },
+  "propertyHistory": {
+    "title": "Property History",
+    "priceHistory": "Price History",
+    "listingHistory": "Listing History",
+    "viewHistory": "View History",
+    "inquiryHistory": "Inquiry History",
+    "eventTypes": {
+      "listed": "Listed",
+      "priceChanged": "Price Changed",
+      "statusChanged": "Status Changed",
+      "viewed": "Viewed",
+      "inquiry": "Inquiry Received",
+      "tour": "Tour Scheduled",
+      "sold": "Sold",
+      "rented": "Rented"
+    }
+  },
+  "propertyAnalytics": {
+    "title": "Property Analytics",
+    "overview": "Overview",
+    "performance": "Performance",
+    "engagement": "Engagement",
+    "conversions": "Conversions",
+    "timeframes": {
+      "today": "Today",
+      "week": "This Week",
+      "month": "This Month",
+      "year": "This Year",
+      "custom": "Custom Range"
+    },
+    "metrics": {
+      "views": "Views",
+      "inquiries": "Inquiries",
+      "favourites": "Favorites",
+      "shares": "Shares",
+      "tours": "Tours",
+      "conversionRate": "Conversion Rate"
+    }
+  },
+  "onboarding": {
+    "title": "Discover Your Dream Home Faster",
+    "welcome": {
+      "title": "Find Your Dream Home",
+      "description": "Answer a few questions to help us find the perfect property for you",
+      "imageAlt": "Beautiful modern home",
+      "feature1Title": "Personalized Search",
+      "feature1Desc": "Get recommendations tailored to your specific needs",
+      "feature2Title": "Streamlined Process",
+      "feature2Desc": "Save time and find properties you'll actually love"
+    },
+    "features": {
+      "personalized": "Personalized property recommendations",
+      "saveTime": "Save time with AI-powered searching",
+      "lifestyle": "Find properties that match your lifestyle"
+    },
+    "later": "Maybe Later",
+    "start": "Start Guided Search",
+    "location": {
+      "title": "Where Do You Want to Live?",
+      "description": "Select your preferred location to find properties nearby",
+      "label": "Location",
+      "placeholder": "Enter a city or area",
+      "popularLocations": "Popular Locations",
+      "popularCity1": "New York",
+      "popularCity2": "Los Angeles",
+      "popularCity3": "Chicago",
+      "popularCity4": "Miami",
+      "popularCity5": "San Francisco"
+    },
+    "propertyType": {
+      "title": "Property Type",
+      "description": "What type of property are you looking for?",
+      "apartment": "Apartment",
+      "house": "House",
+      "townhouse": "Townhouse",
+      "condo": "Condo"
+    },
+    "budget": {
+      "title": "Your Budget",
+      "description": "Set your price range for the property",
+      "minLabel": "Minimum price",
+      "maxLabel": "Maximum price",
+      "buyOrRent": "Do you want to buy or rent?",
+      "buy": "Buy",
+      "rent": "Rent",
+      "minBedrooms": "Minimum bedrooms"
+    },
+    "desiredFeatures": {
+      "title": "Desired Features",
+      "description": "Select the features you'd like to have in your property"
+    },
+    "propertyFeatures": {
+      "pool": "Swimming Pool",
+      "garage": "Garage",
+      "garden": "Garden",
+      "balcony": "Balcony",
+      "gym": "Gym",
+      "security": "Security",
+      "airConditioning": "Air Conditioning",
+      "furnished": "Furnished",
+      "petFriendly": "Pet Friendly",
+      "smartHome": "Smart Home",
+      "oceanView": "Ocean View",
+      "fireplace": "Fireplace"
+    },
+    "errors": {
+      "locationRequired": "Location Required",
+      "locationRequiredDesc": "Please enter a location to continue"
+    },
+    "aiMatching": {
+      "title": "Looking for Ideal Properties",
+      "description": "Our AI algorithm is analyzing thousands of properties to find the best matches for you",
+      "analyzing": "Analyzing your preferences...",
+      "matchesFound": "Properties found!",
+      "matchesDescription": "We've found {{count}} properties that match your criteria. View your personalized matches to find your dream home."
+    },
+    "actions": {
+      "continue": "Continue",
+      "back": "Back"
+    }
+  },
+  "verification": {
+    "form": {
+      "type": "Verification Type",
+      "user": "Individual User",
+      "user_description": "Verify your personal identity",
+      "agency": "Business/Agency",
+      "agency_description": "Verify your business or agency",
+      "method": "Verification Method",
+      "digital": "Digital Verification",
+      "manual": "Manual Verification",
+      "documents": "Required Documents",
+      "government_id": "Government ID",
+      "proof_of_address": "Proof of Address",
+      "business_registration": "Business Registration",
+      "real_estate_license": "Real Estate License",
+      "business_address_proof": "Business Address Proof",
+      "agent_id": "Agent ID",
+      "submitting": "Submitting...",
+      "submit": "Submit Verification"
+    },
+    "error": {
+      "title": "Verification Error",
+      "description": "There was an error with your verification submission"
+    },
+    "validation": {
+      "fileRequired": "{{documentType}} is required",
+      "fileSizeError": "File size must be less than 10MB",
+      "fileTypeError": "File type not supported. Please upload JPG, PNG, GIF, or PDF files only",
+      "uploadError": "Upload failed: {{error}}",
+      "fixErrors": "Please fix the validation errors before submitting",
+      "documentTypes": {
+        "government_id": "Government ID",
+        "proof_of_address": "Proof of Address",
+        "business_registration": "Business Registration",
+        "real_estate_license": "Real Estate License",
+        "business_address_proof": "Business Address Proof",
+        "agent_id": "Agent ID"
+      }
+    }
+  },
+  "verified": "Verified",
+  "user_verified": "User Verified",
+  "verified_on": "Verified on {{date}}",
+  "verification_benefits": "Verification Benefits",
+  "benefit_badge": "Verified badge on your profile",
+  "benefit_priority_responses": "Priority responses from agents",
+  "benefit_trustworthiness": "Increased trustworthiness",
+  "agent": {
+    "title": "Agent Dashboard",
+    "subtitle": "Manage your properties and track performance",
+    "propertyViews": "Property Views",
+    "inquiries": "Inquiries",
+    "conversions": "Conversions",
+    "revenue": "Revenue",
+    "tabs": {
+      "properties": "Properties",
+      "inquiries": "Inquiries",
+      "performance": "Performance",
+      "bulkUpload": "Bulk Upload"
+    },
+    "noInquiries": {
+      "title": "No Inquiries Yet",
+      "description": "Inquiries from potential buyers will appear here"
+    },
+    "performance": {
+      "overview": "Performance Overview",
+      "metrics": "Key Metrics",
+      "topProperties": "Top Performing Properties",
+      "luxuryApartment": "Luxury Apartment",
+      "views": "Views",
+      "inquiries": "Inquiries",
+      "conversionRate": "Conversion Rate",
+      "inquiryToSale": "Inquiry to Sale"
+    },
+    "fromPrevious": "from previous {{timeframe}}",
+    "confirmDelete": "Are you sure you want to delete this property? This action cannot be undone.",
+    "deleteSuccess": "Property deleted successfully",
+    "deleteError": "Failed to delete property",
+    "refreshed": "Dashboard data refreshed",
+    "exportSuccess": "Properties exported successfully",
+    "exportError": "Failed to export properties",
+    "reply": "Reply"
+  },
+  "propertyManagement": {
+    "title": "Property Management",
+    "description": "Manage property listings and details",
+    "addProperty": "Add Property",
+    "propertiesList": "Properties List",
+    "noProperties": "No properties found",
+    "searchPlaceholder": "Search properties...",
+    "table": {
+      "title": "Title",
+      "type": "Type",
+      "status": "Status",
+      "price": "Price",
+      "location": "Location",
+      "actions": "Actions"
+    },
+    "statusLabels": {
+      "active": "Active",
+      "pending": "Pending",
+      "sold": "Sold",
+      "rented": "Rented",
+      "inactive": "Inactive"
+    }
+  },
+  "errors": {
+    "failedToFetch": "Failed to fetch properties",
+    "notFound": {
+      "title": "Not Found",
+      "message": "Could not find the requested resource."
+    },
+    "premiumRequired": {
+      "title": "Premium Required",
+      "message": "This feature requires a premium subscription to access.",
+      "hint": "Upgrade to premium to unlock advanced features and remove limitations.",
+      "buttonText": "Upgrade to Premium"
+    }
+  },
+  "ui": {
+    "processing": "Processing..."
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "subtitle": "Enter your email to reset your password",
+    "email": "Email Address",
+    "fullName": "Full Name",
+    "submit": "Reset Password",
+    "back": "Back to Login",
+    "resetPassword": "Reset Password",
+    "success": "Password Reset Email Sent",
+    "successMessage": "Check your email for a link to reset your password",
+    "error": "Error",
+    "emailNotFound": "No account found with that email",
+    "invalidName": "The name doesn't match our records",
+    "generateTempPassword": "Generate Temporary Password"
+  },
+  "aiRecommendations": {
+    "title": "AI Property Recommendations",
+    "howItWorks": "How it works",
+    "description": "These properties are personalized based on your preferences and behavior.",
+    "personalizeTitle": "Personalize your recommendations",
+    "updateButton": "Update preferences",
+    "tabs": {
+      "forYou": "For You",
+      "similar": "Similar",
+      "trending": "Trending"
+    },
+    "personalizedForYou": "Personalized For You",
+    "personalizedForYouDesc": "Based on your selected interests and activity.",
+    "similarTitle": "Similar Properties",
+    "similarDesc": "Properties similar to ones you've viewed",
+    "trendingTitle": "Trending Properties",
+    "trendingDesc": "Popular properties in your area",
+    "interest": {
+      "familyFriendly": "Family-friendly",
+      "investment": "Investment potential",
+      "workFromHome": "Work from home",
+      "urbanLifestyle": "Urban lifestyle",
+      "natureLover": "Nature lover",
+      "luxury": "Luxury",
+      "firstTimeBuyer": "First-time buyer",
+      "vacationHome": "Vacation home"
+    },
+    "toast": {
+      "selectInterestTitle": "Select interests",
+      "selectInterestDesc": "Select at least one interest to personalize your recommendations",
+      "updatedTitle": "Preferences updated",
+      "updatedDesc": "Your recommendations have been updated",
+      "addedPrefTitle": "Preference added",
+      "notedTitle": "Preference noted",
+      "moreLikeThis": "We'll show you more like this",
+      "lessLikeThis": "We'll show you less like this"
+    },
+    "noProperties": "No properties found",
+    "moreLikeThis": "More like this",
+    "lessLikeThis": "Less like this"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "qrVisits": {
+    "title": "Visitas con Código QR",
+    "subtitle": "Simple, Seguro, Verificado",
+    "description": "Capturamos la ubicación exacta, fecha y hora de cada visita y emitimos un certificado digital. ¡Solo escanea el código con tu móvil!",
+    "features": {
+      "realTimeTracking": "Seguimiento en tiempo real"
+    }
+  },
+  "digitalSignature": {
+    "title": "Firma Electrónica",
+    "description": "Los visitantes firman digitalmente usando un código QR — más rápido, sin papel y legalmente válido.",
+    "features": {
+      "legallyBinding": "Legalmente vinculante"
+    }
+  },
+  "documentVerification": {
+    "title": "Verificación de Documentos",
+    "badge": "Premium",
+    "description": "Detén el fraude antes de que ocurra. Detectamos estados de cuenta falsos y documentos falsificados con verificaciones impulsadas por IA.",
+    "features": {
+      "aiPowered": "Impulsado por IA"
+    }
+  },
+  "appointmentReminders": {
+    "title": "Recordatorios de Citas",
+    "badge": "Premium",
+    "description": "Reduce las faltas hasta en un 50% con recordatorios automatizados para cada visita.",
+    "features": {
+      "reductionRate": "50% de reducción"
+    }
+  },
+  "identityVerification": {
+    "title": "Verificación Cruzada de Identidad",
+    "badge": "Premium",
+    "description": "Añade una capa extra de seguridad con VerifID — combina datos de identidad real con registros de visualización de propiedades.",
+    "features": {
+      "verifIdPowered": "Impulsado por VerifID"
+    }
+  },
+  "verification": {
+    "title": "Verificación de Identidad",
+    "description": "Verificamos la identidad de cada cliente para eliminar datos falsos y darte protección legal completa.",
+    "howItWorks": "Cómo Funciona",
+    "cta": "Comenzar a Proteger Tratos"
+  }
+}

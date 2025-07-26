@@ -1,0 +1,45 @@
+{
+  "title": "Stay Updated with Inmobi",
+  "description": "Get exclusive property listings, market insights, and investment opportunities delivered directly to your inbox",
+  "subscribers": "Join 25,000+ Subscribers",
+  "features": {
+    "weeklyProperties": "Weekly Properties",
+    "newPropertyAlerts": "New property alerts",
+    "marketInsights": "Market insights",
+    "exclusiveOffers": "Exclusive offers"
+  },
+  "form": {
+    "placeholder": "Enter your email address...",
+    "subscribe": "Subscribe Now →"
+  },
+  "trust": {
+    "secure": "100% Secure",
+    "weeklyUpdates": "Weekly Updates",
+    "noSpam": "No Spam"
+  },
+  "disclaimer": "By subscribing, you agree to our Privacy Policy • Unsubscribe anytime",
+  "stats": {
+    "happySubscribers": "Happy Subscribers",
+    "weeklyProperties": "Weekly Properties",
+    "averageRating": "Average Rating",
+    "countriesServed": "Countries Served"
+  },
+  "success": {
+    "title": "Subscription Successful!",
+    "description": "We've sent you a confirmation email. Please check your inbox.",
+    "badge": "Confirmed"
+  },
+  "frequency": {
+    "weekly": "Weekly",
+    "secure": "Secure",
+    "unsubscribe": "Easy unsubscribe"
+  },
+  "errors": {
+    "alreadySubscribed": "You're already subscribed to our newsletter",
+    "subscriptionFailed": "Subscription failed",
+    "networkError": "Network error",
+    "title": "Error",
+    "tryAgain": "Please try again"
+  },
+  "subscribing": "Subscribing..."
+}

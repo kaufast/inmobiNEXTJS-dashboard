@@ -1,0 +1,279 @@
+{
+  "common": {
+    "notifications": {
+      "notice": "Avís",
+      "error": "Missatge d'Error"
+    },
+    "general": {
+      "backToHome": "Tornar a l'inici"
+    }
+  },
+  "hero": {
+    "searchPlaceholder": "Cerca per ubicació, tipus de propietat o paraules clau...",
+    "voiceSearch": "Cerca per Veu"
+  },
+  "search": {
+    "title": "Cerca de Propietats",
+    "resultsFor": "Resultats de cerca per a \"{{query}}\"",
+    "searching": "Cercant propietats...",
+    "foundProperties": "S'han trobat {{count}} propietats que coincideixen amb els teus criteris",
+    "foundProperties_one": "S'ha trobat {{count}} propietat que coincideix amb els teus criteris",
+    "foundProperties_other": "S'han trobat {{count}} propietats que coincideixen amb els teus criteris",
+    "searchProperties": "Cercar Propietats",
+    "activeFilters": "Filtres Actius",
+    "filterSearch": "Cerca",
+    "filterCity": "Ciutat",
+    "filterCountry": "País",
+    "filterType": "Tipus",
+    "bedrooms": "Dormitoris",
+    "bathrooms": "Banys",
+    "filterPrice": "Preu",
+    "filterArea": "Àrea",
+    "filterFeatures": "Característiques",
+    "any": "Qualsevol",
+    "loadingResults": "Carregant resultats...",
+    "propertiesFound": "Propietats Trobades",
+    "grid": "Quadrícula",
+    "list": "Llista",
+    "properties": "Propietats",
+    "map": "Mapa",
+    "propertiesInArea": "Propietats en aquesta zona",
+    "viewAll": "Veure tots {{count}}",
+    "bed": "dorm.",
+    "bath": "bany",
+    "useSuggestion": "Utilitza això",
+    "didYouMean": "Volies dir \"{{suggestion}}\"?",
+    "listView": "Vista de Llista",
+    "mapView": "Vista de Mapa",
+    "viewType": {
+      "grid": "Vista de Quadrícula",
+      "list": "Vista de Llista"
+    },
+    "filters": {
+      "buy": "Comprar",
+      "rent": "Llogar",
+      "location": "Ubicació",
+      "price": "Preu",
+      "bedrooms": "Dormitoris",
+      "bathrooms": "Banys",
+      "propertyType": "Tipus de Propietat",
+      "any": "Qualsevol",
+      "selectCountry": "Selecciona el País",
+      "anyCountry": "Qualsevol País",
+      "cityPlaceholder": "Introdueix el nom de la ciutat",
+      "squareFeet": "Peus Quadrats",
+      "sqft": "peus quadrats",
+      "moreFilters": "Més Filtres",
+      "showMore": "Mostrar Més",
+      "showLess": "Mostrar Menys",
+      "amenities": "Comoditats",
+      "pool": "Piscina",
+      "garden": "Jardí",
+      "parking": "Pàrquing",
+      "airConditioning": "Aire Condicionat",
+      "gym": "Gimnàs",
+      "securitySystem": "Sistema de Seguretat",
+      "clearFilters": "Netejar Filtres",
+      "applyFilters": "Aplicar Filtres",
+      "apartment": "Apartament",
+      "house": "Casa",
+      "condo": "Condomini",
+      "townhouse": "Casa adossada",
+      "land": "Terreny",
+      "clearAll": "Netejar Tot",
+      "apply": "Aplicar"
+    },
+    "countries": {
+      "mexico": "Mèxic",
+      "unitedStates": "Estats Units",
+      "unitedKingdom": "Regne Unit",
+      "spain": "Espanya",
+      "austria": "Àustria",
+      "germany": "Alemanya",
+      "france": "França"
+    },
+    "propertyList": {
+      "showing": "Mostrant",
+      "of": "de",
+      "properties": "propietats",
+      "noPropertiesFound": "No s'han trobat propietats",
+      "noPropertiesDescription": "Cap propietat coincideix amb els teus criteris actuals. Intenta ajustar els teus filtres o cercar una altra zona."
+    },
+    "countryContext": {
+      "showing": "Mostrant propietats a {{country}}",
+      "forQuery": "per a \"{{query}}\"",
+      "localeDefault": "Basat en les teves preferències d'ubicació",
+      "canExpand": "Pots ampliar la teva cerca a altres països utilitzant els filtres"
+    },
+    "noResults": {
+      "city": {
+        "title": "No s'han trobat propietats a {{city}}",
+        "message": "Prova d'ampliar la teva àrea de cerca o ajustar els teus filtres per trobar més propietats"
+      },
+      "countryContext": "Mostrant resultats per a {{country}}"
+    },
+    "spatial": {
+      "title": "Troba Propietats a Prop Teu",
+      "searchByAddress": "Cerca per Adreça",
+      "addressPlaceholder": "Introdueix una adreça o ubicació",
+      "useCurrentLocation": "Utilitza la meva Ubicació Actual",
+      "findingLocation": "Trobant la teva ubicació...",
+      "searchRadius": "Radi de Cerca",
+      "km": "km",
+      "currentCoordinates": "Coordenades Actuals",
+      "lat": "Lat",
+      "lng": "Long",
+      "searching": "Cercant...",
+      "searchProperties": "Cercar Propietats",
+      "howToUse": "Com utilitzar",
+      "instructions": {
+        "clickMap": "Fes clic al mapa per establir una ubicació de cerca",
+        "adjustRadius": "Ajusta el control lliscant del radi per ampliar o reduir la teva cerca",
+        "searchButton": "Utilitza el botó de cerca per trobar propietats en aquesta zona",
+        "enterAddress": "Introdueix una adreça o utilitza la teva ubicació actual"
+      },
+      "propertiesFound": "Propietats Trobades",
+      "noPropertiesFound": "No s'han trobat propietats en aquesta zona. Intenta ampliar el teu radi de cerca o seleccionar una ubicació diferent.",
+      "initialInstructions": "Selecciona una ubicació i un radi de cerca, i després fes clic a \"Cercar Propietats\" per trobar immobles en aquesta zona."
+    },
+    "voiceSearch": {
+      "title": "Cerca per Veu",
+      "clickToStart": "Fes clic al micròfon per iniciar la cerca per veu",
+      "listening": "Escoltant...",
+      "voicePrompt": "Digues el que cerques...",
+      "trySaying": "Prova a dir:",
+      "exampleCommands": {
+        "apartments": "'Troba apartaments a Londres'",
+        "houses": "'Mostra'm cases en venda a París amb 3 dormitoris'",
+        "villas": "'Viles a prop de la platja amb piscina'"
+      },
+      "searchProperties": "Cercar Propietats",
+      "noResults": "Ho sento, no ho he entès. Torna a intentar-ho.",
+      "searching": "Cercant segons la teva entrada de veu..."
+    },
+    "chatbot": {
+      "welcomeMessage": "Hola! Sóc el teu assistent de coincidència de propietats. Explica'm la teva propietat ideal i t'ajudaré a trobar-la.",
+      "restart": "Reiniciar Conversa",
+      "title": "Assistent de Coincidència de Propietats",
+      "subtitle": "Descriu la propietat dels teus somnis i et trobaré coincidències.",
+      "inputPlaceholder": "Escriviu les vostres preferències aquí (p. ex., 'una casa de 3 dormitoris a Londres amb jardí')...",
+      "error": "Ho sento, he trobat un problema. Torna a intentar-ho.",
+      "foundProperties_one": "D'acord, he trobat {{count}} propietat que podria interessar-te!",
+      "foundProperties_other": "D'acord, he trobat {{count}} propietats que podrien interessar-te!",
+      "noProperties": "No he pogut trobar cap propietat que coincideixi exactament amb aquesta descripció. Vols provar d'ampliar la cerca?",
+      "needMoreInfo": "Necessito una mica més d'informació per trobar propietats. Em podries dir més sobre el que cerques?",
+      "searchError": "Hi ha hagut un error en cercar propietats. Torna a intentar-ho.",
+      "thinking": "Pensant...",
+      "findPropertiesButton": "Trobar Propietats Segons el Xat",
+      "matchedPropertiesTitle": "Propietats Coincidents",
+      "noMatchesYetPlaceholder": "Encara no hi ha coincidències",
+      "startConversationPlaceholder": "Inicia una conversa a dalt per trobar propietats que coincideixin amb els teus criteris.",
+      "examplePromptsPlaceholder": "p. ex., 'Mostra'm apartaments de 2 dormitoris prop del centre de la ciutat' o 'Busco una casa familiar amb un gran jardí'.",
+      "searchingStatus": "Cercant...",
+      "searchingPropertiesStatus": "Cercant propietats basant-nos en la nostra conversa..."
+    },
+    "actions": {
+      "sendChat": "Enviar",
+      "back": "Enrere",
+      "continue": "Continuar"
+    }
+  },
+  "property": {
+    "wizard": {
+      "title": "Assistent de Propietats",
+      "description": "Guia pas a pas per afegir la teva propietat",
+      "steps": {
+        "propertyType": {
+          "title": "Tipus de Propietat"
+        },
+        "pricing": {
+          "title": "Preus i Tipus",
+          "selectType": "Seleccionar Tipus de Propietat"
+        }
+      },
+      "navigation": {
+        "back": "Enrere",
+        "continue": "Continuar",
+        "saveDraft": "Desar Esborrany",
+        "publish": "Publicar Propietat",
+        "step": "Pas",
+        "of": "de",
+        "cancel": "Cancel·lar",
+        "publishing": "Publicant..."
+      }
+    },
+    "types": {
+      "studio": "Estudi"
+    },
+    "onboarding": {
+      "budget": {
+        "minBedrooms": "Mínim de Dormitoris"
+      },
+      "features": {
+        "pool": "Piscina",
+        "garage": "Garatge",
+        "garden": "Jardí",
+        "balcony": "Balcó",
+        "gym": "Gimnàs",
+        "security": "Seguretat",
+        "airConditioning": "Aire Condicionat",
+        "furnished": "Moblat",
+        "petFriendly": "Admet Mascotes",
+        "smartHome": "Casa Intel·ligent",
+        "oceanView": "Vista al Mar",
+        "fireplace": "Llar de Foc"
+      },
+      "errors": {
+        "locationRequired": "La ubicació és obligatòria",
+        "locationRequiredDesc": "Si us plau, selecciona almenys una ubicació per continuar."
+      },
+      "propertyType": {
+        "apartment": "Apartament",
+        "house": "Casa",
+        "townhouse": "Casa adossada",
+        "condo": "Condomini"
+      }
+    }
+  },
+  "aiRecommendations": {
+    "title": "Recomanacions de Propietats amb IA",
+    "howItWorks": "Com funciona",
+    "description": "Aquestes propietats es personalitzen segons les teves preferències i comportament.",
+    "personaliseTitle": "Personalitza les teves recomanacions",
+    "updateButton": "Actualitzar preferències",
+    "tabs": {
+      "forYou": "Per a Tu",
+      "similar": "Similars",
+      "trending": "Tendències"
+    },
+    "personalisedForYou": "Personalitzat Per a Tu",
+    "personalisedForYouDesc": "Basat en els teus interessos i activitat seleccionats.",
+    "similarTitle": "Propietats Similars",
+    "similarDesc": "Propietats similars a les que has vist",
+    "trendingTitle": "Propietats en Tendència",
+    "trendingDesc": "Propietats populars a la teva zona",
+    "interest": {
+      "familyFriendly": "Familiar",
+      "investment": "Potencial d'inversió",
+      "workFromHome": "Treball des de casa",
+      "urbanLifestyle": "Estil de vida urbà",
+      "natureLover": "Amant de la natura",
+      "luxury": "Luxe",
+      "firstTimeBuyer": "Primer comprador",
+      "vacationHome": "Casa de vacances"
+    },
+    "toast": {
+      "selectInterestTitle": "Seleccionar interessos",
+      "selectInterestDesc": "Selecciona almenys un interès per personalitzar les teves recomanacions",
+      "updatedTitle": "Preferències actualitzades",
+      "updatedDesc": "Les teves recomanacions s'han actualitzat",
+      "addedPrefTitle": "Preferència afegida",
+      "notedTitle": "Preferència anotada",
+      "moreLikeThis": "Et mostrarem més com això",
+      "lessLikeThis": "Et mostrarem menys com això"
+    },
+    "noProperties": "No s'han trobat propietats",
+    "moreLikeThis": "Més com això",
+    "lessLikeThis": "Menys com això"
+  }
+}

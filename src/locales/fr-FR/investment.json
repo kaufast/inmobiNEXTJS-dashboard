@@ -1,0 +1,37 @@
+{
+  "badge": "Opportunité d'Investissement",
+  "title": "Investissez dans l'Immobilier à partir de 100€",
+  "description": "Ne cherchez pas seulement des propriétés, investissez-y ! Notre plateforme de crowdlending vous permet de participer à des projets immobiliers avec des rendements attractifs, à partir de seulement 100€.",
+  "features": {
+    "minimumInvestment": "Investissement Minimum",
+    "startSmall": "Commencer petit, grandir grand",
+    "avgReturns": "Rendements Moyens",
+    "consistentPerformance": "Performance constante",
+    "activeInvestors": "Investisseurs Actifs",
+    "growingCommunity": "Communauté grandissante"
+  },
+  "trustIndicators": {
+    "cnmvRegulated": "Régulé par l'AMF",
+    "totalInvested": "2,5M€+ Investis"
+  },
+  "cta": {
+    "startInvesting": "Commencer à Investir →",
+    "viewProjects": "Voir les Projets"
+  },
+  "opportunities": {
+    "title": "Opportunités Actives",
+    "projectsLabel": "Projets",
+    "funded": "financé",
+    "total": "Total",
+    "successRate": "Taux de Succès",
+    "invested": "Investi",
+    "success": "Succès",
+    "rate": "Taux",
+    "featuredProject": "Projet Vedette",
+    "projects": {
+      "barcelonaApartments": "Appartements Barcelona",
+      "madridRenovation": "Rénovation Madrid",
+      "valenciaEcoHousing": "Logement Écologique Valencia"
+    }
+  }
+}

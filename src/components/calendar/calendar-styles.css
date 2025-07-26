@@ -1,0 +1,343 @@
+/* Calendar Component Styles */
+.shared-calendar {
+  @apply w-full;
+}
+
+.calendar-component {
+  @apply bg-background border border-border rounded-md;
+}
+
+.calendar-toolbar {
+  @apply flex items-center justify-between p-4 border-b border-border;
+}
+
+/* React Big Calendar Overrides */
+.rbc-calendar {
+  @apply font-sans;
+}
+
+.rbc-header {
+  @apply bg-muted/50 border-b border-border font-medium text-sm py-2 px-1;
+}
+
+.rbc-month-view {
+  @apply border border-border rounded-md overflow-hidden;
+}
+
+.rbc-week-view,
+.rbc-day-view {
+  @apply border border-border rounded-md overflow-hidden;
+}
+
+.rbc-time-view .rbc-time-header {
+  @apply border-b border-border;
+}
+
+.rbc-time-view .rbc-time-content {
+  @apply border-0;
+}
+
+.rbc-time-slot {
+  @apply border-b border-border/30;
+}
+
+.rbc-timeslot-group {
+  @apply border-b border-border min-h-[40px];
+}
+
+.rbc-day-slot .rbc-time-slot {
+  @apply border-b border-border/20;
+}
+
+.rbc-time-header-content {
+  @apply border-l border-border;
+}
+
+.rbc-time-header-cell {
+  @apply border-l border-border;
+}
+
+.rbc-day-bg {
+  @apply border-l border-border;
+}
+
+.rbc-date-cell {
+  @apply text-center py-1 px-2 border-b border-border/30 hover:bg-muted/30 transition-colors;
+}
+
+.rbc-date-cell.rbc-off-range {
+  @apply text-muted-foreground bg-muted/20;
+}
+
+.rbc-date-cell.rbc-now {
+  @apply bg-primary/10 font-semibold;
+}
+
+.rbc-date-cell.rbc-today {
+  @apply bg-accent;
+}
+
+/* Event Styling */
+.rbc-event {
+  @apply rounded px-2 py-1 text-xs font-medium border-0 shadow-sm;
+}
+
+.rbc-selected {
+  @apply ring-2 ring-primary;
+}
+
+.rbc-event:focus {
+  @apply outline-none ring-2 ring-primary;
+}
+
+/* Time Grid Styling */
+.rbc-time-gutter {
+  @apply bg-muted/30 border-r border-border;
+}
+
+.rbc-current-time-indicator {
+  @apply bg-destructive z-10;
+}
+
+/* Month View */
+.rbc-month-row {
+  @apply border-0;
+}
+
+.rbc-date-cell {
+  @apply min-h-[80px] align-top;
+}
+
+.rbc-date-cell > a {
+  @apply text-sm font-medium p-1 block;
+}
+
+.rbc-off-range {
+  @apply text-muted-foreground/50;
+}
+
+/* Week/Day View */
+.rbc-time-header {
+  @apply bg-background border-b border-border;
+}
+
+.rbc-label {
+  @apply text-xs text-muted-foreground px-1 py-1;
+}
+
+.rbc-time-content {
+  @apply bg-background;
+}
+
+.rbc-events-container {
+  @apply mr-1;
+}
+
+/* Agenda View */
+.rbc-agenda-view {
+  @apply bg-background;
+}
+
+.rbc-agenda-view table {
+  @apply w-full border-collapse;
+}
+
+.rbc-agenda-view .rbc-agenda-date-cell {
+  @apply border-b border-border p-3 bg-muted/30 font-medium;
+}
+
+.rbc-agenda-view .rbc-agenda-time-cell {
+  @apply border-b border-border p-3 text-sm text-muted-foreground;
+}
+
+.rbc-agenda-view .rbc-agenda-event-cell {
+  @apply border-b border-border p-3;
+}
+
+/* Custom Tour Event Styling */
+.tour-event {
+  @apply w-full h-full flex flex-col justify-between;
+}
+
+.tour-event .status-indicator {
+  @apply w-2 h-2 rounded-full absolute top-1 right-1;
+}
+
+/* Status Colors */
+.tour-event.status-pending {
+  @apply bg-yellow-100 border-yellow-300 text-yellow-800;
+}
+
+.tour-event.status-confirmed {
+  @apply bg-green-100 border-green-300 text-green-800;
+}
+
+.tour-event.status-cancelled {
+  @apply bg-red-100 border-red-300 text-red-800;
+}
+
+.tour-event.status-completed {
+  @apply bg-gray-100 border-gray-300 text-gray-800;
+}
+
+.tour-event.status-reschedule_requested {
+  @apply bg-orange-100 border-orange-300 text-orange-800;
+}
+
+.tour-event.status-no_show {
+  @apply bg-slate-100 border-slate-300 text-slate-800;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .rbc-toolbar {
+    @apply flex-col space-y-2;
+  }
+  
+  .rbc-toolbar-label {
+    @apply text-center;
+  }
+  
+  .rbc-btn-group {
+    @apply flex justify-center;
+  }
+  
+  .rbc-month-view .rbc-date-cell {
+    @apply min-h-[60px] text-xs;
+  }
+  
+  .rbc-event {
+    @apply text-xs px-1 py-0.5;
+  }
+  
+  .tour-event {
+    @apply text-xs;
+  }
+}
+
+/* Custom Toolbar Styling */
+.calendar-toolbar .btn-group {
+  @apply inline-flex rounded-md shadow-sm;
+}
+
+.calendar-toolbar .btn-group button {
+  @apply relative inline-flex items-center px-3 py-2 text-sm font-medium border border-border bg-background text-foreground hover:bg-muted focus:z-10 focus:outline-none focus:ring-2 focus:ring-primary;
+}
+
+.calendar-toolbar .btn-group button:first-child {
+  @apply rounded-l-md;
+}
+
+.calendar-toolbar .btn-group button:last-child {
+  @apply rounded-r-md;
+}
+
+.calendar-toolbar .btn-group button:not(:first-child) {
+  @apply -ml-px;
+}
+
+.calendar-toolbar .btn-group button.active {
+  @apply bg-primary text-primary-foreground;
+}
+
+/* Hover and Focus States */
+.rbc-date-cell:hover {
+  @apply bg-muted cursor-pointer;
+}
+
+.rbc-slot-selection {
+  @apply bg-primary/20 border border-primary/40;
+}
+
+.rbc-addons-dnd .rbc-event.rbc-addons-dnd-dragged-event {
+  @apply opacity-50;
+}
+
+/* Loading and Empty States */
+.calendar-loading {
+  @apply flex items-center justify-center h-64 text-muted-foreground;
+}
+
+.calendar-empty {
+  @apply flex flex-col items-center justify-center h-64 text-muted-foreground;
+}
+
+.calendar-error {
+  @apply flex flex-col items-center justify-center h-64 text-destructive;
+}
+
+/* Status Legend */
+.status-legend {
+  @apply flex flex-wrap gap-4 mb-4 p-3 bg-muted/30 rounded-md;
+}
+
+.status-legend-item {
+  @apply flex items-center space-x-2 text-sm;
+}
+
+.status-legend-color {
+  @apply w-3 h-3 rounded-full;
+}
+
+/* Mobile Calendar Specific */
+.mobile-calendar {
+  @apply space-y-4;
+}
+
+.mobile-calendar .mini-calendar {
+  @apply border rounded-md p-2;
+}
+
+.mobile-calendar .tours-list {
+  @apply space-y-2;
+}
+
+.mobile-calendar .tour-item {
+  @apply p-3 border rounded-md bg-background hover:bg-muted/50 transition-colors;
+}
+
+/* Animation Classes */
+.calendar-fade-in {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.calendar-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Print Styles */
+@media print {
+  .calendar-toolbar {
+    @apply hidden;
+  }
+  
+  .rbc-calendar {
+    @apply shadow-none border-0;
+  }
+  
+  .rbc-event {
+    @apply break-inside-avoid;
+  }
+}

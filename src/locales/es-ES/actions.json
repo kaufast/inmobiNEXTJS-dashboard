@@ -1,0 +1,12 @@
+{
+  "general": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "add": "Add",
+    "remove": "Remove"
+  }
+} 

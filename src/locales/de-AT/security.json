@@ -1,0 +1,46 @@
+{
+  "title": "Sicherheitsfunktionen",
+  "subtitle": "Sichere & verifizierte Besichtigungen",
+  "description": "Fügen Sie eine zusätzliche Sicherheitsebene mit digitalem Anwesenheitsnachweis und KI-gestützter Verifizierung hinzu.",
+  "qrCodeVisits": "QR-Code Besuche",
+  "simpleSecureVerified": "Einfach, Sicher, Verifiziert",
+  "premium": "Premium",
+  "features": {
+    "visitProof": {
+      "title": "Geolokalisierter Besuchsnachweis",
+      "description": "Wir erfassen den genauen Standort, das Datum und die Uhrzeit jedes Besuchs und stellen ein digitales Zertifikat aus. Scannen Sie einfach den Code mit Ihrem Handy!",
+      "tag": "Echtzeitverfolgung"
+    },
+    "electronicSignature": {
+      "title": "Elektronische Unterschrift",
+      "description": "Besucher unterschreiben digital mittels QR-Code – schneller, papierlos und rechtsgültig.",
+      "tag": "Rechtsgültig"
+    },
+    "documentVerification": {
+      "title": "Dokumentenprüfung",
+      "description": "Verhindern Sie Betrug im Vorfeld. Wir erkennen gefälschte Einkommensnachweise und verfälschte Dokumente mit KI-gestützten Prüfungen.",
+      "tag": "KI-gestützt"
+    },
+    "appointmentReminders": {
+      "title": "Terminerinnerungen",
+      "description": "Reduzieren Sie Terminausfälle um bis zu 50% mit automatisierten Erinnerungen für jeden Besuch.",
+      "tag": "50% Reduktion"
+    },
+    "identityCrossVerification": {
+      "title": "Identitäts-Kreuzverifizierung",
+      "description": "Fügen Sie eine zusätzliche Sicherheitsebene mit VerifID hinzu – kombiniert echte Identitätsdaten mit Besichtigungsprotokollen.",
+      "tag": "VerifID unterstützt"
+    },
+    "identityVerification": {
+      "title": "Identitätsprüfung",
+      "description": "Wir überprüfen die Identität jedes Kunden, um gefälschte Daten zu eliminieren und Ihnen vollständigen rechtlichen Schutz zu bieten."
+    }
+  },
+  "forAgentsAndAgencies": "Für Makler, Agenturen & Verkäufer",
+  "adminOnlyDescription": "Diese Funktion ist nur für Admin-Panels, Immobilienverkäufer, Makler und Immobilienagenturen – nicht für reguläre Käufer.",
+  "step": "SCHRITT",
+  "cta": {
+    "howItWorks": "So funktioniert's",
+    "startProtectingDeals": "Beginnen Sie, Geschäfte zu schützen"
+  }
+}

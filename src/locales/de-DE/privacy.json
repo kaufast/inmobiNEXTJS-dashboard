@@ -1,0 +1,33 @@
+{
+  "banner": {
+    "title": "Cookie-Einverständnis",
+    "description": "Wir verwenden Cookies, um Ihre Erfahrung auf unserer Website zu verbessern. Einige sind für das Funktionieren der Website unerlässlich, während andere uns helfen zu verstehen, wie Sie unsere Dienste nutzen.",
+    "acceptAll": "Alle Akzeptieren",
+    "denyAll": "Alle Ablehnen",
+    "settings": "Cookie-Einstellungen"
+  },
+  "settings": {
+    "title": "Datenschutz-Einstellungen",
+    "cancel": "Abbrechen",
+    "save": "Einstellungen Speichern"
+  },
+  "categories": {
+    "necessary": "Unbedingt Erforderlich",
+    "necessaryDescription": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie ermöglichen grundlegende Funktionen wie Sicherheit, Netzwerkverwaltung und Barrierefreiheit.",
+    "functional": "Funktional",
+    "functionalDescription": "Diese Cookies ermöglichen erweiterte Funktionalität und Personalisierung, wie das Speichern Ihrer Präferenzen und Einstellungen.",
+    "analytics": "Analyse",
+    "analyticsDescription": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie Informationen anonym sammeln und berichten.",
+    "marketing": "Marketing",
+    "marketingDescription": "Diese Cookies werden verwendet, um personalisierte Werbung zu liefern und die Wirksamkeit unserer Marketing-Kampagnen zu messen."
+  },
+  "status": {
+    "required": "Erforderlich",
+    "alwaysActive": "Immer Aktiv",
+    "active": "Aktiv",
+    "inactive": "Inaktiv"
+  },
+  "services": {
+    "included": "Enthaltene Dienste"
+  }
+}

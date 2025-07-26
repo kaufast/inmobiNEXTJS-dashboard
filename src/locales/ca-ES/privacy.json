@@ -1,0 +1,33 @@
+{
+  "banner": {
+    "title": "Consentiment de Cookies",
+    "description": "Utilitzem cookies per millorar la vostra experiència al nostre lloc web. Algunes són essencials per al funcionament del lloc, mentre que altres ens ajuden a entendre com utilitzeu els nostres serveis.",
+    "acceptAll": "Acceptar Tot",
+    "denyAll": "Rebutjar Tot",
+    "settings": "Configuració de Cookies"
+  },
+  "settings": {
+    "title": "Configuració de Privadesa",
+    "cancel": "Cancel·lar",
+    "save": "Desar Configuració"
+  },
+  "categories": {
+    "necessary": "Estrictament Necessàries",
+    "necessaryDescription": "Aquestes cookies són essencials per al funcionament correcte del lloc web. Permeten funcionalitats bàsiques com seguretat, gestió de xarxa i accessibilitat.",
+    "functional": "Funcionals",
+    "functionalDescription": "Aquestes cookies permeten funcionalitats millorades i personalització, com recordar les vostres preferències i configuracions.",
+    "analytics": "Anàlisi",
+    "analyticsDescription": "Aquestes cookies ens ajuden a entendre com els visitants interactuen amb el nostre lloc web recollint i reportant informació de forma anònima.",
+    "marketing": "Màrqueting",
+    "marketingDescription": "Aquestes cookies s'utilitzen per lliurar publicitat personalitzada i mesurar l'eficàcia de les nostres campanyes de màrqueting."
+  },
+  "status": {
+    "required": "Requerit",
+    "alwaysActive": "Sempre Actiu",
+    "active": "Actiu",
+    "inactive": "Inactiu"
+  },
+  "services": {
+    "included": "Serveis inclosos"
+  }
+}

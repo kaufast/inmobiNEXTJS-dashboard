@@ -1,0 +1,172 @@
+{
+  "dashboard": {
+    "welcome": {
+      "title": "Bienvenido a Inmobi",
+      "description": "¡Bienvenido a tu panel de bienes raíces! Vamos a hacer un recorrido rápido para ayudarte a comenzar.",
+      "badge": "Recorrido Rápido"
+    },
+    "addProperty": {
+      "title": "Agrega tu Primera Propiedad",
+      "description": "Comienza agregando tu primera lista de propiedades. Nuestro asistente te guiará en cada paso.",
+      "features": {
+        "stepByStep": "Paso a paso",
+        "guidedWizard": "Asistente guiado",
+        "aiPowered": "Con IA",
+        "smartSuggestions": "Sugerencias inteligentes",
+        "professional": "Profesional",
+        "marketReady": "Listo para el mercado"
+      }
+    },
+    "search": {
+      "title": "Búsqueda de Propiedades",
+      "description": "Navega por propiedades con filtros avanzados. Encuentra exactamente lo que buscas con nuestra búsqueda inteligente.",
+      "features": {
+        "filters": "Filtros",
+        "priceLocationType": "Precio, ubicación, tipo",
+        "mapView": "Vista de Mapa",
+        "visualPropertySearch": "Búsqueda visual de propiedades",
+        "saved": "Guardado",
+        "favoritesAlerts": "Favoritos y alertas"
+      }
+    },
+    "messaging": {
+      "title": "Centro de Mensajería",
+      "description": "Comunícate directamente con clientes y otros agentes. Mantén todas las conversaciones organizadas en un lugar.",
+      "features": {
+        "realtime": "Tiempo real",
+        "instantMessaging": "Mensajería instantánea",
+        "organized": "Organizado",
+        "folderSystem": "Sistema de carpetas",
+        "notifications": "Notificaciones",
+        "neverMissMessage": "Nunca pierdas un mensaje"
+      }
+    },
+    "calendar": {
+      "title": "Calendario y Visitas",
+      "description": "Programa visitas a propiedades y gestiona tu disponibilidad. Sincroniza con Google Calendar para una organización perfecta.",
+      "features": {
+        "scheduling": "Programación",
+        "easyTourBooking": "Reserva fácil de visitas",
+        "sync": "Sincronización",
+        "googleCalendar": "Google Calendar",
+        "reminders": "Recordatorios",
+        "neverMissAppointments": "Nunca pierdas citas"
+      }
+    },
+    "analytics": {
+      "title": "Análisis e Informes",
+      "description": "Rastrea tu rendimiento con análisis detallados. Monitorea vistas, consultas y tasas de conversión.",
+      "features": {
+        "views": "Vistas",
+        "propertyPerformance": "Rendimiento de propiedades",
+        "inquiries": "Consultas",
+        "leadTracking": "Seguimiento de leads",
+        "reports": "Informes",
+        "monthlyInsights": "Información mensual"
+      }
+    },
+    "admin": {
+      "title": "Administración y Equipo",
+      "description": "Gestiona tu equipo, permisos y configuración de agencia. Controla quién puede acceder a qué funciones.",
+      "features": {
+        "roles": "Roles",
+        "agentPermissions": "Permisos de agentes",
+        "team": "Equipo",
+        "manageMembers": "Gestionar miembros",
+        "settings": "Configuración",
+        "agencyConfiguration": "Configuración de agencia"
+      }
+    },
+    "settings": {
+      "title": "Configuración y Preferencias",
+      "description": "Personaliza tu experiencia con notificaciones, idioma y configuración de cuenta.",
+      "features": {
+        "profile": "Perfil",
+        "accountSettings": "Configuración de cuenta",
+        "notifications": "Notificaciones",
+        "emailPushAlerts": "Alertas por email y push",
+        "language": "Idioma",
+        "multiLanguageSupport": "Soporte multiidioma"
+      }
+    }
+  },
+  "propertyWizard": {
+    "welcome": {
+      "title": "Asistente de Propiedades",
+      "description": "¡Bienvenido al Asistente de Propiedades! Esta guía paso a paso te ayudará a crear una lista profesional de propiedades.",
+      "badge": "Paso 1 de 7"
+    },
+    "basicInfo": {
+      "title": "Información Básica",
+      "description": "Comienza con los detalles esenciales: título de la propiedad, tipo y ubicación. Esta información aparece primero en los resultados de búsqueda.",
+      "tips": {
+        "clearTitle": "Título claro y descriptivo",
+        "accurateType": "Tipo de propiedad preciso",
+        "completeAddress": "Dirección completa"
+      }
+    },
+    "pricing": {
+      "title": "Precios y Detalles",
+      "description": "Establece precios competitivos y agrega detalles clave que buscan los compradores. Incluye habitaciones, baños y metros cuadrados.",
+      "tips": {
+        "competitivePrice": "Precio competitivo de mercado",
+        "accurateRooms": "Conteo preciso de habitaciones",
+        "propertySize": "Tamaño de la propiedad"
+      }
+    },
+    "features": {
+      "title": "Características y Amenidades",
+      "description": "Destaca lo que hace especial tu propiedad. Selecciona amenidades que atraigan a los compradores adecuados.",
+      "tips": {
+        "essentialAmenities": "Amenidades esenciales",
+        "uniqueFeatures": "Características únicas",
+        "propertyHighlights": "Puntos destacados de la propiedad"
+      }
+    },
+    "images": {
+      "title": "Fotos y Medios",
+      "description": "Las fotos de alta calidad son cruciales para atraer compradores. Sube imágenes claras y bien iluminadas de todas las habitaciones y características clave.",
+      "tips": {
+        "highResolution": "Fotos de alta resolución",
+        "allRoomsCovered": "Todas las habitaciones cubiertas",
+        "virtualTour": "Opción de visita virtual"
+      }
+    },
+    "description": {
+      "title": "Descripción",
+      "description": "Escribe una descripción convincente que cuente la historia de tu propiedad. Incluye puntos destacados del vecindario y beneficios de estilo de vida.",
+      "tips": {
+        "engagingNarrative": "Narrativa atractiva",
+        "neighborhoodInfo": "Información del vecindario",
+        "lifestyleBenefits": "Beneficios de estilo de vida"
+      }
+    },
+    "aiSummary": {
+      "title": "Resumen con IA",
+      "description": "Nuestra IA generará un resumen profesional de tu propiedad basado en toda la información que hayas proporcionado.",
+      "tips": {
+        "automatedSummary": "Resumen automatizado",
+        "seoOptimized": "Optimizado para SEO",
+        "professionalTone": "Tono profesional"
+      }
+    },
+    "review": {
+      "title": "Revisar y Publicar",
+      "description": "Revisa todos los detalles de tu propiedad antes de publicar. ¡Asegúrate de que todo se vea perfecto!",
+      "tips": {
+        "verifyInformation": "Verificar toda la información",
+        "checkPhotos": "Verificar calidad de fotos",
+        "readyToPublish": "¡Listo para publicar!"
+      }
+    }
+  },
+  "buttons": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "skip": "Saltar recorrido",
+    "close": "Cerrar",
+    "finish": "Finalizar",
+    "step": "Paso",
+    "of": "de"
+  }
+} 

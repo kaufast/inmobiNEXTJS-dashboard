@@ -1,0 +1,41 @@
+{
+  "addToCalendar": "Add to Calendar",
+  "selectCalendarProvider": "Select Calendar Provider",
+  "googleCalendar": "Google Calendar",
+  "outlookCalendar": "Outlook Calendar",
+  "office365Calendar": "Office 365",
+  "yahooCalendar": "Yahoo Calendar",
+  "appleCalendar": "Apple Calendar",
+  "downloadICS": "Download Calendar File",
+  "calendarNote": "Choose your preferred calendar app to add this event",
+  "calendarTypes": {
+    "google": "Google Calendar",
+    "outlook": "Outlook",
+    "office365": "Office 365",
+    "yahoo": "Yahoo",
+    "apple": "Apple Calendar",
+    "ics": "Calendar File (.ics)"
+  },
+  "eventAdded": "Event added to calendar successfully",
+  "eventAddFailed": "Failed to add event to calendar",
+  "tour": {
+    "title": "Property Tour",
+    "description": "Scheduled property viewing",
+    "virtualTour": "Virtual Property Tour",
+    "inPersonTour": "In-Person Property Tour",
+    "inspection": "Property Inspection",
+    "consultation": "Real Estate Consultation"
+  },
+  "meeting": {
+    "title": "Meeting",
+    "description": "Scheduled meeting",
+    "businessMeeting": "Business Meeting",
+    "clientMeeting": "Client Meeting"
+  },
+  "appointment": {
+    "title": "Appointment",
+    "description": "Scheduled appointment",
+    "viewing": "Property Viewing",
+    "consultation": "Consultation"
+  }
+}

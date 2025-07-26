@@ -1,0 +1,40 @@
+User-agent: *
+Allow: /
+
+# Allow crawling of main content
+Allow: /en-US/
+Allow: /es-ES/
+Allow: /ca-ES/
+Allow: /es-MX/
+Allow: /en-GB/
+Allow: /fr-FR/
+Allow: /de-AT/
+Allow: /de-DE/
+Allow: /search
+Allow: /property/
+
+# Disallow admin and private areas
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Block search URLs with parameters to avoid duplicate content
+Disallow: /*?*utm_
+Disallow: /*?*ref=
+Disallow: /*?*session=
+Disallow: /*?*token=
+
+# Allow specific search patterns
+Allow: /search?city=*
+Allow: /search?country=*
+Allow: /search?propertyType=*
+Allow: /search?listingType=*
+
+# Sitemap location
+Sitemap: https://inmobi.mobi/sitemap.xml
+
+# Crawl delay for respect
+Crawl-delay: 1

@@ -1,0 +1,172 @@
+{
+  "dashboard": {
+    "welcome": {
+      "title": "Willkommen bei Inmobi",
+      "description": "Willkommen in Ihrem Immobilien-Dashboard! Lassen Sie uns eine kurze Tour machen, um Ihnen den Einstieg zu erleichtern.",
+      "badge": "Schnelle Tour"
+    },
+    "addProperty": {
+      "title": "Fügen Sie Ihre Erste Immobilie Hinzu",
+      "description": "Beginnen Sie mit dem Hinzufügen Ihrer ersten Immobilienanzeige. Unser Assistent führt Sie durch jeden Schritt.",
+      "features": {
+        "stepByStep": "Schritt für Schritt",
+        "guidedWizard": "Geführter Assistent",
+        "aiPowered": "KI-gestützt",
+        "smartSuggestions": "Intelligente Vorschläge",
+        "professional": "Professionell",
+        "marketReady": "Marktbereit"
+      }
+    },
+    "search": {
+      "title": "Immobiliensuche",
+      "description": "Durchsuchen Sie Immobilien mit erweiterten Filtern. Finden Sie genau das, was Sie suchen, mit unserer intelligenten Suche.",
+      "features": {
+        "filters": "Filter",
+        "priceLocationType": "Preis, Standort, Typ",
+        "mapView": "Kartenansicht",
+        "visualPropertySearch": "Visuelle Immobiliensuche",
+        "saved": "Gespeichert",
+        "favoritesAlerts": "Favoriten und Benachrichtigungen"
+      }
+    },
+    "messaging": {
+      "title": "Nachrichtencenter",
+      "description": "Kommunizieren Sie direkt mit Kunden und anderen Maklern. Behalten Sie alle Gespräche an einem Ort organisiert.",
+      "features": {
+        "realtime": "Echtzeit",
+        "instantMessaging": "Sofortnachrichten",
+        "organized": "Organisiert",
+        "folderSystem": "Ordnersystem",
+        "notifications": "Benachrichtigungen",
+        "neverMissMessage": "Verpassen Sie nie eine Nachricht"
+      }
+    },
+    "calendar": {
+      "title": "Kalender und Besichtigungen",
+      "description": "Planen Sie Immobilienbesichtigungen und verwalten Sie Ihre Verfügbarkeit. Synchronisieren Sie mit Google Calendar für nahtlose Organisation.",
+      "features": {
+        "scheduling": "Terminplanung",
+        "easyTourBooking": "Einfache Besichtigungsbuchung",
+        "sync": "Synchronisation",
+        "googleCalendar": "Google Calendar",
+        "reminders": "Erinnerungen",
+        "neverMissAppointments": "Verpassen Sie nie Termine"
+      }
+    },
+    "analytics": {
+      "title": "Analysen und Berichte",
+      "description": "Verfolgen Sie Ihre Leistung mit detaillierten Analysen. Überwachen Sie Aufrufe, Anfragen und Konversionsraten.",
+      "features": {
+        "views": "Aufrufe",
+        "propertyPerformance": "Immobilienleistung",
+        "inquiries": "Anfragen",
+        "leadTracking": "Lead-Verfolgung",
+        "reports": "Berichte",
+        "monthlyInsights": "Monatliche Einblicke"
+      }
+    },
+    "admin": {
+      "title": "Verwaltung und Team",
+      "description": "Verwalten Sie Ihr Team, Berechtigungen und Agentureinstellungen. Kontrollieren Sie, wer auf welche Funktionen zugreifen kann.",
+      "features": {
+        "roles": "Rollen",
+        "agentPermissions": "Mitarbeiterberechtigungen",
+        "team": "Team",
+        "manageMembers": "Mitglieder verwalten",
+        "settings": "Einstellungen",
+        "agencyConfiguration": "Agenturkonfiguration"
+      }
+    },
+    "settings": {
+      "title": "Einstellungen und Präferenzen",
+      "description": "Passen Sie Ihre Erfahrung mit Benachrichtigungen, Sprache und Kontoeinstellungen an.",
+      "features": {
+        "profile": "Profil",
+        "accountSettings": "Kontoeinstellungen",
+        "notifications": "Benachrichtigungen",
+        "emailPushAlerts": "E-Mail- und Push-Benachrichtigungen",
+        "language": "Sprache",
+        "multiLanguageSupport": "Mehrsprachige Unterstützung"
+      }
+    }
+  },
+  "propertyWizard": {
+    "welcome": {
+      "title": "Immobilien-Assistent",
+      "description": "Willkommen beim Immobilien-Assistenten! Diese Schritt-für-Schritt-Anleitung hilft Ihnen dabei, eine professionelle Immobilienanzeige zu erstellen.",
+      "badge": "Schritt 1 von 7"
+    },
+    "basicInfo": {
+      "title": "Grundinformationen",
+      "description": "Beginnen Sie mit den wesentlichen Details: Immobilientitel, Typ und Standort. Diese Informationen erscheinen zuerst in den Suchergebnissen.",
+      "tips": {
+        "clearTitle": "Klarer, beschreibender Titel",
+        "accurateType": "Genaue Immobilienart",
+        "completeAddress": "Vollständige Adresse"
+      }
+    },
+    "pricing": {
+      "title": "Preise und Details",
+      "description": "Legen Sie wettbewerbsfähige Preise fest und fügen Sie wichtige Details hinzu, nach denen Käufer suchen. Fügen Sie Schlafzimmer, Badezimmer und Quadratmeter hinzu.",
+      "tips": {
+        "competitivePrice": "Wettbewerbsfähiger Marktpreis",
+        "accurateRooms": "Genaue Raumanzahl",
+        "propertySize": "Immobiliengröße"
+      }
+    },
+    "features": {
+      "title": "Ausstattung und Annehmlichkeiten",
+      "description": "Heben Sie hervor, was Ihre Immobilie besonders macht. Wählen Sie Annehmlichkeiten, die die richtigen Käufer anziehen.",
+      "tips": {
+        "essentialAmenities": "Wesentliche Annehmlichkeiten",
+        "uniqueFeatures": "Einzigartige Merkmale",
+        "propertyHighlights": "Immobilien-Highlights"
+      }
+    },
+    "images": {
+      "title": "Fotos und Medien",
+      "description": "Hochwertige Fotos sind entscheidend, um Käufer anzuziehen. Laden Sie klare, gut beleuchtete Bilder aller Räume und wichtiger Merkmale hoch.",
+      "tips": {
+        "highResolution": "Hochauflösende Fotos",
+        "allRoomsCovered": "Alle Räume abgedeckt",
+        "virtualTour": "Virtuelle Tour-Option"
+      }
+    },
+    "description": {
+      "title": "Beschreibung",
+      "description": "Schreiben Sie eine überzeugende Beschreibung, die die Geschichte Ihrer Immobilie erzählt. Fügen Sie Viertel-Highlights und Lifestyle-Vorteile hinzu.",
+      "tips": {
+        "engagingNarrative": "Fesselnde Erzählung",
+        "neighborhoodInfo": "Viertel-Informationen",
+        "lifestyleBenefits": "Lifestyle-Vorteile"
+      }
+    },
+    "aiSummary": {
+      "title": "KI-Zusammenfassung",
+      "description": "Unsere KI erstellt eine professionelle Zusammenfassung Ihrer Immobilie basierend auf allen bereitgestellten Informationen.",
+      "tips": {
+        "automatedSummary": "Automatisierte Zusammenfassung",
+        "seoOptimized": "SEO-optimiert",
+        "professionalTone": "Professioneller Ton"
+      }
+    },
+    "review": {
+      "title": "Überprüfen und Veröffentlichen",
+      "description": "Überprüfen Sie alle Ihre Immobiliendetails vor der Veröffentlichung. Stellen Sie sicher, dass alles perfekt aussieht!",
+      "tips": {
+        "verifyInformation": "Alle Informationen überprüfen",
+        "checkPhotos": "Fotoqualität überprüfen",
+        "readyToPublish": "Bereit zum Veröffentlichen!"
+      }
+    }
+  },
+  "buttons": {
+    "previous": "Zurück",
+    "next": "Weiter",
+    "skip": "Tour überspringen",
+    "close": "Schließen",
+    "finish": "Beenden",
+    "step": "Schritt",
+    "of": "von"
+  }
+} 

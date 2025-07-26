@@ -1,0 +1,172 @@
+{
+  "dashboard": {
+    "welcome": {
+      "title": "Benvingut a Inmobi",
+      "description": "Benvingut al teu panell de béns immobles! Fem un recorregut ràpid per ajudar-te a començar.",
+      "badge": "Recorregut Ràpid"
+    },
+    "addProperty": {
+      "title": "Afegeix la teva Primera Propietat",
+      "description": "Comença afegint la teva primera llista de propietats. El nostre assistent et guiarà en cada pas.",
+      "features": {
+        "stepByStep": "Pas a pas",
+        "guidedWizard": "Assistent guiat",
+        "aiPowered": "Amb IA",
+        "smartSuggestions": "Suggeriments intel·ligents",
+        "professional": "Professional",
+        "marketReady": "Llest per al mercat"
+      }
+    },
+    "search": {
+      "title": "Cerca de Propietats",
+      "description": "Navega per propietats amb filtres avançats. Troba exactament el que busques amb la nostra cerca intel·ligent.",
+      "features": {
+        "filters": "Filtres",
+        "priceLocationType": "Preu, ubicació, tipus",
+        "mapView": "Vista de Mapa",
+        "visualPropertySearch": "Cerca visual de propietats",
+        "saved": "Desat",
+        "favoritesAlerts": "Favorits i alertes"
+      }
+    },
+    "messaging": {
+      "title": "Centre de Missatgeria",
+      "description": "Comunica't directament amb clients i altres agents. Mantén totes les converses organitzades en un lloc.",
+      "features": {
+        "realtime": "Temps real",
+        "instantMessaging": "Missatgeria instantània",
+        "organized": "Organitzat",
+        "folderSystem": "Sistema de carpetes",
+        "notifications": "Notificacions",
+        "neverMissMessage": "Mai perdis un missatge"
+      }
+    },
+    "calendar": {
+      "title": "Calendari i Visites",
+      "description": "Programa visites a propietats i gestiona la teva disponibilitat. Sincronitza amb Google Calendar per una organització perfecta.",
+      "features": {
+        "scheduling": "Programació",
+        "easyTourBooking": "Reserva fàcil de visites",
+        "sync": "Sincronització",
+        "googleCalendar": "Google Calendar",
+        "reminders": "Recordatoris",
+        "neverMissAppointments": "Mai perdis cites"
+      }
+    },
+    "analytics": {
+      "title": "Anàlisi i Informes",
+      "description": "Rastreja el teu rendiment amb anàlisis detallats. Monitoritza vistes, consultes i taxes de conversió.",
+      "features": {
+        "views": "Vistes",
+        "propertyPerformance": "Rendiment de propietats",
+        "inquiries": "Consultes",
+        "leadTracking": "Seguiment de leads",
+        "reports": "Informes",
+        "monthlyInsights": "Informació mensual"
+      }
+    },
+    "admin": {
+      "title": "Administració i Equip",
+      "description": "Gestiona el teu equip, permisos i configuració d'agència. Controla qui pot accedir a quines funcions.",
+      "features": {
+        "roles": "Rols",
+        "agentPermissions": "Permisos d'agents",
+        "team": "Equip",
+        "manageMembers": "Gestionar membres",
+        "settings": "Configuració",
+        "agencyConfiguration": "Configuració d'agència"
+      }
+    },
+    "settings": {
+      "title": "Configuració i Preferències",
+      "description": "Personalitza la teva experiència amb notificacions, idioma i configuració de compte.",
+      "features": {
+        "profile": "Perfil",
+        "accountSettings": "Configuració de compte",
+        "notifications": "Notificacions",
+        "emailPushAlerts": "Alertes per email i push",
+        "language": "Idioma",
+        "multiLanguageSupport": "Suport multiidioma"
+      }
+    }
+  },
+  "propertyWizard": {
+    "welcome": {
+      "title": "Assistent de Propietats",
+      "description": "Benvingut a l'Assistent de Propietats! Aquesta guia pas a pas t'ajudarà a crear una llista professional de propietats.",
+      "badge": "Pas 1 de 7"
+    },
+    "basicInfo": {
+      "title": "Informació Bàsica",
+      "description": "Comença amb els detalls essencials: títol de la propietat, tipus i ubicació. Aquesta informació apareix primer en els resultats de cerca.",
+      "tips": {
+        "clearTitle": "Títol clar i descriptiu",
+        "accurateType": "Tipus de propietat precís",
+        "completeAddress": "Adreça completa"
+      }
+    },
+    "pricing": {
+      "title": "Preus i Detalls",
+      "description": "Estableix preus competitius i afegeix detalls clau que busquen els compradors. Inclou habitacions, banys i metres quadrats.",
+      "tips": {
+        "competitivePrice": "Preu competitiu de mercat",
+        "accurateRooms": "Compte precís d'habitacions",
+        "propertySize": "Mida de la propietat"
+      }
+    },
+    "features": {
+      "title": "Característiques i Amenitats",
+      "description": "Destaca el que fa especial la teva propietat. Selecciona amenitats que atreguin els compradors adequats.",
+      "tips": {
+        "essentialAmenities": "Amenitats essencials",
+        "uniqueFeatures": "Característiques úniques",
+        "propertyHighlights": "Punts destacats de la propietat"
+      }
+    },
+    "images": {
+      "title": "Fotos i Mitjans",
+      "description": "Les fotos d'alta qualitat són crucials per atreure compradors. Puja imatges clares i ben il·luminades de totes les habitacions i característiques clau.",
+      "tips": {
+        "highResolution": "Fotos d'alta resolució",
+        "allRoomsCovered": "Totes les habitacions cobertes",
+        "virtualTour": "Opció de visita virtual"
+      }
+    },
+    "description": {
+      "title": "Descripció",
+      "description": "Escriu una descripció convincent que expliqui la història de la teva propietat. Inclou punts destacats del veïnat i beneficis d'estil de vida.",
+      "tips": {
+        "engagingNarrative": "Narrativa atractiva",
+        "neighborhoodInfo": "Informació del veïnat",
+        "lifestyleBenefits": "Beneficis d'estil de vida"
+      }
+    },
+    "aiSummary": {
+      "title": "Resum amb IA",
+      "description": "La nostra IA generarà un resum professional de la teva propietat basat en tota la informació que hagis proporcionat.",
+      "tips": {
+        "automatedSummary": "Resum automatitzat",
+        "seoOptimized": "Optimitzat per a SEO",
+        "professionalTone": "To professional"
+      }
+    },
+    "review": {
+      "title": "Revisar i Publicar",
+      "description": "Revisa tots els detalls de la teva propietat abans de publicar. Assegura't que tot es vegi perfecte!",
+      "tips": {
+        "verifyInformation": "Verificar tota la informació",
+        "checkPhotos": "Verificar qualitat de fotos",
+        "readyToPublish": "Llest per publicar!"
+      }
+    }
+  },
+  "buttons": {
+    "previous": "Anterior",
+    "next": "Següent",
+    "skip": "Saltar recorregut",
+    "close": "Tancar",
+    "finish": "Finalitzar",
+    "step": "Pas",
+    "of": "de"
+  }
+} 

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "public": true,
+  "env": {
+    "VITE_API_URL": "https://inmobi-express-api-production.up.railway.app",
+    "VITE_DASHBOARD_URL": "https://dashboard-trhquct5o-kaufasts-projects.vercel.app",
+    "VITE_SITE_URL": "https://inmobi-public-app.vercel.app"
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,1431 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "favorites": "Favoriten",
+    "messages": "Nachrichten",
+    "tours": "Besichtigungen",
+    "documents": "Dokumente",
+    "verification": "Verifizierung",
+    "profile": "Profil",
+    "aiPropertyMatching": "KI-Immobiliensuche",
+    "myProperties": "Meine Immobilien",
+    "analytics": "Analyse",
+    "premiumFeatures": "Premium-Funktionen",
+    "subscription": "Abonnement",
+    "users": "Benutzer",
+    "properties": "Immobilien",
+    "approvals": "Genehmigungen",
+    "verificationManagement": "Verwaltung der Verifizierung",
+    "settings": "Einstellungen",
+    "translationDebug": "Übersetzungs-Debug",
+    "loadingNavigation": "Navigation wird geladen...",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "general": {
+    "name": "Name",
+    "nameglobal": {
+      "pending": "Ausstehend"
+    },
+    "actions": {
+      "cancel": "Abbrechen"
+    },
+    "confirm": "Bestätigen",
+    "complete": "Abschließen",
+    "cancel": "Abbrechen",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "help": "Hilfe",
+    "pause": "Pausieren",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "submit": "Senden",
+    "edit": "Bearbeiten",
+    "view": "Ansehen",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "role": "Rolle",
+    "status": "Status",
+    "joined": "Beigetreten",
+    "fullName": "Vollständiger Name",
+    "user": "Benutzer",
+    "timeframes": {
+      "fromPrevious": "vom vorigen",
+      "day": "Tag",
+      "week": "Woche",
+      "month": "Monat",
+      "year": "Jahr"
+    },
+    "item": "Element",
+    "type": "Typ",
+    "date": "Datum",
+    "viewAll": "Alle ansehen"
+  },
+  "dashboard": {
+    "title": "Haupt-Dashboard-Titel",
+    "app": "Dashboard-Anwendungsname (Allgemeiner Kontext)",
+    "welcome": "Willkommen, {{name}}",
+    "overview": "Hier ist eine Übersicht über Ihr Konto",
+    "properties": "Immobilien",
+    "users": "Benutzer",
+    "settings": "Einstellungen",
+    "browseProperties": "Immobilien durchsuchen",
+    "signOut": "Abmelden (Allgemeiner Kontext)",
+    "statistics": {
+      "title": "Statistiken",
+      "views": "Aufrufe",
+      "inquiries": "Anfragen",
+      "favourites": "Favoriten",
+      "listings": "Angebote",
+      "totalUsers": "Benutzer insgesamt",
+      "fromPrevious": "vom vorigen {{timeframe}}",
+      "properties": "Immobilien insgesamt",
+      "pageViews": "Seitenaufrufe insgesamt",
+      "revenue": "Gesamteinnahmen"
+    },
+    "admin": {
+      "title": "Admin-Dashboard",
+      "subtitle": "Verwalten Sie Ihre Plattform",
+      "systemSettings": "Systemeinstellungen",
+      "generateReports": "Berichte erstellen",
+      "stats": {
+        "totalUsers": "Benutzer insgesamt",
+        "fromPrevious": "vom vorigen {{timeframe}}",
+        "properties": "Immobilien insgesamt",
+        "pageViews": "Seitenaufrufe insgesamt",
+        "revenue": "Gesamteinnahmen"
+      },
+      "pendingApprovals": "Ausstehende Genehmigungen",
+      "reviewManageSubmissions": "Überprüfen und verwalten Sie Immobilien- und Maklereinreichungen",
+      "allSubmissions": "Alle Einreichungen",
+      "properties": "Immobilien",
+      "agents": "Makler",
+      "itemsPendingApproval": "Zu genehmigende Elemente",
+      "item": "Element",
+      "type": "Typ",
+      "submittedBy": "Eingereicht von",
+      "date": "Datum",
+      "actions": "Aktionen",
+      "noPendingApprovals": "Keine ausstehenden Genehmigungen",
+      "allSubmissionsReviewed": "Alle Einreichungen wurden überprüft",
+      "propertySubmissions": "Immobilieneinreichungen",
+      "reviewPropertySubmissions": "Überprüfen und verwalten Sie Immobilieneinreichungen",
+      "agentSubmissions": "Maklereinreichungen",
+      "reviewAgentSubmissions": "Überprüfen und verwalten Sie Maklereinreichungen",
+      "general": "Allgemein",
+      "security": "Sicherheit",
+      "notifications": "Benachrichtigungen",
+      "integrations": "Integrationen",
+      "generalSettings": "Allgemeine Einstellungen",
+      "manageGeneralSettings": "Verwalten Sie allgemeine Systemeinstellungen",
+      "siteName": "Seitenname",
+      "defaultLanguage": "Standardsprache",
+      "selectLanguage": "Sprache auswählen",
+      "maintenanceMode": "Wartungsmodus",
+      "securitySettings": "Sicherheitseinstellungen",
+      "manageSecuritySettings": "Verwalten Sie Sicherheitseinstellungen",
+      "requireTwoFactor": "Zwei-Faktor-Authentifizierung erfordern",
+      "requireEmailVerification": "E-Mail-Verifizierung erfordern",
+      "sessionTimeout": "Sitzungs-Timeout",
+      "selectTimeout": "Timeout auswählen",
+      "notificationSettings": "Benachrichtigungseinstellungen",
+      "manageNotificationSettings": "Verwalten Sie Benachrichtigungseinstellungen",
+      "emailNotifications": "E-Mail-Benachrichtigungen",
+      "pushNotifications": "Push-Benachrichtigungen",
+      "notificationEmail": "Benachrichtigungs-E-Mail",
+      "integrationSettings": "Integrationseinstellungen",
+      "manageIntegrationSettings": "Verwalten Sie Integrationen von Drittanbietern",
+      "googleMapsApiKey": "Google Maps API-Schlüssel",
+      "stripeApiKey": "Stripe API-Schlüssel",
+      "smtpServer": "SMTP-Server",
+      "saveChanges": "Änderungen speichern",
+      "usersManagement": "Benutzerverwaltung",
+      "userManagement": "Benutzerverwaltung",
+      "viewManageAccounts": "Konten ansehen und verwalten",
+      "recentProperties": "Neueste Immobilien",
+      "noPropertiesFound": "Keine Immobilien gefunden",
+      "noPropertiesInSystem": "Derzeit sind keine Immobilien im System angeführt.",
+      "editUser": "Benutzer bearbeiten",
+      "edit": "Bearbeiten",
+      "manageSystemSettings": "Verwalten Sie Ihre Systemeinstellungen, Präferenzen und Konfigurationen.",
+      "fullUserManagement": "Vollständige Benutzerverwaltung",
+      "addUser": "Benutzer hinzufügen",
+      "addProperty": "Immobilie hinzufügen",
+      "noApprovals": "Keine Genehmigungen",
+      "allCaughtUp": "Alles erledigt! Keine offenen Punkte zur Überprüfung.",
+      "confirmDeleteUser": "Sind Sie sicher, dass Sie den Benutzer \"{{name}}\" löschen möchten?",
+      "suspendUser": "Benutzer sperren",
+      "reactivateUser": "Benutzer reaktivieren",
+      "viewAllUsers": "Alle {{count}} Benutzer ansehen",
+      "recentPropertiesDescription": "Neueste Immobilienangebote im System",
+      "updateUserDescription": "Benutzerinformationen und Berechtigungen aktualisieren",
+      "createNewUser": "Neuen Benutzer erstellen",
+      "createUserDescription": "Füllen Sie die Details aus, um einen neuen Benutzer zum System hinzuzufügen",
+      "createUser": "Benutzer erstellen",
+      "tableHeaders": {
+        "property": "Immobilie",
+        "location": "Standort",
+        "price": "Preis",
+        "type": "Typ",
+        "status": "Status"
+      },
+      "roles": {
+        "user": "Benutzer",
+        "agent": "Makler",
+        "admin": "Admin"
+      },
+      "users_verification_inactive": "Verifizierung Inaktiv"
+    },
+    "agent": {
+      "title": "Makler-Dashboard",
+      "subtitle": "Verwalten Sie Ihre Immobilien und sehen Sie wichtige Kennzahlen",
+      "propertyViews": "Immobilienaufrufe",
+      "inquiries": "Anfragen",
+      "conversions": "Konversionen",
+      "revenue": "Einnahmen",
+      "noInquiries": {
+        "title": "Noch keine Anfragen",
+        "description": "Kundenanfragen zu Ihren Immobilien werden hier aufscheinen"
+      },
+      "performance": {
+        "overview": "Leistungsübersicht",
+        "metrics": "Ihre Immobilien-Leistungskennzahlen für den aktuellen {{timeframe}}",
+        "topProperties": "Top-Immobilien",
+        "luxuryApartment": "Luxuswohnung {{number}}",
+        "views": "{{count}} Aufrufe",
+        "inquiries": "{{count}} Anfragen",
+        "conversionRate": "Konversionsrate",
+        "inquiryToSale": "Anfrage zu Verkauf"
+      },
+      "tabs": {
+        "properties": "Meine Immobilien",
+        "inquiries": "Kundenanfragen",
+        "performance": "Leistung",
+        "bulkUpload": "Massen-Upload"
+      },
+      "noProperties": {
+        "title": "Noch keine Immobilien angeführt",
+        "description": "Fangen Sie an, Immobilien zu Ihrem Portfolio hinzuzufügen"
+      },
+      "reply": "Antworten",
+      "fromPrevious": "vom vorigen {{timeframe}}"
+    },
+    "tabs": {
+      "savedProperties": "Gespeicherte Immobilien",
+      "messages": "Nachrichten",
+      "recommendations": "Empfehlungen"
+    },
+    "stats": {
+      "properties": "Immobilien",
+      "favorited": "Favorisierte Immobilien",
+      "tours": "Immobilienbesichtigungen",
+      "messages": "Nachrichten",
+      "savedProperties": {
+        "title": "Gespeicherte Immobilien",
+        "description": "Immobilien, die Sie gespeichert haben"
+      },
+      "recentViews": {
+        "title": "Letzte Aufrufe",
+        "description": "In den letzten 30 Tagen angesehene Immobilien"
+      },
+      "propertyAlerts": {
+        "title": "Immobilien-Benachrichtigungen",
+        "description": "Aktive Suchbenachrichtigungen"
+      }
+    },
+    "messages": {
+      "title": "Nachrichten",
+      "compose": "Verfassen",
+      "inbox": "Posteingang",
+      "sent": "Gesendet",
+      "drafts": "Entwürfe",
+      "trash": "Papierkorb",
+      "favoriteContacts": "Favoriten-Kontakte",
+      "emptyFolder": "Keine Nachrichten in diesem Ordner",
+      "selectConversation": "Wählen Sie eine Konversation aus, um Nachrichten anzuzeigen",
+      "sendHint": "Drücken Sie die Eingabetaste zum Senden",
+      "newMessages": "Neue Nachrichten",
+      "recent": "Letzte Nachrichten",
+      "viewAll": "Alle Nachrichten ansehen",
+      "viewAllCount": "Alle {{count}} Nachrichten ansehen",
+      "goToMessages": "Zu den Nachrichten",
+      "empty": {
+        "title": "Noch keine Nachrichten",
+        "description": "Nachrichten von Maklern und Eigentümern werden hier aufscheinen"
+      },
+      "pleaseLogin": "Bitte melden Sie sich an, um auf Ihre Nachrichten zuzugreifen",
+      "loading": "Nachrichten werden geladen...",
+      "retrying": "Erneuter Versuch...",
+      "errorLoading": "Fehler beim Laden der Nachrichten",
+      "errorLoadingDescription": "Beim Laden Ihrer Nachrichten ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+      "retry": "Erneut versuchen",
+      "noMessages": "Noch keine Nachrichten in dieser Konversation",
+      "newMessage": "Neue Nachricht",
+      "newMessageDescription": "Verfassen Sie eine neue Nachricht an einen Benutzer oder Makler",
+      "recipient": "Empfänger",
+      "selectRecipient": "Empfänger auswählen",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Nachrichtenbetreff eingeben",
+      "messageType": "Nachrichtentyp",
+      "selectMessageType": "Nachrichtentyp auswählen",
+      "types": {
+        "direct": "Direktnachricht",
+        "support": "Support-Anfrage",
+        "system": "Systemnachricht"
+      },
+      "content": "Nachricht",
+      "contentPlaceholder": "Schreiben Sie Ihre Nachricht hier...",
+      "send": "Nachricht senden",
+      "cancel": "Abbrechen",
+      "sendSuccess": "Nachricht gesendet",
+      "messageHasBeenSent": "Ihre Nachricht wurde erfolgreich gesendet",
+      "sendError": "Sende-Fehler",
+      "typeMessage": "Geben Sie Ihre Nachricht ein...",
+      "selectConversationToSend": "Wählen Sie eine Konversation aus, um eine Nachricht zu senden",
+      "attachments": "Anhänge",
+      "errorLoadingThreads": "Fehler beim Laden der Konversationen",
+      "errorLoadingThreadsDescription": "Beim Laden Ihrer Konversationen ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+      "retryingThreads": "Erneuter Versuch, Konversationen zu laden...",
+      "noPreview": "Keine Nachrichtenvorschau",
+      "agent": "Makler",
+      "user": "Benutzer",
+      "noFavorites": "Noch keine Favoriten-Kontakte",
+      "noFavoritesDescription": "Ihre Favoriten-Kontakte werden hier aufscheinen",
+      "searchFavorites": "Suchen Sie Ihre Favoriten-Kontakte",
+      "noMatchingFavorites": "Keine Kontakte entsprechen Ihrer Suche",
+      "sendMessage": "Nachricht senden",
+      "removeFromFavorites": "Aus Favoriten entfernen",
+      "messageContent": "Nachrichteninhalt",
+      "messageContentPlaceholder": "Schreiben Sie Ihre Nachricht hier...",
+      "sending": "Nachricht wird gesendet...",
+      "attachFile": "Datei anhängen"
+    },
+    "recommendations": {
+      "title": "Immobilien, die Ihnen gefallen könnten",
+      "description": "Basierend auf Ihren Favoriten und Ihrem Suchverlauf",
+      "empty": {
+        "title": "Keine Empfehlungen verfügbar",
+        "description": "Basierend auf Ihren Favoriten und Ihrem Suchverlauf"
+      }
+    },
+    "nav": {
+      "home": "Startseite",
+      "dashboard": "Dashboard",
+      "properties": "Immobilien",
+      "messages": "Nachrichten",
+      "favourites": "Favoriten",
+      "tours": "Besichtigungen",
+      "verification": "Verifizierung",
+      "profile": "Profil",
+      "users": "Benutzer",
+      "security": "Sicherheit"
+    }
+  },
+  "report": {
+    "buttonText": "Problem melden"
+  },
+  "document": {
+    "title": "Dokumentenverwaltung",
+    "subtitle": "Verwalten, unterzeichnen und verifizieren Sie Immobiliendokumente",
+    "upload": "Dokument hochladen",
+    "dragDropFile": "Ziehen Sie Ihre Datei hierher",
+    "supportedFormats": "Unterstützte Formate: PDF, DOCX, JPG, PNG.",
+    "uploading": "Wird hochgeladen...",
+    "statusLabels": {
+      "verified": "Verifiziert",
+      "rejected": "Abgelehnt",
+      "pending": "Ausstehend"
+    },
+    "types": {
+      "contract": "Vertrag",
+      "deed": "Urkunde",
+      "identification": "Ausweis",
+      "utility": "Versorgerrechnung",
+      "other": "Sonstiges"
+    },
+    "tabs": {
+      "all": "Alle Dokumente",
+      "pending": "Ausstehend",
+      "verified": "Verifiziert",
+      "rejected": "Abgelehnt"
+    },
+    "table": {
+      "name": "Name",
+      "type": "Typ",
+      "status": "Status",
+      "created": "Erstellt",
+      "actions": "Aktionen",
+      "caption": "Liste der Dokumente"
+    },
+    "empty": {
+      "title": "Keine Dokumente gefunden",
+      "uploadToStart": "Laden Sie ein Dokument hoch, um zu beginnen",
+      "noStatusDocuments": "Keine {{status}} Dokumente gefunden"
+    },
+    "uploadDialog": {
+      "title": "Dokument hochladen",
+      "description": "Beschreibung (Optional)",
+      "documentName": "Dokumentenname",
+      "documentNamePlaceholder": "Dokumentennamen eingeben",
+      "documentType": "Dokumententyp",
+      "documentTypePlaceholder": "Dokumententyp auswählen",
+      "descriptionPlaceholder": "Dokumentenbeschreibung eingeben",
+      "file": "Datei",
+      "changeFile": "Datei ändern"
+    },
+    "viewDialog": {
+      "uploadedAgo": "Hochgeladen vor {{time}}",
+      "documentType": "Dokumententyp",
+      "fileSize": "Dateigröße",
+      "verifiedBy": "Verifiziert von",
+      "descriptionLabel": "Beschreibung",
+      "filePreview": "Dateivorschau",
+      "pdfDocument": "PDF-Dokument",
+      "openPdfInNewTab": "PDF in neuem Tab öffnen",
+      "previewNotAvailable": "Vorschau nicht verfügbar",
+      "downloadToView": "Zum Ansehen herunterladen",
+      "imageNotFound": "Bild nicht gefunden",
+      "imageLoadError": "Die Bilddatei konnte nicht geladen werden"
+    },
+    "actions": {
+      "verify": "Verifizieren",
+      "reject": "Ablehnen",
+      "download": "Herunterladen"
+    },
+    "downloadIssue": "Download-Problem",
+    "downloadIssueDescription": "Es könnte ein Problem beim Download gegeben haben. Bitte versuchen Sie es erneut.",
+    "confirmReject": "Sind Sie sicher, dass Sie dieses Dokument ablehnen möchten?",
+    "rejectionSuccess": "Dokument Abgelehnt",
+    "rejectionSuccessDescription": "Das Dokument wurde erfolgreich abgelehnt.",
+    "rejectionError": "Ablehnungsfehler",
+    "rejectionErrorDescription": "Fehler beim Ablehnen des Dokuments. Bitte versuchen Sie es erneut.",
+    "error": {
+      "title": "Fehler beim Laden der Dokumente",
+      "description": "Dokumente konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+      "retry": "Erneut versuchen"
+    }
+  },
+  "profile": {
+    "title": "Profileinstellungen",
+    "subtitle": "Verwalten Sie Ihre Kontoeinstellungen und Präferenzen",
+    "avatar": {
+      "defaultUser": "Benutzer",
+      "defaultEmail": "benutzer@example.com"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "freePlan": "Kostenlos",
+      "plan": "Plan",
+      "fullAccess": "Voller Zugriff auf alle Funktionen",
+      "limitedAccess": "Eingeschränkter Zugriff auf Funktionen",
+      "upgrade": "Upgrade"
+    },
+    "tabs": {
+      "account": "Konto",
+      "security": "Sicherheit",
+      "preferences": "Präferenzen",
+      "billing": "Abrechnung"
+    },
+    "account": {
+      "title": "Kontoinformationen",
+      "description": "Aktualisieren Sie Ihre Kontodetails",
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholder": "Max Mustermann",
+      "email": "E-Mail",
+      "emailPlaceholder": "max.mustermann@example.com",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+43 1 1234567",
+      "saveChanges": "Änderungen speichern"
+    },
+    "security": {
+      "title": "Sicherheitseinstellungen",
+      "description": "Verwalten Sie Ihr Passwort und Ihre Sicherheitspräferenzen",
+      "currentPassword": "Aktuelles Passwort",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "passwordPlaceholder": "••••••••••",
+      "updatePassword": "Passwort aktualisieren",
+      "twoFactor": {
+        "title": "Zwei-Faktor-Authentifizierung",
+        "description": "Fügen Sie Ihrem Konto eine zusätzliche Sicherheitsebene hinzu",
+        "disabled": "Zwei-Faktor-Authentifizierung ist deaktiviert",
+        "protectAccount": "Schützen Sie Ihr Konto mit einem zusätzlichen Authentifizierungsschritt",
+        "enable": "2FA aktivieren"
+      }
+    },
+    "preferences": {
+      "language": {
+        "title": "Spracheinstellungen",
+        "description": "Wählen Sie Ihre bevorzugte Sprache",
+        "label": "Sprache",
+        "placeholder": "Sprache auswählen"
+      },
+      "notifications": {
+        "title": "Benachrichtigungseinstellungen",
+        "description": "Steuern Sie, wie Sie Benachrichtigungen erhalten",
+        "settings": "Benachrichtigungseinstellungen",
+        "comingSoon": "Diese Funktion wird bald verfügbar sein",
+        "configure": "Benachrichtigungen konfigurieren"
+      }
+    },
+    "billing": {
+      "title": "Abrechnungsinformationen",
+      "description": "Verwalten Sie Ihre Abrechnungsdetails und Zahlungsmethoden",
+      "paymentMethods": {
+        "title": "Zahlungsmethoden",
+        "none": "Noch keine Zahlungsmethoden hinzugefügt",
+        "add": "Zahlungsmethode hinzufügen"
+      },
+      "subscriptionPlan": {
+        "title": "Abonnementplan",
+        "description": "Verwalten Sie Ihr Abonnement und Ihren Abrechnungszyklus",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "viewInvoices": "Rechnungen ansehen",
+        "upgradePlan": "Plan upgraden"
+      }
+    },
+    "notifications": {
+      "profileUpdated": {
+        "title": "Profil aktualisiert",
+        "description": "Ihre Profilinformationen wurden erfolgreich aktualisiert."
+      },
+      "languageUpdated": {
+        "title": "Sprache aktualisiert",
+        "description": "Ihre Spracheinstellung wurde auf {{language}} gesetzt."
+      }
+    }
+  },
+  "premium": {
+    "title": "Premium-Funktionen",
+    "subtitle": {
+      "premium": "Entfesseln Sie die Kraft von Premium",
+      "upgrade": "Führen Sie ein Upgrade durch, um auf Premium-Funktionen zuzugreifen"
+    },
+    "badges": {
+      "premium": "Premium",
+      "enterprise": "Unternehmen"
+    },
+    "features": {
+      "bulkUpload": {
+        "title": "Massen-Upload von Immobilien",
+        "description": "Sparen Sie Zeit, indem Sie mehrere Immobilien gleichzeitig hochladen",
+        "dragAndDrop": "Ziehen Sie Ihre CSV/JSON-Datei hierher oder klicken Sie zum Durchsuchen.",
+        "maxFileSize": "Maximale Dateigröße: 5MB.",
+        "formatRequirements": {
+          "title": "Anforderungen an das Dateiformat",
+          "csvHeaders": "CSV-Dateien müssen Kopfzeilen wie title, description, price, type, status, bedrooms, bathrooms, area, address, city, country enthalten.",
+          "jsonArray": "Die JSON-Datei muss ein Array von Immobilienobjekten sein.",
+          "requiredFields": "Erforderliche Felder für jede Immobilie: title, description, price, type (z.B. Wohnung, Haus), status (z.B. zum_Verkauf, zu_vermieten)."
+        },
+        "buttonLabels": {
+          "upload": "Immobilien hochladen",
+          "uploading": "Wird hochgeladen..."
+        },
+        "validation": {
+          "statusError": "Fehler",
+          "statusValid": "Gültig",
+          "rowErrorDetails": "Zeile {{rowNumber}}:",
+          "fixErrorsBeforeUploading": "Bitte beheben Sie die unten angeführten Fehler vor dem Hochladen.",
+          "validationErrors": "Validierungsfehler"
+        },
+        "messages": {
+          "success": {
+            "title": "Upload erfolgreich",
+            "description": "{{count}} Immobilien wurden erfolgreich hochgeladen."
+          },
+          "error": {
+            "title": "Upload-Fehler",
+            "default": "Während des Uploads ist ein unbekannter Fehler aufgetreten."
+          },
+          "parseError": {
+            "title": "Fehler beim Einlesen der Datei",
+            "default": "Die hochgeladene Datei konnte nicht eingelesen werden."
+          },
+          "noData": {
+            "title": "Keine Daten zum Hochladen",
+            "description": "Die Datei scheint leer zu sein oder die Daten konnten nicht eingelesen werden."
+          },
+          "validationError": {
+            "title": "Validierungsfehler gefunden",
+            "description": "Bitte überprüfen Sie die Fehler in der Vorschau unten und korrigieren Sie Ihre Datei."
+          }
+        },
+        "selectedFile": "Ausgewählte Datei",
+        "processingFile": "Datei wird verarbeitet...",
+        "uploadSuccessful": "Upload erfolgreich!",
+        "propertiesSuccessfullyUploaded": "Die Immobilien wurden erfolgreich hochgeladen und werden verarbeitet.",
+        "previewData": "Vorschau der Daten",
+        "premiumFeatureNotice": "Der Massen-Upload ist eine Premium-Funktion. Führen Sie ein Upgrade durch, um sie zu aktivieren.",
+        "downloadTemplate": "Vorlage herunterladen",
+        "useTemplateInstructions": "Verwenden Sie unsere CSV-Vorlage, um sicherzustellen, dass Ihre Daten korrekt formatiert sind.",
+        "downloadTemplateButton": "Vorlage herunterladen",
+        "uploadFile": "Datei hochladen",
+        "selectFileInstructions": "Wählen Sie Ihre CSV-Datei mit den Immobiliendaten aus.",
+        "selectFileButton": "Datei auswählen",
+        "parseFileButton": "Datei einlesen",
+        "errors": {
+          "emptyFile": "Die Datei ist leer oder enthält nicht genügend Zeilen.",
+          "invalidNumber": "Ungültige Zahl für {{field}}: {{value}}",
+          "invalidPropertyType": "Ungültiger Immobilientyp \"{{value}}\". Muss einer von: {{types}} sein",
+          "invalidListingType": "Ungültiger Angebotstyp \"{{value}}\". Muss einer von: {{types}} sein",
+          "missingField": "Fehlendes Pflichtfeld: {{field}}"
+        }
+      },
+      "analytics": {
+        "title": "Erweiterte Analyse",
+        "description": "Gewinnen Sie Einblicke in die Leistung von Immobilien und das Besucherverhalten"
+      },
+      "featuredProperties": {
+        "title": "Hervorgehobene Immobilien",
+        "description": "Heben Sie Ihre besten Angebote für erhöhte Sichtbarkeit hervor"
+      },
+      "prioritySupport": {
+        "title": "Bevorzugter Support",
+        "description": "Erhalten Sie schnellere Antworten von unserem Kundensupport-Team"
+      },
+      "marketingTools": {
+        "title": "Marketing-Tools",
+        "description": "Professionelle Marketingmaterialien und Werbewerkzeuge"
+      },
+      "teamManagement": {
+        "title": "Team-Management",
+        "description": "Arbeiten Sie mit Teammitgliedern zusammen und weisen Sie Immobilien zu"
+      },
+      "tourManagement": {
+        "title": "Verwaltung virtueller Touren",
+        "description": "Erstellen und verwalten Sie virtuelle Immobilienbesichtigungen"
+      }
+    },
+    "actions": {
+      "accessFeature": "Funktion aufrufen",
+      "upgradeRequired": "Upgrade erforderlich",
+      "upgrade": "Jetzt upgraden"
+    }
+  },
+  "securityPage": {
+    "subtitle": "Verwalten Sie Sicherheitseinstellungen und Zugriffskontrollen",
+    "adminPassword": "Admin-Passwort",
+    "updatePassword": "Passwort aktualisieren",
+    "currentPassword": "Aktuelles Passwort",
+    "newPassword": "Neues Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "twoFactor": "Zwei-Faktor-Authentifizierung",
+    "twoFactorDesc": "Fügen Sie Ihrem Konto eine zusätzliche Sicherheitsebene hinzu",
+    "twoFactorDisabled": "Zwei-Faktor-Authentifizierung ist deaktiviert",
+    "twoFactorProtect": "Schützen Sie Ihr Konto mit einem zusätzlichen Authentifizierungsschritt",
+    "enable2FA": "2FA aktivieren"
+  },
+  "users": {
+    "createDescription": "Füllen Sie die Details aus, um einen neuen Benutzer hinzuzufügen.",
+    "edit": "Benutzer bearbeiten (Dashboard-Benutzerbereich)",
+    "editDescription": "Beschreibung zur Bearbeitung des Benutzers (Dashboard-Benutzer)",
+    "actions": "Aktionen (Dashboard-Benutzertabellenkopf)",
+    "noUsersFound": "Keine Benutzer gefunden (Dashboard-Benutzer).",
+    "adjustFilters": "Filter anpassen, um Benutzer zu finden (Dashboard-Benutzer).",
+    "agencies": {
+      "title": "Agenturverwaltung",
+      "description": "Verwalten Sie registrierte Agenturen.",
+      "name": "Agenturname",
+      "location": "Standort",
+      "contact": "Kontakt",
+      "agents": "Makler",
+      "agentCount": "Makler",
+      "license": "Lizenz-ID",
+      "status": "Agenturstatus",
+      "verified": "Verifiziert",
+      "unverified": "Nicht verifiziert",
+      "edit": "Agentur bearbeiten",
+      "viewAgents": "Makler ansehen",
+      "verify": "Agentur verifizieren",
+      "unverify": "Verifizierung aufheben",
+      "delete": "Agentur löschen",
+      "noAgenciesFound": "Keine Agenturen gefunden.",
+      "create": "Agentur erstellen",
+      "createSuccess": "Agentur erstellt",
+      "createSuccessMessage": "Agentur wurde erfolgreich erstellt",
+      "createError": "Fehler beim Erstellen",
+      "updateSuccess": "Agentur aktualisiert",
+      "updateSuccessMessage": "Agentur wurde erfolgreich aktualisiert",
+      "updateError": "Fehler beim Aktualisieren",
+      "createDescription": "Fill in the details to add a new agency to the system."
+    },
+    "title": "Benutzerverwaltung",
+    "subtitle": "Verwalten Sie Ihre Plattformbenutzer, ihre Rollen und Agenturen",
+    "description": "Überwachen und verwalten Sie alle Benutzerkonten, Rollen und zugehörigen Agenturen innerhalb der Plattform.",
+    "create": "Benutzer erstellen",
+    "username": "Benutzername",
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "role": "Rolle",
+    "selectRole": "Rolle auswählen",
+    "roles": {
+      "user": "Benutzer",
+      "agent": "Makler",
+      "admin": "Admin"
+    },
+    "tabs": {
+      "users": "Benutzer",
+      "agencies": "Agenturen"
+    },
+    "list": "Benutzerliste",
+    "listDescription": "Anzeige aller registrierten Benutzer.",
+    "search": "Benutzer suchen...",
+    "searchPlaceholder": "Benutzer suchen...",
+    "filterByRole": "Nach Rolle filtern",
+    "allRoles": "Alle Rollen",
+    "filterByStatus": "Nach Status filtern",
+    "allStatuses": "Alle Status",
+    "statuses": {
+      "active": "Aktiv",
+      "suspended": "Gesperrt",
+      "inactive": "Inaktiv",
+      "pending": "Ausstehend"
+    },
+    "agency": "Agentur",
+    "status": "Status",
+    "joined": "Beitrittsdatum",
+    "actions_header": "Aktionen",
+    "table": {
+      "name": "Name",
+      "email": "E-Mail",
+      "role": "Rolle",
+      "status": "Status",
+      "joined": "Beigetreten",
+      "actions": "Aktionen"
+    },
+    "editUser": {
+      "title": "Benutzer bearbeiten",
+      "save": "Änderungen speichern",
+      "cancel": "Abbrechen",
+      "noPropertiesFound": "Keine Immobilien gefunden",
+      "noPropertiesInSystem": "Derzeit sind keine Immobilien im System angeführt.",
+      "edit": "Bearbeiten"
+    },
+    "delete": "Benutzer löschen",
+    "deleteConfirmTitle": "Löschen des Benutzers bestätigen",
+    "deleteConfirmDescription": "Sind Sie sicher, dass Sie diesen Benutzer löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "confirmDelete": {
+      "title": "Benutzer löschen",
+      "message": "Sind Sie sicher, dass Sie diesen Benutzer löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirm": "Löschen",
+      "cancel": "Abbrechen"
+    },
+    "reactivate": "Benutzer reaktivieren",
+    "resetPassword": "Passwort zurücksetzen",
+    "noUsers": "Keine Benutzer gefunden",
+    "verification": {
+      "title": "Verifizierungsstatus",
+      "inactive": "Nicht verifiziert",
+      "user": "Benutzer verifiziert",
+      "active": "Verifiziert",
+      "agency": "Agentur verifiziert"
+    },
+    "selectAgency": "Agentur auswählen",
+    "noAgency": "Keine Agentur",
+    "updateSuccess": "Benutzer aktualisiert",
+    "updateSuccessMessage": "Benutzer wurde erfolgreich aktualisiert",
+    "updateError": "Fehler beim Aktualisieren",
+    "adminOnly": "Nur Admin",
+    "noPermission": "Keine Berechtigung",
+    "bulkDeleteAction": "Delete Selected Users"
+  },
+  "global": {
+    "pending": "Ausstehend",
+    "verified": "Verifiziert"
+  },
+  "admin": {
+    "title": "Admin-Dashboard",
+    "subtitle": "Verwalten Sie Ihre Plattform",
+    "systemSettings": "Systemeinstellungen",
+    "generateReports": "Berichte erstellen",
+    "stats": {
+      "totalUsers": "Benutzer insgesamt",
+      "fromPrevious": "vom vorigen {{timeframe}}",
+      "properties": "Immobilien insgesamt",
+      "pageViews": "Seitenaufrufe insgesamt",
+      "revenue": "Gesamteinnahmen"
+    },
+    "pendingApprovals": "Ausstehende Genehmigungen",
+    "reviewManageSubmissions": "Überprüfen und verwalten Sie Immobilien- und Maklereinreichungen",
+    "allSubmissions": "Alle Einreichungen",
+    "properties": "Immobilien",
+    "agents": "Makler",
+    "itemsPendingApproval": "Zu genehmigende Elemente",
+    "item": "Element",
+    "type": "Typ",
+    "submittedBy": "Eingereicht von",
+    "date": "Datum",
+    "actions": "Aktionen",
+    "noPendingApprovals": "Keine ausstehenden Genehmigungen",
+    "allSubmissionsReviewed": "Alle Einreichungen wurden überprüft",
+    "propertySubmissions": "Immobilieneinreichungen",
+    "reviewPropertySubmissions": "Überprüfen und verwalten Sie Immobilieneinreichungen",
+    "agentSubmissions": "Maklereinreichungen",
+    "reviewAgentSubmissions": "Überprüfen und verwalten Sie Maklereinreichungen",
+    "general": "Allgemein",
+    "security": "Sicherheit",
+    "notifications": "Benachrichtigungen",
+    "integrations": "Integrationen",
+    "generalSettings": "Allgemeine Einstellungen",
+    "manageGeneralSettings": "Verwalten Sie allgemeine Systemeinstellungen",
+    "siteName": "Seitenname",
+    "defaultLanguage": "Standardsprache",
+    "selectLanguage": "Sprache auswählen",
+    "maintenanceMode": "Wartungsmodus",
+    "securitySettings": "Sicherheitseinstellungen",
+    "manageSecuritySettings": "Verwalten Sie Sicherheitseinstellungen",
+    "requireTwoFactor": "Zwei-Faktor-Authentifizierung erfordern",
+    "requireEmailVerification": "E-Mail-Verifizierung erfordern",
+    "sessionTimeout": "Sitzungs-Timeout",
+    "selectTimeout": "Timeout auswählen",
+    "notificationSettings": "Benachrichtigungseinstellungen",
+    "manageNotificationSettings": "Verwalten Sie Benachrichtigungseinstellungen",
+    "emailNotifications": "E-Mail-Benachrichtigungen",
+    "pushNotifications": "Push-Benachrichtigungen",
+    "notificationEmail": "Benachrichtigungs-E-Mail",
+    "integrationSettings": "Integrationseinstellungen",
+    "manageIntegrationSettings": "Verwalten Sie Integrationen von Drittanbietern",
+    "googleMapsApiKey": "Google Maps API-Schlüssel",
+    "stripeApiKey": "Stripe API-Schlüssel",
+    "smtpServer": "SMTP-Server",
+    "saveChanges": "Änderungen speichern",
+    "usersManagement": "Benutzerverwaltung",
+    "userManagement": "Benutzerverwaltung",
+    "viewManageAccounts": "Konten ansehen und verwalten",
+    "recentProperties": "Neueste Immobilien",
+    "noPropertiesFound": "Keine Immobilien gefunden",
+    "noPropertiesInSystem": "Derzeit sind keine Immobilien im System angeführt.",
+    "editUser": "Benutzer bearbeiten",
+    "edit": "Bearbeiten",
+    "manageSystemSettings": "Verwalten Sie Ihre Systemeinstellungen, Präferenzen und Konfigurationen.",
+    "fullUserManagement": "Vollständige Benutzerverwaltung",
+    "addUser": "Benutzer hinzufügen",
+    "addProperty": "Immobilie hinzufügen",
+    "noApprovals": "Keine Genehmigungen",
+    "allCaughtUp": "Alles erledigt! Keine offenen Punkte zur Überprüfung.",
+    "confirmDeleteUser": "Sind Sie sicher, dass Sie den Benutzer \"{{name}}\" löschen möchten?",
+    "suspendUser": "Benutzer sperren",
+    "reactivateUser": "Benutzer reaktivieren",
+    "viewAllUsers": "Alle {{count}} Benutzer ansehen",
+    "recentPropertiesDescription": "Neueste Immobilienangebote im System",
+    "updateUserDescription": "Benutzerinformationen und Berechtigungen aktualisieren",
+    "createNewUser": "Neuen Benutzer erstellen",
+    "createUserDescription": "Füllen Sie die Details aus, um einen neuen Benutzer zum System hinzuzufügen",
+    "createUser": "Benutzer erstellen",
+    "tableHeaders": {
+      "property": "Immobilie",
+      "location": "Standort",
+      "price": "Preis",
+      "type": "Typ",
+      "status": "Status"
+    },
+    "roles": {
+      "user": "Benutzer",
+      "agent": "Makler",
+      "admin": "Admin"
+    }
+  },
+  "actions": {
+    "search": "Suchen",
+    "confirm": "Bestätigen",
+    "complete": "Abschließen",
+    "cancel": "Abbrechen",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "help": "Hilfe",
+    "pause": "Pausieren",
+    "confirmTitle": "Immobilienbesichtigung bestätigen",
+    "completeTitle": "Immobilienbesichtigung abschließen",
+    "cancelTitle": "Immobilienbesichtigung abbrechen",
+    "confirmMessage": "Sind Sie sicher, dass Sie diese Immobilienbesichtigung bestätigen möchten? Dies benachrichtigt den Kunden, dass seine Besichtigungsanfrage genehmigt wurde.",
+    "completeMessage": "Sind Sie sicher, dass Sie diese Besichtigung als abgeschlossen markieren möchten? Dies zeigt an, dass die Besichtigung stattgefunden hat.",
+    "cancelMessage": "Sind Sie sicher, dass Sie diese Immobilienbesichtigung abbrechen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "confirmButton": "Besichtigung bestätigen",
+    "completeButton": "Besichtigung abschließen",
+    "cancelButton": "Besichtigung abbrechen",
+    "processing": "Wird verarbeitet...",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "submit": "Senden",
+    "edit": "Bearbeiten",
+    "view": "Ansehen",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "reset": "Zurücksetzen"
+  },
+  "agentProperties": {
+    "title": "Meine Immobilien",
+    "description": "Verwalten Sie Ihre Immobilienangebote",
+    "addNew": "Immobilie hinzufügen",
+    "loading": "Immobilien werden geladen...",
+    "error": "Fehler beim Laden der Immobilien",
+    "selectProperties": "Immobilien auswählen",
+    "cancelSelection": "Abbrechen",
+    "selectAll": "Alle auswählen",
+    "deselectAll": "Auswahl aufheben",
+    "moveToTrash": "In den Papierkorb verschieben",
+    "quickAdd": "Schnelles Hinzufügen",
+    "standardForm": "Standardformular",
+    "wizardMode": "Assistentenmodus",
+    "tabs": {
+      "all": "Alle Immobilien",
+      "forSale": "Zum Verkauf",
+      "forRent": "Zu vermieten",
+      "premium": "Premium"
+    },
+    "propertyListings": "Immobilienangebote",
+    "propertiesFound_one": "{{count}} Immobilie gefunden",
+    "propertiesFound_other": "{{count}} Immobilien gefunden",
+    "propertiesFound": "{{count}} Immobilien gefunden",
+    "table": {
+      "property": "Immobilie",
+      "id": "ID",
+      "type": "Typ",
+      "status": "Status",
+      "price": "Preis",
+      "views": "Aufrufe",
+      "actions": "Aktionen"
+    },
+    "statusLabels": {
+      "pending": "Ausstehend",
+      "active": "Aktiv",
+      "sold": "Verkauft",
+      "rented": "Vermietet",
+      "verified": "Verifiziert"
+    },
+    "actions": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "empty": {
+      "title": "Noch keine Immobilien angeführt",
+      "description": "Fangen Sie an, Immobilien zu Ihrem Portfolio hinzuzufügen"
+    },
+    "delete": {
+      "confirm": "Sind Sie sicher, dass Sie diese Immobilie löschen möchten?",
+      "success": {
+        "title": "Immobilie gelöscht",
+        "description": "Die Immobilie wurde erfolgreich gelöscht"
+      },
+      "error": {
+        "title": "Löschen fehlgeschlagen",
+        "description": "Fehler beim Löschen der Immobilie. Bitte versuchen Sie es erneut."
+      }
+    },
+    "pricePerMonth": "/Monat",
+    "noProperties": "Keine Immobilien gefunden. Klicken Sie auf \"Immobilie hinzufügen\", um ein neues Angebot zu erstellen.",
+    "trash": {
+      "properties_one": "Immobilie",
+      "properties_other": "Immobilien",
+      "properties": "Immobilien",
+      "confirmTitle": "Immobilien in den Papierkorb verschieben?",
+      "confirmDescription": "Immobilien werden in den Papierkorb verschoben und nach 14 Tagen automatisch gelöscht. Sie können sie vorher aus dem Papierkorb wiederherstellen.",
+      "countMessage_one": "Sie sind dabei, {{count}} {{properties}} in den Papierkorb zu verschieben.",
+      "countMessage_other": "Sie sind dabei, {{count}} {{properties}} in den Papierkorb zu verschieben.",
+      "countMessage": "Sie sind dabei, {{count}} {{properties}} in den Papierkorb zu verschieben.",
+      "confirm": "In den Papierkorb",
+      "success": "Immobilien in den Papierkorb verschoben",
+      "successDescription": "Immobilien werden nach 14 Tagen endgültig gelöscht",
+      "error": "Fehler beim Verschieben von Immobilien in den Papierkorb",
+      "errorDescription": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+      "title": "Immobilien-Papierkorb",
+      "trashExpiryWarning": "Immobilien im Papierkorb werden nach 14 Tagen endgültig gelöscht",
+      "restoreSelected": "Ausgewählte wiederherstellen",
+      "deleteForever": "Endgültig löschen",
+      "emptyTrash": "Papierkorb leeren",
+      "trashedProperties": "Immobilien im Papierkorb",
+      "trashedPropertiesCount_one": "{{count}} Immobilie im Papierkorb",
+      "trashedPropertiesCount_other": "{{count}} Immobilien im Papierkorb",
+      "trashedPropertiesCount": "{{count}} Immobilien im Papierkorb",
+      "deletionDate": "Wird gelöscht",
+      "deleteInDays": "Wird in {{days}} Tagen gelöscht",
+      "deleteToday": "Wird heute gelöscht",
+      "deleteTomorrow": "Wird morgen gelöscht",
+      "noItemsInTrash": "Keine Immobilien im Papierkorb",
+      "emptyTrashDescription": "Elemente, die in den Papierkorb verschoben werden, scheinen hier für 14 Tage auf, bevor sie endgültig gelöscht werden",
+      "backToProperties": "Zurück zu den Immobilien",
+      "restoreTitle": "Immobilien wiederherstellen",
+      "restoreDescription": "Stellen Sie Immobilien aus dem Papierkorb in Ihren aktiven Angeboten wieder her.",
+      "restoreCountMessage_one": "Sie sind dabei, {{count}} Immobilie wiederherzustellen.",
+      "restoreCountMessage_other": "Sie sind dabei, {{count}} Immobilien wiederherzustellen.",
+      "restoreCountMessage": "Sie sind dabei, {{count}} {{properties}} wiederherzustellen.",
+      "restoreConfirm": "Wiederherstellen",
+      "deleteForeverTitle": "Immobilien endgültig löschen?",
+      "deleteForeverDescription": "Diese Aktion kann nicht rückgängig gemacht werden. Die Immobilien werden endgültig gelöscht.",
+      "deleteForeverCountMessage_one": "Sie sind dabei, {{count}} Immobilie endgültig zu löschen.",
+      "deleteForeverCountMessage_other": "Sie sind dabei, {{count}} Immobilien endgültig zu löschen.",
+      "deleteForeverCountMessage": "Sie sind dabei, {{count}} {{properties}} endgültig zu löschen.",
+      "deleteForeverConfirm": "Endgültig löschen",
+      "emptyTrashTitle": "Papierkorb leeren?",
+      "emptyTrashCountMessage_one": "Sie sind dabei, {{count}} Immobilie aus dem Papierkorb endgültig zu löschen.",
+      "emptyTrashCountMessage_other": "Sie sind dabei, {{count}} Immobilien aus dem Papierkorb endgültig zu löschen.",
+      "emptyTrashCountMessage": "Sie sind dabei, {{count}} Immobilien aus dem Papierkorb endgültig zu löschen.",
+      "emptyTrashConfirm": "Papierkorb leeren",
+      "restoreSuccess": "Immobilien erfolgreich wiederhergestellt",
+      "restoreSuccessDescription": "Die ausgewählten Immobilien wurden in Ihren Angeboten wiederhergestellt",
+      "restoreError": "Fehler beim Wiederherstellen von Immobilien",
+      "deleteSuccess": "Immobilien endgültig gelöscht",
+      "deleteSuccessDescription": "Die ausgewählten Immobilien wurden endgültig entfernt",
+      "deleteError": "Fehler beim Löschen von Immobilien",
+      "emptySuccess": "Papierkorb erfolgreich geleert",
+      "emptySuccessDescription": "Alle Immobilien im Papierkorb wurden endgültig gelöscht",
+      "emptyError": "Fehler beim Leeren des Papierkorbs"
+    },
+    "selectMultiple": "Mehrere Immobilien auswählen",
+    "status": {
+      "pending": "Ausstehend",
+      "verified": "Verifiziert"
+    }
+  },
+  "subscription": {
+    "plans": {
+      "popular": "BELIEBT",
+      "free": "Kostenlos",
+      "perMonth": "Monat",
+      "perYear": "Jahr",
+      "saveWithYearly": "Sie sparen 40% bei jährlicher Verrechnung!",
+      "currentPlan": "Aktueller Plan",
+      "contactSales": "Vertrieb kontaktieren",
+      "title": "Wählen Sie Ihren Plan",
+      "chooseRightPlan": "Wählen Sie den richtigen Plan für Sie",
+      "description": "Wählen Sie den Plan, der am besten zu Ihren Bedürfnissen passt, und schalten Sie Premium-Funktionen frei.",
+      "allPlansInclude": "Alle Pläne beinhalten",
+      "tiers": {
+        "basic": {
+          "name": "Basic",
+          "description": "Für Einzelpersonen, die Immobilien durchsuchen möchten",
+          "buttonText": "Aktueller Plan"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Für Immobilienmakler und Hausverwalter",
+          "buttonText": "Jetzt abonnieren"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "description": "Für Immobilienagenturen und große Unternehmen",
+          "buttonText": "Jetzt abonnieren"
+        }
+      },
+      "features": {
+        "basicListing": "Einfaches Immobilieninserat",
+        "saveFavorites": "Favoriten speichern",
+        "contactOwners": "Eigentümer kontaktieren",
+        "premiumListings": "Premium-Immobilieninserate",
+        "bulkUploads": "Massen-Upload von Immobilien",
+        "unlimitedBulkUploads": "Unbegrenzte Massen-Uploads von Immobilien",
+        "analytics": "Erweiterte Analysen",
+        "advancedAnalytics": "Erweiterte Analysen & Berichterstattung",
+        "prioritySupport": "Bevorzugter Support",
+        "priorityAllHoursSupport": "Bevorzugter 24/7-Support",
+        "featuredPlacement": "Hervorgehobene Platzierung von Immobilien",
+        "customBranding": "Individuelles Branding",
+        "apiAccess": "API-Zugang",
+        "whiteLabel": "White-Label-Lösung",
+        "allListings": "Alle Inserate",
+        "mobileAccess": "Mobiler Zugriff",
+        "secureMessaging": "Sichere Nachrichten",
+        "saveProperties": "Immobilien speichern",
+        "regularUpdates": "Regelmäßige Updates",
+        "support": "Support"
+      }
+    },
+    "billing": {
+      "monthly": "Monatliche Verrechnung",
+      "yearly": "Jährliche Verrechnung",
+      "savePercent": "Sparen Sie {{percent}}% bei jährlicher Verrechnung"
+    },
+    "status": {
+      "title": "Abonnieren",
+      "details": "Ihre aktuellen Abonnementdetails",
+      "basicTitle": "Basiskonto",
+      "basicDescription": "Führen Sie ein Upgrade durch, um Premium-Funktionen freizuschalten",
+      "basicMessage": "Sie nutzen derzeit den Basic-Plan. Führen Sie ein Upgrade durch, um auf Premium-Funktionen wie Massen-Uploads, Analysen und mehr zuzugreifen.",
+      "viewPlans": "Zurück zu den Plänen",
+      "loading": "Ihr Abonnement wird eingerichtet...",
+      "error": "Zahlung konnte nicht eingerichtet werden",
+      "errorMessage": "Beim Einrichten des Zahlungsvorgangs ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut.",
+      "tryAgain": "Erneut versuchen",
+      "planLabel": "Plan",
+      "statusLabel": "Status",
+      "renewalDate": "Verlängerungsdatum",
+      "notAvailable": "N/A",
+      "activeSubscription": "Aktives Abonnement",
+      "activeMessage": "Ihr Abonnement ist aktiv und wird am {{date}} automatisch verlängert.",
+      "canceledTitle": "Abonnement gekündigt",
+      "canceledMessage": "Die Abonnementfunktion ist derzeit nicht verfügbar. Bitte schauen Sie später wieder vorbei.",
+      "paymentIssueTitle": "Zahlungsproblem",
+      "paymentIssueMessage": "Bei Ihrer letzten Zahlung ist ein Problem aufgetreten. Bitte aktualisieren Sie Ihre Zahlungsmethode.",
+      "manageSubscription": "Abonnement verwalten",
+      "viewPremiumFeatures": "Premium-Funktionen anzeigen"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "cancel": {
+        "question": "Kann ich mein Abonnement kündigen?",
+        "answer": "Ja, Sie können Ihr Abonnement jederzeit in Ihren Kontoeinstellungen kündigen."
+      },
+      "payment": {
+        "question": "Welche Zahlungsmethoden werden akzeptiert?",
+        "answer": "Wir akzeptieren alle gängigen Kreditkarten und Zahlungsanbieter."
+      },
+      "refund": {
+        "question": "Kann ich eine Rückerstattung erhalten?",
+        "answer": "Rückerstattungen sind gemäß unserer Rückerstattungsrichtlinie verfügbar. Bitte kontaktieren Sie den Support für Details."
+      },
+      "teamDiscount": {
+        "question": "Gibt es einen Rabatt für Teams?",
+        "answer": "Ja, wir bieten Rabatte für Teams und Agenturen. Kontaktieren Sie den Vertrieb für weitere Informationen."
+      }
+    }
+  },
+  "tours": {
+    "title": "Immobilienbesichtigungen",
+    "description": "Verwalten und sehen Sie geplante Immobilienbesichtigungen."
+  },
+  "footer": {
+    "premiumFeatures": "Premium-Funktionen",
+    "features": {
+      "support": "Support",
+      "premiumFeatures": "Premium-Funktionen",
+      "bulkUpload": "Massen-Upload",
+      "analytics": "Analysen",
+      "featured": "Hervorgehoben",
+      "aiRecommendations": "KI-Empfehlungen"
+    }
+  },
+  "propertyDocuments": {
+    "title": "Immobiliendokumente",
+    "types": {
+      "floorPlan": "Grundriss",
+      "energyCertificate": "Energieausweis",
+      "deed": "Eigentumsurkunde",
+      "survey": "Lageplan",
+      "inspection": "Inspektionsbericht",
+      "permit": "Baugenehmigung",
+      "tax": "Steuerunterlagen",
+      "insurance": "Versicherungsunterlagen",
+      "contract": "Miet-/Kaufvertrag",
+      "other": "Andere Dokumente"
+    },
+    "status": {
+      "available": "Verfügbar",
+      "pending": "Ausstehend",
+      "unavailable": "Nicht verfügbar"
+    },
+    "actions": {
+      "view": "Dokument ansehen",
+      "download": "Herunterladen",
+      "request": "Dokument anfordern",
+      "upload": "Dokument hochladen"
+    }
+  },
+  "propertyMetrics": {
+    "title": "Immobilienkennzahlen",
+    "views": {
+      "total": "Gesamtaufrufe",
+      "lastWeek": "Aufrufe letzte Woche",
+      "lastMonth": "Aufrufe letzter Monat",
+      "trend": "Aufruftrend"
+    },
+    "inquiries": {
+      "total": "Gesamtanfragen",
+      "lastWeek": "Anfragen letzte Woche",
+      "lastMonth": "Anfragen letzter Monat",
+      "conversionRate": "Konversionsrate Anfrage zu Aufruf"
+    },
+    "performance": {
+      "title": "Leistungskennzahlen",
+      "averageViewTime": "Durchschnittliche Betrachtungsdauer",
+      "favoriteCount": "Anzahl der Favorisierungen",
+      "shareCount": "Anzahl der Teilungen",
+      "responseRate": "Antwortrate",
+      "responseTime": "Durchschnittliche Antwortzeit"
+    }
+  },
+  "propertyHistory": {
+    "title": "Immobilienhistorie",
+    "priceHistory": "Preishistorie",
+    "listingHistory": "Inseratshistorie",
+    "viewHistory": "Aufrufhistorie",
+    "inquiryHistory": "Anfragehistorie",
+    "eventTypes": {
+      "listed": "Gelistet",
+      "priceChanged": "Preis geändert",
+      "statusChanged": "Status geändert",
+      "viewed": "Angesehen",
+      "inquiry": "Anfrage erhalten",
+      "tour": "Besichtigung geplant",
+      "sold": "Verkauft",
+      "rented": "Vermietet"
+    }
+  },
+  "propertyAnalytics": {
+    "title": "Immobilienanalysen",
+    "overview": "Übersicht",
+    "performance": "Leistung",
+    "engagement": "Engagement",
+    "conversions": "Konversionen",
+    "timeframes": {
+      "today": "Heute",
+      "week": "Diese Woche",
+      "month": "Dieser Monat",
+      "year": "Dieses Jahr",
+      "custom": "Benutzerdefinierter Bereich"
+    },
+    "metrics": {
+      "views": "Aufrufe",
+      "inquiries": "Anfragen",
+      "favourites": "Favoriten",
+      "shares": "Teilungen",
+      "tours": "Besichtigungen",
+      "conversionRate": "Konversionsrate"
+    }
+  },
+  "onboarding": {
+    "title": "Finden Sie Ihr Traumhaus schneller",
+    "welcome": {
+      "title": "Finden Sie Ihr Traumhaus",
+      "description": "Beantworten Sie ein paar Fragen, damit wir die perfekte Immobilie für Sie finden können",
+      "imageAlt": "Schönes modernes Haus",
+      "feature1Title": "Personalisierte Suche",
+      "feature1Desc": "Erhalten Sie Empfehlungen, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind",
+      "feature2Title": "Optimierter Prozess",
+      "feature2Desc": "Sparen Sie Zeit und finden Sie Immobilien, die Ihnen wirklich gefallen werden"
+    },
+    "features": {
+      "personalized": "Personalisierte Immobilienempfehlungen",
+      "saveTime": "Sparen Sie Zeit mit KI-gestützter Suche",
+      "lifestyle": "Finden Sie Immobilien, die zu Ihrem Lebensstil passen"
+    },
+    "later": "Vielleicht später",
+    "start": "Geführte Suche starten",
+    "location": {
+      "title": "Wo möchten Sie leben?",
+      "description": "Wählen Sie Ihren bevorzugten Standort, um Immobilien in der Nähe zu finden",
+      "label": "Standort",
+      "placeholder": "Geben Sie eine Stadt oder ein Gebiet ein",
+      "popularLocations": "Beliebte Standorte",
+      "popularCity1": "New York",
+      "popularCity2": "Los Angeles",
+      "popularCity3": "Chicago",
+      "popularCity4": "Miami",
+      "popularCity5": "San Francisco"
+    },
+    "propertyType": {
+      "title": "Immobilientyp",
+      "description": "Nach welchem Immobilientyp suchen Sie?",
+      "apartment": "Wohnung",
+      "house": "Haus",
+      "townhouse": "Reihenhaus",
+      "condo": "Eigentumswohnung"
+    },
+    "budget": {
+      "title": "Ihr Budget",
+      "description": "Legen Sie Ihre Preisspanne für die Immobilie fest",
+      "minLabel": "Mindestpreis",
+      "maxLabel": "Höchstpreis",
+      "buyOrRent": "Möchten Sie kaufen oder mieten?",
+      "buy": "Kaufen",
+      "rent": "Mieten",
+      "minBedrooms": "Mindestanzahl Schlafzimmer"
+    },
+    "desiredFeatures": {
+      "title": "Gewünschte Eigenschaften",
+      "description": "Wählen Sie die Eigenschaften aus, die Sie in Ihrer Immobilie haben möchten"
+    },
+    "propertyFeatures": {
+      "pool": "Schwimmbad",
+      "garage": "Garage",
+      "garden": "Garten",
+      "balcony": "Balkon",
+      "gym": "Fitnessstudio",
+      "security": "Sicherheit",
+      "airConditioning": "Klimaanlage",
+      "furnished": "Möbliert",
+      "petFriendly": "Haustierfreundlich",
+      "smartHome": "Smart Home",
+      "oceanView": "Meerblick",
+      "fireplace": "Kamin"
+    },
+    "errors": {
+      "locationRequired": "Standort erforderlich",
+      "locationRequiredDesc": "Bitte geben Sie einen Standort ein, um fortzufahren"
+    },
+    "aiMatching": {
+      "title": "Suche nach idealen Immobilien",
+      "description": "Unser KI-Algorithmus analysiert Tausende von Immobilien, um die besten Übereinstimmungen für Sie zu finden",
+      "analyzing": "Ihre Präferenzen werden analysiert...",
+      "matchesFound": "Immobilien gefunden!",
+      "matchesDescription": "Wir haben {{count}} Immobilien gefunden, die Ihren Kriterien entsprechen. Sehen Sie sich Ihre personalisierten Übereinstimmungen an, um Ihr Traumhaus zu finden."
+    },
+    "actions": {
+      "continue": "Weiter",
+      "back": "Zurück"
+    }
+  },
+  "verification": {
+    "form": {
+      "type": "Verifizierungstyp",
+      "user": "Einzelbenutzer",
+      "user_description": "Verifizieren Sie Ihre persönliche Identität",
+      "agency": "Unternehmen/Agentur",
+      "agency_description": "Verifizieren Sie Ihr Unternehmen oder Ihre Agentur",
+      "method": "Verifizierungsmethode",
+      "digital": "Digitale Verifizierung",
+      "manual": "Manuelle Verifizierung",
+      "documents": "Erforderliche Dokumente",
+      "government_id": "Personalausweis",
+      "proof_of_address": "Adressnachweis",
+      "business_registration": "Gewerbeanmeldung",
+      "real_estate_license": "Immobilienlizenz",
+      "business_address_proof": "Geschäftsadressnachweis",
+      "agent_id": "Agenten-ID",
+      "submitting": "Wird gesendet...",
+      "submit": "Verifizierung senden"
+    },
+    "error": {
+      "title": "Verifizierungsfehler",
+      "description": "Es gab einen Fehler beim Senden Ihrer Verifizierung"
+    }
+  },
+  "verified": "Verifiziert",
+  "user_verified": "Benutzer verifiziert",
+  "verified_on": "Verifiziert am {{date}}",
+  "verification_benefits": "Vorteile der Verifizierung",
+  "benefit_badge": "Verifiziert-Badge in Ihrem Profil",
+  "benefit_priority_responses": "Bevorzugte Antworten von Maklern",
+  "benefit_trustworthiness": "Erhöhte Vertrauenswürdigkeit",
+  "agent": {
+    "title": "Makler-Dashboard",
+    "subtitle": "Verwalten Sie Ihre Immobilien und verfolgen Sie die Leistung",
+    "propertyViews": "Immobilienaufrufe",
+    "inquiries": "Anfragen",
+    "conversions": "Konversionen",
+    "revenue": "Umsatz",
+    "tabs": {
+      "properties": "Immobilien",
+      "inquiries": "Anfragen",
+      "performance": "Leistung",
+      "bulkUpload": "Massen-Upload"
+    },
+    "noInquiries": {
+      "title": "Noch keine Anfragen",
+      "description": "Anfragen von potenziellen Käufern werden hier angezeigt"
+    },
+    "performance": {
+      "overview": "Leistungsübersicht",
+      "metrics": "Schlüsselkennzahlen",
+      "topProperties": "Top-Immobilien",
+      "luxuryApartment": "Luxuswohnung",
+      "views": "Aufrufe",
+      "inquiries": "Anfragen",
+      "conversionRate": "Konversionsrate",
+      "inquiryToSale": "Anfrage zu Verkauf"
+    },
+    "fromPrevious": "vom vorherigen {{timeframe}}",
+    "confirmDelete": "Sind Sie sicher, dass Sie diese Immobilie löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteSuccess": "Immobilie erfolgreich gelöscht",
+    "deleteError": "Fehler beim Löschen der Immobilie",
+    "refreshed": "Dashboard-Daten aktualisiert",
+    "exportSuccess": "Immobilien erfolgreich exportiert",
+    "exportError": "Fehler beim Exportieren der Immobilien",
+    "reply": "Antworten"
+  },
+  "propertyManagement": {
+    "title": "Immobilienverwaltung",
+    "description": "Verwalten Sie Immobilieninserate und -details",
+    "addProperty": "Immobilie hinzufügen",
+    "propertiesList": "Immobilienliste",
+    "noProperties": "Keine Immobilien gefunden",
+    "searchPlaceholder": "Immobilien suchen...",
+    "table": {
+      "title": "Titel",
+      "type": "Typ",
+      "status": "Status",
+      "price": "Preis",
+      "location": "Standort",
+      "actions": "Aktionen"
+    },
+    "statusLabels": {
+      "active": "Aktiv",
+      "pending": "Ausstehend",
+      "sold": "Verkauft",
+      "rented": "Vermietet",
+      "inactive": "Inaktiv"
+    }
+  },
+  "errors": {
+    "failedToFetch": "Abrufen der Immobilien fehlgeschlagen",
+    "notFound": {
+      "title": "Nicht gefunden",
+      "message": "Die angeforderte Ressource konnte nicht gefunden werden."
+    },
+    "premiumRequired": {
+      "title": "Premium erforderlich",
+      "message": "Diese Funktion erfordert ein Premium-Abonnement.",
+      "hint": "Führen Sie ein Upgrade auf Premium durch, um erweiterte Funktionen freizuschalten und Einschränkungen aufzuheben.",
+      "buttonText": "Upgrade auf Premium"
+    }
+  },
+  "ui": {
+    "processing": "Wird bearbeitet..."
+  },
+  "forgotPassword": {
+    "title": "Passwort vergessen",
+    "subtitle": "Geben Sie Ihre E-Mail-Adresse ein, um Ihr Passwort zurückzusetzen",
+    "email": "E-Mail-Adresse",
+    "fullName": "Vollständiger Name",
+    "submit": "Passwort zurücksetzen",
+    "back": "Zurück zum Login",
+    "resetPassword": "Passwort zurücksetzen",
+    "success": "E-Mail zum Zurücksetzen des Passworts gesendet",
+    "successMessage": "Überprüfen Sie Ihre E-Mails auf einen Link zum Zurücksetzen Ihres Passworts",
+    "error": "Fehler",
+    "emailNotFound": "Kein Konto mit dieser E-Mail-Adresse gefunden",
+    "invalidName": "Der Name stimmt nicht mit unseren Aufzeichnungen überein",
+    "generateTempPassword": "Temporäres Passwort generieren"
+  },
+  "aiRecommendations": {
+    "title": "KI-Immobilienempfehlungen",
+    "howItWorks": "So funktioniert's",
+    "description": "Diese Immobilien werden basierend auf Ihren Präferenzen und Ihrem Verhalten personalisiert.",
+    "personalizeTitle": "Personalisieren Sie Ihre Empfehlungen",
+    "updateButton": "Präferenzen aktualisieren",
+    "tabs": {
+      "forYou": "Für Sie",
+      "similar": "Ähnlich",
+      "trending": "Im Trend"
+    },
+    "personalizedForYou": "Für Sie personalisiert",
+    "personalizedForYouDesc": "Basierend auf Ihren ausgewählten Interessen und Aktivitäten.",
+    "similarTitle": "Ähnliche Immobilien",
+    "similarDesc": "Immobilien, die denen ähneln, die Sie angesehen haben",
+    "trendingTitle": "Trendige Immobilien",
+    "trendingDesc": "Beliebte Immobilien in Ihrer Nähe",
+    "interest": {
+      "familyFriendly": "Familienfreundlich",
+      "investment": "Investitionspotenzial",
+      "workFromHome": "Homeoffice",
+      "urbanLifestyle": "Urbaner Lebensstil",
+      "natureLover": "Naturliebhaber",
+      "luxury": "Luxus",
+      "firstTimeBuyer": "Erstkäufer",
+      "vacationHome": "Ferienhaus"
+    },
+    "toast": {
+      "selectInterestTitle": "Interessen auswählen",
+      "selectInterestDesc": "Wählen Sie mindestens ein Interesse aus, um Ihre Empfehlungen zu personalisieren",
+      "updatedTitle": "Präferenzen aktualisiert",
+      "updatedDesc": "Ihre Empfehlungen wurden aktualisiert",
+      "addedPrefTitle": "Präferenz hinzugefügt",
+      "notedTitle": "Präferenz vermerkt",
+      "moreLikeThis": "Wir zeigen Ihnen mehr davon",
+      "lessLikeThis": "Wir zeigen Ihnen weniger davon"
+    },
+    "noProperties": "Keine Immobilien gefunden",
+    "moreLikeThis": "Mehr davon",
+    "lessLikeThis": "Weniger davon"
+  }
+}

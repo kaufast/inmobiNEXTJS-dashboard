@@ -1,0 +1,45 @@
+{
+  "title": "Restez à Jour avec Inmobi",
+  "description": "Recevez des annonces de propriétés exclusives, des analyses de marché et des opportunités d'investissement directement dans votre boîte mail",
+  "subscribers": "Rejoignez 25 000+ Abonnés",
+  "features": {
+    "weeklyProperties": "Propriétés Hebdomadaires",
+    "newPropertyAlerts": "Alertes de nouvelles propriétés",
+    "marketInsights": "Analyses du marché",
+    "exclusiveOffers": "Offres exclusives"
+  },
+  "form": {
+    "placeholder": "Entrez votre adresse email...",
+    "subscribe": "S'abonner Maintenant →"
+  },
+  "trust": {
+    "secure": "100% Sécurisé",
+    "weeklyUpdates": "Mises à Jour Hebdomadaires",
+    "noSpam": "Sans Spam"
+  },
+  "disclaimer": "En vous abonnant, vous acceptez notre Politique de Confidentialité • Se désabonner à tout moment",
+  "stats": {
+    "happySubscribers": "Abonnés Satisfaits",
+    "weeklyProperties": "Propriétés Hebdomadaires",
+    "averageRating": "Note Moyenne",
+    "countriesServed": "Pays Desservis"
+  },
+  "success": {
+    "title": "Abonnement Réussi !",
+    "description": "Nous vous avons envoyé un email de confirmation. Veuillez vérifier votre boîte mail.",
+    "badge": "Confirmé"
+  },
+  "frequency": {
+    "weekly": "Hebdomadaire",
+    "secure": "Sécurisé",
+    "unsubscribe": "Désabonnement facile"
+  },
+  "errors": {
+    "alreadySubscribed": "Vous êtes déjà abonné à notre newsletter",
+    "subscriptionFailed": "Échec de l'abonnement",
+    "networkError": "Erreur réseau",
+    "title": "Erreur",
+    "tryAgain": "Veuillez réessayer"
+  },
+  "subscribing": "Abonnement en cours..."
+}

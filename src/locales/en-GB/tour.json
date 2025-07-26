@@ -1,0 +1,172 @@
+{
+  "dashboard": {
+    "welcome": {
+      "title": "Welcome to Inmobi",
+      "description": "Welcome to your real estate dashboard! Let's take a quick tour to help you get started.",
+      "badge": "Quick Tour"
+    },
+    "addProperty": {
+      "title": "Add Your First Property",
+      "description": "Start by adding your first property listing. Our wizard will guide you through every step.",
+      "features": {
+        "stepByStep": "Step-by-step",
+        "guidedWizard": "Guided wizard",
+        "aiPowered": "AI-powered",
+        "smartSuggestions": "Smart suggestions",
+        "professional": "Professional",
+        "marketReady": "Market-ready"
+      }
+    },
+    "search": {
+      "title": "Property Search",
+      "description": "Browse properties with advanced filters. Find exactly what you're looking for with our smart search.",
+      "features": {
+        "filters": "Filters",
+        "priceLocationType": "Price, location, type",
+        "mapView": "Map View",
+        "visualPropertySearch": "Visual property search",
+        "saved": "Saved",
+        "favoritesAlerts": "Favorites & alerts"
+      }
+    },
+    "messaging": {
+      "title": "Messaging Center",
+      "description": "Communicate directly with clients and other agents. Keep all conversations organized in one place.",
+      "features": {
+        "realtime": "Real-time",
+        "instantMessaging": "Instant messaging",
+        "organized": "Organized",
+        "folderSystem": "Folder system",
+        "notifications": "Notifications",
+        "neverMissMessage": "Never miss a message"
+      }
+    },
+    "calendar": {
+      "title": "Calendar & Tours",
+      "description": "Schedule property tours and manage your availability. Sync with Google Calendar for seamless organization.",
+      "features": {
+        "scheduling": "Scheduling",
+        "easyTourBooking": "Easy tour booking",
+        "sync": "Sync",
+        "googleCalendar": "Google Calendar",
+        "reminders": "Reminders",
+        "neverMissAppointments": "Never miss appointments"
+      }
+    },
+    "analytics": {
+      "title": "Analytics & Reports",
+      "description": "Track your performance with detailed analytics. Monitor views, inquiries, and conversion rates.",
+      "features": {
+        "views": "Views",
+        "propertyPerformance": "Property performance",
+        "inquiries": "Inquiries",
+        "leadTracking": "Lead tracking",
+        "reports": "Reports",
+        "monthlyInsights": "Monthly insights"
+      }
+    },
+    "admin": {
+      "title": "Admin & Team",
+      "description": "Manage your team, permissions, and agency settings. Control who can access what features.",
+      "features": {
+        "roles": "Roles",
+        "agentPermissions": "Agent permissions",
+        "team": "Team",
+        "manageMembers": "Manage members",
+        "settings": "Settings",
+        "agencyConfiguration": "Agency configuration"
+      }
+    },
+    "settings": {
+      "title": "Settings & Preferences",
+      "description": "Customize your experience with notifications, language, and account settings.",
+      "features": {
+        "profile": "Profile",
+        "accountSettings": "Account settings",
+        "notifications": "Notifications",
+        "emailPushAlerts": "Email & push alerts",
+        "language": "Language",
+        "multiLanguageSupport": "Multi-language support"
+      }
+    }
+  },
+  "propertyWizard": {
+    "welcome": {
+      "title": "Property Wizard",
+      "description": "Welcome to the Property Wizard! This step-by-step guide will help you create a professional property listing.",
+      "badge": "Step 1 of 7"
+    },
+    "basicInfo": {
+      "title": "Basic Information",
+      "description": "Start with the essential details: property title, type, and location. This information appears first in search results.",
+      "tips": {
+        "clearTitle": "Clear, descriptive title",
+        "accurateType": "Accurate property type",
+        "completeAddress": "Complete address"
+      }
+    },
+    "pricing": {
+      "title": "Pricing & Details",
+      "description": "Set competitive pricing and add key details that buyers look for. Include bedrooms, bathrooms, and square footage.",
+      "tips": {
+        "competitivePrice": "Market-competitive price",
+        "accurateRooms": "Accurate room counts",
+        "propertySize": "Property size"
+      }
+    },
+    "features": {
+      "title": "Features & Amenities",
+      "description": "Highlight what makes your property special. Select amenities that will attract the right buyers.",
+      "tips": {
+        "essentialAmenities": "Essential amenities",
+        "uniqueFeatures": "Unique features",
+        "propertyHighlights": "Property highlights"
+      }
+    },
+    "images": {
+      "title": "Photos & Media",
+      "description": "High-quality photos are crucial for attracting buyers. Upload clear, well-lit images of all rooms and key features.",
+      "tips": {
+        "highResolution": "High-resolution photos",
+        "allRoomsCovered": "All rooms covered",
+        "virtualTour": "Virtual tour option"
+      }
+    },
+    "description": {
+      "title": "Description",
+      "description": "Write a compelling description that tells the story of your property. Include neighborhood highlights and lifestyle benefits.",
+      "tips": {
+        "engagingNarrative": "Engaging narrative",
+        "neighborhoodInfo": "Neighborhood info",
+        "lifestyleBenefits": "Lifestyle benefits"
+      }
+    },
+    "aiSummary": {
+      "title": "AI Summary",
+      "description": "Our AI will generate a professional summary of your property based on all the information you've provided.",
+      "tips": {
+        "automatedSummary": "Automated summary",
+        "seoOptimized": "SEO optimized",
+        "professionalTone": "Professional tone"
+      }
+    },
+    "review": {
+      "title": "Review & Publish",
+      "description": "Review all your property details before publishing. Make sure everything looks perfect!",
+      "tips": {
+        "verifyInformation": "Verify all information",
+        "checkPhotos": "Check photos quality",
+        "readyToPublish": "Ready to publish!"
+      }
+    }
+  },
+  "buttons": {
+    "previous": "Previous",
+    "next": "Next",
+    "skip": "Skip tour",
+    "close": "Close",
+    "finish": "Finish",
+    "step": "Step",
+    "of": "of"
+  }
+} 

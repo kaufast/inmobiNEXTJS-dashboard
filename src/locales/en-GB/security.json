@@ -1,0 +1,46 @@
+{
+  "title": "Security Features",
+  "subtitle": "Safe & Verified Viewings",
+  "description": "Add an extra layer of security with digital proof of attendance and AI-powered verification.",
+  "qrCodeVisits": "QR Code Visits",
+  "simpleSecureVerified": "Simple, Secure, Verified",
+  "premium": "Premium",
+  "features": {
+    "visitProof": {
+      "title": "Geolocated Visit Proof",
+      "description": "We capture the exact location, date, and time of each visit and issue a digital certificate. Just scan the code with your mobile!",
+      "tag": "Real-time tracking"
+    },
+    "electronicSignature": {
+      "title": "Electronic Signature",
+      "description": "Visitors sign digitally using a QR code — faster, paperless, and legally valid.",
+      "tag": "Legally binding"
+    },
+    "documentVerification": {
+      "title": "Document Verification",
+      "description": "Stop fraud before it happens. We detect fake income statements and forged documents with AI-powered checks.",
+      "tag": "AI-powered"
+    },
+    "appointmentReminders": {
+      "title": "Appointment Reminders",
+      "description": "Reduce no-shows by up to 50% with automated reminders for every visit.",
+      "tag": "50% reduction"
+    },
+    "identityCrossVerification": {
+      "title": "Identity Cross-Verification",
+      "description": "Add an extra layer of security with VerifID — combines real identity data with property viewing records.",
+      "tag": "VerifID powered"
+    },
+    "identityVerification": {
+      "title": "Identity Verification",
+      "description": "We verify every client's identity to eliminate fake data and give you complete legal protection."
+    }
+  },
+  "forAgentsAndAgencies": "For Agents, Agencies & Sellers",
+  "adminOnlyDescription": "This feature is only for admin panels, property sellers, agents and real estate agencies — not for regular buyers.",
+  "step": "STEP",
+  "cta": {
+    "howItWorks": "How It Works",
+    "startProtectingDeals": "Start Protecting Deals"
+  }
+}

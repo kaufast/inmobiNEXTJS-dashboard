@@ -1,0 +1,46 @@
+{
+  "title": "Características de Seguridad",
+  "subtitle": "Visitas Seguras y Verificadas",
+  "description": "Añade una capa extra de seguridad con prueba digital de asistencia y verificación impulsada por IA.",
+  "qrCodeVisits": "Visitas con Código QR",
+  "simpleSecureVerified": "Simple, Seguro, Verificado",
+  "premium": "Premium",
+  "features": {
+    "visitProof": {
+      "title": "Prueba de Visita con Geolocalización",
+      "description": "Capturamos la ubicación exacta, fecha y hora de cada visita y emitimos un certificado digital. ¡Solo escanea el código con tu móvil!",
+      "tag": "Seguimiento en tiempo real"
+    },
+    "electronicSignature": {
+      "title": "Firma Electrónica",
+      "description": "Los visitantes firman digitalmente usando un código QR — más rápido, sin papel y legalmente válido.",
+      "tag": "Legalmente vinculante"
+    },
+    "documentVerification": {
+      "title": "Verificación de Documentos",
+      "description": "Detén el fraude antes de que suceda. Detectamos declaraciones de ingresos falsas y documentos falsificados con verificaciones impulsadas por IA.",
+      "tag": "Impulsado por IA"
+    },
+    "appointmentReminders": {
+      "title": "Recordatorios de Citas",
+      "description": "Reduce las ausencias hasta en un 50% con recordatorios automáticos para cada visita.",
+      "tag": "50% de reducción"
+    },
+    "identityCrossVerification": {
+      "title": "Verificación Cruzada de Identidad",
+      "description": "Añade una capa extra de seguridad con VerifID — combina datos de identidad real con registros de visitas a propiedades.",
+      "tag": "Impulsado por VerifID"
+    },
+    "identityVerification": {
+      "title": "Verificación de Identidad",
+      "description": "Verificamos la identidad de cada cliente para eliminar datos falsos y darte protección legal completa."
+    }
+  },
+  "forAgentsAndAgencies": "Para Agentes, Agencias y Vendedores",
+  "adminOnlyDescription": "Esta función es solo para paneles de administración, vendedores de propiedades, agentes y agencias inmobiliarias — no para compradores regulares.",
+  "step": "PASO",
+  "cta": {
+    "howItWorks": "Cómo Funciona",
+    "startProtectingDeals": "Comenzar a Proteger Tratos"
+  }
+}

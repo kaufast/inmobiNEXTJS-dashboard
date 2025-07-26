@@ -1,0 +1,41 @@
+{
+  "addToCalendar": "Agregar al Calendario",
+  "selectCalendarProvider": "Seleccionar Proveedor de Calendario",
+  "googleCalendar": "Google Calendar",
+  "outlookCalendar": "Outlook Calendar",
+  "office365Calendar": "Office 365",
+  "yahooCalendar": "Yahoo Calendar",
+  "appleCalendar": "Apple Calendar",
+  "downloadICS": "Descargar Archivo de Calendario",
+  "calendarNote": "Elige tu aplicación de calendario preferida para agregar este evento",
+  "calendarTypes": {
+    "google": "Google Calendar",
+    "outlook": "Outlook",
+    "office365": "Office 365",
+    "yahoo": "Yahoo",
+    "apple": "Apple Calendar",
+    "ics": "Archivo de Calendario (.ics)"
+  },
+  "eventAdded": "Evento agregado al calendario exitosamente",
+  "eventAddFailed": "Error al agregar evento al calendario",
+  "tour": {
+    "title": "Tour de Propiedad",
+    "description": "Visita programada de propiedad",
+    "virtualTour": "Tour Virtual de Propiedad",
+    "inPersonTour": "Tour Presencial de Propiedad",
+    "inspection": "Inspección de Propiedad",
+    "consultation": "Consulta Inmobiliaria"
+  },
+  "meeting": {
+    "title": "Reunión",
+    "description": "Reunión programada",
+    "businessMeeting": "Reunión de Negocios",
+    "clientMeeting": "Reunión con Cliente"
+  },
+  "appointment": {
+    "title": "Cita",
+    "description": "Cita programada",
+    "viewing": "Visita de Propiedad",
+    "consultation": "Consulta"
+  }
+}

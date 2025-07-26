@@ -1,0 +1,42 @@
+/* Animated Glow Effect for Search Bar */
+.glow-container {
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+}
+.glow-container .glow-span {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.25rem; /* matches rounded-2xl */
+  background: linear-gradient(45deg, #086fff, #0072ff, #9b00ff, #0072ff, #086fff);
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 0;
+  transition: filter 0.3s;
+}
+.glow-container .glow-span:nth-child(1) {
+  filter: blur(12px);
+}
+.glow-container .glow-span:nth-child(2) {
+  filter: blur(24px);
+  opacity: 0.8;
+}
+.glow-container:hover .glow-span,
+.glow-container:focus-within .glow-span {
+  animation: colorShift 2s linear infinite;
+}
+@keyframes colorShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+.glow-pulse .glow-span {
+  animation: glowPulse 0.5s;
+}
+@keyframes glowPulse {
+  0% { opacity: 0.8; transform: scale(1); }
+  40% { opacity: 1; transform: scale(1.15); }
+  60% { opacity: 1; transform: scale(1.15); }
+  100% { opacity: 0.8; transform: scale(1); }
+} 

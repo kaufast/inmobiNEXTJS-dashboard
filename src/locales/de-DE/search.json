@@ -1,0 +1,279 @@
+{
+  "common": {
+    "notifications": {
+      "notice": "Hinweis",
+      "error": "Fehlermeldung"
+    },
+    "general": {
+      "backToHome": "Zurück zur Startseite"
+    }
+  },
+  "hero": {
+    "searchPlaceholder": "Suche nach Standort, Immobilientyp oder Stichworten...",
+    "voiceSearch": "Sprachsuche"
+  },
+  "search": {
+    "title": "Immobiliensuche",
+    "resultsFor": "Suchergebnisse für „{{query}}“",
+    "searching": "Suche nach Immobilien läuft...",
+    "foundProperties": "Es wurden {{count}} Immobilien gefunden, die Ihren Kriterien entsprechen",
+    "foundProperties_one": "Es wurde {{count}} Immobilie gefunden, die Ihren Kriterien entspricht",
+    "foundProperties_other": "Es wurden {{count}} Immobilien gefunden, die Ihren Kriterien entsprechen",
+    "searchProperties": "Immobilien suchen",
+    "activeFilters": "Aktive Filter",
+    "filterSearch": "Suchen",
+    "filterCity": "Stadt",
+    "filterCountry": "Land",
+    "filterType": "Typ",
+    "bedrooms": "Schlafzimmer",
+    "bathrooms": "Badezimmer",
+    "filterPrice": "Preis",
+    "filterArea": "Fläche",
+    "filterFeatures": "Ausstattung",
+    "any": "Beliebig",
+    "loadingResults": "Ergebnisse werden geladen...",
+    "propertiesFound": "Immobilien gefunden",
+    "grid": "Rasteransicht",
+    "list": "Listenansicht",
+    "properties": "Immobilien",
+    "map": "Karte",
+    "propertiesInArea": "Immobilien in diesem Gebiet",
+    "viewAll": "Alle {{count}} anzeigen",
+    "bed": "Bett",
+    "bath": "Bad",
+    "useSuggestion": "Dies verwenden",
+    "didYouMean": "Meinten Sie „{{suggestion}}“?",
+    "listView": "Listenansicht",
+    "mapView": "Kartenansicht",
+    "viewType": {
+      "grid": "Rasteransicht",
+      "list": "Listenansicht"
+    },
+    "filters": {
+      "buy": "Kaufen",
+      "rent": "Mieten",
+      "location": "Standort",
+      "price": "Preis",
+      "bedrooms": "Schlafzimmer",
+      "bathrooms": "Badezimmer",
+      "propertyType": "Immobilientyp",
+      "any": "Beliebig",
+      "selectCountry": "Land auswählen",
+      "anyCountry": "Beliebiges Land",
+      "cityPlaceholder": "Stadtname eingeben",
+      "squareFeet": "Quadratfuß",
+      "sqft": "qm",
+      "moreFilters": "Weitere Filter",
+      "showMore": "Mehr anzeigen",
+      "showLess": "Weniger anzeigen",
+      "amenities": "Ausstattung",
+      "pool": "Swimmingpool",
+      "garden": "Garten",
+      "parking": "Parkplatz",
+      "airConditioning": "Klimaanlage",
+      "gym": "Fitnessraum",
+      "securitySystem": "Sicherheitssystem",
+      "clearFilters": "Filter löschen",
+      "applyFilters": "Filter anwenden",
+      "apartment": "Wohnung",
+      "house": "Haus",
+      "condo": "Eigentumswohnung",
+      "townhouse": "Reihenhaus",
+      "land": "Grundstück",
+      "clearAll": "Alles löschen",
+      "apply": "Anwenden"
+    },
+    "countries": {
+      "mexico": "Mexiko",
+      "unitedStates": "Vereinigte Staaten",
+      "unitedKingdom": "Vereinigtes Königreich",
+      "spain": "Spanien",
+      "austria": "Österreich",
+      "germany": "Deutschland",
+      "france": "Frankreich"
+    },
+    "propertyList": {
+      "showing": "Zeigt",
+      "of": "von",
+      "properties": "Immobilien",
+      "noPropertiesFound": "Keine Immobilien gefunden",
+      "noPropertiesDescription": "Keine Immobilien entsprechen Ihren aktuellen Kriterien. Versuchen Sie, Ihre Filter anzupassen oder ein anderes Gebiet zu durchsuchen."
+    },
+    "countryContext": {
+      "showing": "Zeige Immobilien in {{country}}",
+      "forQuery": "für \"{{query}}\"",
+      "localeDefault": "Basierend auf Ihren Standortpräferenzen",
+      "canExpand": "Sie können Ihre Suche mit den Filtern auf andere Länder erweitern"
+    },
+    "noResults": {
+      "city": {
+        "title": "Keine Immobilien in {{city}} gefunden",
+        "message": "Versuchen Sie, Ihr Suchgebiet zu erweitern oder Ihre Filter anzupassen, um mehr Immobilien zu finden"
+      },
+      "countryContext": "Zeige Ergebnisse für {{country}}"
+    },
+    "spatial": {
+      "title": "Immobilien in Ihrer Nähe finden",
+      "searchByAddress": "Nach Adresse suchen",
+      "addressPlaceholder": "Adresse oder Ort eingeben",
+      "useCurrentLocation": "Aktuellen Standort verwenden",
+      "findingLocation": "Standort wird gesucht...",
+      "searchRadius": "Suchradius",
+      "km": "km",
+      "currentCoordinates": "Aktuelle Koordinaten",
+      "lat": "Breite",
+      "lng": "Länge",
+      "searching": "Wird gesucht...",
+      "searchProperties": "Immobilien suchen",
+      "howToUse": "Anwendung",
+      "instructions": {
+        "clickMap": "Klicken Sie auf die Karte, um einen Suchort festzulegen",
+        "adjustRadius": "Passen Sie den Radius-Schieberegler an, um Ihre Suche zu erweitern oder einzugrenzen",
+        "searchButton": "Verwenden Sie die Suchtaste, um Immobilien in diesem Bereich zu finden",
+        "enterAddress": "Geben Sie eine Adresse ein oder verwenden Sie Ihren aktuellen Standort"
+      },
+      "propertiesFound": "Immobilien gefunden",
+      "noPropertiesFound": "Keine Immobilien in diesem Bereich gefunden. Versuchen Sie, Ihren Suchradius zu erweitern oder einen anderen Standort auszuwählen.",
+      "initialInstructions": "Wählen Sie einen Standort und einen Suchradius aus, und klicken Sie dann auf „Immobilien suchen“, um Immobilien in diesem Gebiet zu finden."
+    },
+    "voiceSearch": {
+      "title": "Sprachsuche",
+      "clickToStart": "Klicken Sie auf das Mikrofon, um die Sprachsuche zu starten",
+      "listening": "Hört zu...",
+      "voicePrompt": "Sagen Sie, wonach Sie suchen...",
+      "trySaying": "Versuchen Sie zu sagen:",
+      "exampleCommands": {
+        "apartments": "'Finde Wohnungen in Berlin'",
+        "houses": "'Zeige mir Häuser zum Verkauf in München mit 3 Schlafzimmern'",
+        "villas": "'Villen in Strandnähe mit Pool'"
+      },
+      "searchProperties": "Immobilien suchen",
+      "noResults": "Entschuldigung, das habe ich nicht verstanden. Bitte versuchen Sie es erneut.",
+      "searching": "Wird basierend auf Ihrer Spracheingabe gesucht..."
+    },
+    "chatbot": {
+      "welcomeMessage": "Hallo! Ich bin Ihr Immobilien-Assistent. Erzählen Sie mir von Ihrer idealen Immobilie, und ich helfe Ihnen, sie zu finden.",
+      "restart": "Unterhaltung neu starten",
+      "title": "Immobilien-Assistent",
+      "subtitle": "Beschreiben Sie Ihre Traumimmobilie, und ich finde passende Angebote für Sie.",
+      "inputPlaceholder": "Geben Sie hier Ihre Präferenzen ein (z.B. 'ein Haus mit 3 Schlafzimmern in Berlin mit Garten')...",
+      "error": "Entschuldigung, es ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+      "foundProperties_one": "Okay, ich habe {{count}} Immobilie gefunden, die Sie interessieren könnte!",
+      "foundProperties_other": "Okay, ich habe {{count}} Immobilien gefunden, die Sie interessieren könnten!",
+      "noProperties": "Ich konnte keine Immobilien finden, die genau dieser Beschreibung entsprechen. Möchten Sie versuchen, Ihre Suche zu erweitern?",
+      "needMoreInfo": "Ich benötige etwas mehr Informationen, um Immobilien zu finden. Könnten Sie mir mehr darüber erzählen, wonach Sie suchen?",
+      "searchError": "Beim Suchen nach Immobilien ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+      "thinking": "Denke nach...",
+      "findPropertiesButton": "Immobilien basierend auf Chat finden",
+      "matchedPropertiesTitle": "Passende Immobilien",
+      "noMatchesYetPlaceholder": "Noch keine Übereinstimmungen",
+      "startConversationPlaceholder": "Starten Sie eine Unterhaltung oben, um Immobilien zu finden, die Ihren Kriterien entsprechen.",
+      "examplePromptsPlaceholder": "z.B. 'Zeigen Sie mir 2-Zimmer-Wohnungen in der Nähe des Stadtzentrums' oder 'Ich suche ein Familienhaus mit einem großen Garten'.",
+      "searchingStatus": "Wird gesucht...",
+      "searchingPropertiesStatus": "Suche nach Immobilien basierend auf unserer Unterhaltung läuft..."
+    },
+    "actions": {
+      "sendChat": "Senden",
+      "back": "Zurück",
+      "continue": "Weiter"
+    }
+  },
+  "property": {
+    "wizard": {
+      "title": "Immobilien-Assistent",
+      "description": "Schritt-für-Schritt-Anleitung zum Hinzufügen Ihrer Immobilie",
+      "steps": {
+        "propertyType": {
+          "title": "Immobilientyp"
+        },
+        "pricing": {
+          "title": "Preise & Typ",
+          "selectType": "Immobilientyp auswählen"
+        }
+      },
+      "navigation": {
+        "back": "Zurück",
+        "continue": "Weiter",
+        "saveDraft": "Entwurf speichern",
+        "publish": "Immobilie veröffentlichen",
+        "step": "Schritt",
+        "of": "von",
+        "cancel": "Abbrechen",
+        "publishing": "Wird veröffentlicht..."
+      }
+    },
+    "types": {
+      "studio": "Studio"
+    },
+    "onboarding": {
+      "budget": {
+        "minBedrooms": "Mindestanzahl Schlafzimmer"
+      },
+      "features": {
+        "pool": "Pool",
+        "garage": "Garage",
+        "garden": "Garten",
+        "balcony": "Balkon",
+        "gym": "Fitnessraum",
+        "security": "Sicherheit",
+        "airConditioning": "Klimaanlage",
+        "furnished": "Möbliert",
+        "petFriendly": "Haustierfreundlich",
+        "smartHome": "Smart Home",
+        "oceanView": "Meerblick",
+        "fireplace": "Kamin"
+      },
+      "errors": {
+        "locationRequired": "Standort ist erforderlich",
+        "locationRequiredDesc": "Bitte wählen Sie mindestens einen Standort aus, um fortzufahren."
+      },
+      "propertyType": {
+        "apartment": "Wohnung",
+        "house": "Haus",
+        "townhouse": "Reihenhaus",
+        "condo": "Eigentumswohnung"
+      }
+    }
+  },
+  "aiRecommendations": {
+    "title": "KI-Immobilien-Empfehlungen",
+    "howItWorks": "So funktioniert's",
+    "description": "Diese Immobilien werden basierend auf Ihren Präferenzen und Ihrem Verhalten personalisiert.",
+    "personaliseTitle": "Personalisieren Sie Ihre Empfehlungen",
+    "updateButton": "Präferenzen aktualisieren",
+    "tabs": {
+      "forYou": "Für Sie",
+      "similar": "Ähnlich",
+      "trending": "Trending"
+    },
+    "personalisedForYou": "Personalisiert für Sie",
+    "personalisedForYouDesc": "Basierend auf Ihren ausgewählten Interessen und Aktivitäten.",
+    "similarTitle": "Ähnliche Immobilien",
+    "similarDesc": "Immobilien ähnlich denen, die Sie angesehen haben",
+    "trendingTitle": "Trendige Immobilien",
+    "trendingDesc": "Beliebte Immobilien in Ihrer Nähe",
+    "interest": {
+      "familyFriendly": "Familienfreundlich",
+      "investment": "Investitionspotenzial",
+      "workFromHome": "Home-Office",
+      "urbanLifestyle": "Städtischer Lebensstil",
+      "natureLover": "Naturliebhaber",
+      "luxury": "Luxus",
+      "firstTimeBuyer": "Erstkäufer",
+      "vacationHome": "Ferienhaus"
+    },
+    "toast": {
+      "selectInterestTitle": "Interessen auswählen",
+      "selectInterestDesc": "Wählen Sie mindestens ein Interesse aus, um Ihre Empfehlungen zu personalisieren",
+      "updatedTitle": "Präferenzen aktualisiert",
+      "updatedDesc": "Ihre Empfehlungen wurden aktualisiert",
+      "addedPrefTitle": "Präferenz hinzugefügt",
+      "notedTitle": "Präferenz notiert",
+      "moreLikeThis": "Wir zeigen Ihnen mehr wie diese",
+      "lessLikeThis": "Wir zeigen Ihnen weniger wie diese"
+    },
+    "noProperties": "Keine Immobilien gefunden",
+    "moreLikeThis": "Mehr wie diese",
+    "lessLikeThis": "Weniger wie diese"
+  }
+}

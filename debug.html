@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>i18n Debug Console</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .log-container { 
+      border: 1px solid #ccc; 
+      padding: 10px; 
+      height: 500px; 
+      overflow-y: auto;
+      background-color: #f8f8f8;
+      margin-bottom: 20px;
+    }
+    .success { color: green; }
+    .error { color: red; }
+    .info { color: blue; }
+    pre { margin: 0; white-space: pre-wrap; }
+    button { padding: 10px; margin-right: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>i18n Debug Console</h1>
+  <div class="log-container" id="log"></div>
+  <div>
+    <button id="checkInit">Check i18n Initialization</button>
+    <button id="checkTranslations">Check Translations</button>
+    <button id="reloadResources">Reload Resources</button>
+    <button id="clearLog">Clear Log</button>
+  </div>
+
+  <script>
+    const logEl = document.getElementById('log');
+    
+    // Log functions
+    function log(message, type = 'normal') {
+      const entry = document.createElement('div');
+      entry.className = type;
+      entry.innerHTML = `<pre>[${new Date().toLocaleTimeString()}] ${message}</pre>`;
+      logEl.appendChild(entry);
+      logEl.scrollTop = logEl.scrollHeight;
+    }
+    
+    // Function to check if i18n is initialized
+    async function checkI18nInit() {
+      try {
+        log('Checking i18n initialization...', 'info');
+        
+        // Try to fetch the main app to check initialization logs
+        const response = await fetch(window.location.origin + '/?debug=true');
+        const html = await response.text();
+        
+        // Look for i18n initialization logs
+        if (html.includes('i18n initialized')) {
+          log('Found i18n initialization logs in the HTML response', 'success');
+        } else {
+          log('No i18n initialization logs found in HTML', 'error');
+        }
+        
+        // Check if common.json is accessible
+        try {
+          const localeResponse = await fetch(window.location.origin + '/locales/en-GB/common.json');
+          if (localeResponse.ok) {
+            const json = await localeResponse.json();
+            log(`Translation file common.json loaded successfully: ${Object.keys(json).length} root keys`, 'success');
+          } else {
+            log(`Failed to load common.json: ${localeResponse.status} ${localeResponse.statusText}`, 'error');
+          }
+        } catch (e) {
+          log(`Error accessing translation file: ${e.message}`, 'error');
+        }
+      } catch (error) {
+        log(`Error checking i18n: ${error.message}`, 'error');
+      }
+    }
+    
+    // Function to check translations
+    async function checkTranslations() {
+      try {
+        log('Checking translations...', 'info');
+        
+        const testKeys = [
+          'auth.welcome',
+          'auth.login.title',
+          'agentProperties.title',
+          'debug.title',
+          'general.loading'
+        ];
+        
+        // Fetch the common.json file directly
+        const response = await fetch(window.location.origin + '/locales/en-GB/common.json');
+        if (!response.ok) {
+          throw new Error(`Failed to load common.json: ${response.status}`);
+        }
+        
+        const translations = await response.json();
+        log('Loaded translations file', 'success');
+        
+        // Check each test key
+        testKeys.forEach(key => {
+          // Split the key into parts (e.g., 'auth.welcome' => ['auth', 'welcome'])
+          const parts = key.split('.');
+          
+          // Navigate through the object
+          let value = translations;
+          let found = true;
+          
+          for (const part of parts) {
+            if (value && typeof value === 'object' && part in value) {
+              value = value[part];
+            } else {
+              found = false;
+              break;
+            }
+          }
+          
+          if (found) {
+            log(`✓ ${key}: "${value}"`, 'success');
+          } else {
+            log(`✗ ${key}: Not found`, 'error');
+          }
+        });
+      } catch (error) {
+        log(`Error checking translations: ${error.message}`, 'error');
+      }
+    }
+    
+    // Function to reload resources
+    async function reloadResources() {
+      try {
+        log('Attempting to reload resources...', 'info');
+        
+        // Make a request to a special endpoint that would reload resources
+        // This is just a simulation since we don't have direct access to i18n instance here
+        const response = await fetch(window.location.origin + '/i18n-test');
+        
+        if (response.ok) {
+          log('Reload request sent. Check the main app for effects.', 'info');
+        } else {
+          log(`Failed to send reload request: ${response.status}`, 'error');
+        }
+      } catch (error) {
+        log(`Error reloading resources: ${error.message}`, 'error');
+      }
+    }
+    
+    // Event listeners
+    document.getElementById('checkInit').addEventListener('click', checkI18nInit);
+    document.getElementById('checkTranslations').addEventListener('click', checkTranslations);
+    document.getElementById('reloadResources').addEventListener('click', reloadResources);
+    document.getElementById('clearLog').addEventListener('click', () => {
+      logEl.innerHTML = '';
+    });
+    
+    // Initial check
+    log('Debug console ready. Click buttons to run checks.', 'info');
+  </script>
+</body>
+</html> 

@@ -1,0 +1,37 @@
+{
+  "badge": "Nueva Oportunidad de Inversión",
+  "title": "Invierte en Bienes Raíces desde €100",
+  "description": "¡No solo busques propiedades, invierte en ellas! Nuestra plataforma de crowdlending te permite participar en proyectos inmobiliarios con atractivos rendimientos, comenzando desde solo €100.",
+  "features": {
+    "minimumInvestment": "Inversión Mínima",
+    "startSmall": "Empieza pequeño, crece grande",
+    "avgReturns": "Rendimientos Promedio",
+    "consistentPerformance": "Rendimiento consistente",
+    "activeInvestors": "Inversores Activos",
+    "growingCommunity": "Comunidad en crecimiento"
+  },
+  "trustIndicators": {
+    "cnmvRegulated": "Regulado por CNMV",
+    "totalInvested": "€2.5M+ Invertidos"
+  },
+  "cta": {
+    "startInvesting": "Comenzar a Invertir →",
+    "viewProjects": "Ver Proyectos"
+  },
+  "opportunities": {
+    "title": "Oportunidades Activas",
+    "projectsLabel": "Proyectos",
+    "funded": "financiado",
+    "total": "Total",
+    "successRate": "Tasa de Éxito",
+    "invested": "Invertido",
+    "success": "Éxito",
+    "rate": "Tasa",
+    "featuredProject": "Proyecto Destacado",
+    "projects": {
+      "barcelonaApartments": "Apartamentos Barcelona",
+      "madridRenovation": "Renovación Madrid",
+      "valenciaEcoHousing": "Vivienda Ecológica Valencia"
+    }
+  }
+}

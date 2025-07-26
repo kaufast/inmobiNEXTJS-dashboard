@@ -1,0 +1,37 @@
+{
+  "badge": "Oportunitat d'inversió",
+  "title": "Inverteix en immobles des de 100 €",
+  "description": "No només busquis propietats, inverteix-hi! La nostra plataforma de crowdlending et permet participar en projectes immobiliaris amb rendiments atractius, començant des de només 100 €.",
+  "features": {
+    "minimumInvestment": "Inversió mínima",
+    "startSmall": "Comença petit, creix gran",
+    "avgReturns": "Rendiments mitjans",
+    "consistentPerformance": "Rendiment consistent",
+    "activeInvestors": "Inversors actius",
+    "growingCommunity": "Comunitat en creixement"
+  },
+  "trustIndicators": {
+    "cnmvRegulated": "Regulat per la CNMV",
+    "totalInvested": "2,5M€+ invertits"
+  },
+  "cta": {
+    "startInvesting": "Comença a invertir →",
+    "viewProjects": "Veure projectes"
+  },
+  "opportunities": {
+    "title": "Oportunitats actives",
+    "projectsLabel": "Projectes",
+    "funded": "finançat",
+    "total": "Total",
+    "successRate": "Taxa d'èxit",
+    "invested": "Invertit",
+    "success": "Èxit",
+    "rate": "Taxa",
+    "featuredProject": "Projecte destacat",
+    "projects": {
+      "barcelonaApartments": "Apartaments a Barcelona",
+      "madridRenovation": "Renovació a Madrid",
+      "valenciaEcoHousing": "Habitatge ecològic a València"
+    }
+  }
+}

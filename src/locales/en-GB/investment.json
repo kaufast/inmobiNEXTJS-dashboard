@@ -1,0 +1,37 @@
+{
+  "badge": "Investment Opportunity",
+  "title": "Invest in Real Estate from £100",
+  "description": "Don't just search for properties, invest in them! Our crowdlending platform allows you to participate in real estate projects with attractive returns, starting from just £100.",
+  "features": {
+    "minimumInvestment": "Minimum Investment",
+    "startSmall": "Start small, grow big",
+    "avgReturns": "Average Returns",
+    "consistentPerformance": "Consistent performance",
+    "activeInvestors": "Active Investors",
+    "growingCommunity": "Growing community"
+  },
+  "trustIndicators": {
+    "cnmvRegulated": "FCA Regulated",
+    "totalInvested": "£2.5M+ Invested"
+  },
+  "cta": {
+    "startInvesting": "Start Investing →",
+    "viewProjects": "View Projects"
+  },
+  "opportunities": {
+    "title": "Active Opportunities",
+    "projectsLabel": "Projects",
+    "funded": "funded",
+    "total": "Total",
+    "successRate": "Success Rate",
+    "invested": "Invested",
+    "success": "Success",
+    "rate": "Rate",
+    "featuredProject": "Featured Project",
+    "projects": {
+      "barcelonaApartments": "Barcelona Apartments",
+      "madridRenovation": "Madrid Renovation",
+      "valenciaEcoHousing": "Valencia Eco Housing"
+    }
+  }
+}

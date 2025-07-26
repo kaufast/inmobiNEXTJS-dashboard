@@ -1,0 +1,46 @@
+{
+  "title": "Funcions de seguretat",
+  "subtitle": "Visites segures i verificades",
+  "description": "Afegeix una capa extra de seguretat amb prova digital d'assistència i verificació amb intel·ligència artificial.",
+  "qrCodeVisits": "Visites amb codi QR",
+  "simpleSecureVerified": "Simple, segur, verificat",
+  "premium": "Premium",
+  "features": {
+    "visitProof": {
+      "title": "Prova de visita geolocalitzada",
+      "description": "Capturem la ubicació exacta, data i hora de cada visita i emetem un certificat digital. Només escaneja el codi amb el teu mòbil!",
+      "tag": "Seguiment en temps real"
+    },
+    "electronicSignature": {
+      "title": "Signatura electrònica",
+      "description": "Els visitants signen digitalment mitjançant un codi QR — més ràpid, sense papers i legalment vàlid.",
+      "tag": "Legalment vinculant"
+    },
+    "documentVerification": {
+      "title": "Verificació de documents",
+      "description": "Atura el frau abans que passi. Detectem declaracions d'ingressos falses i documents falsificats amb verificacions amb IA.",
+      "tag": "Amb IA"
+    },
+    "appointmentReminders": {
+      "title": "Recordatoris de cites",
+      "description": "Redueix les absències fins a un 50% amb recordatoris automàtics per a cada visita.",
+      "tag": "50% de reducció"
+    },
+    "identityCrossVerification": {
+      "title": "Verificació creuada d'identitat",
+      "description": "Afegeix una capa extra de seguretat amb VerifID — combina dades d'identitat reals amb registres de visites a propietats.",
+      "tag": "Amb VerifID"
+    },
+    "identityVerification": {
+      "title": "Verificació d'identitat",
+      "description": "Verifiquem la identitat de cada client per eliminar dades falses i donar-te protecció legal completa."
+    }
+  },
+  "forAgentsAndAgencies": "Per a agents, agències i venedors",
+  "adminOnlyDescription": "Aquesta funció és només per a panells d'administració, venedors de propietats, agents i agències immobiliàries — no per a compradors habituals.",
+  "step": "PAS",
+  "cta": {
+    "howItWorks": "Com funciona",
+    "startProtectingDeals": "Comença a protegir els teus tractes"
+  }
+}

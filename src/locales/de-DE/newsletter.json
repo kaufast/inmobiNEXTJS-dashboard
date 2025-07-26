@@ -1,0 +1,45 @@
+{
+  "title": "Bleiben Sie mit Inmobi auf dem Laufenden",
+  "description": "Erhalten Sie exklusive Immobilienangebote, Markteinblicke und Investitionsmöglichkeiten direkt in Ihren Posteingang",
+  "subscribers": "Über 25.000 Abonnenten",
+  "features": {
+    "weeklyProperties": "Wöchentliche Immobilien",
+    "newPropertyAlerts": "Neue Immobilienmeldungen",
+    "marketInsights": "Markteinblicke",
+    "exclusiveOffers": "Exklusive Angebote"
+  },
+  "form": {
+    "placeholder": "Geben Sie Ihre E-Mail-Adresse ein...",
+    "subscribe": "Jetzt abonnieren →"
+  },
+  "trust": {
+    "secure": "100% Sicher",
+    "weeklyUpdates": "Wöchentliche Updates",
+    "noSpam": "Kein Spam"
+  },
+  "disclaimer": "Mit dem Abonnement stimmen Sie unserer Datenschutzerklärung zu • Jederzeit abbestellbar",
+  "stats": {
+    "happySubscribers": "Zufriedene Abonnenten",
+    "weeklyProperties": "Wöchentliche Immobilien",
+    "averageRating": "Durchschnittliche Bewertung",
+    "countriesServed": "Betreute Länder"
+  },
+  "success": {
+    "title": "Abonnement erfolgreich!",
+    "description": "Wir haben Ihnen eine Bestätigungs-E-Mail gesendet. Bitte schauen Sie in Ihren Posteingang.",
+    "badge": "Bestätigt"
+  },
+  "frequency": {
+    "weekly": "Wöchentlich",
+    "secure": "Sicher",
+    "unsubscribe": "Einfache Abmeldung"
+  },
+  "errors": {
+    "alreadySubscribed": "Sie sind bereits für unseren Newsletter angemeldet",
+    "subscriptionFailed": "Anmeldung fehlgeschlagen",
+    "networkError": "Netzwerkfehler",
+    "title": "Fehler",
+    "tryAgain": "Bitte versuchen Sie es erneut"
+  },
+  "subscribing": "Anmeldung läuft..."
+}

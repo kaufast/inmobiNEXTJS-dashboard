@@ -1,0 +1,37 @@
+{
+  "badge": "Investitionsmöglichkeit",
+  "title": "Investieren Sie in Immobilien ab €100",
+  "description": "Suchen Sie nicht nur nach Immobilien, investieren Sie in sie! Unsere Crowdlending-Plattform ermöglicht es Ihnen, an Immobilienprojekten mit attraktiven Renditen teilzunehmen, schon ab €100.",
+  "features": {
+    "minimumInvestment": "Mindestinvestition",
+    "startSmall": "Klein anfangen, groß wachsen",
+    "avgReturns": "Durchschnittliche Rendite",
+    "consistentPerformance": "Konstante Leistung",
+    "activeInvestors": "Aktive Investoren",
+    "growingCommunity": "Wachsende Community"
+  },
+  "trustIndicators": {
+    "cnmvRegulated": "BaFin reguliert",
+    "totalInvested": "€2,5 Mio+ investiert"
+  },
+  "cta": {
+    "startInvesting": "Jetzt investieren →",
+    "viewProjects": "Projekte ansehen"
+  },
+  "opportunities": {
+    "title": "Aktive Möglichkeiten",
+    "projectsLabel": "Projekte",
+    "funded": "finanziert",
+    "total": "Gesamt",
+    "successRate": "Erfolgsquote",
+    "invested": "Investiert",
+    "success": "Erfolg",
+    "rate": "Quote",
+    "featuredProject": "Empfohlenes Projekt",
+    "projects": {
+      "barcelonaApartments": "Barcelona Apartments",
+      "madridRenovation": "Madrid Renovierung",
+      "valenciaEcoHousing": "Valencia Öko-Wohnprojekt"
+    }
+  }
+}

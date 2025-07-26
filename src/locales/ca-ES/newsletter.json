@@ -1,0 +1,45 @@
+{
+  "title": "Mantén-te al dia amb Inmobi",
+  "description": "Rep propietats exclusives, anàlisis del mercat i oportunitats d'inversió directament a la teva safata d'entrada",
+  "subscribers": "Uneix-te a més de 25.000 subscriptors",
+  "features": {
+    "weeklyProperties": "Propietats setmanals",
+    "newPropertyAlerts": "Alertes de propietats noves",
+    "marketInsights": "Anàlisis del mercat",
+    "exclusiveOffers": "Ofertes exclusives"
+  },
+  "form": {
+    "placeholder": "Introdueix el teu correu electrònic...",
+    "subscribe": "Subscriu-te ara →"
+  },
+  "trust": {
+    "secure": "100% Segur",
+    "weeklyUpdates": "Actualitzacions setmanals",
+    "noSpam": "Sense spam"
+  },
+  "disclaimer": "En subscriure't, acceptes la nostra Política de Privacitat • Cancel·la la subscripció en qualsevol moment",
+  "stats": {
+    "happySubscribers": "Subscriptors satisfets",
+    "weeklyProperties": "Propietats setmanals",
+    "averageRating": "Valoració mitjana",
+    "countriesServed": "Països servits"
+  },
+  "success": {
+    "title": "Subscripció exitosa!",
+    "description": "T'hem enviat un correu de confirmació. Si us plau, revisa la teva safata d'entrada.",
+    "badge": "Confirmat"
+  },
+  "frequency": {
+    "weekly": "Setmanal",
+    "secure": "Segur",
+    "unsubscribe": "Cancel·lació fàcil"
+  },
+  "errors": {
+    "alreadySubscribed": "Ja estàs subscrit al nostre butlletí",
+    "subscriptionFailed": "La subscripció ha fallat",
+    "networkError": "Error de xarxa",
+    "title": "Error",
+    "tryAgain": "Si us plau, torna-ho a intentar"
+  },
+  "subscribing": "Subscrivint..."
+}

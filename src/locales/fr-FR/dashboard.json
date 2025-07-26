@@ -1,0 +1,2221 @@
+{
+  "dashboard": {
+    "statistics": {
+      "title": "Statistiques",
+      "views": "Vues",
+      "inquiries": "Demandes d'information",
+      "favourites": "Favoris",
+      "favorites": "Favoris",
+      "listings": "Annonces",
+      "totalUsers": "Nombre total d'utilisateurs",
+      "fromPrevious": "depuis la/le {{timeframe}} précédente",
+      "properties": "Nombre total de biens",
+      "pageViews": "Nombre total de pages vues",
+      "revenue": "Revenu total"
+    },
+    "nav": {
+      "favorites": "Favoris",
+      "home": "Accueil",
+      "dashboard": "Tableau de bord",
+      "properties": "Biens immobiliers",
+      "messages": "Messages",
+      "favourites": "Favoris",
+      "tours": "Visites",
+      "verification": "Vérification",
+      "profile": "Profil",
+      "users": "Utilisateurs",
+      "security": "Sécurité"
+    },
+    "navigation": {
+      "dashboard": "Tableau de bord",
+      "favorites": "Favoris",
+      "messages": "Messages",
+      "tours": "Visites",
+      "documents": "Documents",
+      "verification": "Vérification",
+      "profile": "Profil",
+      "aiPropertyMatching": "Correspondance IA",
+      "myProperties": "Mes biens",
+      "analytics": "Analyses",
+      "premiumFeatures": "Fonctionnalités premium",
+      "subscription": "Abonnement",
+      "users": "Utilisateurs",
+      "properties": "Biens immobiliers",
+      "approvals": "Approbations",
+      "verificationManagement": "Gestion de la vérification",
+      "settings": "Paramètres",
+      "loadingNavigation": "Chargement de la navigation...",
+      "backToHome": "Retour à l'accueil"
+    },
+    "title": "Titre principal du tableau de bord",
+    "app": "Nom de l'application du tableau de bord (Contexte commun)",
+    "welcome": "Bienvenue, {{name}}",
+    "overview": "Voici un aperçu de votre compte",
+    "properties": "Biens immobiliers",
+    "users": "Utilisateurs",
+    "settings": "Paramètres",
+    "browseProperties": "Parcourir les biens",
+    "signOut": "Se déconnecter (Contexte commun)",
+    "agent": {
+      "title": "Tableau de bord de l'agent",
+      "subtitle": "Gérez vos biens et consultez les indicateurs clés",
+      "propertyViews": "Vues des biens",
+      "inquiries": "Demandes d'information",
+      "conversions": "Conversions",
+      "revenue": "Revenu",
+      "noInquiries": {
+        "title": "Aucune demande pour l'instant",
+        "description": "Les demandes d'information des clients concernant vos biens s'afficheront ici"
+      },
+      "performance": {
+        "overview": "Aperçu des performances",
+        "metrics": "Les indicateurs de performance de vos biens pour le/la {{timeframe}} en cours",
+        "topProperties": "Biens les plus performants",
+        "luxuryApartment": "Appartement de luxe {{number}}",
+        "views": "{{count}} vues",
+        "inquiries": "{{count}} demandes",
+        "conversionRate": "Taux de conversion",
+        "inquiryToSale": "Conversion de la demande à la vente"
+      },
+      "tabs": {
+        "properties": "Mes biens",
+        "inquiries": "Demandes des clients",
+        "performance": "Performance",
+        "bulkUpload": "Téléversement en masse"
+      },
+      "noProperties": {
+        "title": "Aucun bien répertorié pour le moment",
+        "description": "Commencez à ajouter des biens à votre portefeuille"
+      },
+      "reply": "Répondre",
+      "fromPrevious": "depuis la/le {{timeframe}} précédente",
+      "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette propriété ? Cette action ne peut pas être annulée.",
+      "deleteSuccess": "Propriété supprimée avec succès",
+      "deleteError": "Échec de la suppression de la propriété",
+      "refreshed": "Données du tableau de bord actualisées",
+      "exportSuccess": "Propriétés exportées avec succès",
+      "exportError": "Échec de l'exportation des propriétés"
+    },
+    "tabs": {
+      "savedProperties": "Biens sauvegardés",
+      "messages": "Messages",
+      "favourites": "Favoris",
+      "favorites": "Favoris",
+      "tours": "Visites",
+      "recommendations": "Recommandations"
+    },
+    "stats": {
+      "properties": "Biens immobiliers",
+      "favorited": "Biens mis en favoris",
+      "tours": "Visites de biens",
+      "messages": "Messages",
+      "savedProperties": {
+        "title": "Biens sauvegardés",
+        "description": "Les biens que vous avez sauvegardés"
+      },
+      "recentViews": {
+        "title": "Vues récentes",
+        "description": "Biens consultés au cours des 30 derniers jours"
+      },
+      "propertyAlerts": {
+        "title": "Alertes de biens",
+        "description": "Alertes de recherche actives"
+      }
+    },
+    "messages": {
+      "title": "Messages",
+      "compose": "Nouveau message",
+      "inbox": "Boîte de réception",
+      "sent": "Envoyés",
+      "drafts": "Brouillons",
+      "trash": "Corbeille",
+      "favoriteContacts": "Contacts favoris",
+      "emptyFolder": "Aucun message dans ce dossier",
+      "selectConversation": "Sélectionnez une conversation pour voir les messages",
+      "sendHint": "Appuyez sur Entrée pour envoyer",
+      "newMessages": "Nouveaux messages",
+      "recent": "Messages récents",
+      "viewAll": "Voir tous les messages",
+      "viewAllCount": "Voir les {{count}} messages",
+      "goToMessages": "Aller aux messages",
+      "empty": {
+        "title": "Aucun message pour le moment",
+        "description": "Les messages des agents et des propriétaires s'afficheront ici"
+      },
+      "pleaseLogin": "Veuillez vous connecter pour accéder à vos messages",
+      "loading": "Chargement des messages...",
+      "retrying": "Nouvelle tentative...",
+      "errorLoading": "Erreur lors du chargement des messages",
+      "errorLoadingDescription": "Un problème est survenu lors du chargement de vos messages. Veuillez réessayer.",
+      "retry": "Réessayer",
+      "noMessages": "Aucun message dans cette conversation pour le moment",
+      "newMessage": "Nouveau message",
+      "newMessageDescription": "Rédigez un nouveau message à un utilisateur ou à un agent",
+      "recipient": "Destinataire",
+      "selectRecipient": "Sélectionner le destinataire",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Saisir le sujet du message",
+      "messageType": "Type de message",
+      "selectMessageType": "Sélectionner le type de message",
+      "types": {
+        "direct": "Message direct",
+        "support": "Demande de support",
+        "system": "Message système"
+      },
+      "content": "Message",
+      "contentPlaceholder": "Saisissez votre message ici...",
+      "send": "Envoyer le message",
+      "cancel": "Annuler",
+      "sendSuccess": "Message envoyé",
+      "messageHasBeenSent": "Votre message a été envoyé avec succès",
+      "sendError": "Erreur d'envoi",
+      "typeMessage": "Saisissez votre message...",
+      "selectConversationToSend": "Sélectionnez une conversation pour envoyer un message",
+      "attachments": "Pièces jointes",
+      "errorLoadingThreads": "Erreur lors du chargement des conversations",
+      "errorLoadingThreadsDescription": "Un problème est survenu lors du chargement de vos conversations. Veuillez réessayer.",
+      "retryingThreads": "Nouvelle tentative de chargement des conversations...",
+      "noPreview": "Aucun aperçu du message",
+      "agent": "Agent",
+      "user": "Utilisateur",
+      "noFavorites": "Aucun contact favori pour le moment",
+      "noFavoritesDescription": "Vos contacts favoris s'afficheront ici",
+      "searchFavorites": "Rechercher dans vos contacts favoris",
+      "noMatchingFavorites": "Aucun contact ne correspond à votre recherche",
+      "sendMessage": "Envoyer un message",
+      "removeFromFavorites": "Retirer des favoris",
+      "messageContent": "Contenu du message",
+      "messageContentPlaceholder": "Saisissez votre message ici...",
+      "sending": "Envoi du message...",
+      "attachFile": "Joindre un fichier"
+    },
+    "recommendations": {
+      "title": "Biens qui pourraient vous plaire",
+      "description": "Basé sur vos favoris et votre historique de navigation",
+      "empty": {
+        "title": "Aucune recommandation disponible",
+        "description": "Basé sur vos favoris et votre historique de navigation"
+      }
+    }
+  },
+  "document": {
+    "supportedFormats": "Formats pris en charge : PDF, DOCX, JPG, PNG.",
+    "upload": "Téléverser un document",
+    "dragDropFile": "Glissez-déposez votre fichier ici",
+    "downloadIssueDescription": "Il pourrait y avoir eu un problème avec le téléchargement. Veuillez réessayer.",
+    "confirmReject": "Êtes-vous sûr de vouloir rejeter ce document ?",
+    "rejectionSuccess": "Document Rejeté",
+    "rejectionSuccessDescription": "Le document a été rejeté avec succès.",
+    "rejectionError": "Erreur de Rejet",
+    "rejectionErrorDescription": "Échec du rejet du document. Veuillez réessayer.",
+    "error": {
+      "title": "Échec du Chargement des Documents",
+      "description": "Impossible de récupérer les documents. Veuillez vérifier votre connexion et réessayer.",
+      "retry": "Réessayer"
+    }
+  },
+  "propertyAnalytics": {
+    "metrics": {
+      "views": "Vues",
+      "inquiries": "Demandes d'information",
+      "favourites": "Favoris",
+      "favorites": "Favoris",
+      "shares": "Partages",
+      "tours": "Visites",
+      "conversionRate": "Taux de conversion"
+    },
+    "title": "Analyses du bien",
+    "overview": "Aperçu",
+    "performance": "Performance",
+    "engagement": "Engagement",
+    "conversions": "Conversions",
+    "timeframes": {
+      "today": "Aujourd'hui",
+      "week": "Cette semaine",
+      "month": "Ce mois-ci",
+      "year": "Cette année",
+      "custom": "Plage personnalisée"
+    }
+  },
+  "onboarding": {
+    "features": {
+      "personalized": "Expérience personnalisée",
+      "saveTime": "Gagnez du temps avec la recherche assistée par l'IA",
+      "lifestyle": "Trouvez des biens qui correspondent à votre style de vie"
+    },
+    "title": "Découvrez plus rapidement la maison de vos rêves",
+    "welcome": {
+      "title": "Trouvez la maison de vos rêves",
+      "description": "Répondez à quelques questions pour nous aider à trouver le bien parfait pour vous",
+      "imageAlt": "Belle maison moderne",
+      "feature1Title": "Recherche personnalisée",
+      "feature1Desc": "Obtenez des recommandations adaptées à vos besoins spécifiques",
+      "feature2Title": "Processus simplifié",
+      "feature2Desc": "Gagnez du temps et trouvez des biens que vous aimerez vraiment"
+    },
+    "later": "Peut-être plus tard",
+    "start": "Commencer la recherche guidée",
+    "location": {
+      "title": "Où souhaitez-vous vivre ?",
+      "description": "Sélectionnez votre lieu de prédilection pour trouver des biens à proximité",
+      "label": "Lieu",
+      "placeholder": "Saisir une ville ou une région",
+      "popularLocations": "Lieux populaires",
+      "popularCity1": "New York",
+      "popularCity2": "Los Angeles",
+      "popularCity3": "Chicago",
+      "popularCity4": "Miami",
+      "popularCity5": "San Francisco"
+    },
+    "propertyType": {
+      "title": "Type de Propriété",
+      "description": "Quel type de propriété recherchez-vous ?",
+      "apartment": "Appartement",
+      "house": "Maison",
+      "townhouse": "Maison de Ville",
+      "condo": "Copropriété"
+    },
+    "budget": {
+      "title": "Votre Budget",
+      "description": "Définissez votre fourchette de prix pour la propriété",
+      "minLabel": "Prix minimum",
+      "maxLabel": "Prix maximum",
+      "buyOrRent": "Voulez-vous acheter ou louer ?",
+      "buy": "Acheter",
+      "rent": "Louer",
+      "minBedrooms": "Nombre minimum de chambres"
+    },
+    "desiredFeatures": {
+      "title": "Caractéristiques Souhaitées",
+      "description": "Sélectionnez les caractéristiques que vous aimeriez avoir dans votre propriété"
+    },
+    "propertyFeatures": {
+      "pool": "Piscine",
+      "garage": "Garage",
+      "garden": "Jardin",
+      "balcony": "Balcon",
+      "gym": "Salle de Sport",
+      "security": "Sécurité",
+      "airConditioning": "Climatisation",
+      "furnished": "Meublé",
+      "petFriendly": "Animaux Acceptés",
+      "smartHome": "Maison Intelligente",
+      "oceanView": "Vue sur l'Océan",
+      "fireplace": "Cheminée"
+    },
+    "errors": {
+      "locationRequired": "Emplacement Requis",
+      "locationRequiredDesc": "Veuillez entrer un emplacement pour continuer"
+    },
+    "aiMatching": {
+      "title": "Recherche de Propriétés Idéales",
+      "description": "Notre algorithme d'IA analyse des milliers de propriétés pour trouver les meilleures correspondances pour vous",
+      "analyzing": "Analyse de vos préférences...",
+      "matchesFound": "Propriétés trouvées !",
+      "matchesDescription": "Nous avons trouvé {{count}} propriétés qui correspondent à vos critères. Consultez vos correspondances personnalisées pour trouver votre maison de rêve."
+    },
+    "actions": {
+      "continue": "Continuer",
+      "back": "Retour"
+    }
+  },
+  "verification": {
+    "form": {
+      "type": "Type de Vérification",
+      "user": "Utilisateur Individuel",
+      "user_description": "Vérifiez votre identité personnelle",
+      "agency": "Entreprise/Agence",
+      "agency_description": "Vérifiez votre entreprise ou agence",
+      "method": "Méthode de Vérification",
+      "digital": "Vérification Numérique",
+      "manual": "Vérification Manuelle",
+      "documents": "Documents Requis",
+      "government_id": "Pièce d'Identité Gouvernementale",
+      "proof_of_address": "Justificatif de Domicile",
+      "business_registration": "Enregistrement d'Entreprise",
+      "real_estate_license": "Licence Immobilière",
+      "business_address_proof": "Justificatif d'Adresse Professionnelle",
+      "agent_id": "ID Agent",
+      "submitting": "Envoi en cours...",
+      "submit": "Soumettre la Vérification"
+    },
+    "error": {
+      "title": "Erreur de Vérification",
+      "description": "Il y a eu une erreur lors de la soumission de votre vérification"
+    }
+  },
+  "userManagement": {
+    "title": "Gestion des utilisateurs",
+    "subtitle": "Gérer les utilisateurs",
+    "description": "Gérer les comptes utilisateurs et les autorisations",
+    "create": "Créer un utilisateur",
+    "createDescription": "Créer un nouveau compte utilisateur",
+    "username": "Nom d'utilisateur",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "role": "Rôle",
+    "selectRole": "Sélectionner un rôle",
+    "roles": {
+      "user": "Utilisateur",
+      "agent": "Agent",
+      "admin": "Admin"
+    },
+    "users_verification_inactive": "Vérification Inactive",
+    "tabs": {
+      "users": "Utilisateurs",
+      "agencies": "Agences"
+    },
+    "list": "Liste des utilisateurs",
+    "listDescription": "Voir et gérer tous les utilisateurs",
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher des utilisateurs...",
+    "filterByRole": "Filtrer par rôle",
+    "allRoles": "Tous les rôles",
+    "filterByStatus": "Filtrer par statut",
+    "allStatuses": "Tous les statuts",
+    "statuses": {
+      "active": "Actif",
+      "suspended": "Suspendu",
+      "inactive": "Inactif",
+      "pending": "En attente"
+    },
+    "agency": "Agence",
+    "status": "Statut",
+    "joined": "Inscrit le",
+    "actions_header": "Actions",
+    "table": {
+      "name": "Nom",
+      "email": "E-mail"
+    },
+    "editUser": {
+      "title": "Modifier l'utilisateur",
+      "save": "Enregistrer les modifications"
+    },
+    "delete": "Supprimer l'utilisateur",
+    "deleteConfirmTitle": "Confirmer la suppression",
+    "deleteConfirmDescription": "Êtes-vous sûr de vouloir supprimer cet utilisateur ?",
+    "confirmDelete": {
+      "title": "Supprimer l'utilisateur",
+      "message": "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Cette action est irréversible.",
+      "confirm": "Supprimer"
+    },
+    "reactivate": "Réactiver l'utilisateur",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "noUsers": "Aucun utilisateur trouvé"
+  },
+  "wizard": {
+    "steps": {
+      "images": {
+        "title": "Images & Médias",
+        "imageLabel": "Images du bien",
+        "mainImageLabel": "Image principale",
+        "description": "Téléversez des images de votre bien.",
+        "dragAndDrop": "Glissez-déposez vos images ici",
+        "orClickToBrowse": "ou cliquez pour parcourir",
+        "maxSize": "Taille maximale : 5 Mo par image.",
+        "maxFiles": "Maximum 10 images.",
+        "setAsMain": "Définir comme principale",
+        "deleteImage": "Supprimer l'image",
+        "uploadProgress": "Téléversement : {{progress}}%",
+        "uploadComplete": "Téléversement terminé",
+        "optimizedLabel": "Optimisée",
+        "uploadError": "Erreur de téléversement",
+        "imagesCount": "{{current}} sur {{max}} images",
+        "uploadButton": "Téléverser des images",
+        "openCloudinaryWidget": "Téléverser des images",
+        "uploadAdvanced": "Téléversement avancé",
+        "openImageEditor": "Ouvrir l'éditeur d'images",
+        "uploadedImagesLabel": "Images téléversées",
+        "selectPrimaryImageLabel": "Sélectionnez une image principale à afficher en premier.",
+        "setPrimary": "Définir comme principale",
+        "setFeature": "Mettre en avant",
+        "maxImagesReached": "Maximum de {{max}} images atteint.",
+        "tooManyImages": "Trop d'images",
+        "uploadFailedDescription": "Un problème est survenu lors du téléversement de votre image.",
+        "cloudinarySuccess": "L'image a été optimisée pour le web.",
+        "imageProcessedSuccess": "Image traitée avec succès.",
+        "imageRequired": "Au moins une image est requise.",
+        "imagesLabel": "Galerie d'images du bien"
+      },
+      "basicInfoAndLocation": {
+        "title": "Informations de base & Emplacement",
+        "description": "Parlez-nous de votre bien et de son emplacement."
+      },
+      "basicInfo": {
+        "title": "Informations de base",
+        "description": "Parlez-nous de votre bien",
+        "titleLabel": "Titre du bien",
+        "titlePlaceholder": "Saisissez un titre descriptif pour votre bien",
+        "titleHelp": "Un titre clair aide les acheteurs potentiels à trouver votre bien",
+        "proTip": "Conseil de pro",
+        "proTipContent": "Utilisez des mots descriptifs qui mettent en valeur les meilleures caractéristiques de votre bien",
+        "addButton": "Ajouter"
+      },
+      "location": {
+        "cityLabel": "Ville",
+        "countryLabel": "Pays",
+        "title": "Emplacement",
+        "infoText": "Fournissez les détails de l'emplacement de votre bien.",
+        "countryPlaceholder": "Sélectionner le pays",
+        "addressToggleLabel": "Afficher l'adresse exacte",
+        "addressToggleDescription": "Activez pour afficher l'adresse exacte ou seulement l'emplacement approximatif.",
+        "addressDetails": "Détails de l'adresse",
+        "addressLabel": "Adresse",
+        "addressPlaceholder": "Saisir l'adresse",
+        "stateLabel": "Comté/Province",
+        "statePlaceholder": "Saisir le comté ou la province",
+        "cityPlaceholder": "Saisir la ville",
+        "zipCodeLabel": "Code postal",
+        "zipCodePlaceholder": "Saisir le code postal",
+        "contactDetails": "Coordonnées",
+        "contactEmailLabel": "E-mail de contact",
+        "contactEmailPlaceholder": "Saisir l'e-mail de contact",
+        "phoneCountryCodeLabel": "Indicatif du pays",
+        "phoneCountryCodePlaceholder": "+33",
+        "phoneNumberLabel": "Numéro de téléphone",
+        "phoneNumberPlaceholder": "Saisir le numéro de téléphone",
+        "isPhoneNumberPublicLabel": "Rendre le numéro de téléphone public",
+        "isPhoneNumberPublicDescription": "Si décoché, le numéro de téléphone ne sera pas affiché sur les annonces.",
+        "approximateLocationLabel": "Emplacement approximatif (Quartier/Arrondissement)",
+        "approximateLocationPlaceholder": "ex: Le Marais, Gràcia, Saint-Germain-des-Prés, etc."
+      },
+      "pricing": {
+        "title": "Prix & Type",
+        "priceLabel": "Prix du bien",
+        "exactPriceLabel": "Prix exact",
+        "pricePlaceholder": "Saisir le prix du bien",
+        "propertyTypeLabel": "Type de bien",
+        "listingTypeLabel": "Type d'annonce",
+        "forSale": "À vendre",
+        "forRent": "À louer",
+        "lookingToSell": "Cherche à vendre",
+        "propertyTypes": {
+          "apartment": "Appartement",
+          "house": "Maison",
+          "villa": "Villa",
+          "condo": "Appartement",
+          "penthouse": "Penthouse",
+          "townhouse": "Maison de ville",
+          "office": "Bureau",
+          "retail": "Commerce",
+          "land": "Terrain"
+        },
+        "description": "Définissez le prix et le type de votre bien.",
+        "currencyLabel": "Devise",
+        "currencyPlaceholder": "Sélectionner la devise (ex: EUR)",
+        "selectType": "Sélectionner le type de bien"
+      },
+      "details": {
+        "title": "Détails du bien",
+        "bedroomsLabel": "Chambres",
+        "bathroomsLabel": "Salles de bain",
+        "sizeLabel": "Surface du bien",
+        "sizePlaceholder": "Saisir la surface en mètres carrés",
+        "yearBuiltLabel": "Année de construction",
+        "yearBuiltPlaceholder": "Saisir l'année de construction",
+        "parkingLabel": "Places de parking",
+        "description": "Ajoutez les détails clés de votre bien.",
+        "parkingPlaceholder": "Saisir le nombre de places de parking"
+      },
+      "pricingAndDetails": {
+        "title": "Prix & Détails",
+        "pricingSection": "Informations sur le prix",
+        "detailsSection": "Détails du bien",
+        "description": "Définissez le prix, le type et les détails clés de votre bien.",
+        "rentPeriodLabel": "Période de location",
+        "rentPeriods": {
+          "monthly": "Mensuel",
+          "weekly": "Hebdomadaire",
+          "daily": "Journalier",
+          "yearly": "Annuel"
+        }
+      },
+      "features": {
+        "title": "Caractéristiques & Équipements",
+        "description": "Sélectionnez les caractéristiques et équipements disponibles dans votre bien",
+        "standardTitle": "Équipements standards",
+        "customTitle": "Caractéristiques personnalisées",
+        "customPlaceholder": "Saisir une caractéristique personnalisée",
+        "addFeatureButton": "Ajouter une caractéristique personnalisée",
+        "amenities": {
+          "air-conditioning": "Climatisation",
+          "heating": "Chauffage",
+          "balcony-patio": "Balcon/Terrasse",
+          "furnished": "Meublé",
+          "garage": "Garage",
+          "gym": "Salle de sport",
+          "pool": "Piscine",
+          "garden": "Jardin",
+          "pet-friendly": "Animaux acceptés",
+          "ocean-view": "Vue sur l'océan",
+          "fireplace": "Cheminée",
+          "elevator": "Ascenseur",
+          "wheelchair-access": "Accès pour fauteuils roulants",
+          "security-system": "Système de sécurité",
+          "concierge": "Concierge",
+          "laundry-room": "Buanderie",
+          "airConditioning": "Climatisation",
+          "balcony": "Balcon",
+          "petFriendly": "Animaux acceptés",
+          "smartHome": "Maison connectée",
+          "securitySystem": "Système de sécurité",
+          "oceanView": "Vue sur l'océan",
+          "parking": "Parking",
+          "terrace": "Terrasse",
+          "wheelchairAccess": "Accès pour fauteuils roulants",
+          "laundry": "Buanderie",
+          "storage": "Espace de rangement"
+        },
+        "aiSummary": {
+          "title": "Résumé de l'IA pour le bien",
+          "description": "Révisez et personnalisez le résumé du bien généré par l'IA",
+          "insufficientDetails": "Veuillez fournir plus de détails sur le bien pour générer un résumé par l'IA",
+          "currentTitle": "Titre actuel du bien",
+          "currentTitlePlaceholder": "Saisissez le titre de votre bien",
+          "suggestedTitle": "Titre suggéré par l'IA",
+          "suggestedTitlePlaceholder": "L'IA suggérera un titre optimisé",
+          "currentDescription": "Description actuelle du bien",
+          "currentDescriptionPlaceholder": "Saisissez la description de votre bien",
+          "generatedSummary": "Résumé généré par l'IA",
+          "suggestedDescriptionPlaceholder": "L'IA générera une description convaincante basée sur les détails de votre bien",
+          "regenerate": "Régénérer avec l'IA",
+          "save": "Enregistrer le résumé de l'IA"
+        },
+        "maxAlertMessage": "Maximum de 5 caractéristiques personnalisées atteint.",
+        "customEmptyState": "Ajoutez jusqu'à 5 caractéristiques personnalisées qui rendent votre bien unique."
+      },
+      "description": {
+        "title": "Description du bien",
+        "description": "Rédigez une description détaillée de votre bien pour attirer les acheteurs potentiels",
+        "descriptionLabel": "Description du bien",
+        "descriptionPlaceholder": "Décrivez les caractéristiques de votre bien, les avantages de son emplacement et ses arguments de vente uniques...",
+        "descriptionHelp": "Incluez des détails sur l'état du bien, les équipements, le quartier et ce qui le rend spécial",
+        "aiAssistLabel": "Assistant de rédaction IA",
+        "aiAssistButton": "Générer une description avec l'IA",
+        "aiInsert": "Insérer la suggestion de l'IA",
+        "suggestedDescriptionPlaceholder": "La description générée par l'IA apparaîtra ici..."
+      },
+      "aiSummary": {
+        "title": "Résumé de l'IA",
+        "insufficientDetails": "Veuillez fournir plus de détails sur le bien pour générer un résumé par l'IA",
+        "suggestedDescriptionPlaceholder": "L'IA générera une description suggérée basée sur les détails de votre bien...",
+        "description": "Révisez les titres et descriptions générés par l'IA pour votre bien.",
+        "currentTitle": "Titre actuel",
+        "currentTitlePlaceholder": "Votre titre de bien actuel",
+        "suggestedTitle": "Titre suggéré",
+        "suggestedTitlePlaceholder": "Le titre suggéré par l'IA apparaîtra ici",
+        "currentDescription": "Description actuelle",
+        "currentDescriptionPlaceholder": "Votre description de bien actuelle",
+        "generatedSummary": "Résumé généré par l'IA",
+        "regenerate": "Régénérer les suggestions",
+        "save": "Enregistrer les suggestions"
+      },
+      "review": {
+        "title": "Vérifier & Publier",
+        "listingStatus": "Statut de l'annonce",
+        "selectStatus": "Sélectionner le statut de publication",
+        "saveDraftButton": "Enregistrer comme brouillon",
+        "submitForApproval": "Soumettre pour approbation",
+        "publishImmediately": "Publier immédiatement",
+        "statusDescription": "Choisissez comment vous souhaitez publier votre annonce immobilière",
+        "basicInfo": "Informations de base",
+        "basicInfoSubtitle": "Titre du bien et détails de base",
+        "location": "Emplacement & Contact",
+        "locationSubtitle": "Adresse du bien et informations de contact",
+        "propertyTypePricing": "Type de bien & Prix",
+        "propertyTypePricingSubtitle": "Classification du bien et détails sur le prix",
+        "details": "Détails du bien",
+        "detailsSubtitle": "Chambres, salles de bain et spécifications du bien",
+        "features": "Caractéristiques & Équipements",
+        "featuresSubtitle": "Équipements du bien et caractéristiques spéciales",
+        "images": "Images du bien",
+        "imagesSubtitle": "Photos et contenu visuel",
+        "complete": "Terminé",
+        "editSection": "Modifier",
+        "notSpecified": "Non spécifié",
+        "listingRequirements": "Exigences de l'annonce",
+        "requiredSections": {
+          "title": "Informations requises",
+          "propertyType": "Type de bien",
+          "images": "Au moins une image"
+        },
+        "description": "Description",
+        "description2": "Vous pouvez modifier n'importe quelle section en cliquant sur le lien 'Modifier'.",
+        "noFeatures": "Aucune caractéristique n'a été spécifiée."
+      },
+      "propertyType": {
+        "title": "Type de bien"
+      },
+      "budget": {
+        "title": "Budget"
+      },
+      "bedrooms": {
+        "title": "Nombre de chambres"
+      },
+      "summary": {
+        "title": "Résumé & Recherche"
+      },
+      "media": "Média",
+      "common": {
+        "optional": "Facultatif"
+      }
+    },
+    "enterLocation": "Saisir l'emplacement souhaité (ex: ville, quartier)",
+    "selectBedrooms": "Sélectionner le nombre de chambres",
+    "findProperties": "Trouver mes biens",
+    "bedrooms": "Chambres",
+    "propertyType": "Type de bien",
+    "budget": "Budget",
+    "location": "Emplacement"
+  },
+  "premium": {
+    "title": "Fonctionnalités Premium",
+    "subtitle": {
+      "premium": "Libérez la puissance du Premium",
+      "upgrade": "Passez à la version supérieure pour accéder aux fonctionnalités Premium"
+    },
+    "badges": {
+      "premium": "Premium",
+      "enterprise": "Entreprise"
+    },
+    "features": {
+      "bulkUpload": {
+        "title": "Téléversement de biens en masse",
+        "description": "Gagnez du temps en téléversant plusieurs biens à la fois",
+        "buttonLabels": {
+          "upload": "Téléverser les biens",
+          "uploading": "Téléversement..."
+        },
+        "dragAndDrop": "Glissez-déposez votre fichier CSV/JSON ici, ou cliquez pour parcourir.",
+        "maxFileSize": "Taille maximale du fichier : 5 Mo.",
+        "formatRequirements": {
+          "title": "Exigences de format de fichier",
+          "csvHeaders": "Les fichiers CSV doivent inclure des en-têtes comme : titre, description, prix, type, statut, chambres, salles_de_bain, surface, adresse, ville, pays.",
+          "jsonArray": "Le fichier JSON doit être un tableau d'objets de biens.",
+          "requiredFields": "Champs requis pour chaque bien : titre, description, prix, type (ex: appartement, maison), statut (ex: a_vendre, a_louer)."
+        },
+        "validation": {
+          "statusError": "Erreur",
+          "statusValid": "Valide",
+          "rowErrorDetails": "Ligne {{rowNumber}}:",
+          "fixErrorsBeforeUploading": "Veuillez corriger les erreurs listées ci-dessous avant de téléverser.",
+          "validationErrors": "Erreurs de validation"
+        },
+        "messages": {
+          "success": {
+            "title": "Téléversement réussi",
+            "description": "{{count}} biens ont été téléversés avec succès."
+          },
+          "error": {
+            "title": "Erreur de téléversement",
+            "default": "Une erreur inconnue s'est produite lors du téléversement."
+          },
+          "parseError": {
+            "title": "Erreur d'analyse du fichier",
+            "default": "Impossible d'analyser le fichier téléversé."
+          },
+          "noData": {
+            "title": "Aucune donnée à téléverser",
+            "description": "Le fichier semble vide ou les données n'ont pas pu être analysées."
+          },
+          "validationError": {
+            "title": "Erreurs de validation trouvées",
+            "description": "Veuillez examiner les erreurs dans l'aperçu ci-dessous et corriger votre fichier."
+          }
+        },
+        "selectedFile": "Fichier sélectionné",
+        "processingFile": "Traitement du fichier...",
+        "uploadSuccessful": "Téléversement réussi !",
+        "propertiesSuccessfullyUploaded": "Les biens ont été téléversés avec succès et sont en cours de traitement.",
+        "previewData": "Aperçu des données",
+        "premiumFeatureNotice": "Le téléversement en masse est une fonctionnalité premium. Mettez à niveau pour l'activer.",
+        "downloadTemplate": "Télécharger le modèle",
+        "useTemplateInstructions": "Utilisez notre modèle CSV pour vous assurer que vos données sont correctement formatées.",
+        "downloadTemplateButton": "Télécharger le modèle",
+        "uploadFile": "Téléverser un fichier",
+        "selectFileInstructions": "Sélectionnez votre fichier CSV contenant les données des biens.",
+        "selectFileButton": "Sélectionner un fichier",
+        "parseFileButton": "Analyser le fichier",
+        "errors": {
+          "emptyFile": "Le fichier est vide ou ne contient pas assez de lignes.",
+          "invalidNumber": "Nombre invalide pour {{field}}: {{value}}",
+          "invalidPropertyType": "Type de bien invalide \"{{value}}\". Doit être l'un des suivants : {{types}}",
+          "invalidListingType": "Type d'annonce invalide \"{{value}}\". Doit être l'un des suivants : {{types}}",
+          "missingField": "Champ obligatoire manquant : {{field}}"
+        }
+      },
+      "analytics": {
+        "title": "Analyses avancées",
+        "description": "Obtenez des informations sur les performances des biens et le comportement des visiteurs"
+      },
+      "featuredProperties": {
+        "title": "Biens mis en avant",
+        "description": "Mettez en valeur vos meilleures annonces pour une visibilité accrue"
+      },
+      "prioritySupport": {
+        "title": "Support prioritaire",
+        "description": "Obtenez des réponses plus rapides de notre équipe de support client"
+      },
+      "marketingTools": {
+        "title": "Outils marketing",
+        "description": "Matériel marketing professionnel et outils de promotion"
+      },
+      "teamManagement": {
+        "title": "Gestion d'équipe",
+        "description": "Collaborez avec les membres de l'équipe et attribuez des biens"
+      },
+      "tourManagement": {
+        "title": "Gestion des visites virtuelles",
+        "description": "Créez et gérez des visites virtuelles de biens"
+      }
+    },
+    "document": {
+      "supportedFormats": "Formats pris en charge : PDF, DOCX, JPG, PNG."
+    },
+    "general": {
+      "actions": {
+        "cancel": "Annuler"
+      }
+    },
+    "actions": {
+      "accessFeature": "Accéder à la fonctionnalité",
+      "upgradeRequired": "Mise à niveau requise",
+      "upgrade": "Mettre à niveau maintenant"
+    },
+    "propertyCard": {
+      "forSale": "À vendre",
+      "forRent": "À louer",
+      "viewDetails": "Voir les détails",
+      "shareMessage": "Découvrez ce bien",
+      "linkCopied": "Lien copié dans le presse-papiers !",
+      "invalidDate": "Date invalide",
+      "errorTitle": "Erreur de chargement du bien",
+      "errorMessage": "Ce bien n'a pas pu être chargé.",
+      "perMonth": "par mois",
+      "perMonthShort": "/mois"
+    }
+  },
+  "securityPage": {
+    "subtitle": "Gérer les paramètres de sécurité et les contrôles d'accès",
+    "adminPassword": "Mot de passe administrateur",
+    "updatePassword": "Mettre à jour le mot de passe",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "twoFactor": "Authentification à deux facteurs",
+    "twoFactorDesc": "Ajoutez une couche de sécurité supplémentaire à votre compte",
+    "twoFactorDisabled": "L'authentification à deux facteurs est désactivée",
+    "twoFactorProtect": "Protégez votre compte avec une étape d'authentification supplémentaire",
+    "enable2FA": "Activer l'A2F"
+  },
+  "users": {
+    "title": "Gestion des utilisateurs",
+    "description": "Supervisez et gérez tous les comptes utilisateurs, rôles et agences associées au sein de la plateforme.",
+    "create": "Créer un utilisateur",
+    "tabs": {
+      "users": "Utilisateurs",
+      "agencies": "Agences"
+    },
+    "list": "Liste des utilisateurs",
+    "listDescription": "Affichage de tous les utilisateurs enregistrés.",
+    "username": "Nom d'utilisateur",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "role": "Rôle",
+    "agency": "Agence",
+    "status": "Statut",
+    "search": "Rechercher des utilisateurs...",
+    "allRoles": "Tous les rôles",
+    "roles": {
+      "user": "Utilisateur",
+      "agent": "Agent",
+      "admin": "Admin"
+    },
+    "verification": {
+      "active": "Vérifié",
+      "inactive": "Non vérifié",
+      "title": "Statut de la vérification",
+      "user": "Utilisateur vérifié"
+    },
+    "createDescription": "Remplissez les détails pour ajouter un nouvel utilisateur.",
+    "edit": "Modifier l'utilisateur (section Utilisateurs du tableau de bord)",
+    "editDescription": "Description pour la modification de l'utilisateur (Utilisateurs du tableau de bord)",
+    "actions": "Actions (En-tête de tableau des utilisateurs du tableau de bord)",
+    "noUsersFound": "Aucun utilisateur trouvé (Utilisateurs du tableau de bord).",
+    "adjustFilters": "Ajustez les filtres pour trouver des utilisateurs (Utilisateurs du tableau de bord).",
+    "agencies": {
+      "title": "Gestion des agences",
+      "description": "Gérer les agences enregistrées.",
+      "name": "Nom de l'agence",
+      "location": "Emplacement",
+      "contact": "Contact",
+      "agents": "Agents",
+      "license": "ID de licence",
+      "status": "Statut de l'agence",
+      "noAgenciesFound": "Aucune agence trouvée.",
+      "create": "Créer une agence",
+      "createDescription": "Fill in the details to add a new agency to the system."
+    },
+    "subtitle": "Gérez les utilisateurs de votre plateforme, leurs rôles et leurs agences",
+    "password": "Mot de passe",
+    "selectRole": "Sélectionner un rôle",
+    "searchPlaceholder": "Rechercher des utilisateurs...",
+    "filterByRole": "Filtrer par rôle",
+    "filterByStatus": "Filtrer par statut",
+    "allStatuses": "Tous les statuts",
+    "statuses": {
+      "active": "Actif",
+      "suspended": "Suspendu",
+      "inactive": "Inactif",
+      "pending": "En attente"
+    },
+    "joined": "Date d'inscription",
+    "actions_header": "Actions",
+    "table": {
+      "name": "Nom",
+      "email": "E-mail",
+      "role": "Rôle",
+      "status": "Statut",
+      "joined": "Inscrit le",
+      "actions": "Actions"
+    },
+    "editUser": {
+      "title": "Modifier l'utilisateur",
+      "save": "Enregistrer les modifications",
+      "cancel": "Annuler"
+    },
+    "delete": "Supprimer l'utilisateur",
+    "deleteConfirmTitle": "Confirmer la suppression de l'utilisateur",
+    "deleteConfirmDescription": "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Cette action est irréversible.",
+    "confirmDelete": {
+      "title": "Supprimer l'utilisateur",
+      "message": "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Cette action est irréversible.",
+      "confirm": "Supprimer",
+      "cancel": "Annuler"
+    },
+    "reactivate": "Réactiver l'utilisateur",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "noUsers": "Aucun utilisateur trouvé",
+    "bulkDeleteAction": "Delete Selected Users"
+  },
+  "admin": {
+    "title": "Tableau de bord administrateur",
+    "subtitle": "Gérez votre plateforme",
+    "systemSettings": "Paramètres système",
+    "generateReports": "Générer des rapports",
+    "stats": {
+      "totalUsers": "Nombre total d'utilisateurs",
+      "fromPrevious": "depuis la/le {{timeframe}} précédente",
+      "properties": "Nombre total de biens",
+      "pageViews": "Nombre total de pages vues",
+      "revenue": "Revenu total"
+    },
+    "pendingApprovals": "Approbations en attente",
+    "usersManagement": "Gestion des utilisateurs (Onglet)",
+    "properties": "Aperçu des biens (Onglet)",
+    "itemsPendingApproval": "Éléments en attente d'approbation",
+    "reviewManageSubmissions": "Examinez et gérez les nouvelles soumissions.",
+    "submittedBy": "Soumis par",
+    "noPendingApprovals": "Aucune approbation en attente",
+    "allSubmissionsReviewed": "Toutes les soumissions ont été examinées.",
+    "userManagement": "Gestion des utilisateurs",
+    "viewManageAccounts": "Voir et gérer les comptes utilisateurs.",
+    "editUser": "Modifier l'utilisateur",
+    "recentProperties": "Biens récents",
+    "noPropertiesFound": "Aucun bien trouvé",
+    "noPropertiesInSystem": "Il n'y a actuellement aucun bien répertorié dans le système.",
+    "allSubmissions": "Toutes les soumissions",
+    "agents": "Agents",
+    "item": "Élément",
+    "type": "Type",
+    "date": "Date",
+    "actions": "Actions",
+    "propertySubmissions": "Soumissions de biens",
+    "reviewPropertySubmissions": "Examiner et gérer les soumissions de biens",
+    "agentSubmissions": "Soumissions d'agents",
+    "reviewAgentSubmissions": "Examiner et gérer les soumissions d'agents",
+    "general": "Général",
+    "security": "Sécurité",
+    "notifications": "Notifications",
+    "integrations": "Intégrations",
+    "generalSettings": "Paramètres généraux",
+    "manageGeneralSettings": "Gérer les paramètres généraux du système",
+    "siteName": "Nom du site",
+    "defaultLanguage": "Langue par défaut",
+    "selectLanguage": "Sélectionner la langue",
+    "maintenanceMode": "Mode maintenance",
+    "securitySettings": "Paramètres de sécurité",
+    "manageSecuritySettings": "Gérer les paramètres de sécurité",
+    "requireTwoFactor": "Exiger l'authentification à deux facteurs",
+    "requireEmailVerification": "Exiger la vérification par e-mail",
+    "sessionTimeout": "Délai d'expiration de la session",
+    "selectTimeout": "Sélectionner le délai d'expiration",
+    "notificationSettings": "Paramètres de notification",
+    "manageNotificationSettings": "Gérer les paramètres de notification",
+    "emailNotifications": "Notifications par e-mail",
+    "pushNotifications": "Notifications push",
+    "notificationEmail": "E-mail de notification",
+    "integrationSettings": "Paramètres d'intégration",
+    "manageIntegrationSettings": "Gérer les intégrations tierces",
+    "googleMapsApiKey": "Clé API Google Maps",
+    "stripeApiKey": "Clé API Stripe",
+    "smtpServer": "Serveur SMTP",
+    "saveChanges": "Enregistrer les modifications",
+    "edit": "Modifier",
+    "manageSystemSettings": "Gérez les paramètres, les préférences et les configurations de votre système."
+  },
+  "general": {
+    "confirm": "Confirmer",
+    "complete": "Terminer",
+    "cancel": "Annuler",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "help": "Aide",
+    "pause": "Mettre en pause",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "submit": "Soumettre",
+    "edit": "Modifier",
+    "view": "Voir",
+    "add": "Ajouter",
+    "remove": "Retirer",
+    "timeframes": {
+      "fromPrevious": "depuis la/le {{timeframe}} précédente",
+      "day": "Jour",
+      "week": "Semaine",
+      "month": "Mois",
+      "year": "Année"
+    },
+    "item": "Élément",
+    "type": "Type",
+    "date": "Date",
+    "viewAll": "Voir tout",
+    "next": "Suivant",
+    "back": "Retour",
+    "saveDraft": "Enregistrer le brouillon",
+    "deleteDraft": "Supprimer le brouillon",
+    "publish": "Publier le bien",
+    "step": "Étape",
+    "of": "de",
+    "publishing": "Publication...",
+    "user": "Utilisateur (Général)",
+    "loading": "Chargement...",
+    "role": "Rôle",
+    "status": "Statut",
+    "joined": "Inscrit le (En-tête de tableau général)",
+    "fullName": "Nom complet",
+    "actions": {
+      "cancel": "Annuler"
+    }
+  },
+  "actions": {
+    "search": "Rechercher",
+    "confirm": "Confirmer",
+    "complete": "Terminer",
+    "cancel": "Annuler",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "help": "Aide",
+    "pause": "Mettre en pause",
+    "confirmTitle": "Confirmer la visite du bien",
+    "completeTitle": "Terminer la visite du bien",
+    "cancelTitle": "Annuler la visite du bien",
+    "confirmMessage": "Êtes-vous sûr de vouloir confirmer cette visite de bien ? Cela notifiera le client que sa demande de visite a été approuvée.",
+    "completeMessage": "Êtes-vous sûr de vouloir marquer cette visite comme terminée ? Cela indique que la visite a eu lieu.",
+    "cancelMessage": "Êtes-vous sûr de vouloir annuler cette visite de bien ? Cette action est irréversible.",
+    "confirmButton": "Confirmer la visite",
+    "completeButton": "Terminer la visite",
+    "cancelButton": "Annuler la visite",
+    "processing": "Traitement...",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "submit": "Soumettre",
+    "edit": "Modifier",
+    "view": "Voir",
+    "add": "Ajouter",
+    "remove": "Retirer",
+    "reset": "Réinitialiser",
+    "general": {
+      "cancel": "Annuler (Action générale du tableau de bord)"
+    }
+  },
+  "agentProperties": {
+    "title": "Mes biens",
+    "description": "Gérez vos annonces immobilières",
+    "loading": "Chargement de vos biens...",
+    "error": "Échec du chargement des biens. Veuillez essayer d'actualiser la page.",
+    "empty": {
+      "title": "Vous n'avez encore répertorié aucun bien.",
+      "description": "Commencez par ajouter votre premier bien."
+    },
+    "addNew": "Ajouter un nouveau bien",
+    "table": {
+      "property": "Bien",
+      "id": "ID",
+      "type": "Type",
+      "status": "Statut",
+      "price": "Prix",
+      "views": "Vues",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "En attente",
+      "verified": "Vérifié"
+    },
+    "selectProperties": "Sélectionner des biens",
+    "cancelSelection": "Annuler",
+    "selectAll": "Tout sélectionner",
+    "deselectAll": "Tout désélectionner",
+    "moveToTrash": "Mettre à la corbeille",
+    "quickAdd": "Ajout rapide",
+    "standardForm": "Formulaire standard",
+    "wizardMode": "Mode assistant",
+    "tabs": {
+      "all": "Tous les biens",
+      "forSale": "À vendre",
+      "forRent": "À louer",
+      "premium": "Premium"
+    },
+    "propertyListings": "Annonces immobilières",
+    "propertiesFound_one": "{{count}} bien trouvé",
+    "propertiesFound_other": "{{count}} biens trouvés",
+    "propertiesFound": "{{count}} biens trouvés",
+    "statusLabels": {
+      "pending": "En attente",
+      "active": "Actif",
+      "sold": "Vendu",
+      "rented": "Loué",
+      "verified": "Vérifié"
+    },
+    "pricePerMonth": "/mois",
+    "noProperties": "Aucun bien trouvé. Cliquez sur \"Ajouter un bien\" pour créer une nouvelle annonce.",
+    "trash": {
+      "properties_one": "bien",
+      "properties_other": "biens",
+      "properties": "Biens",
+      "confirmTitle": "Mettre les biens à la corbeille ?",
+      "confirmDescription": "Les biens seront déplacés vers la corbeille et automatiquement supprimés après 14 jours. Vous pouvez les restaurer depuis la corbeille avant cette échéance.",
+      "countMessage_one": "Vous êtes sur le point de déplacer {{count}} {{properties}} vers la corbeille.",
+      "countMessage_other": "Vous êtes sur le point de déplacer {{count}} {{properties}} vers la corbeille.",
+      "countMessage": "Vous êtes sur le point de déplacer {{count}} {{properties}} vers la corbeille.",
+      "confirm": "Mettre à la corbeille",
+      "success": "Biens mis à la corbeille",
+      "successDescription": "Les biens seront définitivement supprimés après 14 jours",
+      "error": "Erreur lors du déplacement des biens vers la corbeille",
+      "errorDescription": "Une erreur s'est produite. Veuillez réessayer.",
+      "title": "Corbeille des biens",
+      "trashExpiryWarning": "Les biens dans la corbeille seront définitivement supprimés après 14 jours",
+      "restoreSelected": "Restaurer la sélection",
+      "deleteForever": "Supprimer définitivement",
+      "emptyTrash": "Vider la corbeille",
+      "trashedProperties": "Biens dans la corbeille",
+      "trashedPropertiesCount_one": "{{count}} bien dans la corbeille",
+      "trashedPropertiesCount_other": "{{count}} biens dans la corbeille",
+      "trashedPropertiesCount": "{{count}} biens dans la corbeille",
+      "deletionDate": "Sera supprimé le",
+      "deleteInDays": "Sera supprimé dans {{days}} jours",
+      "deleteToday": "Sera supprimé aujourd'hui",
+      "deleteTomorrow": "Sera supprimé demain",
+      "noItemsInTrash": "Aucun bien dans la corbeille",
+      "emptyTrashDescription": "Les éléments déplacés vers la corbeille apparaîtront ici pendant 14 jours avant d'être définitivement supprimés",
+      "backToProperties": "Retour aux biens",
+      "restoreTitle": "Restaurer les biens",
+      "restoreDescription": "Restaurez les biens de la corbeille vers vos annonces actives.",
+      "restoreCountMessage_one": "Vous êtes sur le point de restaurer {{count}} bien.",
+      "restoreCountMessage_other": "Vous êtes sur le point de restaurer {{count}} biens.",
+      "restoreCountMessage": "Vous êtes sur le point de restaurer {{count}} {{properties}}.",
+      "restoreConfirm": "Restaurer",
+      "deleteForeverTitle": "Supprimer définitivement les biens ?",
+      "deleteForeverDescription": "Cette action est irréversible. Les biens seront définitivement supprimés.",
+      "deleteForeverCountMessage_one": "Vous êtes sur le point de supprimer définitivement {{count}} bien.",
+      "deleteForeverCountMessage_other": "Vous êtes sur le point de supprimer définitivement {{count}} biens.",
+      "deleteForeverCountMessage": "Vous êtes sur le point de supprimer définitivement {{count}} {{properties}}.",
+      "deleteForeverConfirm": "Supprimer définitivement",
+      "emptyTrashTitle": "Vider la corbeille ?",
+      "emptyTrashCountMessage_one": "Vous êtes sur le point de supprimer définitivement {{count}} bien de la corbeille.",
+      "emptyTrashCountMessage_other": "Vous êtes sur le point de supprimer définitivement {{count}} biens de la corbeille.",
+      "emptyTrashCountMessage": "Vous êtes sur le point de supprimer définitivement {{count}} biens de la corbeille.",
+      "emptyTrashConfirm": "Vider la corbeille",
+      "restoreSuccess": "Biens restaurés avec succès",
+      "restoreSuccessDescription": "Les biens sélectionnés ont été restaurés dans vos annonces",
+      "restoreError": "Erreur lors de la restauration des biens",
+      "deleteSuccess": "Biens supprimés définitivement",
+      "deleteSuccessDescription": "Les biens sélectionnés ont été définitivement retirés",
+      "deleteError": "Erreur lors de la suppression des biens",
+      "emptySuccess": "Corbeille vidée avec succès",
+      "emptySuccessDescription": "Tous les biens dans la corbeille ont été définitivement supprimés",
+      "emptyError": "Erreur lors du vidage de la corbeille"
+    },
+    "selectMultiple": "Sélectionner plusieurs biens"
+  },
+  "subscription": {
+    "plans": {
+      "popular": "POPULAIRE",
+      "free": "Gratuit",
+      "perMonth": "mois",
+      "perYear": "an",
+      "saveWithYearly": "Vous économisez 40% avec la facturation annuelle !",
+      "currentPlan": "Abonnement actuel",
+      "contactSales": "Contacter le service commercial",
+      "title": "Choisissez votre abonnement",
+      "chooseRightPlan": "Choisissez l'abonnement qui vous convient",
+      "description": "Sélectionnez l'abonnement qui correspond le mieux à vos besoins et débloquez des fonctionnalités premium.",
+      "allPlansInclude": "Tous les abonnements incluent",
+      "tiers": {
+        "basic": {
+          "name": "Basique",
+          "description": "Pour les particuliers qui cherchent à parcourir les biens",
+          "buttonText": "Abonnement actuel"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Pour les agents immobiliers et les gestionnaires de biens",
+          "buttonText": "S'abonner maintenant"
+        },
+        "enterprise": {
+          "name": "Entreprise",
+          "description": "Pour les agences immobilières et les grandes entreprises",
+          "buttonText": "S'abonner maintenant"
+        }
+      },
+      "features": {
+        "basicListing": "Annonce de base",
+        "saveFavorites": "Sauvegarder les biens favoris",
+        "contactOwners": "Contacter les propriétaires",
+        "premiumListings": "Annonces premium",
+        "bulkUploads": "Téléversements de biens en masse",
+        "unlimitedBulkUploads": "Téléversements de biens en masse illimités",
+        "analytics": "Analyses avancées",
+        "advancedAnalytics": "Analyses avancées & rapports",
+        "prioritySupport": "Support prioritaire",
+        "priorityAllHoursSupport": "Support prioritaire 24/7",
+        "featuredPlacement": "Placement de bien en vedette",
+        "customBranding": "Marque personnalisée",
+        "apiAccess": "Accès API",
+        "whiteLabel": "Solution en marque blanche",
+        "allListings": "Toutes les annonces",
+        "mobileAccess": "Accès mobile",
+        "secureMessaging": "Messagerie sécurisée",
+        "saveProperties": "Sauvegarder les biens",
+        "regularUpdates": "Mises à jour régulières",
+        "support": "Support"
+      }
+    },
+    "billing": {
+      "monthly": "Facturation mensuelle",
+      "yearly": "Facturation annuelle",
+      "savePercent": "Économisez {{percent}}% avec la facturation annuelle"
+    },
+    "status": {
+      "title": "S'abonner",
+      "details": "Détails de votre abonnement actuel",
+      "basicTitle": "Compte Basique",
+      "basicDescription": "Passez à la version supérieure pour débloquer les fonctionnalités premium",
+      "basicMessage": "Vous êtes actuellement sur l'abonnement Basique. Mettez à niveau pour accéder aux fonctionnalités premium comme les téléversements en masse, les analyses, et plus encore.",
+      "viewPlans": "Retour aux abonnements",
+      "loading": "Configuration de votre abonnement...",
+      "error": "Impossible de configurer le paiement",
+      "errorMessage": "Un problème est survenu lors de la configuration du processus de paiement. Veuillez réessayer plus tard.",
+      "tryAgain": "Réessayer",
+      "planLabel": "Abonnement",
+      "statusLabel": "Statut",
+      "renewalDate": "Date de renouvellement",
+      "notAvailable": "N/D",
+      "activeSubscription": "Abonnement actif",
+      "activeMessage": "Votre abonnement est actif et sera automatiquement renouvelé le {{date}}.",
+      "canceledTitle": "Abonnement annulé",
+      "canceledMessage": "La fonctionnalité d'abonnement est actuellement indisponible. Veuillez revenir plus tard.",
+      "paymentIssueTitle": "Problème de paiement",
+      "paymentIssueMessage": "Un problème est survenu avec votre dernier paiement. Veuillez mettre à jour votre méthode de paiement.",
+      "manageSubscription": "Gérer l'abonnement",
+      "viewPremiumFeatures": "Voir les fonctionnalités Premium"
+    },
+    "faq": {
+      "title": "Foire aux questions",
+      "cancel": {
+        "question": "Puis-je annuler mon abonnement ?",
+        "answer": "Oui, vous pouvez annuler votre abonnement à tout moment depuis les paramètres de votre compte."
+      },
+      "payment": {
+        "question": "Quels modes de paiement sont acceptés ?",
+        "answer": "Nous acceptons toutes les principales cartes de crédit et fournisseurs de paiement."
+      },
+      "refund": {
+        "question": "Puis-je obtenir un remboursement ?",
+        "answer": "Les remboursements sont disponibles conformément à notre politique de remboursement. Veuillez contacter le support pour plus de détails."
+      },
+      "teamDiscount": {
+        "question": "Y a-t-il une réduction pour les équipes ?",
+        "answer": "Oui, nous offrons des réductions pour les équipes et les agences. Contactez le service commercial pour plus d'informations."
+      }
+    }
+  },
+  "tours": {
+    "title": "Visites de biens",
+    "description": "Gérez et suivez vos visites de biens",
+    "calendar": {
+      "title": "Calendrier des visites",
+      "description": "Sélectionnez une date pour voir les visites programmées",
+      "clearSelection": "Effacer la sélection"
+    },
+    "tabs": {
+      "upcoming": "À venir",
+      "past": "Passées",
+      "all": "Toutes les visites"
+    },
+    "table": {
+      "property": "Bien",
+      "client": "Client",
+      "dateTime": "Date & Heure",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "En attente",
+      "confirmed": "Confirmée",
+      "completed": "Terminée",
+      "cancelled": "Annulée"
+    },
+    "buttons": {
+      "update": "Mettre à jour",
+      "updateStatus": "Mettre à jour le statut",
+      "cancel": "Annuler"
+    },
+    "loading": "Chargement des visites...",
+    "empty": {
+      "noToursOnDate": "Aucune visite à cette date",
+      "noToursOnDateDescription": "Il n'y a aucune visite programmée pour le {{date}}.",
+      "noToursFound": "Aucune visite trouvée",
+      "noUpcomingTours": "Vous n'avez aucune visite de bien à venir.",
+      "noPastTours": "Vous n'avez aucune visite de bien passée.",
+      "noTours": "Vous n'avez aucune visite de bien."
+    },
+    "dialog": {
+      "tourDetails": "Détails de la visite",
+      "tourDetailsDescription": "Informations complètes sur la visite de bien programmée",
+      "updateTourStatus": "Mettre à jour le statut de la visite",
+      "updateTourStatusDescription": "Changer le statut de cette visite de bien",
+      "date": "Date",
+      "time": "Heure",
+      "client": "Client",
+      "status": "Statut",
+      "notes": "Notes",
+      "selectStatus": "Sélectionner le statut"
+    },
+    "toast": {
+      "error": "Erreur",
+      "loadError": "Échec du chargement des visites de biens. Veuillez réessayer.",
+      "statusUpdated": "Statut mis à jour",
+      "statusUpdatedDescription": "Le statut de la visite a été mis à jour à {{status}}.",
+      "updateFailed": "Échec de la mise à jour",
+      "updateFailedDescription": "Échec de la mise à jour du statut de la visite. Veuillez réessayer."
+    }
+  },
+  "footer": {
+    "premiumFeatures": "Fonctionnalités Premium",
+    "features": {
+      "support": "Support",
+      "premiumFeatures": "Fonctionnalités Premium",
+      "bulkUpload": "Téléversement en masse",
+      "analytics": "Analyses",
+      "featured": "En vedette",
+      "aiRecommendations": "Recommandations IA"
+    }
+  },
+  "propertyDocuments": {
+    "title": "Documents du bien",
+    "types": {
+      "floorPlan": "Plan d'étage",
+      "energyCertificate": "Certificat énergétique",
+      "deed": "Titre de propriété",
+      "survey": "Levé de propriété",
+      "inspection": "Rapport d'inspection",
+      "permit": "Permis de construire",
+      "tax": "Documents fiscaux",
+      "insurance": "Documents d'assurance",
+      "contract": "Contrat de location/vente",
+      "other": "Autres documents"
+    },
+    "status": {
+      "available": "Disponible",
+      "pending": "En attente",
+      "unavailable": "Indisponible"
+    },
+    "actions": {
+      "view": "Voir le document",
+      "download": "Télécharger",
+      "request": "Demander le document",
+      "upload": "Téléverser le document"
+    }
+  },
+  "propertyMetrics": {
+    "title": "Indicateurs du bien",
+    "views": {
+      "total": "Vues totales",
+      "lastWeek": "Vues la semaine dernière",
+      "lastMonth": "Vues le mois dernier",
+      "trend": "Tendance des vues"
+    },
+    "inquiries": {
+      "total": "Demandes totales",
+      "lastWeek": "Demandes la semaine dernière",
+      "lastMonth": "Demandes le mois dernier",
+      "conversionRate": "Taux de conversion vue/demande"
+    },
+    "performance": {
+      "title": "Indicateurs de performance",
+      "averageViewTime": "Temps de consultation moyen",
+      "favoriteCount": "Nombre de fois en favori",
+      "shareCount": "Nombre de partages",
+      "responseRate": "Taux de réponse",
+      "responseTime": "Temps de réponse moyen"
+    }
+  },
+  "propertyHistory": {
+    "title": "Historique du bien",
+    "priceHistory": "Historique des prix",
+    "listingHistory": "Historique de l'annonce",
+    "viewHistory": "Historique des vues",
+    "inquiryHistory": "Historique des demandes",
+    "eventTypes": {
+      "listed": "Mis en annonce",
+      "priceChanged": "Prix modifié",
+      "statusChanged": "Statut modifié",
+      "viewed": "Consulté",
+      "inquiry": "Demande reçue",
+      "tour": "Visite programmée",
+      "sold": "Vendu",
+      "rented": "Loué"
+    }
+  },
+  "propertyManagement": {
+    "title": "Gestion des biens",
+    "description": "Gérer les annonces et les détails des biens",
+    "addProperty": "Ajouter un bien",
+    "propertiesList": "Liste des biens",
+    "noProperties": "Aucun bien trouvé",
+    "searchPlaceholder": "Rechercher des biens...",
+    "table": {
+      "title": "Titre",
+      "type": "Type",
+      "status": "Statut",
+      "price": "Prix",
+      "location": "Emplacement",
+      "actions": "Actions"
+    },
+    "statusLabels": {
+      "active": "Actif",
+      "pending": "En attente",
+      "sold": "Vendu",
+      "rented": "Loué",
+      "inactive": "Inactif"
+    }
+  },
+  "errors": {
+    "failedToFetch": "Échec de la récupération des biens",
+    "notFound": {
+      "title": "Non trouvé",
+      "message": "La ressource demandée n'a pas pu être trouvée."
+    }
+  },
+  "ui": {
+    "processing": "Traitement..."
+  },
+  "forgotPassword": {
+    "title": "Mot de passe oublié",
+    "subtitle": "Saisissez votre e-mail pour réinitialiser votre mot de passe",
+    "email": "Adresse e-mail",
+    "fullName": "Nom complet",
+    "submit": "Réinitialiser le mot de passe",
+    "back": "Retour à la connexion",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "success": "E-mail de réinitialisation du mot de passe envoyé",
+    "successMessage": "Vérifiez votre e-mail pour un lien de réinitialisation de votre mot de passe",
+    "error": "Erreur",
+    "emailNotFound": "Aucun compte trouvé avec cet e-mail",
+    "invalidName": "Le nom ne correspond pas à nos dossiers",
+    "generateTempPassword": "Générer un mot de passe temporaire"
+  },
+  "propertyCard": {
+    "forSale": "À vendre",
+    "forRent": "À louer",
+    "viewDetails": "Voir les détails",
+    "shareMessage": "Découvrez ce bien",
+    "linkCopied": "Lien copié dans le presse-papiers !",
+    "invalidDate": "Date invalide",
+    "errorTitle": "Erreur de chargement du bien",
+    "errorMessage": "Ce bien n'a pas pu être chargé.",
+    "perMonth": "par mois",
+    "perMonthShort": "/mois",
+    "bed": "ch.",
+    "bath": "sdb",
+    "beds": "Chambres",
+    "baths": "Salles de bain",
+    "sqft": "m²"
+  },
+  "aiRecommendations": {
+    "title": "Recommandations de biens par l'IA",
+    "howItWorks": "Comment ça marche",
+    "description": "Ces biens sont personnalisés en fonction de vos préférences et de votre comportement.",
+    "personalizeTitle": "Personnalisez vos recommandations",
+    "updateButton": "Mettre à jour les préférences",
+    "tabs": {
+      "forYou": "Pour vous",
+      "similar": "Similaires",
+      "trending": "Tendances"
+    },
+    "personalizedForYou": "Personnalisé pour vous",
+    "personalizedForYouDesc": "Basé sur vos centres d'intérêt et votre activité.",
+    "similarTitle": "Biens similaires",
+    "similarDesc": "Biens similaires à ceux que vous avez consultés",
+    "trendingTitle": "Biens tendances",
+    "trendingDesc": "Biens populaires dans votre région",
+    "interest": {
+      "familyFriendly": "Idéal pour les familles",
+      "investment": "Potentiel d'investissement",
+      "workFromHome": "Télétravail",
+      "urbanLifestyle": "Style de vie urbain",
+      "natureLover": "Amoureux de la nature",
+      "luxury": "Luxe",
+      "firstTimeBuyer": "Premier achat",
+      "vacationHome": "Maison de vacances"
+    },
+    "toast": {
+      "selectInterestTitle": "Sélectionnez des centres d'intérêt",
+      "selectInterestDesc": "Sélectionnez au moins un centre d'intérêt pour personnaliser vos recommandations",
+      "updatedTitle": "Préférences mises à jour",
+      "updatedDesc": "Vos recommandations ont été mises à jour",
+      "addedPrefTitle": "Préférence ajoutée",
+      "notedTitle": "Préférence notée",
+      "moreLikeThis": "Nous vous en montrerons plus comme celui-ci",
+      "lessLikeThis": "Nous vous en montrerons moins comme celui-ci"
+    },
+    "noProperties": "Aucun bien trouvé",
+    "moreLikeThis": "Plus comme ça",
+    "lessLikeThis": "Moins comme ça",
+    "propertyCard": {
+      "forSale": "À vendre",
+      "forRent": "À louer",
+      "viewDetails": "Voir les détails",
+      "shareMessage": "Découvrez ce bien",
+      "linkCopied": "Lien copié dans le presse-papiers !",
+      "invalidDate": "Date invalide",
+      "errorTitle": "Erreur de chargement du bien",
+      "errorMessage": "Ce bien n'a pas pu être chargé.",
+      "perMonth": "par mois",
+      "perMonthShort": "/mois"
+    }
+  },
+  "propertyWizard": {
+    "common": {
+      "optional": "(Facultatif)"
+    }
+  },
+  "add": {
+    "title": "Ajouter un nouveau bien",
+    "description": "Créer une nouvelle annonce immobilière",
+    "buttons": {
+      "createProperty": "Créer le bien"
+    },
+    "voiceInput": {
+      "notAvailable": "Entrée vocale non disponible",
+      "notAvailableDesc": "La fonctionnalité d'entrée vocale n'est actuellement pas disponible"
+    },
+    "backToProperties": "Retour aux biens",
+    "basicInfo": {
+      "title": "Informations de base",
+      "titleLabel": "Titre*",
+      "titlePlaceholder": "Appartement de luxe en centre-ville",
+      "priceLabel": "Prix (€)*",
+      "pricePlaceholder": "ex: 250000",
+      "descriptionLabel": "Description*",
+      "descriptionPlaceholder": "Appartement spacieux et lumineux avec des finitions modernes...",
+      "countryLabel": "Pays*",
+      "propertyTypeLabel": "Type de bien*",
+      "listingTypeLabel": "Type d'annonce*",
+      "bedroomsLabel": "Chambres",
+      "bathroomsLabel": "Salles de bain",
+      "squareFeetLabel": "Surface (m²)",
+      "countryPlaceholder": "ex: France",
+      "bedroomsPlaceholder": "ex: 3",
+      "bathroomsPlaceholder": "ex: 2",
+      "squareFeetPlaceholder": "ex: 150"
+    },
+    "location": {
+      "title": "Emplacement",
+      "addressLabel": {
+        "US": "Adresse (rue)",
+        "GB": "Adresse (rue)",
+        "ES": "Adresse (rue)",
+        "MX": "Adresse (rue)",
+        "DE": "Adresse (rue)",
+        "AT": "Adresse (rue)"
+      },
+      "addressPlaceholder": "ex: 123 Rue Principale",
+      "cityLabel": {
+        "US": "Ville",
+        "GB": "Ville",
+        "ES": "Ville",
+        "MX": "Ville",
+        "DE": "Ville",
+        "AT": "Ville"
+      },
+      "cityPlaceholder": "ex: Paris",
+      "stateLabel": "Département",
+      "statePlaceholder": "ex: Paris",
+      "countryLabel": {
+        "US": "État",
+        "GB": "Comté",
+        "ES": "Province",
+        "MX": "État",
+        "DE": "Land",
+        "AT": "Bundesland"
+      },
+      "contactEmailLabel": "E-mail de contact",
+      "contactEmailPlaceholder": "Saisir l'e-mail de contact",
+      "phoneNumberLabel": "Numéro de téléphone",
+      "phoneNumberPlaceholder": "Saisir le numéro de téléphone",
+      "phoneCountryCodeLabel": "Indicatif du pays",
+      "phoneCountryCodePlaceholder": "+33",
+      "isPhoneNumberPublicLabel": "Rendre le numéro de téléphone public",
+      "isPhoneNumberPublicDescription": "Si décoché, le numéro de téléphone ne sera pas affiché sur les annonces.",
+      "approximateLocationLabel": "Emplacement approximatif (Quartier/Arrondissement)",
+      "approximateLocationPlaceholder": "ex: Le Marais, Gràcia, Saint-Germain-des-Prés, etc.",
+      "hidePhoneNumberLabel": "Cacher le numéro de téléphone au public",
+      "phoneCountryLabel": "Indicatif du pays",
+      "zipCodeLabel": {
+        "US": "Code ZIP",
+        "GB": "Code postal",
+        "ES": "Code postal",
+        "MX": "Code postal",
+        "DE": "Code postal",
+        "AT": "Code postal"
+      }
+    },
+    "features": {
+      "title": "Caractéristiques",
+      "description": "Sélectionnez les caractéristiques disponibles dans votre bien.",
+      "swimmingPool": "Piscine",
+      "nearSea": "Proche de la mer",
+      "balcony": "Balcon",
+      "airConditioning": "Climatisation",
+      "parking": "Parking",
+      "gym": "Salle de sport",
+      "securitySystem": "Système de sécurité",
+      "garden": "Jardin",
+      "oceanViews": "Vue sur l'océan",
+      "furnished": "Meublé",
+      "petFriendly": "Animaux acceptés",
+      "wifi": "WiFi"
+    },
+    "premium": {
+      "title": "Annonce Premium",
+      "benefits": "Obtenez plus de visibilité et touchez plus d'acheteurs avec une annonce premium.",
+      "failedToUpdate": "Échec de la mise à jour du statut premium du bien.",
+      "markedAsPremium": "Bien marqué comme Premium",
+      "statusRemoved": "Statut Premium retiré",
+      "extraVisibility": "Votre bien bénéficiera désormais d'une visibilité supplémentaire dans les résultats de recherche.",
+      "noLongerPremium": "Votre bien n'est plus marqué comme premium.",
+      "failedToUpdateStatus": "Échec de la mise à jour du statut Premium",
+      "subscriptionRequired": "Abonnement Premium requis",
+      "needSubscription": "Vous avez besoin d'un abonnement premium pour marquer les biens comme premium.",
+      "premiumFeature": "Fonctionnalité Premium",
+      "helpStandOut": "Marquer les biens comme premium les aide à se démarquer dans les résultats de recherche. Passez à un abonnement premium pour accéder à cette fonctionnalité.",
+      "upgradeToPremium": "Passer à Premium",
+      "markAsPremium": "Marquer comme Premium",
+      "premiumProperty": "Bien Premium",
+      "priorityPlacement": "Ce bien est marqué comme premium et bénéficiera d'un placement prioritaire dans les résultats de recherche."
+    },
+    "virtual": {
+      "title": "Visite virtuelle",
+      "benefits": "Ajoutez une visite virtuelle pour présenter votre bien en ligne."
+    },
+    "images": {
+      "title": "Images",
+      "label": "Image du bien",
+      "addMore": "Ajouter plus d'images",
+      "description": "Téléversez des images de haute qualité pour attirer plus d'acheteurs.",
+      "featureImageSectionTitle": "Image à la une",
+      "selectFeatureImageLabel": "Sélectionnez une image à la une pour votre bien.",
+      "featureImageUploadSuccessTitle": "Image à la une téléversée",
+      "featureImageUploadSuccessDesc": "Votre image à la une a été téléversée avec succès.",
+      "featureImageUploadErrorTitle": "Erreur de téléversement",
+      "featureImageUploadErrorDesc": "Échec du téléversement de l'image à la une. Veuillez réessayer.",
+      "featureImageUploadButtonText": "Téléverser l'image à la une",
+      "featureImageAlt": "Image à la une du bien",
+      "featureImageDescription": "Cette image sera mise en évidence sur les annonces et les résultats de recherche."
+    },
+    "addProperty": {
+      "description": "Remplissez les détails pour créer un nouveau bien.",
+      "formTitle": "Titre",
+      "formTitlePlaceholder": "Saisir le titre du bien",
+      "formPrice": "Prix",
+      "formPricePlaceholder": "Saisir le prix",
+      "formPropertyType": "Type de bien",
+      "formBedrooms": "Chambres",
+      "formBathrooms": "Salles de bain",
+      "formDescription": "Description",
+      "formDescriptionPlaceholder": "Saisir la description du bien",
+      "submitButton": "Ajouter le bien"
+    }
+  },
+  "property": {
+    "edit": {
+      "title": "Modifier le bien",
+      "description": "Mettez à jour les détails de votre bien",
+      "form": {
+        "title": "Détails du bien",
+        "description": "Mettez à jour les informations de votre bien"
+      },
+      "submit": "Mettre à jour le bien",
+      "success": {
+        "title": "Bien mis à jour",
+        "description": "Le bien a été mis à jour avec succès"
+      },
+      "error": {
+        "title": "Échec de la mise à jour",
+        "description": "Échec de la mise à jour du bien. Veuillez réessayer.",
+        "notFound": "Bien non trouvé",
+        "notFoundDescription": "Le bien que vous essayez de modifier n'a pas pu être trouvé."
+      }
+    },
+    "add": {
+      "sections": {
+        "basic": "Informations de base",
+        "location": "Emplacement",
+        "details": "Détails du bien",
+        "features": "Caractéristiques",
+        "images": "Images",
+        "premium": "Fonctionnalités Premium"
+      },
+      "fields": {
+        "title": "Titre du bien",
+        "description": "Description",
+        "price": "Prix",
+        "squareFeet": "Mètres carrés",
+        "bedrooms": "Chambres",
+        "bathrooms": "Salles de bain",
+        "address": "Adresse",
+        "city": "Ville",
+        "state": "Département",
+        "country": "Pays",
+        "propertyType": "Type de bien",
+        "listingType": "Type d'annonce",
+        "features": "Caractéristiques",
+        "isPremium": "Annonce Premium",
+        "isPremiumDescription": "Marquez ce bien comme une annonce premium pour une visibilité accrue",
+        "isVirtual": "Visite virtuelle disponible",
+        "isVirtualDescription": "Ce bien propose des capacités de visite virtuelle"
+      },
+      "validation": {
+        "titleMinLength": "Le titre doit comporter au moins 5 caractères",
+        "descriptionMinLength": "La description doit comporter au moins 20 caractères",
+        "priceMin": "Le prix doit être supérieur à 0",
+        "bedroomsMin": "Le nombre de chambres doit être de 0 ou plus",
+        "bathroomsMin": "Le nombre de salles de bain doit être de 0 ou plus",
+        "squareFeetMin": "La surface doit être supérieure à 0"
+      }
+    },
+    "types": {
+      "apartment": "Appartement",
+      "house": "Maison",
+      "condo": "Appartement",
+      "townhouse": "Maison de ville",
+      "villa": "Villa",
+      "studio": "Studio"
+    },
+    "listingTypes": {
+      "rent": "À louer",
+      "sale": "À vendre"
+    },
+    "features": {
+      "parking": "Parking",
+      "balcony": "Balcon",
+      "garden": "Jardin",
+      "swimming_pool": "Piscine",
+      "gym": "Salle de sport",
+      "security": "Sécurité",
+      "elevator": "Ascenseur",
+      "furnished": "Meublé",
+      "air_conditioning": "Climatisation",
+      "heating": "Chauffage",
+      "fireplace": "Cheminée",
+      "dishwasher": "Lave-vaisselle",
+      "washing_machine": "Lave-linge",
+      "dryer": "Sèche-linge",
+      "internet": "Internet",
+      "cable_tv": "Télévision par câble"
+    },
+    "wizard": {
+      "steps": {
+        "basicInfo": {
+          "title": "Informations de base",
+          "titleLabel": "Titre du bien",
+          "titlePlaceholder": "Saisissez un titre descriptif pour votre bien",
+          "titleHelp": "Un titre clair aide les acheteurs potentiels à trouver votre bien",
+          "proTip": "Conseil de pro",
+          "proTipContent": "Utilisez des mots descriptifs qui mettent en valeur les meilleures caractéristiques de votre bien"
+        },
+        "location": {
+          "title": "Emplacement",
+          "infoText": "Les informations sur l'emplacement aident les acheteurs à trouver et à évaluer votre bien. Vous pouvez choisir de partager une adresse exacte ou simplement une zone générale.",
+          "countryLabel": "Pays",
+          "countryPlaceholder": "Sélectionnez votre pays",
+          "addressToggleLabel": "Afficher l'adresse exacte",
+          "addressToggleDescription": "Activez ou désactivez pour afficher ou masquer votre adresse exacte",
+          "addressDetails": "Détails de l'adresse",
+          "addressLabel": "Adresse (rue)",
+          "addressPlaceholder": "Saisir l'adresse (rue)",
+          "stateLabel": "Département",
+          "statePlaceholder": "Saisir le département",
+          "cityLabel": "Ville",
+          "cityPlaceholder": "Saisir la ville",
+          "zipCodeLabel": "Code postal",
+          "zipCodePlaceholder": "Saisir le code postal",
+          "approximateLocationLabel": "Emplacement approximatif (Quartier/Arrondissement)",
+          "approximateLocationPlaceholder": "ex: Manhattan, Brooklyn, Westminster, etc.",
+          "contactDetails": "Coordonnées",
+          "contactEmailLabel": "E-mail de contact",
+          "contactEmailPlaceholder": "votre.email@example.com",
+          "phoneCountryCodeLabel": "Indicatif du pays",
+          "phoneCountryCodePlaceholder": "+33",
+          "phoneNumberLabel": "Numéro de téléphone",
+          "phoneNumberPlaceholder": "01 23 45 67 89",
+          "isPhoneNumberPublicLabel": "Rendre le numéro de téléphone public",
+          "isPhoneNumberPublicDescription": "Permettre aux acheteurs potentiels de voir votre numéro de téléphone sur l'annonce"
+        },
+        "pricing": {
+          "propertyTypes": {
+            "apartment": "Appartement",
+            "villa": "Villa",
+            "penthouse": "Penthouse",
+            "townhouse": "Maison de ville",
+            "office": "Bureau",
+            "retail": "Commerce",
+            "land": "Terrain"
+          }
+        },
+        "features": {
+          "amenities": {
+            "petFriendly": "Animaux acceptés",
+            "air-conditioning": "Climatisation",
+            "heating": "Chauffage",
+            "balcony-patio": "Balcon/Terrasse",
+            "furnished": "Meublé",
+            "garage": "Garage",
+            "gym": "Salle de sport",
+            "pool": "Piscine",
+            "garden": "Jardin",
+            "pet-friendly": "Animaux acceptés",
+            "ocean-view": "Vue sur l'océan",
+            "fireplace": "Cheminée",
+            "elevator": "Ascenseur",
+            "wheelchair-access": "Accès pour fauteuils roulants",
+            "security-system": "Système de sécurité",
+            "concierge": "Concierge",
+            "laundry-room": "Buanderie",
+            "storage": "Espace de rangement",
+            "terrace": "Terrasse"
+          },
+          "customTitle": "Caractéristiques personnalisées du bien",
+          "customPlaceholder": "Ajoutez des caractéristiques personnalisées pour le bien (appuyez sur Entrée pour ajouter)",
+          "addFeatureButton": "Ajouter une caractéristique du bien"
+        }
+      }
+    },
+    "status": {
+      "considering": "Envisage",
+      "interested": "Intéressé",
+      "contacted": "Contacté",
+      "viewed": "Consulté",
+      "rejected": "Rejeté"
+    }
+  },
+  "propertyTour": {
+    "tourScheduling": "Programmation de visite",
+    "scheduleTourDescription": "Sélectionnez une date et une heure pour visiter ce bien.",
+    "scheduleATour": "Programmer une visite",
+    "schedulePropertyTour": "Programmer une visite du bien",
+    "selectPreferredDateTime": "Veuillez sélectionner votre date et heure préférées pour la visite.",
+    "selectDate": "Sélectionner une date",
+    "pickADate": "Choisir une date",
+    "selectTime": "Sélectionner une heure",
+    "selectTimeSlot": "Sélectionner un créneau horaire disponible",
+    "loadingAvailability": "Chargement des disponibilités...",
+    "unavailable": "Indisponible",
+    "noAvailableTimeSlots": "Aucun créneau horaire disponible pour cette date.",
+    "additionalNotes": "Notes supplémentaires (Facultatif)",
+    "specialRequests": "Des demandes spéciales ou des questions ?",
+    "scheduling": "Programmation...",
+    "scheduleTour": "Programmer la visite",
+    "loginRequired": "Connexion requise",
+    "loginToSchedule": "Veuillez vous connecter pour programmer une visite de bien.",
+    "requestSentTitle": "Demande de visite envoyée",
+    "requestSentDescription": "Votre demande de visite a été envoyée à l'agent. Vous serez averti lors de la confirmation.",
+    "requestErrorTitle": "Erreur de programmation de visite",
+    "requestErrorDescription": "Une erreur s'est produite lors de la programmation de votre visite. Veuillez réessayer."
+  },
+  "wishlist": {
+    "add_to_wishlist": "Ajouter à la liste de souhaits",
+    "no_wishlists": "Aucune liste de souhaits trouvée",
+    "create_wishlist_first": "Vous devez créer une liste de souhaits avant d'ajouter des biens.",
+    "create_wishlist": "Créer une nouvelle liste de souhaits",
+    "select_wishlist": "Sélectionner une liste de souhaits",
+    "select_wishlist_placeholder": "Choisir une liste de souhaits",
+    "notes": "Notes (Facultatif)",
+    "notes_placeholder": "Ajoutez des notes personnelles pour ce bien...",
+    "priority": "Priorité",
+    "priority_0": "Aucune priorité",
+    "priority_1": "Faible",
+    "priority_2": "Moyenne",
+    "priority_3": "Élevée",
+    "add": "Ajouter à la liste de souhaits",
+    "added_success_title": "Ajouté à la liste de souhaits",
+    "added_success_description": "Le bien a été ajouté avec succès à votre liste de souhaits.",
+    "add_error_title": "Erreur lors de l'ajout à la liste de souhaits",
+    "add_error_description": "Une erreur s'est produite lors de l'ajout du bien à votre liste de souhaits. Veuillez réessayer.",
+    "update_item": "Mettre à jour l'élément",
+    "status": "Statut"
+  },
+  "draft": {
+    "title": "Brouillons de biens",
+    "create": "Créer un nouveau bien",
+    "edit": "Modifier le brouillon du bien",
+    "save": "Enregistrer comme brouillon",
+    "saved": "Brouillon enregistré",
+    "savedDescription": "Votre brouillon de bien a été enregistré avec succès.",
+    "deleted": "Brouillon supprimé",
+    "deletedDescription": "Votre brouillon de bien a été supprimé.",
+    "addProperty": "Ajouter un bien",
+    "draftsWithCount": "Brouillons ({{count}})",
+    "savedPropertyDrafts": "Brouillons de biens enregistrés",
+    "noSavedDrafts": "Aucun brouillon enregistré",
+    "noSavedDraftsDescription": "Vous n'avez encore enregistré aucun brouillon de bien.",
+    "lastSaved": "Dernière sauvegarde",
+    "startFresh": "Commencer à zéro",
+    "continueSavedDraft": "Continuer le brouillon enregistré",
+    "addNewProperty": "Ajouter un nouveau bien",
+    "titleRequired": "Le titre est requis",
+    "titleRequiredDescription": "Veuillez saisir un titre pour votre brouillon de bien.",
+    "propertyAddedSuccessfully": "Bien ajouté avec succès",
+    "propertyAddedSuccessfullyDescription": "Votre bien a été ajouté aux annonces.",
+    "failedToAddProperty": "Échec de l'ajout du bien",
+    "createNew": "Créer nouveau"
+  },
+  "types": {
+    "apartment": "Appartement",
+    "house": "Maison",
+    "villa": "Villa",
+    "condo": "Appartement",
+    "penthouse": "Penthouse",
+    "townhouse": "Maison de ville",
+    "land": "Terrain",
+    "commercial": "Commercial",
+    "studio": "Studio"
+  },
+  "propertyTypes": {
+    "apartment": "Appartement",
+    "house": "Maison",
+    "villa": "Villa",
+    "penthouse": "Penthouse",
+    "townhouse": "Maison de ville",
+    "land": "Terrain",
+    "commercial": "Commercial",
+    "studio": "Studio",
+    "office": "Bureau",
+    "retail": "Commerce de détail"
+  },
+  "listingTypes": {
+    "sale": "À vendre",
+    "rent": "À louer",
+    "auction": "Enchère",
+    "preSale": "Pré-vente",
+    "selling": "En vente"
+  },
+  "status": {
+    "active": "Actif",
+    "pending": "En attente",
+    "sold": "Vendu",
+    "rented": "Loué",
+    "inactive": "Inactif",
+    "considering": "Envisage",
+    "interested": "Intéressé",
+    "contacted": "Contacté",
+    "viewed": "Consulté",
+    "rejected": "Rejeté"
+  },
+  "propertyDetails": {
+    "price": "Prix",
+    "location": "Emplacement",
+    "size": "Surface",
+    "bedrooms": "Chambres",
+    "bedrooms_one": "{{count}} Chambre",
+    "bedrooms_other": "{{count}} Chambres",
+    "bathrooms": "Salle de bain",
+    "bathrooms_one": "{{count}} Salle de bain",
+    "bathrooms_other": "{{count}} Salles de bain",
+    "garage": "Garage",
+    "yearBuilt": "Année de construction",
+    "description": "Description",
+    "features": "Caractéristiques",
+    "amenities": "Équipements",
+    "virtualTour": "Visite virtuelle",
+    "contactAgent": "Contacter l'agent",
+    "bedroomDescription": "Chambres confortables et spacieuses avec des équipements modernes.",
+    "guests": "Invité",
+    "guests_one": "{{count}} Invité",
+    "guests_other": "{{count}} Invités",
+    "bedroomInteriorAlt": "Design intérieur de chambre moderne",
+    "propertyType": "Type de bien",
+    "listingType": "Type d'annonce",
+    "status": "Statut",
+    "address": "Adresse",
+    "city": "Ville",
+    "state": "Département",
+    "zipCode": "Code postal",
+    "country": "Pays",
+    "pricePerSquareMeter": "Prix par m²",
+    "totalArea": "Surface totale",
+    "livingArea": "Surface habitable",
+    "plotArea": "Surface du terrain",
+    "floor": "Étage",
+    "totalFloors": "Nombre total d'étages",
+    "furnishing": "Ameublement",
+    "condition": "État",
+    "availableFrom": "Disponible à partir du",
+    "energyRating": "Classe énergétique",
+    "parking": "Parking",
+    "heating": "Chauffage",
+    "cooling": "Climatisation",
+    "security": "Sécurité",
+    "additionalFeatures": "Caractéristiques supplémentaires",
+    "documents": "Documents",
+    "nearbyAmenities": "Commodités à proximité",
+    "transportation": "Transports",
+    "schools": "Écoles",
+    "shopping": "Commerces",
+    "healthcare": "Santé",
+    "entertainment": "Divertissements",
+    "propertyStatus": {
+      "active": "Actif",
+      "pending": "En attente",
+      "sold": "Vendu",
+      "rented": "Loué",
+      "inactive": "Inactif",
+      "considering": "Envisage",
+      "interested": "Intéressé",
+      "contacted": "Contacté",
+      "viewed": "Consulté",
+      "rejected": "Rejeté"
+    },
+    "listingTypes": {
+      "sale": "À vendre",
+      "rent": "À louer",
+      "auction": "Enchère",
+      "preSale": "Pré-vente"
+    },
+    "notFound": {
+      "title": "Bien non trouvé",
+      "message": "Le bien que vous recherchez n'existe pas ou n'a pas pu être chargé."
+    },
+    "propertyTypes": {
+      "apartment": "Appartement",
+      "house": "Maison",
+      "villa": "Villa",
+      "penthouse": "Penthouse",
+      "townhouse": "Maison de ville",
+      "land": "Terrain",
+      "commercial": "Commercial",
+      "condo": "Appartement",
+      "studio": "Studio",
+      "loft": "Loft",
+      "duplex": "Duplex",
+      "farm": "Ferme",
+      "ranch": "Ranch",
+      "cottage": "Chalet",
+      "bungalow": "Bungalow"
+    },
+    "furnishingTypes": {
+      "furnished": "Meublé",
+      "unfurnished": "Non meublé",
+      "partiallyFurnished": "Partiellement meublé"
+    },
+    "conditionTypes": {
+      "new": "Neuf",
+      "excellent": "Excellent",
+      "good": "Bon",
+      "fair": "Passable",
+      "needsRenovation": "À rénover"
+    },
+    "energyRatings": {
+      "a": "A - Très économe en énergie",
+      "b": "B - Économe en énergie",
+      "c": "C - Moyen",
+      "d": "D - En dessous de la moyenne",
+      "e": "E - Faible",
+      "f": "F - Très faible",
+      "g": "G - Extrêmement faible"
+    },
+    "parkingTypes": {
+      "garage": "Garage",
+      "carport": "Abri pour voiture",
+      "street": "Stationnement dans la rue",
+      "underground": "Parking souterrain",
+      "none": "Pas de parking"
+    },
+    "heatingTypes": {
+      "central": "Chauffage central",
+      "electric": "Électrique",
+      "gas": "Gaz",
+      "solar": "Solaire",
+      "heatPump": "Pompe à chaleur",
+      "none": "Pas de chauffage"
+    },
+    "coolingTypes": {
+      "central": "Climatisation centrale",
+      "split": "Système split",
+      "window": "Unités de fenêtre",
+      "none": "Pas de climatisation"
+    },
+    "securityTypes": {
+      "alarm": "Système d'alarme",
+      "cctv": "Vidéosurveillance",
+      "doorman": "Portier",
+      "gated": "Communauté fermée",
+      "none": "Pas de sécurité"
+    }
+  },
+  "propertyFeatures": {
+    "interior": {
+      "title": "Caractéristiques intérieures",
+      "airConditioning": "Climatisation",
+      "heating": "Chauffage",
+      "elevator": "Ascenseur",
+      "fireplace": "Cheminée",
+      "highCeilings": "Hauts plafonds",
+      "hardwoodFloors": "Parquet en bois massif",
+      "builtInWardrobes": "Armoires encastrées",
+      "walkInCloset": "Dressing",
+      "homeOffice": "Bureau à domicile",
+      "wineCellar": "Cave à vin",
+      "laundryRoom": "Buanderie",
+      "storage": "Espace de rangement"
+    },
+    "exterior": {
+      "title": "Caractéristiques extérieures",
+      "garden": "Jardin",
+      "terrace": "Terrasse",
+      "balcony": "Balcon",
+      "patio": "Patio",
+      "swimmingPool": "Piscine",
+      "tennisCourt": "Court de tennis",
+      "barbecue": "Espace barbecue",
+      "parking": "Parking",
+      "garage": "Garage",
+      "security": "Système de sécurité",
+      "fence": "Clôture",
+      "solarPanels": "Panneaux solaires"
+    },
+    "community": {
+      "title": "Caractéristiques de la communauté",
+      "gym": "Salle de sport",
+      "spa": "Spa",
+      "sauna": "Sauna",
+      "concierge": "Concierge",
+      "playground": "Aire de jeux pour enfants",
+      "tennis": "Court de tennis",
+      "basketball": "Terrain de basket",
+      "clubhouse": "Club-house",
+      "security": "Sécurité 24/7",
+      "parking": "Parking visiteurs",
+      "petFriendly": "Animaux acceptés",
+      "bikeStorage": "Local à vélos"
+    },
+    "smart": {
+      "title": "Caractéristiques de la maison connectée",
+      "smartLock": "Serrure connectée",
+      "smartThermostat": "Thermostat connecté",
+      "smartLighting": "Éclairage connecté",
+      "smartSecurity": "Sécurité connectée",
+      "smartAppliances": "Appareils électroménagers connectés",
+      "homeAutomation": "Domotique",
+      "voiceControl": "Commande vocale",
+      "remoteAccess": "Accès à distance"
+    },
+    "sustainability": {
+      "title": "Caractéristiques de durabilité",
+      "solarPanels": "Panneaux solaires",
+      "rainwaterHarvesting": "Récupération d'eau de pluie",
+      "energyEfficient": "Économe en énergie",
+      "waterEfficient": "Économe en eau",
+      "recycling": "Installations de recyclage",
+      "composting": "Zone de compostage",
+      "electricCarCharging": "Borne de recharge pour voiture électrique",
+      "greenRoof": "Toit végétalisé"
+    }
+  },
+  "map": {
+    "viewDetails": "Voir les détails",
+    "loading": "Chargement de la carte...",
+    "noProperties": "Aucun bien à afficher sur la carte.",
+    "tryAdjustingFilters": "Essayez d'ajuster vos filtres de recherche.",
+    "resetView": "Réinitialiser la vue"
+  },
+  "premiumProperty": {
+    "featured": "En vedette",
+    "featuredProperty": "Bien en vedette"
+  },
+  "chatbot": {
+    "title": "Assistant immobilier",
+    "greeting": "Bonjour ! Comment puis-je vous aider à trouver votre bien idéal aujourd'hui ?",
+    "examplePrompts": [
+      "Montrez-moi des villas de luxe à Marbella",
+      "Je cherche un appartement de 3 chambres près du centre-ville.",
+      "Quels sont les derniers penthouses répertoriés ?",
+      "Trouver des biens commerciaux à vendre"
+    ],
+    "inputPlaceholder": "Posez des questions sur les biens, les emplacements ou les caractéristiques...",
+    "sendButton": "Envoyer",
+    "errorMessage": "Désolé, je n'ai pas pu comprendre. Pourriez-vous reformuler s'il vous plaît ?"
+  },
+  "imageEditor": {
+    "title": "Éditeur d'images",
+    "invalidFile": "Fichier invalide. Erreurs : {{errors}}",
+    "errorTooLarge": "Le fichier est trop volumineux. La taille maximale est de {{size}} Mo.",
+    "errorInvalidType": "Type de fichier invalide. Types pris en charge : {{types}}",
+    "errorProcessing": "Erreur lors du traitement de l'image. Veuillez réessayer.",
+    "errorCloudinary": "Erreur lors du téléversement vers Cloudinary. Veuillez vérifier votre configuration.",
+    "errorCanvas": "Impossible de créer la zone de dessin de l'image pour le recadrage.",
+    "errorCropper": "Instance de recadrage non disponible.",
+    "dragDropLabel": "Glissez-déposez une image ici, ou cliquez pour sélectionner",
+    "supportedFormats": "Prend en charge JPEG, PNG, WEBP, GIF. Max {{size}} Mo.",
+    "aspectRatio": "Format d'image",
+    "quality": "Qualité ({{quality}}%)",
+    "uploading": "Téléversement vers le Cloud...",
+    "processing": "Traitement de l'image...",
+    "cloudinarySuccess": "Image optimisée et enregistrée sur Cloudinary !",
+    "processingSuccess": "Image traitée avec succès.",
+    "startOver": "Recommencer",
+    "cancel": "Annuler",
+    "cropAndSave": "Recadrer et enregistrer",
+    "done": "Terminé"
+  },
+  "review": {
+    "description": "Vérifiez tous les détails de votre bien avant de soumettre. (Niveau supérieur)",
+    "description2": "Une description secondaire pour la section de vérification, si nécessaire. (Niveau supérieur)",
+    "editSection": "Modifier la section (Niveau supérieur)"
+  },
+  "contact": {
+    "sendMessage": "Envoyer un message",
+    "call": "Appeler",
+    "contactAgent": "Contacter l'agent",
+    "propertyAgent": "Agent immobilier",
+    "propertyOwner": "Propriétaire",
+    "verifiedAgent": "Agent vérifié",
+    "phoneNotAvailable": "Téléphone non disponible",
+    "useMessageInstead": "Veuillez utiliser l'option de message à la place",
+    "inquiryAbout": "Demande d'information concernant",
+    "defaultInquiry": "Bonjour, je suis intéressé(e) par votre bien \"{{propertyTitle}}\" et j'aimerais avoir plus de détails. Veuillez me contacter dès que possible.\n\nCordialement"
+  }
+}

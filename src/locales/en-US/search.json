@@ -1,0 +1,279 @@
+{
+  "common": {
+    "notifications": {
+      "notice": "Notice",
+      "error": "Error Message"
+    },
+    "general": {
+      "backToHome": "Back to Home"
+    }
+  },
+  "hero": {
+    "searchPlaceholder": "Search by location, property type, or keywords...",
+    "voiceSearch": "Voice Search"
+  },
+  "search": {
+    "title": "Properties Search",
+    "resultsFor": "Search Results for \"{{query}}\"",
+    "searching": "Searching for properties...",
+    "foundProperties": "Found {{count}} properties matching your criteria",
+    "foundProperties_one": "Found {{count}} property matching your criteria",
+    "foundProperties_other": "Found {{count}} properties matching your criteria",
+    "searchProperties": "Search Properties",
+    "activeFilters": "Active Filters",
+    "filterSearch": "Search",
+    "filterCity": "City",
+    "filterCountry": "Country",
+    "filterType": "Type",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "filterPrice": "Price",
+    "filterArea": "Area",
+    "filterFeatures": "Features",
+    "any": "Any",
+    "loadingResults": "Loading results...",
+    "propertiesFound": "Properties Found",
+    "grid": "Grid",
+    "list": "List",
+    "properties": "Properties",
+    "map": "Map",
+    "propertiesInArea": "Properties in this area",
+    "viewAll": "View all {{count}}",
+    "bed": "bed",
+    "bath": "bath",
+    "useSuggestion": "Use this",
+    "didYouMean": "Did you mean \"{{suggestion}}\"?",
+    "listView": "List View",
+    "mapView": "Map View",
+    "viewType": {
+      "grid": "Grid View",
+      "list": "List View"
+    },
+    "filters": {
+      "buy": "Buy",
+      "rent": "Rent",
+      "location": "Location",
+      "price": "Price",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "propertyType": "Property Type",
+      "any": "Any",
+      "selectCountry": "Select Country",
+      "anyCountry": "Any Country",
+      "cityPlaceholder": "Enter city name",
+      "squareFeet": "Square Feet",
+      "sqft": "sq ft",
+      "moreFilters": "More Filters",
+      "showMore": "Show More",
+      "showLess": "Show Less",
+      "amenities": "Amenities",
+      "pool": "Swimming Pool",
+      "garden": "Garden",
+      "parking": "Parking",
+      "airConditioning": "Air Conditioning",
+      "gym": "Gym",
+      "securitySystem": "Security System",
+      "clearFilters": "Clear Filters",
+      "applyFilters": "Apply Filters",
+      "apartment": "Apartment",
+      "house": "House",
+      "condo": "Condominium",
+      "townhouse": "Townhouse",
+      "land": "Land",
+      "clearAll": "Clear All",
+      "apply": "Apply"
+    },
+    "countries": {
+      "mexico": "Mexico",
+      "unitedStates": "United States",
+      "unitedKingdom": "United Kingdom",
+      "spain": "Spain",
+      "austria": "Austria",
+      "germany": "Germany",
+      "france": "France"
+    },
+    "propertyList": {
+      "showing": "Showing",
+      "of": "of",
+      "properties": "properties",
+      "noPropertiesFound": "No Properties Found",
+      "noPropertiesDescription": "No properties match your current criteria. Try adjusting your filters or searching a different area."
+    },
+    "countryContext": {
+      "showing": "Showing properties in {{country}}",
+      "forQuery": "for \"{{query}}\"",
+      "localeDefault": "Based on your location preferences",
+      "canExpand": "You can expand your search to other countries using the filters"
+    },
+    "noResults": {
+      "city": {
+        "title": "No properties found in {{city}}",
+        "message": "Try expanding your search area or adjusting your filters to find more properties"
+      },
+      "countryContext": "Showing results for {{country}}"
+    },
+    "spatial": {
+      "title": "Find Properties Near You",
+      "searchByAddress": "Search by Address",
+      "addressPlaceholder": "Enter an address or location",
+      "useCurrentLocation": "Use My Current Location",
+      "findingLocation": "Finding your location...",
+      "searchRadius": "Search Radius",
+      "km": "km",
+      "currentCoordinates": "Current Coordinates",
+      "lat": "Lat",
+      "lng": "Lng",
+      "searching": "Searching...",
+      "searchProperties": "Search Properties",
+      "howToUse": "How to use",
+      "instructions": {
+        "clickMap": "Click on the map to set a search location",
+        "adjustRadius": "Adjust the radius slider to expand or narrow your search",
+        "searchButton": "Use the search button to find properties in that area",
+        "enterAddress": "Enter an address or use your current location"
+      },
+      "propertiesFound": "Properties Found",
+      "noPropertiesFound": "No properties found in this area. Try expanding your search radius or selecting a different location.",
+      "initialInstructions": "Select a location and search radius, then click \"Search Properties\" to find real estate in that area."
+    },
+    "voiceSearch": {
+      "title": "Voice Search",
+      "clickToStart": "Click the microphone to start voice search",
+      "listening": "Listening...",
+      "voicePrompt": "Say what you're looking for...",
+      "trySaying": "Try saying:",
+      "exampleCommands": {
+        "apartments": "'Find apartments in London'",
+        "houses": "'Show me houses for sale in Paris with 3 bedrooms'",
+        "villas": "'Villas near the beach with a pool'"
+      },
+      "searchProperties": "Search Properties",
+      "noResults": "Sorry, I didn't catch that. Please try again.",
+      "searching": "Searching based on your voice input..."
+    },
+    "chatbot": {
+      "welcomeMessage": "Hello! I'm your property matching assistant. Tell me about your ideal property, and I'll help you find it.",
+      "restart": "Restart Conversation",
+      "title": "Property Matching Assistant",
+      "subtitle": "Describe your dream property, and I'll find matches for you.",
+      "inputPlaceholder": "Type your preferences here (e.g., 'a 3-bedroom house in London with a garden')...",
+      "error": "Sorry, I encountered an issue. Please try again.",
+      "foundProperties_one": "Okay, I found {{count}} property that might interest you!",
+      "foundProperties_other": "Okay, I found {{count}} properties that might interest you!",
+      "noProperties": "I couldn't find any properties matching that exact description. Would you like to try broadening your search?",
+      "needMoreInfo": "I need a bit more information to find properties. Could you tell me more about what you're looking for?",
+      "searchError": "There was an error while searching for properties. Please try again.",
+      "thinking": "Thinking...",
+      "findPropertiesButton": "Find Properties Based on Chat",
+      "matchedPropertiesTitle": "Matched Properties",
+      "noMatchesYetPlaceholder": "No Matches Yet",
+      "startConversationPlaceholder": "Start a conversation above to find properties matching your criteria.",
+      "examplePromptsPlaceholder": "e.g., 'Show me 2-bedroom apartments near the city centre' or 'I'm looking for a family home with a large garden'.",
+      "searchingStatus": "Searching...",
+      "searchingPropertiesStatus": "Searching for properties based on our conversation..."
+    },
+    "actions": {
+      "sendChat": "Send",
+      "back": "Back",
+      "continue": "Continue"
+    }
+  },
+  "property": {
+    "wizard": {
+      "title": "Property Wizard",
+      "description": "Step-by-step guide to add your property",
+      "steps": {
+        "propertyType": {
+          "title": "Property Type"
+        },
+        "pricing": {
+          "title": "Pricing & Type",
+          "selectType": "Select Property Type"
+        }
+      },
+      "navigation": {
+        "back": "Back",
+        "continue": "Continue",
+        "saveDraft": "Save Draft",
+        "publish": "Publish Property",
+        "step": "Step",
+        "of": "of",
+        "cancel": "Cancel",
+        "publishing": "Publishing..."
+      }
+    },
+    "types": {
+      "studio": "Studio"
+    },
+    "onboarding": {
+      "budget": {
+        "minBedrooms": "Minimum Bedrooms"
+      },
+      "features": {
+        "pool": "Pool",
+        "garage": "Garage",
+        "garden": "Garden",
+        "balcony": "Balcony",
+        "gym": "Gym",
+        "security": "Security",
+        "airConditioning": "Air Conditioning",
+        "furnished": "Furnished",
+        "petFriendly": "Pet Friendly",
+        "smartHome": "Smart Home",
+        "oceanView": "Ocean View",
+        "fireplace": "Fireplace"
+      },
+      "errors": {
+        "locationRequired": "Location is required",
+        "locationRequiredDesc": "Please select at least one location to continue."
+      },
+      "propertyType": {
+        "apartment": "Apartment",
+        "house": "House",
+        "townhouse": "Townhouse",
+        "condo": "Condo"
+      }
+    }
+  },
+  "aiRecommendations": {
+    "title": "AI Property Recommendations",
+    "howItWorks": "How it works",
+    "description": "These properties are personalised based on your preferences and behaviour.",
+    "personaliseTitle": "Personalise your recommendations",
+    "updateButton": "Update preferences",
+    "tabs": {
+      "forYou": "For You",
+      "similar": "Similar",
+      "trending": "Trending"
+    },
+    "personalisedForYou": "Personalised For You",
+    "personalisedForYouDesc": "Based on your selected interests and activity.",
+    "similarTitle": "Similar Properties",
+    "similarDesc": "Properties similar to ones you've viewed",
+    "trendingTitle": "Trending Properties",
+    "trendingDesc": "Popular properties in your area",
+    "interest": {
+      "familyFriendly": "Family-friendly",
+      "investment": "Investment potential",
+      "workFromHome": "Work from home",
+      "urbanLifestyle": "Urban lifestyle",
+      "natureLover": "Nature lover",
+      "luxury": "Luxury",
+      "firstTimeBuyer": "First-time buyer",
+      "vacationHome": "Vacation home"
+    },
+    "toast": {
+      "selectInterestTitle": "Select interests",
+      "selectInterestDesc": "Select at least one interest to personalise your recommendations",
+      "updatedTitle": "Preferences updated",
+      "updatedDesc": "Your recommendations have been updated",
+      "addedPrefTitle": "Preference added",
+      "notedTitle": "Preference noted",
+      "moreLikeThis": "We'll show you more like this",
+      "lessLikeThis": "We'll show you less like this"
+    },
+    "noProperties": "No properties found",
+    "moreLikeThis": "More like this",
+    "lessLikeThis": "Less like this"
+  }
+}

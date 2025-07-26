@@ -1,0 +1,46 @@
+{
+  "title": "Fonctionnalités de sécurité",
+  "subtitle": "Visites sûres et vérifiées",
+  "description": "Ajoutez une couche de sécurité supplémentaire avec une preuve numérique de présence et une vérification alimentée par IA.",
+  "qrCodeVisits": "Visites par QR Code",
+  "simpleSecureVerified": "Simple, sécurisé, vérifié",
+  "premium": "Premium",
+  "features": {
+    "visitProof": {
+      "title": "Preuve de visite géolocalisée",
+      "description": "Nous capturons l'emplacement exact, la date et l'heure de chaque visite et émettons un certificat numérique. Scannez simplement le code avec votre mobile !",
+      "tag": "Suivi en temps réel"
+    },
+    "electronicSignature": {
+      "title": "Signature électronique",
+      "description": "Les visiteurs signent numériquement en utilisant un QR code — plus rapide, sans papier et légalement valide.",
+      "tag": "Juridiquement contraignant"
+    },
+    "documentVerification": {
+      "title": "Vérification des documents",
+      "description": "Arrêtez la fraude avant qu'elle ne se produise. Nous détectons les fausses déclarations de revenus et les documents falsifiés avec des vérifications alimentées par IA.",
+      "tag": "Alimenté par IA"
+    },
+    "appointmentReminders": {
+      "title": "Rappels de rendez-vous",
+      "description": "Réduisez les absences jusqu'à 50% avec des rappels automatiques pour chaque visite.",
+      "tag": "50% de réduction"
+    },
+    "identityCrossVerification": {
+      "title": "Vérification croisée d'identité",
+      "description": "Ajoutez une couche de sécurité supplémentaire avec VerifID — combine les données d'identité réelles avec les enregistrements de visites de propriétés.",
+      "tag": "Alimenté par VerifID"
+    },
+    "identityVerification": {
+      "title": "Vérification d'identité",
+      "description": "Nous vérifions l'identité de chaque client pour éliminer les fausses données et vous donner une protection juridique complète."
+    }
+  },
+  "forAgentsAndAgencies": "Pour les agents, agences et vendeurs",
+  "adminOnlyDescription": "Cette fonctionnalité est uniquement pour les panneaux d'administration, les vendeurs de propriétés, les agents et les agences immobilières — pas pour les acheteurs réguliers.",
+  "step": "ÉTAPE",
+  "cta": {
+    "howItWorks": "Comment ça marche",
+    "startProtectingDeals": "Commencer à protéger les transactions"
+  }
+}

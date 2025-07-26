@@ -1,0 +1,45 @@
+{
+  "title": "Mantente Actualizado con Inmobi",
+  "description": "Recibe listados exclusivos de propiedades, perspectivas del mercado y oportunidades de inversión entregadas directamente a tu bandeja de entrada",
+  "subscribers": "Únete a 25,000+ Suscriptores",
+  "features": {
+    "weeklyProperties": "Propiedades Semanales",
+    "newPropertyAlerts": "Alertas de nuevas propiedades",
+    "marketInsights": "Perspectivas del mercado",
+    "exclusiveOffers": "Ofertas exclusivas"
+  },
+  "form": {
+    "placeholder": "Ingresa tu dirección de correo electrónico...",
+    "subscribe": "Suscribirse Ahora →"
+  },
+  "trust": {
+    "secure": "100% Seguro",
+    "weeklyUpdates": "Actualizaciones Semanales",
+    "noSpam": "Sin Spam"
+  },
+  "disclaimer": "Al suscribirte, aceptas nuestra Política de Privacidad • Cancelar suscripción en cualquier momento",
+  "stats": {
+    "happySubscribers": "Suscriptores Felices",
+    "weeklyProperties": "Propiedades Semanales",
+    "averageRating": "Calificación Promedio",
+    "countriesServed": "Países Atendidos"
+  },
+  "success": {
+    "title": "¡Suscripción Exitosa!",
+    "description": "Te hemos enviado un correo de confirmación. Revisa tu bandeja de entrada.",
+    "badge": "Confirmado"
+  },
+  "frequency": {
+    "weekly": "Semanal",
+    "secure": "Seguro",
+    "unsubscribe": "Fácil cancelación"
+  },
+  "errors": {
+    "alreadySubscribed": "Ya estás suscrito a nuestro boletín",
+    "subscriptionFailed": "Error al suscribirse",
+    "networkError": "Error de red",
+    "title": "Error",
+    "tryAgain": "Inténtalo de nuevo"
+  },
+  "subscribing": "Suscribiendo..."
+}

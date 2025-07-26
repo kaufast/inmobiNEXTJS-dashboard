@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>inMobi i18n Debug</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+    pre { background: #f0f0f0; padding: 10px; border-radius: 4px; overflow: auto; }
+    button { padding: 8px 16px; background: #0066ff; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 10px; margin-bottom: 10px; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 16px; box-shadow: none; }
+    .success { color: green; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h1>inMobi i18n Debugger</h1>
+  
+  <div class="card">
+    <h2>i18n Configuration</h2>
+    <button onclick="checkI18nConfig()">Check i18n Configuration</button>
+    <div id="i18nConfig"></div>
+  </div>
+  
+  <div class="card">
+    <h2>Examine Browser Console Errors</h2>
+    <button onclick="testMatchError()">Test for i.match error</button>
+    <div id="matchErrorResult"></div>
+  </div>
+  
+  <div class="card">
+    <h2>Translation Test</h2>
+    <input id="translationKey" type="text" placeholder="Enter translation key (e.g. common.errors.notFound.title)" style="width: 400px; padding: 8px; margin-right: 10px;">
+    <button onclick="testTranslation()">Test Translation</button>
+    <div id="translationResult"></div>
+  </div>
+  
+  <div class="card">
+    <h2>Manual Language Override</h2>
+    <button onclick="setLanguage('en-GB')">Set to en-GB</button>
+    <button onclick="setLanguage('en')">Set to en</button>
+    <div id="languageResult"></div>
+  </div>
+  
+  <script>
+    function showResult(id, success, data) {
+      const el = document.getElementById(id);
+      el.innerHTML = '<pre class="' + (success ? 'success' : 'error') + '">' + 
+        JSON.stringify(data, null, 2) + '</pre>';
+    }
+    
+    async function fetchApi(url) {
+      try {
+        const response = await fetch(url);
+        let data;
+        try {
+          data = await response.json();
+        } catch (e) {
+          data = { error: "Failed to parse JSON", text: await response.text() };
+        }
+        return { success: response.ok, data };
+      } catch (error) {
+        return { success: false, error: error.message };
+      }
+    }
+    
+    async function checkI18nConfig() {
+      showResult('i18nConfig', true, { status: "Checking i18n configuration..." });
+      
+      // First check if the debug API is available
+      const apiResult = await fetchApi('/api/debug/i18n');
+      if (apiResult.success) {
+        showResult('i18nConfig', true, apiResult.data);
+      } else {
+        // Try to extract i18n info from localStorage or window if available
+        let clientConfig = { note: "API failed, showing client-side info" };
+        
+        // Try localStorage for i18next settings
+        try {
+          for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key.includes('i18next')) {
+              clientConfig[key] = localStorage.getItem(key);
+            }
+          }
+        } catch (e) {
+          clientConfig.localStorageError = e.message;
+        }
+        
+        // Check for window.i18next if available
+        if (window.i18next) {
+          clientConfig.i18nextInfo = {
+            language: window.i18next.language,
+            languages: window.i18next.languages,
+            options: window.i18next.options ? {
+              fallbackLng: window.i18next.options.fallbackLng,
+              supportedLngs: window.i18next.options.supportedLngs,
+              defaultNS: window.i18next.options.defaultNS,
+            } : 'Not available'
+          };
+        }
+        
+        showResult('i18nConfig', false, clientConfig);
+      }
+    }
+    
+    async function testTranslation() {
+      const key = document.getElementById('translationKey').value.trim();
+      
+      if (!key) {
+        showResult('translationResult', false, { error: "Please enter a translation key" });
+        return;
+      }
+      
+      showResult('translationResult', true, { status: `Testing translation for: ${key}` });
+      
+      // If i18next is available in the global scope
+      if (window.i18next) {
+        const translation = window.i18next.t(key);
+        const result = {
+          key: key,
+          translation: translation,
+          exists: translation !== key, // If it returns the key, it usually means missing
+          namespaces: window.i18next.options.ns,
+          resources: {}
+        };
+        
+        // Try to check if the translation exists in the loaded resources
+        try {
+          const parts = key.split('.');
+          const namespace = parts.length > 1 ? parts[0] : window.i18next.options.defaultNS;
+          
+          if (window.i18next.store && window.i18next.store.data) {
+            for (const [lang, nsData] of Object.entries(window.i18next.store.data)) {
+              if (nsData[namespace]) {
+                result.resources[lang] = { exists: true };
+              }
+            }
+          }
+        } catch (e) {
+          result.resourceError = e.message;
+        }
+        
+        showResult('translationResult', translation !== key, result);
+      } else {
+        showResult('translationResult', false, { 
+          error: "i18next is not available in the global scope",
+          recommendation: "Make sure i18next is properly initialized and accessible via window.i18next"
+        });
+      }
+    }
+    
+    function testMatchError() {
+      showResult('matchErrorResult', true, { status: "Testing for i.match error..." });
+      
+      try {
+        // This should reproduce the error if i is undefined
+        let i;
+        i.match(/something/);
+      } catch (e) {
+        if (e.message.includes("undefined is not an object (evaluating 'i.match')")) {
+          showResult('matchErrorResult', false, { 
+            error: e.message,
+            stack: e.stack,
+            suggestion: "This is the same error seen in your console. It's likely that an undefined variable is being used with the match() method in the i18next initialization or configuration."
+          });
+        } else {
+          showResult('matchErrorResult', false, { 
+            error: e.message,
+            stack: e.stack,
+            note: "This is not the exact same error seen in your console, but similar"
+          });
+        }
+        return;
+      }
+      
+      showResult('matchErrorResult', true, { 
+        message: "No error was reproduced. This is unexpected."
+      });
+    }
+    
+    function setLanguage(lang) {
+      showResult('languageResult', true, { status: `Setting language to: ${lang}` });
+      
+      if (window.i18next) {
+        window.i18next.changeLanguage(lang)
+          .then(() => {
+            showResult('languageResult', true, {
+              message: `Language changed to: ${window.i18next.language}`,
+              currentLng: window.i18next.language,
+              supportedLngs: window.i18next.options.supportedLngs
+            });
+          })
+          .catch(error => {
+            showResult('languageResult', false, {
+              error: error.message,
+              suggestion: "Check that this language is in your supportedLngs array"
+            });
+          });
+      } else {
+        showResult('languageResult', false, {
+          error: "i18next is not available in the global scope",
+          recommendation: "Make sure i18next is properly initialized"
+        });
+      }
+    }
+  </script>
+</body>
+</html> 

@@ -1,0 +1,1435 @@
+{
+  "navigation": {
+    "dashboard": "Tauler",
+    "favorites": "Preferits",
+    "messages": "Missatges",
+    "tours": "Visites",
+    "documents": "Documents",
+    "verification": "Verificació",
+    "profile": "Perfil",
+    "aiPropertyMatching": "Cerca de propietats amb IA",
+    "myProperties": "Les meves propietats",
+    "analytics": "Analítiques",
+    "premiumFeatures": "Funcions Premium",
+    "subscription": "Subscripció",
+    "users": "Usuaris",
+    "properties": "Propietats",
+    "approvals": "Aprovacions",
+    "verificationManagement": "Gestió de verificacions",
+    "settings": "Configuració",
+    "translationDebug": "Depuració de traducció",
+    "loadingNavigation": "Carregant navegació...",
+    "backToHome": "Torna a l'inici"
+  },
+  "general": {
+    "actions": {
+      "cancel": "Cancel·lar"
+    },
+    "confirm": "Confirmar",
+    "complete": "Completar",
+    "cancel": "Cancel·lar",
+    "approve": "Aprovar",
+    "reject": "Rebutjar",
+    "help": "Ajuda",
+    "pause": "Pausa",
+    "save": "Desar",
+    "delete": "Suprimir",
+    "submit": "Enviar",
+    "edit": "Editar",
+    "view": "Veure",
+    "add": "Afegir",
+    "remove": "Eliminar",
+    "role": "Rol",
+    "status": "Estat",
+    "joined": "Data d'ingrés",
+    "fullName": "Nom complet",
+    "user": "Usuari",
+    "timeframes": {
+      "fromPrevious": "del/de la {{timeframe}} anterior",
+      "day": "Dia",
+      "week": "Setmana",
+      "month": "Mes",
+      "year": "Any"
+    },
+    "item": "Element",
+    "type": "Tipus",
+    "date": "Data",
+    "viewAll": "Veure-ho tot",
+    "name": "Nom",
+    "nameglobal": {
+      "pending": "Pendent"
+    }
+  },
+  "dashboard": {
+    "title": "Títol del Tauler Principal",
+    "app": "Nom de l'aplicació del Tauler (Context Comú)",
+    "welcome": "Benvingut/da, {{name}}",
+    "overview": "Aquí tens un resum del teu compte",
+    "properties": "Propietats",
+    "users": "Usuaris",
+    "settings": "Configuració",
+    "browseProperties": "Explorar propietats",
+    "signOut": "Tancar sessió (Context Comú)",
+    "statistics": {
+      "title": "Estadístiques",
+      "views": "Visualitzacions",
+      "inquiries": "Consultes",
+      "favourites": "Preferits",
+      "listings": "Anuncis",
+      "totalUsers": "Total d'usuaris",
+      "fromPrevious": "del/de la {{timeframe}} anterior",
+      "properties": "Total de propietats",
+      "pageViews": "Total de pàgines vistes",
+      "revenue": "Ingressos totals"
+    },
+    "admin": {
+      "title": "Tauler d'administració",
+      "subtitle": "Gestiona la teva plataforma",
+      "systemSettings": "Configuració del sistema",
+      "generateReports": "Generar informes",
+      "stats": {
+        "totalUsers": "Total d'usuaris",
+        "fromPrevious": "del/de la {{timeframe}} anterior",
+        "properties": "Total de propietats",
+        "pageViews": "Total de pàgines vistes",
+        "revenue": "Ingressos totals"
+      },
+      "pendingApprovals": "Aprovacions pendents",
+      "reviewManageSubmissions": "Revisa i gestiona les trameses de propietats i agents",
+      "allSubmissions": "Totes les trameses",
+      "properties": "Propietats",
+      "agents": "Agents",
+      "itemsPendingApproval": "Elements pendents d'aprovació",
+      "item": "Element",
+      "type": "Tipus",
+      "submittedBy": "Enviat per",
+      "date": "Data",
+      "actions": "Accions",
+      "noPendingApprovals": "No hi ha aprovacions pendents",
+      "allSubmissionsReviewed": "S'han revisat totes les trameses",
+      "propertySubmissions": "Trameses de propietats",
+      "reviewPropertySubmissions": "Revisa i gestiona les trameses de propietats",
+      "agentSubmissions": "Trameses d'agents",
+      "reviewAgentSubmissions": "Revisa i gestiona les trameses d'agents",
+      "general": "General",
+      "security": "Seguretat",
+      "notifications": "Notificacions",
+      "integrations": "Integracions",
+      "generalSettings": "Configuració general",
+      "manageGeneralSettings": "Gestiona la configuració general del sistema",
+      "siteName": "Nom del lloc",
+      "defaultLanguage": "Idioma per defecte",
+      "selectLanguage": "Selecciona l'idioma",
+      "maintenanceMode": "Mode de manteniment",
+      "securitySettings": "Configuració de seguretat",
+      "manageSecuritySettings": "Gestiona la configuració de seguretat",
+      "requireTwoFactor": "Requerir autenticació de dos factors",
+      "requireEmailVerification": "Requerir verificació per correu electrònic",
+      "sessionTimeout": "Temps d'espera de la sessió",
+      "selectTimeout": "Selecciona el temps d'espera",
+      "notificationSettings": "Configuració de notificacions",
+      "manageNotificationSettings": "Gestiona la configuració de notificacions",
+      "emailNotifications": "Notificacions per correu electrònic",
+      "pushNotifications": "Notificacions push",
+      "notificationEmail": "Correu electrònic de notificació",
+      "integrationSettings": "Configuració d'integracions",
+      "manageIntegrationSettings": "Gestiona les integracions de tercers",
+      "googleMapsApiKey": "Clau API de Google Maps",
+      "stripeApiKey": "Clau API de Stripe",
+      "smtpServer": "Servidor SMTP",
+      "saveChanges": "Desar canvis",
+      "usersManagement": "Gestió d'usuaris",
+      "userManagement": "Gestió d'usuaris",
+      "viewManageAccounts": "Veure i gestionar comptes",
+      "recentProperties": "Propietats recents",
+      "noPropertiesFound": "No s'han trobat propietats",
+      "noPropertiesInSystem": "Actualment no hi ha propietats al sistema.",
+      "editUser": "Editar usuari",
+      "edit": "Editar",
+      "manageSystemSettings": "Gestiona la configuració, preferències i configuracions del teu sistema.",
+      "fullUserManagement": "Gestió completa d'usuaris",
+      "addUser": "Afegir usuari",
+      "addProperty": "Afegir propietat",
+      "noApprovals": "Sense aprovacions",
+      "allCaughtUp": "Tot al dia! No hi ha elements pendents per revisar.",
+      "confirmDeleteUser": "Estàs segur que vols suprimir l'usuari \"{{name}}\"?",
+      "suspendUser": "Suspendre usuari",
+      "reactivateUser": "Reactivar usuari",
+      "viewAllUsers": "Veure els {{count}} usuaris",
+      "recentPropertiesDescription": "Anuncis de propietats recents al sistema",
+      "updateUserDescription": "Actualitza la informació i els permisos de l'usuari",
+      "createNewUser": "Crear un nou usuari",
+      "createUserDescription": "Omple les dades per afegir un nou usuari al sistema",
+      "createUser": "Crear usuari",
+      "tableHeaders": {
+        "property": "Propietat",
+        "location": "Ubicació",
+        "price": "Preu",
+        "type": "Tipus",
+        "status": "Estat"
+      },
+      "roles": {
+        "user": "Usuari",
+        "agent": "Agent",
+        "admin": "Admin"
+      },
+      "users_verification_inactive": "Verificació Inactiva"
+    },
+    "agent": {
+      "title": "Tauler de l'agent",
+      "subtitle": "Gestiona les teves propietats i consulta mètriques importants",
+      "propertyViews": "Visualitzacions de propietats",
+      "inquiries": "Consultes",
+      "conversions": "Conversions",
+      "revenue": "Ingressos",
+      "noInquiries": {
+        "title": "Encara no hi ha consultes",
+        "description": "Les consultes dels clients sobre les teves propietats apareixeran aquí"
+      },
+      "performance": {
+        "overview": "Visió general del rendiment",
+        "metrics": "Les teves mètriques de rendiment de propietats per al/la {{timeframe}} actual",
+        "topProperties": "Propietats amb millor rendiment",
+        "luxuryApartment": "Apartament de luxe {{number}}",
+        "views": "{{count}} visualitzacions",
+        "inquiries": "{{count}} consultes",
+        "conversionRate": "Taxa de conversió",
+        "inquiryToSale": "De consulta a venda"
+      },
+      "tabs": {
+        "properties": "Les meves propietats",
+        "inquiries": "Consultes de clients",
+        "performance": "Rendiment",
+        "bulkUpload": "Càrrega massiva"
+      },
+      "noProperties": {
+        "title": "Encara no hi ha propietats anunciades",
+        "description": "Comença a afegir propietats a la teva cartera"
+      },
+      "reply": "Respondre",
+      "fromPrevious": "del/de la {{timeframe}} anterior"
+    },
+    "tabs": {
+      "savedProperties": "Propietats desades",
+      "messages": "Missatges",
+      "recommendations": "Recomanacions"
+    },
+    "stats": {
+      "properties": "Propietats",
+      "favorited": "Propietats preferides",
+      "tours": "Visites a propietats",
+      "messages": "Missatges",
+      "savedProperties": {
+        "title": "Propietats desades",
+        "description": "Propietats que has desat"
+      },
+      "recentViews": {
+        "title": "Visualitzacions recents",
+        "description": "Propietats vistes en els darrers 30 dies"
+      },
+      "propertyAlerts": {
+        "title": "Alertes de propietats",
+        "description": "Alertes de cerca actives"
+      }
+    },
+    "messages": {
+      "title": "Missatges",
+      "compose": "Redactar",
+      "inbox": "Safata d'entrada",
+      "sent": "Enviats",
+      "drafts": "Esborranys",
+      "trash": "Paperera",
+      "favoriteContacts": "Contactes preferits",
+      "emptyFolder": "No hi ha missatges en aquesta carpeta",
+      "selectConversation": "Selecciona una conversa per veure els missatges",
+      "sendHint": "Prem Intro per enviar",
+      "newMessages": "Missatges nous",
+      "recent": "Missatges recents",
+      "viewAll": "Veure tots els missatges",
+      "viewAllCount": "Veure els {{count}} missatges",
+      "goToMessages": "Anar a Missatges",
+      "empty": {
+        "title": "Encara no hi ha missatges",
+        "description": "Els missatges d'agents i propietaris apareixeran aquí"
+      },
+      "pleaseLogin": "Si us plau, inicia sessió per accedir als teus missatges",
+      "loading": "Carregant missatges...",
+      "retrying": "Reintentant...",
+      "errorLoading": "Error en carregar els missatges",
+      "errorLoadingDescription": "Hi ha hagut un problema en carregar els teus missatges. Si us plau, torna-ho a provar.",
+      "retry": "Reintentar",
+      "noMessages": "Encara no hi ha missatges en aquesta conversa",
+      "newMessage": "Missatge nou",
+      "newMessageDescription": "Redacta un missatge nou a un usuari o agent",
+      "recipient": "Destinatari",
+      "selectRecipient": "Selecciona el destinatari",
+      "subject": "Assumpte",
+      "subjectPlaceholder": "Escriu l'assumpte del missatge",
+      "messageType": "Tipus de missatge",
+      "selectMessageType": "Selecciona el tipus de missatge",
+      "types": {
+        "direct": "Missatge directe",
+        "support": "Sol·licitud de suport",
+        "system": "Missatge del sistema"
+      },
+      "content": "Missatge",
+      "contentPlaceholder": "Escriu el teu missatge aquí...",
+      "send": "Enviar missatge",
+      "cancel": "Cancel·lar",
+      "sendSuccess": "Missatge enviat",
+      "messageHasBeenSent": "El teu missatge s'ha enviat correctament",
+      "sendError": "Error en l'enviament",
+      "typeMessage": "Escriu el teu missatge...",
+      "selectConversationToSend": "Selecciona una conversa per enviar un missatge",
+      "attachments": "Fitxers adjunts",
+      "errorLoadingThreads": "Error en carregar les converses",
+      "errorLoadingThreadsDescription": "Hi ha hagut un problema en carregar les teves converses. Si us plau, torna-ho a provar.",
+      "retryingThreads": "Reintentant la càrrega de converses...",
+      "noPreview": "Sense vista prèvia del missatge",
+      "agent": "Agent",
+      "user": "Usuari",
+      "noFavorites": "Encara no hi ha contactes preferits",
+      "noFavoritesDescription": "Els teus contactes preferits apareixeran aquí",
+      "searchFavorites": "Cerca els teus contactes preferits",
+      "noMatchingFavorites": "Cap contacte coincideix amb la teva cerca",
+      "sendMessage": "Enviar missatge",
+      "removeFromFavorites": "Eliminar de preferits",
+      "messageContent": "Contingut del missatge",
+      "messageContentPlaceholder": "Escriu el teu missatge here...",
+      "sending": "Enviant missatge...",
+      "attachFile": "Adjuntar fitxer"
+    },
+    "recommendations": {
+      "title": "Propietats que et podrien agradar",
+      "description": "Basat en els teus preferits i l'historial de navegació",
+      "empty": {
+        "title": "No hi ha recomanacions disponibles",
+        "description": "Basat en els teus preferits i l'historial de navegació"
+      }
+    },
+    "nav": {
+      "home": "Inici",
+      "dashboard": "Tauler",
+      "properties": "Propietats",
+      "messages": "Missatges",
+      "favourites": "Preferits",
+      "tours": "Visites",
+      "verification": "Verificació",
+      "profile": "Perfil",
+      "users": "Usuaris",
+      "security": "Seguretat"
+    }
+  },
+  "report": {
+    "buttonText": "Informar d'un problema"
+  },
+  "document": {
+    "title": "Gestió de documents",
+    "subtitle": "Gestiona, signa i verifica documents de propietats",
+    "upload": "Pujar document",
+    "dragDropFile": "Arrossega i deixa anar el teu fitxer aquí",
+    "supportedFormats": "Formats admesos: PDF, DOCX, JPG, PNG.",
+    "uploading": "Pujant...",
+    "statusLabels": {
+      "verified": "Verificat",
+      "rejected": "Rebutjat",
+      "pending": "Pendent"
+    },
+    "types": {
+      "contract": "Contracte",
+      "deed": "Escriptura",
+      "identification": "Identificació",
+      "utility": "Subministrament",
+      "other": "Altres"
+    },
+    "tabs": {
+      "all": "Tots els documents",
+      "pending": "Pendents",
+      "verified": "Verificats",
+      "rejected": "Rebutjats"
+    },
+    "table": {
+      "name": "Nom",
+      "type": "Tipus",
+      "status": "Estat",
+      "created": "Creat",
+      "actions": "Accions",
+      "caption": "Llista de documents"
+    },
+    "empty": {
+      "title": "No s'han trobat documents",
+      "uploadToStart": "Puja un document per començar",
+      "noStatusDocuments": "No s'han trobat documents {{status}}"
+    },
+    "uploadDialog": {
+      "title": "Pujar document",
+      "description": "Puja un document al sistema. Els formats de fitxer admesos inclouen PDF, Word, Excel i imatges.",
+      "documentName": "Nom del document",
+      "documentNamePlaceholder": "Introdueix el nom del document",
+      "documentType": "Tipus de document",
+      "documentTypePlaceholder": "Selecciona el tipus de document",
+      "file": "Fitxer",
+      "changeFile": "Canviar fitxer"
+    },
+    "viewDialog": {
+      "uploadedAgo": "Pujat fa {{time}}",
+      "documentType": "Tipus de document",
+      "fileSize": "Mida del fitxer",
+      "verifiedBy": "Verificat per",
+      "descriptionLabel": "Descripció",
+      "filePreview": "Vista prèvia del fitxer",
+      "pdfDocument": "Document PDF",
+      "openPdfInNewTab": "Obrir PDF en una nova pestanya",
+      "previewNotAvailable": "Vista prèvia no disponible",
+      "downloadToView": "Descarrega per veure",
+      "imageNotFound": "Imatge no trobada",
+      "imageLoadError": "No s'ha pogut carregar el fitxer d'imatge"
+    },
+    "actions": {
+      "verify": "Verificar",
+      "reject": "Rebutjar",
+      "download": "Descarregar"
+    },
+    "downloadIssue": "Problema de descàrrega",
+    "downloadIssueDescription": "Hi pot haver hagut un problema amb la descàrrega. Si us plau, torna-ho a provar."
+  },
+  "profile": {
+    "title": "Configuració del perfil",
+    "subtitle": "Gestiona la configuració i les preferències del teu compte",
+    "avatar": {
+      "defaultUser": "Usuari",
+      "defaultEmail": "usuari@exemple.com"
+    },
+    "subscription": {
+      "title": "Subscripció",
+      "freePlan": "Gratuït",
+      "plan": "Pla",
+      "fullAccess": "Accés complet a totes les funcions",
+      "limitedAccess": "Accés limitat a les funcions",
+      "upgrade": "Actualitzar"
+    },
+    "tabs": {
+      "account": "Compte",
+      "security": "Seguretat",
+      "preferences": "Preferències",
+      "billing": "Facturació"
+    },
+    "account": {
+      "title": "Informació del compte",
+      "description": "Actualitza les dades del teu compte",
+      "fullName": "Nom complet",
+      "fullNamePlaceholder": "Joan Dídac",
+      "email": "Correu electrònic",
+      "emailPlaceholder": "joandidac@exemple.com",
+      "phone": "Número de telèfon",
+      "phonePlaceholder": "+44 20 7946 0958",
+      "saveChanges": "Desar canvis"
+    },
+    "security": {
+      "title": "Configuració de seguretat",
+      "description": "Gestiona la teva contrasenya i preferències de seguretat",
+      "currentPassword": "Contrasenya actual",
+      "newPassword": "Contrasenya nova",
+      "confirmPassword": "Confirma la contrasenya",
+      "passwordPlaceholder": "••••••••••",
+      "updatePassword": "Actualitzar contrasenya",
+      "twoFactor": {
+        "title": "Autenticació de dos factors",
+        "description": "Afegeix una capa extra de seguretat al teu compte",
+        "disabled": "L'autenticació de dos factors està desactivada",
+        "protectAccount": "Protegeix el teu compte amb un pas d'autenticació addicional",
+        "enable": "Activar 2FA"
+      }
+    },
+    "preferences": {
+      "language": {
+        "title": "Preferències d'idioma",
+        "description": "Selecciona el teu idioma preferit",
+        "label": "Idioma",
+        "placeholder": "Selecciona l'idioma"
+      },
+      "notifications": {
+        "title": "Preferències de notificacions",
+        "description": "Controla com reps les notificacions",
+        "settings": "Configuració de notificacions",
+        "comingSoon": "Aquesta funció estarà disponible aviat",
+        "configure": "Configurar notificacions"
+      }
+    },
+    "billing": {
+      "title": "Informació de facturació",
+      "description": "Gestiona les teves dades de facturació i mètodes de pagament",
+      "paymentMethods": {
+        "title": "Mètodes de pagament",
+        "none": "Encara no s'han afegit mètodes de pagament",
+        "add": "Afegir mètode de pagament"
+      },
+      "subscriptionPlan": {
+        "title": "Pla de subscripció",
+        "description": "Gestiona la teva subscripció i cicle de facturació",
+        "active": "Actiu",
+        "inactive": "Inactiu",
+        "viewInvoices": "Veure factures",
+        "upgradePlan": "Actualitzar pla"
+      }
+    },
+    "notifications": {
+      "profileUpdated": {
+        "title": "Perfil actualitzat",
+        "description": "La informació del teu perfil s'ha actualitzat correctament."
+      },
+      "languageUpdated": {
+        "title": "Idioma actualitzat",
+        "description": "La teva preferència d'idioma s'ha establert a {{language}}."
+      }
+    }
+  },
+  "premium": {
+    "title": "Funcions Premium",
+    "subtitle": {
+      "premium": "Desbloqueja el poder de Premium",
+      "upgrade": "Actualitza per accedir a les funcions Premium"
+    },
+    "badges": {
+      "premium": "Premium",
+      "enterprise": "Enterprise"
+    },
+    "features": {
+      "bulkUpload": {
+        "title": "Càrrega massiva de propietats",
+        "description": "Estalvia temps pujant diverses propietats alhora",
+        "dragAndDrop": "Arrossega i deixa anar el teu fitxer CSV/JSON aquí, o fes clic per buscar.",
+        "maxFileSize": "Mida màxima del fitxer: 5MB.",
+        "formatRequirements": {
+          "title": "Requisits de format de fitxer",
+          "csvHeaders": "Els fitxers CSV han d'incloure capçaleres com: title, description, price, type, status, bedrooms, bathrooms, area, address, city, country.",
+          "jsonArray": "El fitxer JSON ha de ser una matriu d'objectes de propietats.",
+          "requiredFields": "Camps obligatoris per a cada propietat: title, description, price, type (p. ex., pis, casa), status (p. ex., for_sale, to_let)."
+        },
+        "buttonLabels": {
+          "upload": "Pujar propietats",
+          "uploading": "Pujant..."
+        },
+        "validation": {
+          "statusError": "Error",
+          "statusValid": "Vàlid",
+          "rowErrorDetails": "Fila {{rowNumber}}:",
+          "fixErrorsBeforeUploading": "Si us plau, corregeix els errors llistats a continuació abans de pujar.",
+          "validationErrors": "Errors de validació"
+        },
+        "messages": {
+          "success": {
+            "title": "Càrrega completada",
+            "description": "S'han pujat correctament {{count}} propietats."
+          },
+          "error": {
+            "title": "Error de càrrega",
+            "default": "S'ha produït un error desconegut durant la càrrega."
+          },
+          "parseError": {
+            "title": "Error en l'anàlisi del fitxer",
+            "default": "No s'ha pogut analitzar el fitxer pujat."
+          },
+          "noData": {
+            "title": "No hi ha dades per pujar",
+            "description": "El fitxer sembla estar buit o no s'han pogut analitzar les dades."
+          },
+          "validationError": {
+            "title": "S'han trobat errors de validació",
+            "description": "Si us plau, revisa els errors a la vista prèvia de sota i corregeix el teu fitxer."
+          }
+        },
+        "selectedFile": "Fitxer seleccionat",
+        "processingFile": "Processant fitxer...",
+        "uploadSuccessful": "Càrrega completada!",
+        "propertiesSuccessfullyUploaded": "Les propietats s'han pujat correctament i s'estan processant.",
+        "previewData": "Vista prèvia de les dades",
+        "premiumFeatureNotice": "La càrrega massiva és una funció premium. Actualitza per activar-la.",
+        "downloadTemplate": "Descarregar plantilla",
+        "useTemplateInstructions": "Utilitza la nostra plantilla CSV per assegurar-te que les teves dades tenen el format correcte.",
+        "downloadTemplateButton": "Descarregar plantilla",
+        "uploadFile": "Pujar fitxer",
+        "selectFileInstructions": "Selecciona el teu fitxer CSV que conté les dades de les propietats.",
+        "selectFileButton": "Seleccionar fitxer",
+        "parseFileButton": "Analitzar fitxer",
+        "errors": {
+          "emptyFile": "El fitxer està buit o no conté prou files.",
+          "invalidNumber": "Número no vàlid per a {{field}}: {{value}}",
+          "invalidPropertyType": "Tipus de propietat no vàlid \"{{value}}\". Ha de ser un de: {{types}}",
+          "invalidListingType": "Tipus d'anunci no vàlid \"{{value}}\". Ha de ser un de: {{types}}",
+          "missingField": "Falta el camp obligatori: {{field}}"
+        }
+      },
+      "analytics": {
+        "title": "Analítiques avançades",
+        "description": "Obtén informació sobre el rendiment de les propietats i el comportament dels visitants"
+      },
+      "featuredProperties": {
+        "title": "Propietats destacades",
+        "description": "Destaca els teus millors anuncis per a una major visibilitat"
+      },
+      "prioritySupport": {
+        "title": "Suport prioritari",
+        "description": "Obtén respostes més ràpides del nostre equip d'atenció al client"
+      },
+      "marketingTools": {
+        "title": "Eines de màrqueting",
+        "description": "Materials de màrqueting professionals i eines de promoció"
+      },
+      "teamManagement": {
+        "title": "Gestió d'equips",
+        "description": "Col·labora amb membres de l'equip i assigna propietats"
+      },
+      "tourManagement": {
+        "title": "Gestió de visites virtuals",
+        "description": "Crea i gestiona visites virtuals a propietats"
+      }
+    },
+    "actions": {
+      "accessFeature": "Accedir a la funció",
+      "upgradeRequired": "Actualització requerida",
+      "upgrade": "Actualitzar ara"
+    }
+  },
+  "securityPage": {
+    "subtitle": "Gestiona la configuració de seguretat i els controls d'accés",
+    "adminPassword": "Contrasenya d'administrador",
+    "updatePassword": "Actualitzar contrasenya",
+    "currentPassword": "Contrasenya actual",
+    "newPassword": "Contrasenya nova",
+    "confirmPassword": "Confirma la contrasenya",
+    "twoFactor": "Autenticació de dos factors",
+    "twoFactorDesc": "Afegeix una capa extra de seguretat al teu compte",
+    "twoFactorDisabled": "L'autenticació de dos factors està desactivada",
+    "twoFactorProtect": "Protegeix el teu compte amb un pas d'autenticació addicional",
+    "enable2FA": "Activar 2FA"
+  },
+  "users": {
+    "createDescription": "Omple les dades per afegir un nou usuari.",
+    "edit": "Editar usuari (secció Usuaris del Tauler)",
+    "editDescription": "Descripció per editar usuari (Usuaris del Tauler)",
+    "actions": "Accions (Capçalera de la taula d'usuaris del Tauler)",
+    "noUsersFound": "No s'han trobat usuaris (Usuaris del Tauler).",
+    "adjustFilters": "Ajusta els filtres per trobar usuaris (Usuaris del Tauler).",
+    "agencies": {
+      "title": "Gestió d'agències",
+      "description": "Gestiona les agències registrades.",
+      "name": "Nom de l'agència",
+      "location": "Ubicació",
+      "contact": "Contacte",
+      "agents": "Agents",
+      "agentCount": "agents",
+      "license": "ID de llicència",
+      "status": "Estat de l'agència",
+      "verified": "Verificada",
+      "unverified": "No verificada",
+      "edit": "Editar agència",
+      "viewAgents": "Veure agents",
+      "verify": "Verificar agència",
+      "unverify": "Desverificar agència",
+      "delete": "Suprimir agència",
+      "noAgenciesFound": "No s'han trobat agències.",
+      "create": "Crear agència",
+      "createSuccess": "Agència creada",
+      "createSuccessMessage": "L'agència s'ha creat correctament",
+      "createError": "Error en la creació",
+      "updateSuccess": "Agència actualitzada",
+      "updateSuccessMessage": "L'agència s'ha actualitzat correctament",
+      "updateError": "Error en l'actualització",
+      "createDescription": "Fill in the details to add a new agency to the system."
+    },
+    "title": "Gestió d'usuaris",
+    "subtitle": "Gestiona els usuaris de la teva plataforma, els seus rols i les agències",
+    "description": "Supervisa i gestiona tots els comptes d'usuari, rols i agències associades dins de la plataforma.",
+    "create": "Crear usuari",
+    "username": "Nom d'usuari",
+    "fullName": "Nom complet",
+    "email": "Correu electrònic",
+    "password": "Contrasenya",
+    "role": "Rol",
+    "selectRole": "Selecciona un rol",
+    "roles": {
+      "user": "Usuari",
+      "agent": "Agent",
+      "admin": "Admin"
+    },
+    "tabs": {
+      "users": "Usuaris",
+      "agencies": "Agències"
+    },
+    "list": "Llista d'usuaris",
+    "listDescription": "Mostrant tots els usuaris registrats.",
+    "search": "Cercar usuaris...",
+    "searchPlaceholder": "Cercar usuaris...",
+    "filterByRole": "Filtrar per rol",
+    "allRoles": "Tots els rols",
+    "filterByStatus": "Filtrar per estat",
+    "allStatuses": "Tots els estats",
+    "statuses": {
+      "active": "Actiu",
+      "suspended": "Suspès",
+      "inactive": "Inactiu",
+      "pending": "Pendent"
+    },
+    "agency": "Agència",
+    "status": "Estat",
+    "joined": "Data d'ingrés",
+    "actions_header": "Accions",
+    "table": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "role": "Rol",
+      "status": "Estat",
+      "joined": "Data d'ingrés",
+      "actions": "Accions"
+    },
+    "editUser": {
+      "title": "Editar usuari",
+      "save": "Desar canvis",
+      "cancel": "Cancel·lar",
+      "noPropertiesFound": "No s'han trobat propietats",
+      "noPropertiesInSystem": "Actualment no hi ha propietats al sistema.",
+      "edit": "Editar"
+    },
+    "delete": "Suprimir usuari",
+    "deleteConfirmTitle": "Confirmar la supressió de l'usuari",
+    "deleteConfirmDescription": "Estàs segur que vols suprimir aquest usuari? Aquesta acció no es pot desfer.",
+    "confirmDelete": {
+      "title": "Suprimir usuari",
+      "message": "Estàs segur que vols suprimir aquest usuari? Aquesta acció no es pot desfer.",
+      "confirm": "Suprimir",
+      "cancel": "Cancel·lar"
+    },
+    "reactivate": "Reactivar usuari",
+    "resetPassword": "Restablir contrasenya",
+    "noUsers": "No s'han trobat usuaris",
+    "verification": {
+      "title": "Estat de verificació",
+      "inactive": "No verificat",
+      "user": "Usuari verificat",
+      "active": "Verificat",
+      "agency": "Agència verificada"
+    },
+    "selectAgency": "Seleccionar agència",
+    "noAgency": "Sense agència",
+    "updateSuccess": "Usuari actualitzat",
+    "updateSuccessMessage": "L'usuari s'ha actualitzat correctament",
+    "updateError": "Error en l'actualització",
+    "adminOnly": "Només per a administradors",
+    "noPermission": "Sense permís",
+    "bulkDeleteAction": "Delete Selected Users"
+  },
+  "global": {
+    "pending": "Pendent",
+    "verified": "Verificat"
+  },
+  "admin": {
+    "title": "Tauler d'administració",
+    "subtitle": "Gestiona la teva plataforma",
+    "systemSettings": "Configuració del sistema",
+    "generateReports": "Generar informes",
+    "stats": {
+      "totalUsers": "Total d'usuaris",
+      "fromPrevious": "del/de la {{timeframe}} anterior",
+      "properties": "Total de propietats",
+      "pageViews": "Total de pàgines vistes",
+      "revenue": "Ingressos totals"
+    },
+    "pendingApprovals": "Aprovacions pendents",
+    "reviewManageSubmissions": "Revisa i gestiona les trameses de propietats i agents",
+    "allSubmissions": "Totes les trameses",
+    "properties": "Propietats",
+    "agents": "Agents",
+    "itemsPendingApproval": "Elements pendents d'aprovació",
+    "item": "Element",
+    "type": "Tipus",
+    "submittedBy": "Enviat per",
+    "date": "Data",
+    "actions": "Accions",
+    "noPendingApprovals": "No hi ha aprovacions pendents",
+    "allSubmissionsReviewed": "S'han revisat totes les trameses",
+    "propertySubmissions": "Trameses de propietats",
+    "reviewPropertySubmissions": "Revisa i gestiona les trameses de propietats",
+    "agentSubmissions": "Trameses d'agents",
+    "reviewAgentSubmissions": "Revisa i gestiona les trameses d'agents",
+    "general": "General",
+    "security": "Seguretat",
+    "notifications": "Notificacions",
+    "integrations": "Integracions",
+    "generalSettings": "Configuració general",
+    "manageGeneralSettings": "Gestiona la configuració general del sistema",
+    "siteName": "Nom del lloc",
+    "defaultLanguage": "Idioma per defecte",
+    "selectLanguage": "Selecciona l'idioma",
+    "maintenanceMode": "Mode de manteniment",
+    "securitySettings": "Configuració de seguretat",
+    "manageSecuritySettings": "Gestiona la configuració de seguretat",
+    "requireTwoFactor": "Requerir autenticació de dos factors",
+    "requireEmailVerification": "Requerir verificació per correu electrònic",
+    "sessionTimeout": "Temps d'espera de la sessió",
+    "selectTimeout": "Selecciona el temps d'espera",
+    "notificationSettings": "Configuració de notificacions",
+    "manageNotificationSettings": "Gestiona la configuració de notificacions",
+    "emailNotifications": "Notificacions per correu electrònic",
+    "pushNotifications": "Notificacions push",
+    "notificationEmail": "Correu electrònic de notificació",
+    "integrationSettings": "Configuració d'integracions",
+    "manageIntegrationSettings": "Gestiona les integracions de tercers",
+    "googleMapsApiKey": "Clau API de Google Maps",
+    "stripeApiKey": "Clau API de Stripe",
+    "smtpServer": "Servidor SMTP",
+    "saveChanges": "Desar canvis",
+    "usersManagement": "Gestió d'usuaris",
+    "userManagement": "Gestió d'usuaris",
+    "viewManageAccounts": "Veure i gestionar comptes",
+    "recentProperties": "Propietats recents",
+    "noPropertiesFound": "No s'han trobat propietats",
+    "noPropertiesInSystem": "Actualment no hi ha propietats al sistema.",
+    "editUser": "Editar usuari",
+    "edit": "Editar",
+    "manageSystemSettings": "Gestiona la configuració, preferències i configuracions del teu sistema.",
+    "fullUserManagement": "Gestió completa d'usuaris",
+    "addUser": "Afegir usuari",
+    "addProperty": "Afegir propietat",
+    "noApprovals": "Sense aprovacions",
+    "allCaughtUp": "Tot al dia! No hi ha elements pendents per revisar.",
+    "confirmDeleteUser": "Estàs segur que vols suprimir l'usuari \"{{name}}\"?",
+    "suspendUser": "Suspendre usuari",
+    "reactivateUser": "Reactivar usuari",
+    "viewAllUsers": "Veure els {{count}} usuaris",
+    "recentPropertiesDescription": "Anuncis de propietats recents al sistema",
+    "updateUserDescription": "Actualitza la informació i els permisos de l'usuari",
+    "createNewUser": "Crear un nou usuari",
+    "createUserDescription": "Omple les dades per afegir un nou usuari al sistema",
+    "createUser": "Crear usuari",
+    "tableHeaders": {
+      "property": "Propietat",
+      "location": "Ubicació",
+      "price": "Preu",
+      "type": "Tipus",
+      "status": "Estat"
+    },
+    "roles": {
+      "user": "Usuari",
+      "agent": "Agent",
+      "admin": "Admin"
+    }
+  },
+  "actions": {
+    "search": "Cercar",
+    "confirm": "Confirmar",
+    "complete": "Completar",
+    "cancel": "Cancel·lar",
+    "approve": "Aprovar",
+    "reject": "Rebutjar",
+    "help": "Ajuda",
+    "pause": "Pausa",
+    "confirmTitle": "Confirmar visita a la propietat",
+    "completeTitle": "Completar visita a la propietat",
+    "cancelTitle": "Cancel·lar visita a la propietat",
+    "confirmMessage": "Estàs segur que vols confirmar aquesta visita a la propietat? Això notificarà al client que la seva sol·licitud de visita ha estat aprovada.",
+    "completeMessage": "Estàs segur que vols marcar aquesta visita com a completada? Això indica que la visita ha tingut lloc.",
+    "cancelMessage": "Estàs segur que vols cancel·lar aquesta visita a la propietat? Aquesta acció no es pot desfer.",
+    "confirmButton": "Confirmar visita",
+    "completeButton": "Completar visita",
+    "cancelButton": "Cancel·lar visita",
+    "processing": "Processant...",
+    "save": "Desar",
+    "delete": "Suprimir",
+    "submit": "Enviar",
+    "edit": "Editar",
+    "view": "Veure",
+    "add": "Afegir",
+    "remove": "Eliminar",
+    "reset": "Restablir"
+  },
+  "agentProperties": {
+    "title": "Les meves propietats",
+    "description": "Gestiona els teus anuncis de propietats",
+    "addNew": "Afegir propietat",
+    "loading": "Carregant propietats...",
+    "error": "No s'han pogut carregar les propietats",
+    "selectProperties": "Seleccionar propietats",
+    "cancelSelection": "Cancel·lar",
+    "selectAll": "Seleccionar-ho tot",
+    "deselectAll": "Desseleccionar-ho tot",
+    "moveToTrash": "Moure a la paperera",
+    "quickAdd": "Addició ràpida",
+    "standardForm": "Formulari estàndard",
+    "wizardMode": "Mode assistent",
+    "tabs": {
+      "all": "Totes les propietats",
+      "forSale": "En venda",
+      "forRent": "De lloguer",
+      "premium": "Premium"
+    },
+    "propertyListings": "Anuncis de propietats",
+    "propertiesFound_one": "{{count}} propietat trobada",
+    "propertiesFound_other": "{{count}} propietats trobades",
+    "propertiesFound": "{{count}} propietats trobades",
+    "table": {
+      "property": "Propietat",
+      "id": "ID",
+      "type": "Tipus",
+      "status": "Estat",
+      "price": "Preu",
+      "views": "Visualitzacions",
+      "actions": "Accions"
+    },
+    "statusLabels": {
+      "pending": "Pendent",
+      "active": "Activa",
+      "sold": "Venuda",
+      "rented": "Llogada",
+      "verified": "Verificada"
+    },
+    "actions": {
+      "edit": "Editar",
+      "delete": "Suprimir"
+    },
+    "empty": {
+      "title": "Encara no hi ha propietats anunciades",
+      "description": "Comença a afegir propietats a la teva cartera"
+    },
+    "delete": {
+      "confirm": "Estàs segur que vols suprimir aquesta propietat?",
+      "success": {
+        "title": "Propietat suprimida",
+        "description": "La propietat s'ha suprimit correctament"
+      },
+      "error": {
+        "title": "Error en la supressió",
+        "description": "No s'ha pogut suprimir la propietat. Si us plau, torna-ho a provar."
+      }
+    },
+    "pricePerMonth": "/mes",
+    "noProperties": "No s'han trobat propietats. Fes clic a \"Afegir propietat\" per crear un nou anunci.",
+    "trash": {
+      "properties_one": "propietat",
+      "properties_other": "propietats",
+      "properties": "Propietats",
+      "confirmTitle": "Vols moure les propietats a la paperera?",
+      "confirmDescription": "Les propietats es mouran a la paperera i se suprimiran automàticament al cap de 14 dies. Pots restaurar-les des de la paperera abans d'això.",
+      "countMessage_one": "Estàs a punt de moure {{count}} {{properties}} a la paperera.",
+      "countMessage_other": "Estàs a punt de moure {{count}} {{properties}} a la paperera.",
+      "countMessage": "Estàs a punt de moure {{count}} {{properties}} a la paperera.",
+      "confirm": "Moure a la paperera",
+      "success": "Propietats mogudes a la paperera",
+      "successDescription": "Les propietats se suprimiran permanentment al cap de 14 dies",
+      "error": "Error en moure les propietats a la paperera",
+      "errorDescription": "S'ha produït un error. Si us plau, torna-ho a provar.",
+      "title": "Paperera de propietats",
+      "trashExpiryWarning": "Les propietats a la paperera se suprimiran permanentment al cap de 14 dies",
+      "restoreSelected": "Restaurar seleccionades",
+      "deleteForever": "Suprimir permanentment",
+      "emptyTrash": "Buidar la paperera",
+      "trashedProperties": "Propietats a la paperera",
+      "trashedPropertiesCount_one": "{{count}} propietat a la paperera",
+      "trashedPropertiesCount_other": "{{count}} propietats a la paperera",
+      "trashedPropertiesCount": "{{count}} propietats a la paperera",
+      "deletionDate": "Se suprimirà el",
+      "deleteInDays": "Se suprimirà en {{days}} dies",
+      "deleteToday": "Se suprimirà avui",
+      "deleteTomorrow": "Se suprimirà demà",
+      "noItemsInTrash": "No hi ha propietats a la paperera",
+      "emptyTrashDescription": "Els elements moguts a la paperera apareixeran aquí durant 14 dies abans de ser suprimits permanentment",
+      "backToProperties": "Tornar a Propietats",
+      "restoreTitle": "Restaurar propietats",
+      "restoreDescription": "Restaura les propietats de la paperera als teus anuncis actius.",
+      "restoreCountMessage_one": "Estàs a punt de restaurar {{count}} propietat.",
+      "restoreCountMessage_other": "Estàs a punt de restaurar {{count}} propietats.",
+      "restoreCountMessage": "Estàs a punt de restaurar {{count}} {{properties}}.",
+      "restoreConfirm": "Restaurar",
+      "deleteForeverTitle": "Vols suprimir les propietats permanentment?",
+      "deleteForeverDescription": "Aquesta acció no es pot desfer. Les propietats se suprimiran permanentment.",
+      "deleteForeverCountMessage_one": "Estàs a punt de suprimir permanentment {{count}} propietat.",
+      "deleteForeverCountMessage_other": "Estàs a punt de suprimir permanentment {{count}} propietats.",
+      "deleteForeverCountMessage": "Estàs a punt de suprimir permanentment {{count}} {{properties}}.",
+      "deleteForeverConfirm": "Suprimir permanentment",
+      "emptyTrashTitle": "Vols buidar la paperera?",
+      "emptyTrashCountMessage_one": "Estàs a punt de suprimir permanentment {{count}} propietat de la paperera.",
+      "emptyTrashCountMessage_other": "Estàs a punt de suprimir permanentment {{count}} propietats de la paperera.",
+      "emptyTrashCountMessage": "Estàs a punt de suprimir permanentment {{count}} propietats de la paperera.",
+      "emptyTrashConfirm": "Buidar paperera",
+      "restoreSuccess": "Propietats restaurades correctament",
+      "restoreSuccessDescription": "Les propietats seleccionades s'han restaurat als teus anuncis",
+      "restoreError": "Error en restaurar les propietats",
+      "deleteSuccess": "Propietats suprimides permanentment",
+      "deleteSuccessDescription": "Les propietats seleccionades s'han eliminat permanentment",
+      "deleteError": "Error en suprimir les propietats",
+      "emptySuccess": "Paperera buidada correctament",
+      "emptySuccessDescription": "Totes les propietats de la paperera s'han suprimit permanentment",
+      "emptyError": "Error en buidar la paperera"
+    },
+    "selectMultiple": "Seleccionar diverses propietats",
+    "status": {
+      "pending": "Pendent",
+      "verified": "Verificat"
+    }
+  },
+  "subscription": {
+    "plans": {
+      "popular": "POPULAR",
+      "free": "Gratuït",
+      "perMonth": "mes",
+      "perYear": "any",
+      "saveWithYearly": "Estalvies un 40% amb la facturació anual!",
+      "currentPlan": "Pla Actual",
+      "contactSales": "Contacta amb Vendes",
+      "title": "Tria el Teu Pla",
+      "chooseRightPlan": "Tria el pla adequat per a tu",
+      "description": "Selecciona el pla que millor s'adapti a les teves necessitats i desbloqueja funcions premium.",
+      "allPlansInclude": "Tots els plans inclouen",
+      "tiers": {
+        "basic": {
+          "name": "Bàsic",
+          "description": "Per a particulars que busquen navegar per propietats",
+          "buttonText": "Pla Actual"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Per a agents immobiliaris i gestors de propietats",
+          "buttonText": "Subscriu-te Ara"
+        },
+        "enterprise": {
+          "name": "Empresa",
+          "description": "Per a agències immobiliàries i grans empreses",
+          "buttonText": "Subscriu-te Ara"
+        }
+      },
+      "features": {
+        "basicListing": "Llistat bàsic de propietats",
+        "saveFavorites": "Desar propietats preferides",
+        "contactOwners": "Contactar amb els propietaris",
+        "premiumListings": "Llistats de propietats premium",
+        "bulkUploads": "Càrregues massives de propietats",
+        "unlimitedBulkUploads": "Càrregues massives il·limitades de propietats",
+        "analytics": "Analítiques avançades",
+        "advancedAnalytics": "Analítiques i informes avançats",
+        "prioritySupport": "Suport prioritari",
+        "priorityAllHoursSupport": "Suport prioritari 24/7",
+        "featuredPlacement": "Col·locació destacada de propietats",
+        "customBranding": "Marca personalitzada",
+        "apiAccess": "Accés a l'API",
+        "whiteLabel": "Solució de marca blanca",
+        "allListings": "Tots els llistats",
+        "mobileAccess": "Accés mòbil",
+        "secureMessaging": "Missatgeria segura",
+        "saveProperties": "Desar propietats",
+        "regularUpdates": "Actualitzacions regulars",
+        "support": "Suport"
+      }
+    },
+    "billing": {
+      "monthly": "Facturació mensual",
+      "yearly": "Facturació anual",
+      "savePercent": "Estalvia un {{percent}}% amb la facturació anual"
+    },
+    "status": {
+      "title": "Subscriure's",
+      "details": "Els detalls de la teva subscripció actual",
+      "basicTitle": "Compte Bàsic",
+      "basicDescription": "Actualitza per desbloquejar funcions premium",
+      "basicMessage": "Actualment ets al pla Bàsic. Actualitza per accedir a funcions premium com càrregues massives, analítiques i més.",
+      "viewPlans": "Torna als Plans",
+      "loading": "Configurant la teva subscripció...",
+      "error": "No s'ha pogut configurar el pagament",
+      "errorMessage": "Hi ha hagut un problema en configurar el procés de pagament. Si us plau, torna-ho a provar més tard.",
+      "tryAgain": "Torna-ho a provar",
+      "planLabel": "Pla",
+      "statusLabel": "Estat",
+      "renewalDate": "Data de Renovació",
+      "notAvailable": "N/A",
+      "activeSubscription": "Subscripció Activa",
+      "activeMessage": "La teva subscripció està activa i es renovarà automàticament el {{date}}.",
+      "canceledTitle": "Subscripció Cancel·lada",
+      "canceledMessage": "La funció de subscripció no està disponible actualment. Si us plau, torna-ho a provar més tard.",
+      "paymentIssueTitle": "Problema de Pagament",
+      "paymentIssueMessage": "Hi ha hagut un problema amb el teu darrer pagament. Si us plau, actualitza el teu mètode de pagament.",
+      "manageSubscription": "Gestiona la Subscripció",
+      "viewPremiumFeatures": "Veure Funcions Premium"
+    },
+    "faq": {
+      "title": "Preguntes Freqüents",
+      "cancel": {
+        "question": "Puc cancel·lar la meva subscripció?",
+        "answer": "Sí, pots cancel·lar la teva subscripció en qualsevol moment des de la configuració del teu compte."
+      },
+      "payment": {
+        "question": "Quins mètodes de pagament s'accepten?",
+        "answer": "Acceptem les principals targetes de crèdit i proveïdors de pagament."
+      },
+      "refund": {
+        "question": "Puc obtenir un reemborsament?",
+        "answer": "Els reemborsaments estan disponibles segons la nostra política de reemborsaments. Si us plau, contacta amb suport per a més detalls."
+      },
+      "teamDiscount": {
+        "question": "Hi ha descompte per a equips?",
+        "answer": "Sí, oferim descomptes per a equips i agències. Contacta amb vendes per a més informació."
+      }
+    }
+  },
+  "tours": {
+    "title": "Visites a Propietats",
+    "description": "Gestiona i visualitza les visites a propietats programades."
+  },
+  "footer": {
+    "premiumFeatures": "Funcions Premium",
+    "features": {
+      "support": "Suport",
+      "premiumFeatures": "Funcions Premium",
+      "bulkUpload": "Càrrega Massiva",
+      "analytics": "Analítiques",
+      "featured": "Destacat",
+      "aiRecommendations": "Recomanacions amb IA"
+    }
+  },
+  "propertyDocuments": {
+    "title": "Documents de la Propietat",
+    "types": {
+      "floorPlan": "Plànol de la planta",
+      "energyCertificate": "Certificat Energètic",
+      "deed": "Escriptura de la Propietat",
+      "survey": "Aixecament Topogràfic",
+      "inspection": "Informe d'Inspecció",
+      "permit": "Permís de Construcció",
+      "tax": "Documents Fiscals",
+      "insurance": "Documents d'Assegurança",
+      "contract": "Contracte de Lloguer/Venda",
+      "other": "Altres Documents"
+    },
+    "status": {
+      "available": "Disponible",
+      "pending": "Pendent",
+      "unavailable": "No disponible"
+    },
+    "actions": {
+      "view": "Veure Document",
+      "download": "Descarregar",
+      "request": "Sol·licitar Document",
+      "upload": "Pujar Document"
+    }
+  },
+  "propertyMetrics": {
+    "title": "Mètriques de la Propietat",
+    "views": {
+      "total": "Visualitzacions Totals",
+      "lastWeek": "Visualitzacions la Darrera Setmana",
+      "lastMonth": "Visualitzacions el Darrer Mes",
+      "trend": "Tendència de Visualitzacions"
+    },
+    "inquiries": {
+      "total": "Consultes Totals",
+      "lastWeek": "Consultes la Darrera Setmana",
+      "lastMonth": "Consultes el Darrer Mes",
+      "conversionRate": "Taxa de Conversió de Consulta a Visualització"
+    },
+    "performance": {
+      "title": "Mètriques de Rendiment",
+      "averageViewTime": "Temps Mitjà de Visualització",
+      "favoriteCount": "Cops a Preferits",
+      "shareCount": "Cops Compartit",
+      "responseRate": "Taxa de Resposta",
+      "responseTime": "Temps Mitjà de Resposta"
+    }
+  },
+  "propertyHistory": {
+    "title": "Historial de la Propietat",
+    "priceHistory": "Historial de Preus",
+    "listingHistory": "Historial de Llistats",
+    "viewHistory": "Historial de Visualitzacions",
+    "inquiryHistory": "Historial de Consultes",
+    "eventTypes": {
+      "listed": "Publicat",
+      "priceChanged": "Preu Canviat",
+      "statusChanged": "Estat Canviat",
+      "viewed": "Vist",
+      "inquiry": "Consulta Rebuda",
+      "tour": "Visita Programada",
+      "sold": "Venut",
+      "rented": "Llogat"
+    }
+  },
+  "propertyAnalytics": {
+    "title": "Analítiques de la Propietat",
+    "overview": "Resum",
+    "performance": "Rendiment",
+    "engagement": "Interacció",
+    "conversions": "Conversions",
+    "timeframes": {
+      "today": "Avui",
+      "week": "Aquesta Setmana",
+      "month": "Aquest Mes",
+      "year": "Aquest Any",
+      "custom": "Interval Personalitzat"
+    },
+    "metrics": {
+      "views": "Visualitzacions",
+      "inquiries": "Consultes",
+      "favourites": "Preferits",
+      "shares": "Comparticions",
+      "tours": "Visites",
+      "conversionRate": "Taxa de Conversió"
+    }
+  },
+  "onboarding": {
+    "title": "Descobreix la Casa dels Teus Somnis Més Ràpid",
+    "welcome": {
+      "title": "Troba la Casa dels Teus Somnis",
+      "description": "Respon unes quantes preguntes per ajudar-nos a trobar la propietat perfecta per a tu",
+      "imageAlt": "Bonica casa moderna",
+      "feature1Title": "Cerca Personalitzada",
+      "feature1Desc": "Obtén recomanacions adaptades a les teves necessitats específiques",
+      "feature2Title": "Procés Simplificat",
+      "feature2Desc": "Estalvia temps i troba propietats que realment t'agradaran"
+    },
+    "features": {
+      "personalized": "Recomanacions de propietats personalitzades",
+      "saveTime": "Estalvia temps amb la cerca impulsada per IA",
+      "lifestyle": "Troba propietats que coincideixin amb el teu estil de vida"
+    },
+    "later": "Potser Més Tard",
+    "start": "Inicia la Cerca Guiada",
+    "location": {
+      "title": "On Vols Viure?",
+      "description": "Selecciona la teva ubicació preferida per trobar propietats properes",
+      "label": "Ubicació",
+      "placeholder": "Introdueix una ciutat o àrea",
+      "popularLocations": "Ubicacions Populars",
+      "popularCity1": "Nova York",
+      "popularCity2": "Los Angeles",
+      "popularCity3": "Chicago",
+      "popularCity4": "Miami",
+      "popularCity5": "San Francisco"
+    },
+    "propertyType": {
+      "title": "Tipus de Propietat",
+      "description": "Quin tipus de propietat estàs buscant?",
+      "apartment": "Apartament",
+      "house": "Casa",
+      "townhouse": "Casa Adossada",
+      "condo": "Condomini"
+    },
+    "budget": {
+      "title": "El Teu Pressupost",
+      "description": "Estableix el teu rang de preus per a la propietat",
+      "minLabel": "Preu mínim",
+      "maxLabel": "Preu màxim",
+      "buyOrRent": "Vols comprar o llogar?",
+      "buy": "Comprar",
+      "rent": "Llogar",
+      "minBedrooms": "Habitacions mínimes"
+    },
+    "desiredFeatures": {
+      "title": "Característiques Desitjades",
+      "description": "Selecciona les característiques que t'agradaria tenir a la teva propietat"
+    },
+    "propertyFeatures": {
+      "pool": "Piscina",
+      "garage": "Garatge",
+      "garden": "Jardí",
+      "balcony": "Balcó",
+      "gym": "Gimnàs",
+      "security": "Seguretat",
+      "airConditioning": "Aire Condicionat",
+      "furnished": "Moblat",
+      "petFriendly": "Permet Mascotes",
+      "smartHome": "Casa Intel·ligent",
+      "oceanView": "Vista al Mar",
+      "fireplace": "Xemeneia"
+    },
+    "errors": {
+      "locationRequired": "Ubicació Requerida",
+      "locationRequiredDesc": "Si us plau, introdueix una ubicació per continuar"
+    },
+    "aiMatching": {
+      "title": "Buscant Propietats Ideals",
+      "description": "El nostre algorisme d'IA està analitzant milers de propietats per trobar les millors coincidències per a tu",
+      "analyzing": "Analitzant les teves preferències...",
+      "matchesFound": "Propietats trobades!",
+      "matchesDescription": "Hem trobat {{count}} propietats que coincideixen amb els teus criteris. Visualitza les teves coincidències personalitzades per trobar la casa dels teus somnis."
+    },
+    "actions": {
+      "continue": "Continuar",
+      "back": "Enrere"
+    }
+  },
+  "verification": {
+    "form": {
+      "type": "Tipus de Verificació",
+      "user": "Usuari Individual",
+      "user_description": "Verifica la teva identitat personal",
+      "agency": "Empresa/Agència",
+      "agency_description": "Verifica la teva empresa o agència",
+      "method": "Mètode de Verificació",
+      "digital": "Verificació Digital",
+      "manual": "Verificació Manual",
+      "documents": "Documents Requerits",
+      "government_id": "Identificació Governamental",
+      "proof_of_address": "Prova d'Adreça",
+      "business_registration": "Registre Empresarial",
+      "real_estate_license": "Llicència Immobiliària",
+      "business_address_proof": "Prova d'Adreça Empresarial",
+      "agent_id": "ID d'Agent",
+      "submitting": "Enviant...",
+      "submit": "Enviar Verificació"
+    },
+    "error": {
+      "title": "Error de Verificació",
+      "description": "Hi ha hagut un error amb l'enviament de la teva verificació"
+    },
+    "validation": {
+      "fileRequired": "{{documentType}} és obligatori",
+      "fileSizeError": "La mida del fitxer ha de ser inferior a 10MB",
+      "fileTypeError": "Tipus de fitxer no compatible. Si us plau, penja només fitxers JPG, PNG, GIF o PDF",
+      "uploadError": "Error de pujada: {{error}}",
+      "fixErrors": "Si us plau, soluciona els errors de validació abans d'enviar",
+      "documentTypes": {
+        "government_id": "Identificació oficial",
+        "proof_of_address": "Comprovant d'adreça",
+        "business_registration": "Registre empresarial",
+        "real_estate_license": "Llicència immobiliària",
+        "business_address_proof": "Comprovant d'adreça empresarial",
+        "agent_id": "ID d'agent"
+      }
+    }
+  },
+  "verified": "Verificat",
+  "user_verified": "Usuari Verificat",
+  "verified_on": "Verificat el {{date}}",
+  "verification_benefits": "Beneficis de la Verificació",
+  "benefit_badge": "Insígnia de verificat al teu perfil",
+  "benefit_priority_responses": "Respostes prioritàries dels agents",
+  "benefit_trustworthiness": "Major confiança",
+  "agent": {
+    "title": "Panell de l'Agent",
+    "subtitle": "Gestiona les teves propietats i segueix el rendiment",
+    "propertyViews": "Visualitzacions de Propietat",
+    "inquiries": "Consultes",
+    "conversions": "Conversions",
+    "revenue": "Ingressos",
+    "tabs": {
+      "properties": "Propietats",
+      "inquiries": "Consultes",
+      "performance": "Rendiment",
+      "bulkUpload": "Càrrega Massiva"
+    },
+    "noInquiries": {
+      "title": "Encara no hi ha consultes",
+      "description": "Les consultes de compradors potencials apareixeran aquí"
+    },
+    "performance": {
+      "overview": "Resum de Rendiment",
+      "metrics": "Mètriques Clau",
+      "topProperties": "Propietats amb Millor Rendiment",
+      "luxuryApartment": "Pis de Luxe",
+      "views": "Visualitzacions",
+      "inquiries": "Consultes",
+      "conversionRate": "Taxa de Conversió",
+      "inquiryToSale": "De Consulta a Venda"
+    },
+    "fromPrevious": "del {{timeframe}} anterior",
+    "confirmDelete": "Estàs segur que vols eliminar aquesta propietat? Aquesta acció no es pot desfer.",
+    "deleteSuccess": "Propietat eliminada amb èxit",
+    "deleteError": "Error en eliminar la propietat",
+    "refreshed": "Dades del tauler actualitzades",
+    "exportSuccess": "Propietats exportades amb èxit",
+    "exportError": "Error en exportar les propietats",
+    "reply": "Respondre"
+  },
+  "propertyManagement": {
+    "title": "Gestió de Propietats",
+    "description": "Gestiona els llistats i detalls de les propietats",
+    "addProperty": "Afegeix Propietat",
+    "propertiesList": "Llista de Propietats",
+    "noProperties": "No s'han trobat propietats",
+    "searchPlaceholder": "Cerca propietats...",
+    "table": {
+      "title": "Títol",
+      "type": "Tipus",
+      "status": "Estat",
+      "price": "Preu",
+      "location": "Ubicació",
+      "actions": "Accions"
+    },
+    "statusLabels": {
+      "active": "Actiu",
+      "pending": "Pendent",
+      "sold": "Venut",
+      "rented": "Llogat",
+      "inactive": "Inactiu"
+    }
+  },
+  "errors": {
+    "failedToFetch": "Error en obtenir les propietats",
+    "notFound": {
+      "title": "No Trobat",
+      "message": "No s'ha pogut trobar el recurs sol·licitat."
+    },
+    "premiumRequired": {
+      "title": "Premium Requerit",
+      "message": "Aquesta funció requereix una subscripció premium per accedir-hi.",
+      "hint": "Actualitza a premium per desbloquejar funcions avançades i eliminar limitacions.",
+      "buttonText": "Actualitza a Premium"
+    }
+  },
+  "ui": {
+    "processing": "Processant..."
+  },
+  "forgotPassword": {
+    "title": "He Oblidat la Contrasenya",
+    "subtitle": "Introdueix el teu correu electrònic per restablir la teva contrasenya",
+    "email": "Adreça de Correu Electrònic",
+    "fullName": "Nom Complet",
+    "submit": "Restablir Contrasenya",
+    "back": "Torna a l'Inici de Sessió",
+    "resetPassword": "Restablir Contrasenya",
+    "success": "Correu de Restabliment de Contrasenya Enviats",
+    "successMessage": "Comprova el teu correu electrònic per a un enllaç per restablir la teva contrasenya",
+    "error": "Error",
+    "emailNotFound": "No s'ha trobat cap compte amb aquest correu electrònic",
+    "invalidName": "El nom no coincideix amb els nostres registres",
+    "generateTempPassword": "Generar Contrasenya Temporal"
+  },
+  "aiRecommendations": {
+    "title": "Recomanacions de Propietats amb IA",
+    "howItWorks": "Com funciona",
+    "description": "Aquestes propietats estan personalitzades segons les teves preferències i comportament.",
+    "personalizeTitle": "Personalitza les teves recomanacions",
+    "updateButton": "Actualitzar preferències",
+    "tabs": {
+      "forYou": "Per a Tu",
+      "similar": "Similars",
+      "trending": "Tendències"
+    },
+    "personalizedForYou": "Personalitzat Per a Tu",
+    "personalizedForYouDesc": "Basat en els teus interessos i activitat seleccionats.",
+    "similarTitle": "Propietats Similars",
+    "similarDesc": "Propietats similars a les que has vist",
+    "trendingTitle": "Propietats en Tendència",
+    "trendingDesc": "Propietats populars a la teva zona",
+    "interest": {
+      "familyFriendly": "Ideal per a famílies",
+      "investment": "Potencial d'inversió",
+      "workFromHome": "Teletreball",
+      "urbanLifestyle": "Estil de vida urbà",
+      "natureLover": "Amant de la natura",
+      "luxury": "Luxe",
+      "firstTimeBuyer": "Primer comprador",
+      "vacationHome": "Casa de vacances"
+    },
+    "toast": {
+      "selectInterestTitle": "Selecciona interessos",
+      "selectInterestDesc": "Selecciona almenys un interès per personalitzar les teves recomanacions",
+      "updatedTitle": "Preferències actualitzades",
+      "updatedDesc": "Les teves recomanacions han estat actualitzades",
+      "addedPrefTitle": "Preferència afegida",
+      "notedTitle": "Preferència anotada",
+      "moreLikeThis": "Et mostrarem més com això",
+      "lessLikeThis": "Et mostrarem menys com això"
+    },
+    "noProperties": "No s'han trobat propietats",
+    "moreLikeThis": "Més com això",
+    "lessLikeThis": "Menys com això"
+  }
+}
